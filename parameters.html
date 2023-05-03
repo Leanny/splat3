@@ -206,15 +206,27 @@
 
                             if (item.Type == "Coop" && item.__RowId.includes("_Coop")) {
                                 weapon_data[item.Id] = item
-                                $("#weapon-select").append(
-                                    new Option(
-                                        localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId) + " (SR)",
-                                        item.SpecActor.replace("Work/Actor/", "").replace(
-                                            ".engine__actor__ActorParam.gyml",
-                                            ""
+                                if (item.__RowId.includes("Shooter_QuickMiddle_Coop")) {
+                                    $("#weapon-select").append(
+                                        new Option(
+                                            localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId) + " (SR)",
+                                            item.SpecActor.replace("Work/Actor/", "")
+                                                .replace(".engine__actor__ActorParam.gyml", "")
+                                                .replace("_Coop", "Coop")
                                         )
                                     )
-                                )
+                                } else {
+                                    $("#weapon-select").append(
+                                        new Option(
+                                            localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId) + " (SR)",
+                                            item.SpecActor.replace("Work/Actor/", "").replace(
+                                                ".engine__actor__ActorParam.gyml",
+                                                ""
+                                            )
+                                        )
+                                    )
+                                }
+                                $
                             }
                         })
                         load_init()
