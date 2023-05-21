@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <style>
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            .content {
+                flex: 1;
+                padding: 20px;
+            }
+
+            .footer {
+                margin-top: auto;
+                text-align: center;
+                padding: 20px;
+                background-color: #f8f9fa;
+            }
+
+            .tab-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+
+            .table {
+                margin-bottom: 20px;
+            }
+
+            .table thead th {
+                background-color: #f8f9fa;
+                color: #212529;
+            }
+
+            .table-striped tbody tr:nth-of-type(odd) {
+                background-color: #f8f9fa;
+            }
+
+            .table-striped tbody tr:nth-of-type(even) {
+                background-color: #ffffff;
+            }
+        </style>
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"
+            integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <title>Salmon Run Next Wave - Goldie Gusher Goals</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>Salmon Run Next Wave - Goldie Gusher Goals</header>
+
+            <div class="container-fluid mt-3">
+                <ul class="nav nav-tabs" id="tabList" role="tablist">
+                    <!-- Tab Links will be dynamically added here -->
+                </ul>
+
+                <div class="tab-content" id="tabContent">
+                    <!-- Tab Content will be dynamically added here -->
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+                <p>
+                    Feedback or suggestions are welcome. Please contact me via Twitter
+                    <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a> or Github
+                    <a href="https://github.com/leanny/splat3"><span class="fa fa-github"></span></a>.
+                </p>
+                <p>
+                    Map Images based on the work of
+                    <a href="https://salmon-learn-nw.gungee.jp/">Salmon Learn NW</a> from Gungee<a
+                        href="https://twitter.com/GungeeSpla"
+                        ><span class="fa fa-twitter"></span></a
+                    >.
+                </p>
+            </footer>
+        </div>
+        <script>
+            function getPrefix() {
+                if (window.location.href.includes("leanny.github.io")) {
+                    return "https://leanny.github.io/splat3/"
+                } else {
+                    return "http://127.0.0.1:5500/"
+                }
+            }
+
+            // Add a new tab link and content
+            function addTab(tabName, tabId, imageUrl, tableContent) {
+                // Tab Link
+                const tabLink = document.createElement("a")
+                tabLink.classList.add("nav-item", "nav-link")
+                tabLink.id = tabId + "-tab"
+                tabLink.href = "#" + tabId
+                tabLink.setAttribute("data-toggle", "tab")
+                tabLink.setAttribute("role", "tab")
+                tabLink.setAttribute("aria-controls", tabId)
+                tabLink.setAttribute("aria-selected", "false")
+                tabLink.textContent = tabName
+
+                // Tab Content
+                const tabContent = document.createElement("div")
+                tabContent.classList.add("tab-pane", "fade")
+                tabContent.id = tabId
+                tabContent.setAttribute("role", "tabpanel")
+                tabContent.setAttribute("aria-labelledby", tabId + "-tab")
+
+                // Tab Name Heading
+                const tabNameHeading = document.createElement("h2")
+                tabNameHeading.classList.add("text-center")
+                tabNameHeading.textContent = tabName
+
+                // Image
+                const image = document.createElement("img")
+                image.classList.add("tab-image")
+                image.src = imageUrl
+
+                // Table
+                const table = document.createElement("table")
+                table.classList.add("table", "table-bordered", "table-striped")
+                const tbody = document.createElement("tbody")
+                for (const row of tableContent) {
+                    const tr = document.createElement("tr")
+                    for (const cell of row) {
+                        const td = document.createElement("td")
+                        td.textContent = cell
+                        tr.appendChild(td)
+                    }
+                    tbody.appendChild(tr)
+                }
+                table.appendChild(tbody)
+
+                // Create row container for image and table
+                const rowContainer = document.createElement("div")
+                rowContainer.classList.add("row")
+
+                // Create columns for image and table
+                const imageColumn = document.createElement("div")
+                imageColumn.classList.add("col-md-6")
+                imageColumn.appendChild(image)
+
+                const tableColumn = document.createElement("div")
+                tableColumn.classList.add("col-md-6")
+                const tableContainer = document.createElement("div")
+                tableContainer.classList.add("table-container")
+                tableContainer.appendChild(table)
+                tableColumn.appendChild(tableContainer)
+
+                // Append columns to row container
+                rowContainer.appendChild(imageColumn)
+                rowContainer.appendChild(tableColumn)
+
+                // Append tab name heading and row container to tab content
+                tabContent.appendChild(tabNameHeading)
+                tabContent.appendChild(rowContainer)
+
+                const tabLinks = document.getElementById("tabList")
+                const tabContentContainer = document.getElementById("tabContent")
+
+                tabLinks.appendChild(tabLink)
+                tabContentContainer.appendChild(tabContent)
+
+                // Check if this is the first tab added
+                if (tabLinks.children.length === 1) {
+                    tabLink.classList.add("show", "active")
+                    tabContent.classList.add("show", "active")
+                }
+            }
+
+            addTab("Spawning Grounds - Mid", "spawning_mid", getPrefix() + "sr/spawning_mid.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B, E, G, I"],
+                ["B", "A, C, D, F, H"],
+                ["C", "B, G, H"],
+                ["D", "B, F, G"],
+                ["E", "A, F, H"],
+                ["F", "B, D, E, G, H, I"],
+                ["G", "A, C, D, F, H"],
+                ["H", "B, C, E, F, G, I"],
+                ["I", "A, F, H"],
+            ])
+
+            addTab("Spawning Grounds - High", "spawning_high", getPrefix() + "sr/spawning_high.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B, E"],
+                ["B", "A, C, D"],
+                ["C", "B"],
+                ["D", "B"],
+                ["E", "A"],
+            ])
+
+            addTab("Sockeye Station - Mid", "sockeye_mid", getPrefix() + "sr/sockeye_mid.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B, F, G"],
+                ["B", "A, C, D"],
+                ["C", "A, B, D, E, F, G"],
+                ["D", "B, E, F, G"],
+                ["E", "A, C, D"],
+                ["F", "A, C, D"],
+                ["G", "A, C, D"],
+            ])
+
+            addTab("Sockeye Station - High", "sockeye_high", getPrefix() + "sr/sockeye_high.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B"],
+                ["B", "A, C, D"],
+                ["C", "A, B, D"],
+                ["D", "B"],
+            ])
+
+            addTab("Marooner's Bay - Mid", "marooners_mid", getPrefix() + "sr/marooners_mid.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "C, D"],
+                ["B", "C, D"],
+                ["C", "A, B, F, G"],
+                ["D", "F"],
+                ["E", "C, D"],
+                ["F", "C, D"],
+                ["G", "C, D"],
+                ["H", "C, D"],
+            ])
+
+            addTab("Marooner's Bay - High", "marooners_high", getPrefix() + "sr/marooners_high.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "C, D"],
+                ["B", "C, D"],
+                ["C", "A, B"],
+                ["D", "A, B, C, "],
+            ])
+
+            addTab("Gone Fission Hydroplant - Mid", "gonefission_mid", getPrefix() + "sr/gonefission_mid.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B, C, D, E, F, G, H"],
+                ["B", "D, F, G"],
+                ["C", "F, G, H"],
+                ["D", "B, E, F, H"],
+                ["E", "A, B, C, D"],
+                ["F", "A, B, C, D"],
+                ["G", "A, B, C, D"],
+                ["H", "A, B, C, D"],
+            ])
+
+            addTab("Gone Fission Hydroplant - High", "gonefission_high", getPrefix() + "sr/gonefission_high.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B, C, D"],
+                ["B", "D"],
+                ["C", "A, B, D"],
+                ["D", "B"],
+            ])
+
+            // Handle tab change event
+            const tabLinks = document.querySelectorAll(".nav-link")
+            tabLinks.forEach(function (tabLink) {
+                tabLink.addEventListener("click", function (event) {
+                    event.preventDefault()
+                    const activeTab = document.querySelector(".nav-link.active")
+                    activeTab.classList.remove("active")
+                    const activeTabContent = document.querySelector(".tab-pane.show.active")
+                    activeTabContent.classList.remove("show", "active")
+                })
+            })
+        </script>
+    </body>
+</html>
