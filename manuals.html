@@ -229,7 +229,7 @@
                                 >Tableturf Battle</a
                             >
                         </li>
-                        <!--
+
                         <li class="nav-item">
                             <a
                                 class="nav-link"
@@ -239,10 +239,10 @@
                                 role="tab"
                                 aria-controls="league"
                                 aria-selected="false"
-                                >League Match</a
+                                >Challenges</a
                             >
                         </li>
-                        -->
+
                         <li class="nav-item">
                             <a
                                 class="nav-link"
@@ -648,7 +648,16 @@
                     special_chars.forEach(sc => {
                         label = label.replaceAll(sc, "")
                     })
+                    label = label.replaceAll("[color=0001]", '</span><span style="color: red;">')
+                    label = label.replaceAll("[color=ffff]", '</span><span style="color: white;">')
                     return label
+                }
+
+                const sanitize = label => {
+                    return label
+                        .replaceAll("</span>", "")
+                        .replaceAll('<span style="color: white;">', "")
+                        .replaceAll('<span style="color: red;">', "")
                 }
 
                 const appendContent = (selector, msgPath, page) => {
@@ -660,48 +669,50 @@
                         const img = get_image_url(page.Image)
                         html = `<div class="HeadingAndImageL"><div class="aside card-img">${get_image_tag(
                             img,
-                            label
-                        )}</div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
+                            sanitize(label)
+                        )}</div><div class="card-title">${title}</div><div class="aside card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === "TextAndImageM") {
                         const img = get_image_url(page.Image)
                         html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img">${get_image_tag(
                             img,
-                            label,
+                            sanitize(label),
                             'width="384"'
-                        )}</div><div class="aside card-label">${label}</div></div>`
+                        )}</div><div class="aside card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === "HeadingAndImageM") {
                         const img = get_image_url(page.Image)
                         html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img">${get_image_tag(
                             img,
-                            label,
+                            sanitize(label),
                             'width="384"'
-                        )}</div><div class="aside card-label">${label}</div></div>`
+                        )}</div><div class="aside card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === "TextAndImageS") {
                         const img = get_image_url(page.Image)
                         html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img">${get_image_tag(
                             img,
-                            label,
+                            sanitize(label),
                             'width="256"'
-                        )}</div><div class="aside card-label">${label}</div></div>`
+                        )}</div><div class="aside card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === "MiniGame") {
                         const img = get_image_url(page.Image)
                         html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img">${get_image_tag(
                             img,
-                            label
-                        )}</div><div class="card-label">${label}</div></div>`
+                            sanitize(label)
+                        )}</div><div class="card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === "FestSpecial00") {
                         html = `<div class="normal-text"><div class="card-title">${localize(
                             "LayoutMsg/Cmn_ManualAll_00",
                             "L_ContentsB_08-T_Title_00"
-                        )}</div><div class="card-label">${replace_label(
+                        )}</div><div class="card-label"><span>${replace_label(
                             localize("LayoutMsg/Cmn_ManualAll_00", "L_ContentsB_08-T_Contents_00")
-                        )}</div></div>`
+                        )}</div></div></span>`
                     } else if (layout === "CoopSpecial00") {
-                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label">${label}</div></div>`
+                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === "AllText") {
-                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label">${label}</div></div>`
+                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label"><span style="color: #fff">${label}</span></div></div>`
+                    } else if (layout === "EventSpecial00") {
+                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else if (layout === undefined) {
-                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label">${label}</div></div>`
+                        html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label"><span style="color: #fff">${label}</span></div></div>`
                     } else {
                         console.warn(page)
                     }
@@ -835,15 +846,15 @@
                                 }
                             )
 
-                            /*$.getJSON(
+                            $.getJSON(
                                 prefix +
                                     "data/parameter/" +
                                     version +
-                                    "/manual/UIManual_LeagueMatch.spl__UIManualData.json",
+                                    "/manual/UIManual_EventMatch.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("league", data_dict)
                                 }
-                            )*/
+                            )
                             $.getJSON(
                                 prefix +
                                     "data/parameter/" +

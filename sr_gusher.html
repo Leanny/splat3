@@ -219,7 +219,7 @@
                 ["Gusher", "Possible Destinations"],
                 ["A", "B, F, G"],
                 ["B", "A, C, D"],
-                ["C", "[To Be Filled]"],
+                ["C", "M, B, D, E, G"],
                 ["D", "B, E, F, G"],
                 ["E", "A, C, D"],
                 ["F", "A, C, D"],
@@ -229,7 +229,7 @@
                 ["Gusher", "Possible Destinations"],
                 ["A", "B"],
                 ["B", "A, C, D"],
-                ["C", "[To Be Filled]"],
+                ["C", "M, B, D"],
                 ["D", "B"],
             ])
             addTab("Marooner's Bay - Mid", "marooners_mid", getPrefix() + "sr/marooners_mid.png", [
@@ -248,11 +248,11 @@
                 ["A", "C, D"],
                 ["B", "C, D"],
                 ["C", "A, B"],
-                ["D", "[To Be Filled]"],
+                ["D", "M, A"],
             ])
             addTab("Gone Fission Hydroplant - Mid", "gonefission_mid", getPrefix() + "sr/gonefission_mid.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "[To Be Filled]"],
+                ["A", "M, C, D, E, G, H"],
                 ["B", "D, F, G"],
                 ["C", "F, G, H"],
                 ["D", "B, E, F, H"],
@@ -263,12 +263,29 @@
             ])
             addTab("Gone Fission Hydroplant - High", "gonefission_high", getPrefix() + "sr/gonefission_high.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "[To Be Filled]"],
+                ["A", "M, C, D"],
                 ["B", "D"],
-                ["C", "[To Be Filled]"],
+                ["C", "M, A, B, D"],
                 ["D", "B"],
             ])
-
+            addTab("Jammin' Salmon Junction - Mid", "jammins_mid", getPrefix() + "sr/jamminsalmonjunction_mid.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B, F, G, H"],
+                ["B", "A, C"],
+                ["C", "D, E, G, H"],
+                ["D", "A, C"],
+                ["E", "A, C"],
+                ["F", "A, C"],
+                ["G", "A, C"],
+                ["H", "A, C"],
+            ])
+            addTab("Jammin' Salmon Junction - High", "jammin_high", getPrefix() + "sr/jamminsalmonjunction_high.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "B"],
+                ["B", "A, C"],
+                ["C", "D"],
+                ["D", "A, C"],
+            ])
             // Handle tab change event
             const tabLinks = document.querySelectorAll(".nav-link")
             tabLinks.forEach(function (tabLink) {
