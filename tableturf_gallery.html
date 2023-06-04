@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tableturf Gallery</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" id="upgrade1Tab" data-toggle="tab" href="#upgrade1">Base</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="upgrade2Tab" data-toggle="tab" href="#upgrade2">Upgrade 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="upgrade3Tab" data-toggle="tab" href="#upgrade3">Upgrade 2</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="upgrade1">
+                <div class="container mt-4">
+                    <div class="row" id="update1Content"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="upgrade2">
+                <div class="container mt-4">
+                    <div class="row" id="upgrade2Content"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="upgrade3">
+                <div class="container mt-4">
+                    <div class="row" id="upgrade3Content"></div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            id="imageModal"
+            class="modal fade"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="imageModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="modalImage" src="" alt="Artwork" class="img-fluid modal-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            function createImageElement(image, tabId, languageData) {
+                const imageTitle = `${image.Number} - ${
+                    languageData["CommonMsg/MiniGame/MiniGameCardName"][image.Name] || image.Name
+                }`
+                //const imageTitle = image.Number
+                const imageUrl = `https://leanny.github.io/splat3/images/tableturf_full/${image.Number}`
+                //const imageUrl = `http://127.0.0.1:5500/images/tableturf_full/${image.Number}-${tabId}.png`
+
+                const imageElement = document.createElement("div")
+                imageElement.classList.add("col-md-4", "my-3", "image-container")
+
+                const titleElement = document.createElement("h4")
+                titleElement.textContent = imageTitle
+                titleElement.classList.add("text-center", "title-bar", "main-title")
+
+                const imgWrapperElement = document.createElement("div")
+                imgWrapperElement.classList.add("img-wrapper")
+
+                const imgElement = document.createElement("img")
+                imgElement.src = imageUrl
+                imgElement.alt = "Artwork"
+                imgElement.classList.add("img-fluid", "img-thumbnail", "cursor-pointer", "preview-img")
+                imgElement.setAttribute("data-toggle", "modal")
+                imgElement.setAttribute("data-target", "#imageModal")
+                imgElement.addEventListener("click", function () {
+                    document.getElementById("modalImage").src = imageUrl
+                    document.getElementById("imageModalLabel").textContent = imageTitle
+                })
+
+                imgWrapperElement.appendChild(imgElement)
+                imageElement.appendChild(titleElement)
+                imageElement.appendChild(imgWrapperElement)
+
+                return imageElement
+            }
+
+            function renderTabContent(tabId, imageData, languageData) {
+                const tabContentElement = document.getElementById(`upgrade${tabId}`)
+                tabContentElement.innerHTML = ""
+                const rowElement = document.createElement("div")
+                rowElement.classList.add("row")
+                let imageRow
+                imageData.forEach(image => {
+                    const imageElement = createImageElement(image, tabId, languageData)
+                    rowElement.appendChild(imageElement)
+                })
+                tabContentElement.appendChild(rowElement)
+            }
+
+            fetch("https://leanny.github.io/splat3/data/mush/400/MiniGameCardInfo.json")
+                .then(response => response.json())
+                .then(data => {
+                    const imageData = data.sort((a, b) => a.Number - b.Number)
+
+                    // Fetch the language dictionary
+                    fetch("https://leanny.github.io/splat3/data/language/EUen.json")
+                        .then(response => response.json())
+                        .then(languageData => {
+                            document.getElementById("upgrade1Tab").addEventListener("click", function () {
+                                renderTabContent(1, imageData, languageData)
+                            })
+
+                            document.getElementById("upgrade2Tab").addEventListener("click", function () {
+                                renderTabContent(2, imageData, languageData)
+                            })
+
+                            document.getElementById("upgrade3Tab").addEventListener("click", function () {
+                                renderTabContent(3, imageData, languageData)
+                            })
+
+                            renderTabContent(1, imageData, languageData)
+                        })
+                })
+        </script>
+        <style>
+            .align-left {
+                justify-content: flex-start;
+            }
+
+            .title-bar {
+                height: 50px;
+                line-height: 50px; /* Center the text vertically */
+            }
+
+            .main-title {
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .modal-title {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .image-container {
+                width: 100%;
+                max-width: 200px;
+                margin: 0 auto; /* Center the image container */
+            }
+
+            .img-wrapper {
+                text-align: center;
+            }
+
+            .preview-img {
+                max-width: 100%;
+                max-height: 200px;
+            }
+
+            .modal-img {
+                max-width: 100%;
+                max-height: 100vh;
+            }
+        </style>
+    </body>
+</html>
