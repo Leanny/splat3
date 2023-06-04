@@ -173,7 +173,7 @@ export function nameplate_formatter(value) {
 }
 
 export function emote_complete_formatter(value) {
-    return `<center>${emoji_image_formatter(value)}<br />${emoji_name_formatter(value)}</center>`
+    return `<center>${emote_image_formatter(value)}<br />${emote_name_formatter(value)}</center>`
 }
 export function emote_name_formatter(value) {
     return localize("CommonMsg/EmoteName", value)
