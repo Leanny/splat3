@@ -87,6 +87,11 @@
                 top: 80px;
                 left: 0;
             }
+
+            .emotes {
+                display: flex;
+                flex-wrap: wrap;
+            }
         </style>
     </head>
     <body>
@@ -133,6 +138,7 @@
                     reward_type_formatter,
                     nameplate_full_formatter,
                     byname_full_formatter,
+                    emote_complete_formatter,
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
 
@@ -152,6 +158,11 @@
                 window.reward_type_formatter = reward_type_formatter
                 window.nameplate_full_formatter = nameplate_full_formatter
                 window.byname_full_formatter = byname_full_formatter
+
+                function emotes_formatter(val) {
+                    return `<div class="emotes">${val.map(e => emote_complete_formatter(e.__RowId))}</div>`
+                }
+                window.emotes_formatter = emotes_formatter
 
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
@@ -494,6 +505,19 @@
                             })
                             $(`#color-table`).bootstrapTable("refreshOptions", { data: all_entries })
                         })
+                        $.getJSON(`${prefix}/data/mush/${version}/EmoteInfo.json`, data_dict => {
+                            const upper = data_dict.filter(e => e.FistBumpType === "Upper")
+                            const lower = data_dict.filter(e => e.FistBumpType === "Lower")
+                            const middle = data_dict.filter(e => e.FistBumpType === "Middle")
+                            const all_entries = [
+                                { category: "Upper", emotes: upper },
+                                { category: "Middle", emotes: middle },
+                                { category: "Lower", emotes: lower },
+                            ]
+
+                            $("#emoteFistBump-table").bootstrapTable({})
+                            $(`#emoteFistBump-table`).bootstrapTable("refreshOptions", { data: all_entries })
+                        })
                     })
                 }
 
@@ -510,6 +534,8 @@
                     add_tab("ranking", "Anarchy Battle")
                     add_tab("colors", "Colors")
                     add_tab("gacha", "Gacha")
+                    add_tab("emote", "Emote Fist-Bumps")
+
                     //add_tab("chunks", "Chunks")
 
                     add_table("brands", "brands-table", [
@@ -624,6 +650,22 @@
                                         </thead>
                                     </table>
                                 </div>`)
+                    $("#emote").append(`<h2>Fist-Bumps</h2>
+                    <div>Since Splatoon 3 - Version 4.0 two adjacent players with three gold medals can fist-bump. In order for them to do so, they need to have compatible emotes, i.e. they need to be from the same category.</div>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover" id="emoteFistBump-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" data-field="category" >
+                                        Category
+                                    </th>
+                                    <th scope="col" data-field="emotes" data-formatter="emotes_formatter" >
+                                        Emotes
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>`)
                 })
             </script>
         </main>
