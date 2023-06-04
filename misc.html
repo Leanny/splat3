@@ -160,7 +160,7 @@
                 window.byname_full_formatter = byname_full_formatter
 
                 function emotes_formatter(val) {
-                    return `<div class="emotes">${val.map(e => emote_complete_formatter(e.__RowId))}</div>`
+                    return `<div class="emotes">${val.map(e => emote_complete_formatter(e.__RowId)).join("")}</div>`
                 }
                 window.emotes_formatter = emotes_formatter
 
