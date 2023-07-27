@@ -2947,7 +2947,6 @@
     "SakeArtillery": "Artilleroide",
     "SakeArtilleryCannon": "lanzador",
     "SakeBigBoss": "gran jefe salmónido",
-    "SakeBigBossGauge": "salmómetro",
     "SakeDolphin": "Chapotero",
     "SakeFlyBagman": "Hurtón",
     "SakePillar": "Viga",
@@ -4043,7 +4042,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "¿Hasta dónde llegará tu límite de fuerza especial durante este mes?\n\n・ En los [color=0001]combates territoriales[color=ffff] valen solo los potenciadores principales.\n  ¡Los secundarios no tienen efecto!\n・ ¡En los [color=0001]combates caóticos[color=ffff], no hay limitación de potenciadores!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "¡Alcanza la máxima fuerza especial!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Desafío del mes",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Desafío\ndel mes",
     "EventMatch_Nawabari_Manual00": "¡Cada equipo tiene tres minutos para entintar más superficie que sus rivales!",
     "EventMatch_Nawabari_Manual01": "Cada equipo tiene tres minutos para cubrir el\n[color=0001]terreno [color=ffff]con tinta. Gana el equipo que haya\nentintado más [color=0001]territorio [color=ffff]al acabarse el tiempo.\n¡Cubre de tinta tanto territorio como puedas\npara darle la victoria a tu equipo!",
     "EventMatch_Nawabari_Manual02": "Conforme entintes territorio, tu [color=0001]medidor especial[color=ffff]\nse irá rellenando. Cuando alcance el máximo,\noprime [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] para activar el [color=0001]arma especial[color=ffff].\n\nPero ojo: tu medidor especial se reducirá si\nte revientan. ¡Utiliza el arma especial en el\nmomento oportuno para aprovechar su potencia!",
@@ -4053,7 +4051,6 @@
     "EventMatch_NewSeasonCup_Manual": "Con el inicio de una nueva temporada, ¡todos conocerán juntos un\nnuevo escenario!\n\n・ Desarrolla nuevas estrategias para el escenario en tiempo real.\n・ En los [color=0001]combates territoriales[color=ffff] valen solo los potenciadores principales.\n  ¡Los secundarios no tienen efecto!\n・ ¡En los [color=0001]combates caóticos[color=ffff], no hay limitación de potenciadores!",
     "EventMatch_NewSeasonCup_Subtitle": "¡Nueva temporada, nuevo escenario!",
     "EventMatch_NewSeasonCup_Title": "Reto inaugural de temporada",
-    "EventMatch_NewSeasonCup_Title_2L": "Reto inaugural\nde temporada",
     "EventMatch_PairCup_Manual": "¡El compañerismo es un factor clave en estas peleas de dos contra dos!\n\n・ ¡Para lograr la victoria, hay que probar nuevas tácticas!\n・ Se puede participar como [color=0001]pareja[color=ffff] o de forma [color=0001]individual[color=ffff].\n・ ¡El tiempo de regeneración se acorta!",
     "EventMatch_PairCup_Subtitle": "¡Un dúo se enfrenta a otro par de rivales!",
     "EventMatch_PairCup_Title": "Duelo de parejas",
@@ -4110,6 +4107,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "Dudas",
     "Miiverse_FAQManual00": "・ ¿Cómo publico mi imagen en internet?\n    Para compartir tu creación en redes sociales, elige \"[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00] Publicar\" en la\n    pantalla de dibujo. Asegúrate de que tu consola está conectada a internet.\n    Será necesario disponer de una cuenta en redes sociales.",
+    "Miiverse_FAQManual00_01": "・ ¿Cómo publico mi imagen?\n    Para compartir tu creación con otros jugadores en la plaza, elige\n    \"[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00] Publicar\" en la pantalla de dibujo. Asegúrate de que tu consola\n    está conectada a internet.",
     "Miiverse_FAQManual01": "・ ¿Cómo publico un mensaje festivo?\n    En cuanto se anuncie el tema del festival, acude al kiosco del festival\n    y elige un equipo para poder publicar algo. No podrás publicar mensajes\n    festivos si no has elegido un equipo.",
     "Miiverse_FAQManual02": "・ Vi un dibujo que infringe las normas. ¿Qué hago?\n    Reporta todo el contenido inapropiado que veas.\n\n・ ¿Cómo lo reporto?\n    Selecciona alguno de los grafitis que veas en las paredes\n    o en otras superficies y luego usa \"[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00] Reportar\" para\n    reportarlos. Elige el motivo por el que quieres informar\n    sobre el dibujo y luego envía el reporte.",
     "Miiverse_FAQManual03": "・ ¿Puedo hacer que no aparezcan imágenes?\n    No existe ningún modo de impedir que los dibujos aparezcan,\n    aunque puedes elegir que se muestren solo los diseños que ha\n    creado Nintendo. Abre el menú, selecciona \"Ajustes\" y desactiva\n    la opción \"Ver publicaciones\".",
@@ -6376,9 +6374,12 @@
   "CommonMsg/Plaza/PlazaOekaki": {
     "BtnC_CannotPost": "Aceptar",
     "BtnC_FirstExplain": "Aceptar",
+    "BtnL_PostConfirm": "Mejor no...",
+    "BtnR_PostConfirm": "¡Sí!",
     "Msg_CannotPost": "No puedes publicar dibujos en línea porque\nla consola no está conectada a internet o\nporque la comunicación con otros usuarios\nestá restringida mediante el control parental.",
     "Msg_DidntPost": "El mensaje no será publicado.",
-    "Msg_FirstExplain": "El buzón te permite hacer dibujos y publicarlos en\ninternet. Otros jugadores podrán verlos, así que\nprocura no incluir información personal ni contenido\ninapropiado. Es posible que tus dibujos aparezcan\nen la plaza de Tintelia o de otra ciudad en forma\nde letreros o grafiti.",
+    "Msg_FirstExplain": "El buzón te permite hacer dibujos y publicarlos.\nOtros jugadores podrán verlos, así que procura\nno incluir información personal ni contenido\ninapropiado. Es posible que tus dibujos aparezcan\nen la plaza de Tintelia o de otra ciudad en forma\nde letreros o grafiti.",
+    "Msg_PostConfirm": "¿Quieres publicar el dibujo?",
     "Msg_Posting": "Espera un momento..."
   },
   "CommonMsg/Plaza/PlazaVendor": {
@@ -6686,17 +6687,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Elegir otra",
     "BtnL_ConfirmFestRegion_AltLang": "Elegir otra",
-    "BtnL_ConfirmFestRegion_EveFirst": "Cambiar",
     "BtnL_ConfirmFestRegion_First": "Cambiar",
     "BtnL_ConfirmFestRegion_Reboot": "Elegir otro",
     "BtnR_ConfirmFestRegion": "Aceptar",
     "BtnR_ConfirmFestRegion_AltLang": "Aceptar",
-    "BtnR_ConfirmFestRegion_EveFirst": "Aceptar",
     "BtnR_ConfirmFestRegion_First": "Aceptar",
     "BtnR_ConfirmFestRegion_Reboot": "Aceptar",
     "Msg_ConfirmFestRegion": "¿Quieres participar en los festivales de esta región?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "No hay texto en español (Latinoamérica) disponible\npara los festivales celebrados en esta región:\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nEn su lugar, el texto se mostrará en\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]. ¿Quieres continuar?",
-    "Msg_ConfirmFestRegion_EveFirst": "¿Quieres participar en el festival de esta región?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nEsta opción es para el evento Splatfest World\nPremiere y no se podrá cambiar luego.",
     "Msg_ConfirmFestRegion_First": "¿Quieres participar en los festivales de esta región?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n(Si te unes a un festival, tendrás que esperar cierto\nperiodo de tiempo para volver a cambiar de región).",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "Jugarás con el mismo equipamiento, ajustes\nde cámara y las demás opciones que tenías\nen tu última partida en línea con una\nconsola Nintendo Switch diferente.",
@@ -6720,10 +6718,6 @@
     "Msg_ConfirmLeagueInvalid": "No puedes participar en el combate especial con\ntu equipamiento actual. Deberás modificarlo.",
     "Msg_LeagueInvalidWhileMatching": "No puedes participar en el combate especial con\ntu equipamiento actual."
   },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "No se está celebrando ningún festival.",
-    "Msg_OutOfService": "El evento Splatoon 3: Splatfest World Premiere\nya concluyó.\n\n¡Hasta la próxima!"
-  },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "No",
     "BtnL_Channel_Description": "No",
@@ -6735,6 +6729,7 @@
     "BtnL_CoopGradeReset": "No",
     "BtnL_CoopManualConfirmHo": "No",
     "BtnL_CoopManualConfirmKi": "No",
+    "BtnL_CreateRoomWhenHammerRoomExists": "No",
     "BtnL_CreateRoomWhenRoomKeeperExists": "No",
     "BtnL_DeactivateConfirm": "No",
     "BtnL_FestRegion_Notice": "No",
@@ -6743,6 +6738,7 @@
     "BtnL_LockerResetConfirm": "No",
     "BtnL_NoticeXRankingRegion": "Elegir otra",
     "BtnL_QuitConfirm": "No",
+    "BtnL_QuitConfirm_Hammer": "No",
     "BtnL_QuitConfirm_RemoteRoomMaster": "No",
     "BtnL_ReservedReplayDownloadConfirm": "No",
     "BtnL_SelectXRankingRegion": "Pulpioka",
@@ -6770,6 +6766,7 @@
     "BtnR_CoopGradeReset": "Sí",
     "BtnR_CoopManualConfirmHo": "Sí",
     "BtnR_CoopManualConfirmKi": "Sí",
+    "BtnR_CreateRoomWhenHammerRoomExists": "Sí",
     "BtnR_CreateRoomWhenRoomKeeperExists": "Sí",
     "BtnR_DeactivateConfirm": "Sí",
     "BtnR_FestRegion_Notice": "Sí",
@@ -6778,6 +6775,7 @@
     "BtnR_LockerResetConfirm": "Sí",
     "BtnR_NoticeXRankingRegion": "Aceptar",
     "BtnR_QuitConfirm": "Sí",
+    "BtnR_QuitConfirm_Hammer": "Sí",
     "BtnR_QuitConfirm_RemoteRoomMaster": "Sí",
     "BtnR_ReservedReplayDownloadConfirm": "Sí",
     "BtnR_SelectXRankingRegion": "Tentáctica",
@@ -6823,6 +6821,7 @@
     "Msg_CoopPrivate_InvalidScenario": "No se puede jugar este modelo de tarea\ndebido a un problema con los datos.",
     "Msg_CoopPrivate_ScenarioApplied": "El creador seleccionó un modelo de tarea.",
     "Msg_CoopShiftBoard_WaitingForResult": "Los resultados de la recolección extra aún se\nestán evaluando. ¡Espera a que se anuncien!",
+    "Msg_CreateRoomWhenHammerRoomExists": "Ya existe un grupo del torneo.\n¿Quieres crear un grupo nuevo?",
     "Msg_CreateRoomWhenRoomKeeperExists": "Ya existe un grupo creado mediante SplatNet 3.\n¿Seguro que quieres crear uno nuevo?",
     "Msg_DeactivateConfirm": "¿Quieres cerrar el grupo?\n(Los participantes serán expulsados).",
     "Msg_DescribeXRankingRegion": "Los combates X se disputan en dos divisiones,\ncada una con sus propias clasificaciones:\nla [color=0001]División Pulpioka[color=ffff] y la [color=0001]División Tentáctica[color=ffff].\n\nAntes de participar, tendrás que unirte\na la división más acorde con tu ubicación.",
@@ -6865,6 +6864,7 @@
     "Msg_Processing_Join": "Accediendo...",
     "Msg_Processing_MakeRoom": "Creando grupo...",
     "Msg_QuitConfirm": "¿Quieres abandonar el grupo?",
+    "Msg_QuitConfirm_Hammer": "¿Quieres abandonar el grupo del torneo?\n\n(Si el combate no comienza dentro del\nperiodo de tiempo establecido, es posible\nque se te asigne una derrota).",
     "Msg_QuitConfirm_RemoteRoomMaster": "¿Quieres abandonar el grupo?\n\n(Este no se cerrará. Podrás volver a unirte\npara iniciar un combate privado).",
     "Msg_RecruitFullMember": "El grupo está completo. No se pueden añadir\nmás compañeros.",
     "Msg_RecruitNotification": "Se envió una notificación a tus amigos y a los\nusuarios de tu canal para que se unan.\n(Se podrá reenviar tras un cierto tiempo).",
@@ -8002,7 +8002,7 @@
     "Hyphen2": "--",
     "Identifier": "n.º [group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "Room [group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "lunes",
@@ -8618,7 +8618,6 @@
     "FirstEnter_03_Fest": "¡Qué emoción! ¡En este momento se está\ncelebrando un [color=0001]festival[color=ffff]![page break]Si te interesa, ve al [color=0001]hervidor de combate[color=ffff]\ny selecciona [color=0001]Combate temático [size=75%](informal)[size=100%][color=ffff].[page break]Irás a un [color=0001]combate territorial[color=ffff], ¡donde tu equipo\ntendrá 3 minutos para entintar el territorio!",
     "FirstEnter_04": "Bueno, menos hablar y más entintar. ¡Vamos!",
     "FirstEnter_FestVote_00": "¡Oh, hay un [color=0001]festival [color=ffff]en marcha ahora mismo![page break]Eso significa que para poder unirte a la fiesta\ntendrás que [color=0001]elegir un equipo[color=ffff].[page break]¡Ve al [color=0001]kiosco del festival [color=ffff]para hacer tu elección!",
-    "Msg_Eve00": "Ojo: al participar en este festival, no obtendrás\nninguna experiencia ni dinero ni supermoluscos.\n\nTampoco se transferirán los datos de guardado\ndel festival a la versión completa de Splatoon 3.",
     "Msg_Legal00": "Cuando juegues en línea, se aplicarán las directrices\nde la comunidad de Nintendo, que se encuentran en\nnuestro sitio web. Juega de manera respetuosa\nhacia los demás usuarios.\n\nAl jugar en línea, el nombre que elegiste y tus datos\nde jugador podrían verse públicamente."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -9547,7 +9546,6 @@
     "006": "Primero, ¡los resultados del prefestival!\nEl equipo con más [color=0001]caracolas [color=ffff]fue...",
     "007": "¡Uff! ¡Qué éxito!",
     "008": "Ahora vamos a ver cuál equipo obtuvo\n[color=0001]más votos[color=ffff]. Un aplauso para...",
-    "008_Eve": "¡Veamos primero cuál equipo recibió\nmás [color=0001]votos[color=ffff]!",
     "009": "Zas... Zas... [group=0004 type=0005 params=](¿Quiééén? Vamos...)\u000f\u0004\u0005",
     "010": "¡No puede ser!",
     "011": "¿Zas? ¡Zas! [group=0004 type=0005 params=](¿Qué viene ahora?\n¡Dilo ya!)\u000f\u0004\u0005",
@@ -10747,9 +10745,6 @@
     "T_Town_00": "Cromópolis",
     "T_Town_01": "Tintelia"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Ver."
   },
@@ -10767,9 +10762,15 @@
     "202": "Equipo Bravo",
     "203": "Espectadores",
     "300": "Esperando a [group=0002 type=0001 params=00 0a]...",
+    "400": "Esperando a que se unan jugadores...",
+    "401": "Espera unos instantes...",
+    "402": "Tiempo restante: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "403": "¡El combate termina tras la prórroga!",
+    "404": "Explorando...",
     "L_Btn_00-T_Btn_00": "¡Equipos listos!",
     "L_Call_00-T_Info_00": "Cambiar integrantes",
     "L_CustomizeBtn_00-T_Info_00": "Equipar",
+    "L_CustomizeBtn_01-T_Info_00": "Equipar",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldBtn_01-T_Info_00": "Abandonar grupo",
     "L_HoldCancelBtn_00-T_Info_00": "Cancelar",
@@ -10792,7 +10793,6 @@
     "T_Info_00": "Elige un estilo y un escenario.",
     "T_Message_00": "El creador está formando los equipos...",
     "T_Message_01": "Forma los equipos.",
-    "T_Progress_00": "Esperando a que se unan jugadores...",
     "T_RuleHeader_00": "Estilo",
     "T_RuleHeader_01": "Estilo",
     "T_StageHeader_00": "Escenario",
@@ -10803,7 +10803,7 @@
   "LayoutMsg/Cmn_VersusMatch_02": {
     "010": "Esperando a que se unan jugadores...",
     "011": "Esperando jugadores...",
-    "012": "Tiempo restante: [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "012": "Tiempo restante: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "013": "Espera unos instantes...",
     "014": "Entrarás en cuanto esté todo listo.",
     "020": "Rango",
@@ -11042,21 +11042,6 @@
     "T_SubName_00": "Arma prestada:",
     "T_WpnName_02": "¡Lanzahuevecillos!"
   },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1.º",
-    "L_ScoreB_00-T_Standings_00": "2.º",
-    "L_ScoreC_00-T_Standings_00": "3.º",
-    "L_ScoreD_00-T_Standings_00": "Puesto medio",
-    "L_ScoreE_00-T_Standings_00": "Premio individual",
-    "T_Title_00": "Recolección extra"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00].º",
-    "001": "Premio por puesto medio",
-    "100": "Máxima fuerza especial: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
-  },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "¡Adelante, prueba tu suerte\nen el [color=0001]premiotrón[color=ffff]!\n\nLa primera vez de cada día te costará\n[color=0001]5000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]. Luego serán [color=0001]30 000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]\npor cada intento.",
     "001": "Durante los festivales, podrás usar [color=0001]caracolas [color=ffff][group=0003 type=0023 params=00 00 40 40 00 00 00 00]\npara jugar en el premiotrón. Tendrás un intento\npor caracola.\n\nTambién puedes jugar con dinero, como siempre.\nSerán [color=0001]5000 [color=ffff][group=0003 type=0027 params=00 00 40 40 00 00 00 00] la primera vez y [color=0001]30 000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]\nlas siguientes.",
@@ -11171,6 +11156,7 @@
     "201": "[color=0000][group=0002 type=0001 params=00 00][color=ffff]",
     "L_AddRoom_00-T_Info_00": "Crear un grupo",
     "L_BtnFriend_00-T_Summary_00": "Grupo creado mediante SplatNet 3",
+    "L_BtnFriend_00-T_Summary_01": "Grupo del torneo",
     "L_GuideBtn_00-T_Info_00": "Atrás",
     "T_Message_01": "Buscando grupos..."
   },
@@ -11544,13 +11530,18 @@
     "016": "¡Desafío enviado!",
     "017": "¡Ve a un tablero en el piso de arriba!",
     "018": "¡Ve a un tablero de combate carterritorial!",
+    "019": "Espera unos instantes...",
     "100": "¡Grupo listo!",
     "101": "¡Listo!",
     "102": "¡Aquí está el grupo!",
     "120": "Cancelar",
-    "200": "Tiempo restante: [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "200": "Tiempo restante: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "201": "Espera...",
-    "T_MessageSub_01": "Te unirás al próximo combate en cuanto haya un cupo disponible."
+    "202": "¡El combate termina tras la prórroga!",
+    "203": "Explorando...",
+    "300": "Te unirás al próximo combate en cuanto haya un cupo disponible.",
+    "301": "Te unirás cuando termine el combate.",
+    "302": "Te unirás cuando termine la exploración."
   },
   "LayoutMsg/Lobby_WaitMatchState_00": {
     "000": "Buscando jugadores... ([group=0002 type=0000 params=00 03 02 00] s)",
@@ -11595,6 +11586,7 @@
     "090": "¿Quieres unirte a este grupo?",
     "091": "¿Quieres entrar en combate?\n[size=75%]Puede que te asignen a un equipo diferente del de este jugador.[size=100%]",
     "092": "¿Quieres unirte a este grupo creado mediante SplatNet 3?",
+    "093": "¿Quieres unirte al grupo del torneo?",
     "100": "Combate privado",
     "101": "Salmon Run",
     "102": "Combate amistoso",
@@ -11613,6 +11605,7 @@
     "L_Win_00-T_Lock_00": "Con contraseña",
     "L_Win_00-T_Mic_00": "Chat de voz",
     "L_Win_00-T_Summary_00": "Grupo creado mediante SplatNet 3",
+    "L_Win_00-T_Summary_01": "Grupo del torneo",
     "L_Win_00-T_Wpn_00": "Armas disponibles"
   },
   "LayoutMsg/Lobby_WinTalkBgm_00": {

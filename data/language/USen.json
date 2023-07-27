@@ -2805,7 +2805,6 @@
     "SakeArtillery": "Big Shot",
     "SakeArtilleryCannon": "Big Shot launcher",
     "SakeBigBoss": "King Salmonid",
-    "SakeBigBossGauge": "Salmometer",
     "SakeDolphin": "Flipper-Flopper",
     "SakeFlyBagman": "Snatcher",
     "SakePillar": "Fish Stick",
@@ -3891,7 +3890,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "How high can you get your Challenge Power this month?\n\n\u30fb Only primary gear abilities will be enabled in [color=0001]Turf War[color=ffff] battles.\n  Secondary gear abilities will have no effect!\n\u30fb There will be no limits on gear abilities in [color=0001]Anarchy Battle modes[color=ffff]!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Aim for the highest Challenge Power!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Monthly Challenge",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Monthly\nChallenge",
     "EventMatch_Nawabari_Manual00": "Teams have three minutes to try to ink more ground than their opponents!",
     "EventMatch_Nawabari_Manual01": "Teams have three minutes to cover the [color=0001]ground[color=ffff]\nwith ink, and the team with the most [color=0001]turf [color=ffff]inked\nwhen time runs out wins. Get inking, and try to\nclaim as much turf as possible for your team!",
     "EventMatch_Nawabari_Manual02": "The more turf you ink, the more your [color=0001]special\ngauge[color=ffff] will fill. When it's completely full,\npress [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] to unleash your [color=0001]special[color=ffff]!\n\nBut watch out! Your special gauge drops if you\nget splatted. Remember to unleash its fury, and\nyou could turn the tide of battle!",
@@ -3901,7 +3899,6 @@
     "EventMatch_NewSeasonCup_Manual": "Compete on a perfectly level playing field\u2014everyone will be trying out\na new stage together!\n\n\u30fb Develop stage-specific strategies and tactics in real time.\n\u30fb Only primary gear abilities will be enabled in [color=0001]Turf War[color=ffff] battles.\n  Secondary gear abilities will have no effect!\n\u30fb There will be no limits on gear abilities in [color=0001]Anarchy Battle modes[color=ffff]!",
     "EventMatch_NewSeasonCup_Subtitle": "Celebrate the new season on a new stage!",
     "EventMatch_NewSeasonCup_Title": "New Season Challenge",
-    "EventMatch_NewSeasonCup_Title_2L": "New Season\nChallenge",
     "EventMatch_PairCup_Manual": "Team chemistry is the name of the game in fast-paced two vs. two battles!\n\n\u30fb Explore new strategies as you try to become the top team on the map!\n\u30fb Respawn time will be shortened!\n\u30fb You can participate as a[color=0001] team of 2[color=ffff] or [color=0001]solo[color=ffff].",
     "EventMatch_PairCup_Subtitle": "See what you can do as a duo!",
     "EventMatch_PairCup_Title": "Duel of Dynamic Duos",
@@ -3958,6 +3955,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "\u30fb How do I post my image to the internet?\n    You can post your image to social media if you select [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]Post on the\n    drawing screen while connected to the internet. A social-media account\n    is required.",
+    "Miiverse_FAQManual00_01": "\u30fb How do I share my image?\n    You can share your image with other players in the plaza or square by\n    selecting [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]Post on the drawing screen while connected to the internet.",
     "Miiverse_FAQManual01": "\u30fb How can I make Splatfest posts?\n    Once a Splatfest theme is announced, you can make posts after you visit\n    the Splatfest Pledge Box and pick a team. You won't be able to make\n    Splatfest posts if you haven't chosen a team to support.",
     "Miiverse_FAQManual02": "\u30fb I've found an image that violates the rules. What should I do?\n    Please report any inappropriate content that you find.\n\n\u30fb How do I report something?\n    While on the street, select some graffiti on a wall or another surface, and\n    use [group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]Report to bring up the reporting screen. Then select the reason\n    for reporting the image and send the report.",
     "Miiverse_FAQManual03": "\u30fb Can I prevent images from being displayed?\n    While there's no way to prevent images from displaying altogether, you can\n    opt for only preset images created by Nintendo to be displayed. From the\n    Options tab in the menu, change Post Display to OFF.",
@@ -5208,7 +5206,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "\u5927\u4f1a\u30eb\u30fc\u30e0[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "Room [group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "Mon.",
@@ -6426,9 +6424,6 @@
     "T_Town_00": "Inkopolis",
     "T_Town_01": "Splatsville"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "Catalog Record",
     "100": "[group=0002 type=0001 params=00 0c] - [group=0002 type=0001 params=01 0c]",
@@ -6453,21 +6448,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "Hazard Level Up!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "x[group=0002 type=0000 params=00 03 00 00]",
-    "100": "x[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "Average Roe",
-    "L_ScoreE_00-T_Standings_00": "Top Individual Contributor",
-    "T_Title_00": "Eggstra Work"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Place: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Average Roe Award",
-    "100": "Highest Challenge Power: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "Regular\nBattle",

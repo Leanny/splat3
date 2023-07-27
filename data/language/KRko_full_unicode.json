@@ -2947,7 +2947,6 @@
     "SakeArtillery": "철 구슬",
     "SakeArtilleryCannon": "발사대",
     "SakeBigBoss": "두목연어",
-    "SakeBigBossGauge": "두목 게이지",
     "SakeDolphin": "다이버",
     "SakeFlyBagman": "알주어",
     "SakePillar": "기둥",
@@ -4043,7 +4042,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "월간 챌린지 배틀! 이벤트 파워의 한계를 노려라!\n\n・ [color=0001]영역 배틀의 룰[color=ffff]일 경우에는 기본 기어 파워만 유효하다! 추가 기어 파워는 무효하다!\n・ [color=0001]카오폴리스 매치의 룰[color=ffff]일 경우에는 기어 파워에 제한은 없다!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "월간 챌린지 배틀! 이벤트 파워의 한계를 노려라!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "월간 이벤트 매치",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "월간\n이벤트 매치",
     "EventMatch_Nawabari_Manual00": "3분간 땅을 칠해서 더 많은 영역을 확보한 팀의 승리!",
     "EventMatch_Nawabari_Manual01": "영역 배틀은 3분간 [color=0001]땅[color=ffff]을 칠해서\n더 많은 [color=0001]영역[color=ffff]을 확보한 팀이 승리하는 배틀이다!\n땅을 칠하고 또 칠해 팀의 영역을 넓혀서\n승리를 노리자!",
     "EventMatch_Nawabari_Manual02": "땅을 칠하면 칠할수록 [color=0001]스페셜 게이지[color=ffff]가 늘어난다.\n가득 차면 [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]을 눌러서\n[color=0001]스페셜 웨펀[color=ffff]을 발동할 수 있지!\n\n스페셜 게이지는 당하면 줄어든다.\n타이밍을 노려서 효과적으로 스페셜 웨펀을 사용하자!",
@@ -4053,7 +4051,6 @@
     "EventMatch_NewSeasonCup_Manual": "뉴 시즌 개막! 새로운 스테이지를 공략하라!\n\n・ 배틀의 무대는 새로운 스테이지다!\n・ [color=0001]영역 배틀의 룰[color=ffff]일 경우에는 기본 기어 파워만 유효하다! 추가 기어 파워는 무효하다!\n・ [color=0001]카오폴리스 매치의 룰[color=ffff]일 경우에는 기어 파워에 제한은 없다!",
     "EventMatch_NewSeasonCup_Subtitle": "뉴 시즌 개막! 새로운 스테이지를 공략하라!",
     "EventMatch_NewSeasonCup_Title": "뉴 시즌 개막 기념 컵",
-    "EventMatch_NewSeasonCup_Title_2L": "뉴 시즌\n개막 기념 컵",
     "EventMatch_PairCup_Manual": "둘의 상성을 과시하라! 2 대 2 소수 인원 배틀!\n\n・ 2 대 2의 소수 인원이 펼치는 배틀이다!\n・ [color=0001]둘이서 [color=ffff]또는 [color=0001]혼자서 [color=ffff]참가할 수 있다!\n・ 부활 시간이 단축된다!",
     "EventMatch_PairCup_Subtitle": "둘의 상성을 과시하라! 2 대 2 소수 인원 배틀!",
     "EventMatch_PairCup_Title": "최강 페어 결정전",
@@ -4110,6 +4107,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "・ 일러스트를 인터넷상에 투고하는 방법을 모르겠어요.\n    인터넷에 접속하고 일러스트를 그리는 화면에서 「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]투고하기」를 누르면\n    일러스트를 SNS에 투고할 수 있습니다.\n    ※SNS 계정이 필요합니다.",
+    "Miiverse_FAQManual00_01": "・ 일러스트를 인터넷상에 투고하는 방법을 모르겠어요.\n    인터넷에 접속하고 일러스트를 그리는 화면에서 「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]투고하기」를 누르면\n    일러스트를 투고할 수 있습니다.",
     "Miiverse_FAQManual01": "・ 페스티벌 투고는 어떻게 할 수 있나요?\n    페스티벌 주제가 발표된 후 광장의 투표소에서 투표하면\n    페스티벌 투고를 할 수 있게 됩니다.\n    어느 쪽 팀에 소속할지 정하지 않으면 페스티벌 투고를 할 수 없습니다.",
     "Miiverse_FAQManual02": "・ 룰을 지키지 않은 일러스트를 발견했어요. 어떻게 하면 되나요?\n    애석하지만 신고해 주십시오.\n\n・ 신고는 어디서 할 수 있나요?\n    광장에서 캐릭터나 벽의 낙서를 선택하여 일러스트를 표시하고\n    「[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]신고」를 누르면 신고 화면이 표시됩니다.\n    신고 이유를 선택하면 신고할 수 있습니다.",
     "Miiverse_FAQManual03": "・ 광장에서 일러스트를 표시하지 않는 방법이 있나요?\n    표시하지 않는 방법은 없지만\n    닌텐도에서 미리 준비한 일러스트만 표시하는 것은 가능합니다.\n    메뉴의 옵션에서 「투고 표시」를 「표시 OFF」로 설정해 주십시오.",
@@ -6376,9 +6374,12 @@
   "CommonMsg/Plaza/PlazaOekaki": {
     "BtnC_CannotPost": "OK",
     "BtnC_FirstExplain": "OK",
+    "BtnL_PostConfirm": "그만두기",
+    "BtnR_PostConfirm": "투고하기",
     "Msg_CannotPost": "인터넷에 접속하지 않았거나 Parental Controls 설정에서\n「다른 사람과의 자유로운 커뮤니케이션」 기능이\n제한되어 있어 투고할 수 없습니다",
     "Msg_DidntPost": "투고되지 않았습니다",
     "Msg_FirstExplain": "직접 그린 일러스트를 인터넷에 투고할 수 있습니다\n일러스트는 다른 유저에게 공개될 수 있으므로\n다른 사람에게 불쾌감을 주거나, 자신 및 타인의\n개인 정보가 노출되는 내용을 적지 말아 주십시오\n\n직접 그린 일러스트는 카오폴리스 타운 등의\n간판 및 낙서에 표시됩니다",
+    "Msg_PostConfirm": "직접 그린 일러스트를 인터넷에 투고하겠습니까?",
     "Msg_Posting": "종료하고 있습니다\n잠시만 기다려 주십시오"
   },
   "CommonMsg/Plaza/PlazaVendor": {
@@ -6686,17 +6687,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "다시 선택하기",
     "BtnL_ConfirmFestRegion_AltLang": "다시 선택하기",
-    "BtnL_ConfirmFestRegion_EveFirst": "변경하기",
     "BtnL_ConfirmFestRegion_First": "변경하기",
     "BtnL_ConfirmFestRegion_Reboot": "다시 선택하기",
     "BtnR_ConfirmFestRegion": "OK!",
     "BtnR_ConfirmFestRegion_AltLang": "OK!",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK!",
     "BtnR_ConfirmFestRegion_First": "OK!",
     "BtnR_ConfirmFestRegion_Reboot": "OK!",
     "Msg_ConfirmFestRegion": "이 지역의 페스티벌로 괜찮겠습니까?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]의 페스티벌은\n한국어에 대응하지 않습니다\n페스티벌 개최 중에는 일부 표시가 [color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff][group=00c9 type=0008 params=04 00 3c c7 5c b8 02 00 5c b8] 나옵니다\n그래도 괜찮겠습니까?",
-    "Msg_ConfirmFestRegion_EveFirst": "이 지역의 페스티벌로 괜찮겠습니까?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※전야제에서는 한번 결정한 지역을\n나중에 다시 변경할 수 없습니다",
     "Msg_ConfirmFestRegion_First": "이 지역의 페스티벌로 괜찮겠습니까?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※나중에 다시 변경할 수 있지만 페스티벌에 참가하면\n잠시 동안 변경할 수 없게 됩니다",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]의 페스티벌은\n한국어에 대응하지 않습니다\n페스티벌 개최 중에는 소프트웨어를 재기동하여 게임 내 표시를\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff][group=00c9 type=0008 params=04 00 3c c7 5c b8 02 00 5c b8] 전환해야 합니다\n그래도 괜찮겠습니까?",
     "Msg_DeviceIdChanged": "장비와 카메라 옵션 등을 다른 Nintendo Switch 본체에서\n마지막으로 온라인 플레이했을 때와 똑같이 설정했습니다",
@@ -6720,10 +6718,6 @@
     "Msg_ConfirmLeagueInvalid": "이 장비로는 이벤트 매치에 참가할 수 없습니다\n참가하기 위해서는 장비를 변경해 주십시오",
     "Msg_LeagueInvalidWhileMatching": "이 장비로는 이벤트 매치에 참가할 수 없습니다"
   },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "현재는 페스티벌 개최 기간이 아닙니다",
-    "Msg_OutOfService": "「스플래툰 3 전야제」의\n플레이 기간이 종료되었습니다\n\n소프트웨어를 종료해 주십시오"
-  },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "그만두기",
     "BtnL_Channel_Description": "그만두기",
@@ -6735,6 +6729,7 @@
     "BtnL_CoopGradeReset": "그만두기",
     "BtnL_CoopManualConfirmHo": "그만두기",
     "BtnL_CoopManualConfirmKi": "그만두기",
+    "BtnL_CreateRoomWhenHammerRoomExists": "그만두기",
     "BtnL_CreateRoomWhenRoomKeeperExists": "그만두기",
     "BtnL_DeactivateConfirm": "그만두기",
     "BtnL_FestRegion_Notice": "그만두기",
@@ -6743,6 +6738,7 @@
     "BtnL_LockerResetConfirm": "그만두기",
     "BtnL_NoticeXRankingRegion": "다시 선택하기",
     "BtnL_QuitConfirm": "그만두기",
+    "BtnL_QuitConfirm_Hammer": "그만두기",
     "BtnL_QuitConfirm_RemoteRoomMaster": "그만두기",
     "BtnL_ReservedReplayDownloadConfirm": "그만두기",
     "BtnL_SelectXRankingRegion": "그룹・라이즈",
@@ -6770,6 +6766,7 @@
     "BtnR_CoopGradeReset": "리셋하기",
     "BtnR_CoopManualConfirmHo": "참가하기",
     "BtnR_CoopManualConfirmKi": "참가하기",
+    "BtnR_CreateRoomWhenHammerRoomExists": "만들기",
     "BtnR_CreateRoomWhenRoomKeeperExists": "만들기",
     "BtnR_DeactivateConfirm": "해산하기",
     "BtnR_FestRegion_Notice": "변경하기",
@@ -6778,6 +6775,7 @@
     "BtnR_LockerResetConfirm": "전부 치우기",
     "BtnR_NoticeXRankingRegion": "OK!",
     "BtnR_QuitConfirm": "나가기",
+    "BtnR_QuitConfirm_Hammer": "나가기",
     "BtnR_QuitConfirm_RemoteRoomMaster": "나가기",
     "BtnR_ReservedReplayDownloadConfirm": "다운로드하기",
     "BtnR_SelectXRankingRegion": "그룹・아로메",
@@ -6823,6 +6821,7 @@
     "Msg_CoopPrivate_InvalidScenario": "이 아르바이트 시나리오는 데이터에 문제가 있어\n플레이할 수 없습니다",
     "Msg_CoopPrivate_ScenarioApplied": "호스트가 아르바이트 설정을 변경했습니다",
     "Msg_CoopShiftBoard_WaitingForResult": "아르바이트 팀 콘테스트 결과를 집계 중입니다\n발표까지 잠시만 기다려 주십시오",
+    "Msg_CreateRoomWhenHammerRoomExists": "대회 서포트 방이 있습니다\n다른 방을 새로 만들겠습니까?",
     "Msg_CreateRoomWhenRoomKeeperExists": "오징어넷 3에서 만든 방이 있습니다\n다른 방을 새로 만들겠습니까?",
     "Msg_DeactivateConfirm": "방을 해산하겠습니까?\n(참가 중인 플레이어 전원이 방에서 나가게 됩니다)",
     "Msg_DescribeXRankingRegion": "X 매치는 [color=0001]그룹・라이즈[color=ffff]와 [color=0001]그룹・아로메[color=ffff]로 나뉘어\n같은 그룹에 소속된 플레이어끼리 대전합니다\n상위 플레이어의 랭킹도 그룹별로 발표됩니다\n\n거주 지역에 맞춰\n이번 시즌에 참가할 그룹을 결정해 주십시오",
@@ -6865,6 +6864,7 @@
     "Msg_Processing_Join": "합류하고 있습니다…",
     "Msg_Processing_MakeRoom": "방을 만들고 있습니다…",
     "Msg_QuitConfirm": "방에서 나가겠습니까?",
+    "Msg_QuitConfirm_Hammer": "대회 서포트 방에서 나가겠습니까?\n\n※시간 내에 시합을 시작하지 않으면\n패배로 처리되는 경우가 있습니다",
     "Msg_QuitConfirm_RemoteRoomMaster": "방에서 나가겠습니까?\n\n방은 해산되지 않습니다\n다시 합류하면 프라이빗 매치를 시작할 수 있습니다",
     "Msg_RecruitFullMember": "만원이므로 멤버를 모집할 수 없습니다",
     "Msg_RecruitNotification": "멤버 모집 알림을 보냈습니다\n(일정 시간 경과 후, 다시 보낼 수 있게 됩니다)",
@@ -8002,7 +8002,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "部屋[group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "월",
@@ -8618,7 +8618,6 @@
     "FirstEnter_03_Fest": "지금은 [color=0001]페스티벌[color=ffff] 개최 중이다![page break]그럼 바로 저쪽에 있는 [color=0001]배틀 포트[color=ffff]에 들어가서\n[color=0001]페스티벌 매치[size=75%](오픈)[size=100%][color=ffff]를 선택해 보자![page break]페스티벌 매치에서는 [color=0001]영역 배틀[color=ffff]에 참가할 수 있다\n3분간 땅을 칠해서 더 많은 영역을 확보한 팀이 승리하지!",
     "FirstEnter_04": "백문이 불여일견! 실전 또 실전이다!",
     "FirstEnter_FestVote_00": "지금은 [color=0001]페스티벌[color=ffff] 개최 중이다![page break]페스티벌 중에 배틀에 참가하고 싶다면\n먼저 소속할 팀에 [color=0001]투표[color=ffff]를 해야 한다[page break]일단 광장으로 돌아가서 [color=0001]페스티벌 투표소[color=ffff]로 가 봐!",
-    "Msg_Eve00": "전야제에서는 경험치 및 돈,\n슈퍼 소라를 획득할 수 없습니다\n\n또한, 저장 데이터는\n제품판 『스플래툰 3』로 계승되지 않습니다",
     "Msg_Legal00": "온라인 플레이에는\n닌텐도 어카운트 이용 약관이 적용됩니다\n이용 약관에 따라 다른 유저를\n배려하는 플레이를 하도록 유의해 주십시오\n\n온라인 플레이에 참가하면 게임 내 또는 웹 사이트상에\n플레이어명과 플레이어 데이터가 공개될 수 있습니다"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -9547,7 +9546,6 @@
     "006": "먼저 사전 페스티벌 결과를 복습하고 넘어가까\n사전 페스티벌에서 [color=0001]소라고둥[color=ffff]을 많이 획득한 것은…",
     "007": "음, 그러했지!",
     "008": "다음으로 어느 팀이 많은 표를 받았는지\n[color=0001]득표율[color=ffff] 승부!",
-    "008_Eve": "먼저 어느 팀이 많은 표를 받았는지\n[color=0001]득표율[color=ffff] 승부!",
     "009": "만타![group=0004 type=0005 params=](안 질 거야～!)\u000f\u0004\u0005",
     "010": "오호, 이렇게 되었구나!",
     "011": "만타～?![group=0004 type=0005 params=](그리고 그리고～?!)\u000f\u0004\u0005",
@@ -10747,9 +10745,6 @@
     "T_Town_00": "오더폴리스 시티",
     "T_Town_01": "카오폴리스 타운"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -10767,9 +10762,15 @@
     "202": "브라보 팀",
     "203": "관전",
     "300": "[group=0002 type=0001 params=00 0a][group=00c9 type=0007 params=02 00 44 c7 02 00 7c b9] 기다리고 있습니다…",
+    "400": "멤버의 합류를 기다리고 있습니다",
+    "401": "잠시만 기다려 주십시오…",
+    "402": "배틀 종료까지 [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "403": "배틀 종료까지 연장 중",
+    "404": "산책 중입니다",
     "L_Btn_00-T_Btn_00": "팀 결정!",
     "L_Call_00-T_Info_00": "멤버 변경",
     "L_CustomizeBtn_00-T_Info_00": "커스터마이즈",
+    "L_CustomizeBtn_01-T_Info_00": "커스터마이즈",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldBtn_01-T_Info_00": "방 나가기",
     "L_HoldCancelBtn_00-T_Info_00": "취소",
@@ -10792,7 +10793,6 @@
     "T_Info_00": "룰과 스테이지를 선택해 주십시오",
     "T_Message_00": "호스트가 팀을 정하고 있습니다",
     "T_Message_01": "팀을 정해 주십시오",
-    "T_Progress_00": "멤버의 합류를 기다리고 있습니다",
     "T_RuleHeader_00": "룰",
     "T_RuleHeader_01": "룰",
     "T_StageHeader_00": "스테이지",
@@ -11042,21 +11042,6 @@
     "T_SubName_00": "아르바이트 전용",
     "T_WpnName_02": "연어알 캐넌!"
   },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1위",
-    "L_ScoreB_00-T_Standings_00": "2위",
-    "L_ScoreC_00-T_Standings_00": "3위",
-    "L_ScoreD_00-T_Standings_00": "딱 한가운데 상",
-    "L_ScoreE_00-T_Standings_00": "솔로 톱 상",
-    "T_Title_00": "아르바이트 팀 콘테스트"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00]위",
-    "001": "딱 한가운데 상",
-    "100": "최고 이벤트 파워: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
-  },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "이곳에서는 꽝 없는 [color=0001]뽑기[color=ffff]를 할 수 있습니다\n\n매일 첫 1번은 [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5,000[color=ffff]로\n2번째부터는 [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30,000[color=ffff]로 뽑을 수 있습니다",
     "001": "페스티벌 개최 중에는 [group=0003 type=0023 params=00 00 40 40 00 00 00 00][color=0001]소라고둥[color=ffff] 1개로\n뽑기를 1번 할 수 있습니다\n\n돈으로도 매일 1번은 [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5,000[color=ffff]로\n2번째부터는 [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30,000[color=ffff]로 뽑을 수 있습니다",
@@ -11171,6 +11156,7 @@
     "201": "[color=0000][group=0002 type=0001 params=00 00][color=ffff]",
     "L_AddRoom_00-T_Info_00": "방 만들기",
     "L_BtnFriend_00-T_Summary_00": "오징어넷 3에서 만든 방",
+    "L_BtnFriend_00-T_Summary_01": "대회 서포트 방",
     "L_GuideBtn_00-T_Info_00": "뒤로",
     "T_Message_01": "방을 찾고 있습니다…"
   },
@@ -11544,13 +11530,18 @@
     "016": "대전을 신청하고 있습니다",
     "017": "2층에 있는 영역 배틀러 테이블의 의자에 앉아 대전하자!",
     "018": "영역 배틀러 테이블의 의자에 앉아 대전하자!",
+    "019": "잠시만 기다려 주십시오…",
     "100": "멤버 결정!",
     "101": "준비 OK!",
     "102": "이 멤버로 시작!",
     "120": "취소",
     "200": "배틀 종료까지 [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
     "201": "잠시만 기다려 주십시오…",
-    "T_MessageSub_01": "멤버 중 결원이 생기면 다음 배틀부터 참가합니다"
+    "202": "배틀 종료까지 연장 중",
+    "203": "산책 중입니다",
+    "300": "멤버 중 결원이 생기면 다음 배틀부터 참가합니다",
+    "301": "배틀이 종료되면 참가합니다",
+    "302": "산책이 종료되면 참가합니다"
   },
   "LayoutMsg/Lobby_WaitMatchState_00": {
     "000": "매칭 중… [group=0002 type=0000 params=00 03 02 00]초 경과",
@@ -11595,6 +11586,7 @@
     "090": "이 방에 합류하겠습니까?",
     "091": "배틀에 난입하겠습니까?\n[size=75%]이 플레이어와 같은 팀이 되지 않을 수도 있습니다[size=100%]",
     "092": "오징어넷 3에서 만든 방에 합류하겠습니까?",
+    "093": "대회 서포트 방에 합류하겠습니까?",
     "100": "프라이빗 매치",
     "101": "SALMON RUN",
     "102": "레귤러 매치",
@@ -11613,6 +11605,7 @@
     "L_Win_00-T_Lock_00": "비밀번호 있음",
     "L_Win_00-T_Mic_00": "보이스챗 ON",
     "L_Win_00-T_Summary_00": "오징어넷 3에서 만든 방",
+    "L_Win_00-T_Summary_01": "대회 서포트 방",
     "L_Win_00-T_Wpn_00": "지급 무기"
   },
   "LayoutMsg/Lobby_WinTalkBgm_00": {

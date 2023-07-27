@@ -50,9 +50,9 @@
     "NawaBattlerRank_Lv11": "占地鬥士等級達到900",
     "NawaBattlerRank_Lv12": "占地鬥士等級達到999",
     "NawaBattlerWinAllNpcLevel3": "在占地鬥士道場戰勝最高等級的所有人",
-    "OrderFood_Lv00": "在商店完成預訂10次",
-    "OrderFood_Lv01": "在商店完成預訂100次",
-    "OrderFood_Lv02": "在商店完成預訂1000次",
+    "OrderFood_Lv00": "在商店完成了10次點餐",
+    "OrderFood_Lv01": "在商店完成了100次點餐",
+    "OrderFood_Lv02": "在商店完成了1000次點餐",
     "OrderVendor_Fsodr_Lv00": "找丹尼預訂裝備10次",
     "OrderVendor_Fsodr_Lv01": "找丹尼預訂裝備100次",
     "OrderVendor_Lv00": "找刺冠預訂裝備10次",
@@ -2947,7 +2947,6 @@
     "SakeArtillery": "鐵球魚",
     "SakeArtilleryCannon": "發射台",
     "SakeBigBoss": "頭目鮭魚",
-    "SakeBigBossGauge": "頭目槽",
     "SakeDolphin": "潛水魚",
     "SakeFlyBagman": "拾蛋魚",
     "SakePillar": "柱魚",
@@ -4043,7 +4042,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "每月一次的挑戰對戰！讓活動戰力邁向極限！\n\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "每月一次的挑戰對戰！讓活動戰力邁向極限！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "月一‧活動比賽",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "月一‧活動比賽",
     "EventMatch_Nawabari_Manual00": "隊伍必須在3分鐘內持續對地面塗墨，占地面積較多才能獲勝！",
     "EventMatch_Nawabari_Manual01": "在占地對戰中，隊伍必須在3分鐘內持續對[color=0001]地面[color=ffff]塗墨，\n[color=0001]占地面積[color=ffff]較多才能獲勝！\n持續對地面塗墨，\n拓展隊伍的占地面積並拿下勝利吧！",
     "EventMatch_Nawabari_Manual02": "[color=0001]特殊武器蓄力槽[color=ffff]會隨著對地面塗墨而增加喔！\n在蓄力槽全滿後，\n按下[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]即可發動[color=0001]特殊武器[color=ffff]！\n\n陣亡將會導致特殊武器蓄力槽減少，\n看準時機並有效地使用特殊武器吧！",
@@ -4053,7 +4051,6 @@
     "EventMatch_NewSeasonCup_Manual": "新賽季開幕！攻略新場地！\n\n‧以新場地作為對戰的舞台！\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_NewSeasonCup_Subtitle": "新賽季開幕！攻略新場地！",
     "EventMatch_NewSeasonCup_Title": "新賽季開幕紀念盃",
-    "EventMatch_NewSeasonCup_Title_2L": "新賽季\n開幕紀念盃",
     "EventMatch_PairCup_Manual": "展現搭檔間的默契！2對2的小規模對戰！\n\n‧2對2的小規模對戰！\n‧可以[color=0001]2人組隊[color=ffff]或是[color=0001]1人[color=ffff]獨自參加！\n‧復活時間將會縮短喔！",
     "EventMatch_PairCup_Subtitle": "展現搭檔間的默契！2對2的小規模對戰！",
     "EventMatch_PairCup_Title": "最強搭檔爭奪戰",
@@ -4110,6 +4107,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "‧我不知道該如何透過網路發表插畫。\n　連接網路後，在繪製插畫的畫面中按下「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]發表」，\n　即可將插畫發表至社群網站。\n    ※需要擁有社群網站的帳號。",
+    "Miiverse_FAQManual00_01": "‧我不知道該如何透過網路發表插畫。\n　連接網路後，在繪製插畫的畫面中按下「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]發表」，\n　即可發表插畫。",
     "Miiverse_FAQManual01": "‧該如何進行祭典發表？\n　在祭典主題公布之後，只要到廣場的投票所完成投票，\n　即可進行祭典發表。\n　在您尚未加入任一隊伍之前，將無法進行祭典發表。",
     "Miiverse_FAQManual02": "‧我發現了違反規則的插畫，我該怎麼做？\n　很遺憾有這樣的情況存在，請您檢舉該插畫。\n\n‧我該從哪裡進行檢舉？\n　在廣場中選擇角色或是牆上的塗鴉使插畫顯示後，\n　按下「[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]檢舉」即可進入檢舉畫面。\n　選擇檢舉原因後即可進行檢舉。",
     "Miiverse_FAQManual03": "‧是否有方法可以讓廣場不再顯示插畫？\n　沒有方法能不再顯示插畫，\n　不過您可以選擇只顯示由任天堂所準備的插畫。\n　請透過選單中的選項將「顯示發表內容」設定為「顯示OFF」。",
@@ -6376,9 +6374,12 @@
   "CommonMsg/Plaza/PlazaOekaki": {
     "BtnC_CannotPost": "OK",
     "BtnC_FirstExplain": "OK",
+    "BtnL_PostConfirm": "不要",
+    "BtnR_PostConfirm": "發表！",
     "Msg_CannotPost": "由於您尚未連接網路，或是「與其他用戶自由溝通」的功能\n受到了Parental Controls設定的限制，\n您無法發表手繪插畫。",
     "Msg_DidntPost": "已取消發表。",
     "Msg_FirstExplain": "您將可以透過網路發表手繪插畫。\n您發表的插畫將會向其他用戶公開，\n因此請避免在插畫中加入令人不悅的內容\n或是自己與他人的個人資料。\n\n手繪插畫將會在蠻頹鎮等地點\n以招牌或塗鴉的形式展現。",
+    "Msg_PostConfirm": "要透過網路發表手繪插畫嗎？",
     "Msg_Posting": "正在處理您的發表，\n請稍待片刻。"
   },
   "CommonMsg/Plaza/PlazaVendor": {
@@ -6686,17 +6687,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "重新選擇",
     "BtnL_ConfirmFestRegion_AltLang": "重新選擇",
-    "BtnL_ConfirmFestRegion_EveFirst": "更改",
     "BtnL_ConfirmFestRegion_First": "更改",
     "BtnL_ConfirmFestRegion_Reboot": "重新選擇",
     "BtnR_ConfirmFestRegion": "OK！",
     "BtnR_ConfirmFestRegion_AltLang": "OK！",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK！",
     "BtnR_ConfirmFestRegion_First": "OK！",
     "BtnR_ConfirmFestRegion_Reboot": "OK！",
     "Msg_ConfirmFestRegion": "確定要參加此地區的祭典嗎？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "此為[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]舉行的祭典\n並未對應繁體中文，\n祭典舉行期間，部分內容將會以[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]顯示。\n是否仍確定要選擇此地區？",
-    "Msg_ConfirmFestRegion_EveFirst": "確定要參加此地區的祭典嗎？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※在前夜祭中，\n　一旦決定地區就無法再次更改。",
     "Msg_ConfirmFestRegion_First": "確定要參加此地區的祭典嗎？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※決定後仍可更改，\n　但是在參加祭典之後將會暫時無法更改。",
     "Msg_ConfirmFestRegion_Reboot": "此為[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]舉行的祭典\n並未對應繁體中文。\n祭典舉行期間，必須重新啟動軟體，\n將遊戲內容切換為以[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]顯示。\n是否仍確定要選擇此地區？",
     "Msg_DeviceIdChanged": "裝備與鏡頭選項等內容\n已變更為最後一次使用其他主機線上遊玩時的狀態。",
@@ -6720,10 +6718,6 @@
     "Msg_ConfirmLeagueInvalid": "無法以目前的裝備參加活動比賽，\n請更換裝備以便參加。",
     "Msg_LeagueInvalidWhileMatching": "無法以目前的裝備參加活動比賽。"
   },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "目前尚未舉行祭典。",
-    "Msg_OutOfService": "《斯普拉遁 3 前夜祭版》的\n遊玩期限已經結束。\n\n請關閉軟體。"
-  },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "不要",
     "BtnL_Channel_Description": "取消",
@@ -6735,6 +6729,7 @@
     "BtnL_CoopGradeReset": "取消",
     "BtnL_CoopManualConfirmHo": "取消",
     "BtnL_CoopManualConfirmKi": "取消",
+    "BtnL_CreateRoomWhenHammerRoomExists": "算了",
     "BtnL_CreateRoomWhenRoomKeeperExists": "不要",
     "BtnL_DeactivateConfirm": "取消",
     "BtnL_FestRegion_Notice": "取消",
@@ -6743,6 +6738,7 @@
     "BtnL_LockerResetConfirm": "不要",
     "BtnL_NoticeXRankingRegion": "重新選擇",
     "BtnL_QuitConfirm": "取消",
+    "BtnL_QuitConfirm_Hammer": "算了",
     "BtnL_QuitConfirm_RemoteRoomMaster": "取消",
     "BtnL_ReservedReplayDownloadConfirm": "不要",
     "BtnL_SelectXRankingRegion": "組別‧暇古",
@@ -6770,6 +6766,7 @@
     "BtnR_CoopGradeReset": "重置！",
     "BtnR_CoopManualConfirmHo": "參加！",
     "BtnR_CoopManualConfirmKi": "參加！",
+    "BtnR_CreateRoomWhenHammerRoomExists": "建立！",
     "BtnR_CreateRoomWhenRoomKeeperExists": "建立！",
     "BtnR_DeactivateConfirm": "解散",
     "BtnR_FestRegion_Notice": "更改！",
@@ -6778,6 +6775,7 @@
     "BtnR_LockerResetConfirm": "收拾乾淨！",
     "BtnR_NoticeXRankingRegion": "OK！",
     "BtnR_QuitConfirm": "離開",
+    "BtnR_QuitConfirm_Hammer": "離開",
     "BtnR_QuitConfirm_RemoteRoomMaster": "離開",
     "BtnR_ReservedReplayDownloadConfirm": "下載！",
     "BtnR_SelectXRankingRegion": "組別‧艾洛眼",
@@ -6823,6 +6821,7 @@
     "Msg_CoopPrivate_InvalidScenario": "此打工劇本的資料有問題，\n無法遊玩。",
     "Msg_CoopPrivate_ScenarioApplied": "主辦者已更改打工設定。",
     "Msg_CoopShiftBoard_WaitingForResult": "正在統計團隊打工競賽的結果，\n請靜待結果公布。",
+    "Msg_CreateRoomWhenHammerRoomExists": "大賽支援助手的房間已存在。\n確定要另外建立新的房間嗎？",
     "Msg_CreateRoomWhenRoomKeeperExists": "已有透過《魷魚圈 3》建立的房間存在，\n確定要另外建立新的房間嗎？",
     "Msg_DeactivateConfirm": "確定要解散房間嗎？\n（參加中的玩家將會全數離開房間）",
     "Msg_DescribeXRankingRegion": "X比賽將會分為「[color=0001]組別‧暇古[color=ffff]」和「[color=0001]組別‧艾洛眼[color=ffff]」，\n由隸屬於相同組別的玩家互相對戰，\n名列前茅的玩家排名也會依組別區分個別公布。\n\n請根據您的居住地區\n決定本賽季要參加的組別。",
@@ -6865,6 +6864,7 @@
     "Msg_Processing_Join": "正在會合……",
     "Msg_Processing_MakeRoom": "正在建立房間……",
     "Msg_QuitConfirm": "確定要離開房間嗎？",
+    "Msg_QuitConfirm_Hammer": "確定要離開大賽支援助手的房間嗎？\n\n※如果沒有在指定時間內開始比賽，將有可能落敗。",
     "Msg_QuitConfirm_RemoteRoomMaster": "確定要離開房間嗎？\n\n房間不會解散，\n只要再次會合就可以開始私人比賽。",
     "Msg_RecruitFullMember": "房間已額滿，無法招募成員。",
     "Msg_RecruitNotification": "已發送成員招募的通知。\n（經過一段時間後將可再次發送）",
@@ -8002,7 +8002,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "房間[group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "一",
@@ -8618,7 +8618,6 @@
     "FirstEnter_03_Fest": "目前正在舉行[color=0001]祭典[color=ffff]！[page break]事不宜遲，馬上進入那個[color=0001]對戰壺[color=ffff]，\n然後選擇[color=0001]祭典比賽[size=75%]（開放）[size=100%][color=ffff]試試看吧！[page break]你可以在祭典比賽中參加[color=0001]占地對戰[color=ffff]喔！\n隊伍必須在3分鐘內持續塗墨，占地面積較多才能獲勝！",
     "FirstEnter_04": "俗話說「熟能生巧」！這一點也沒錯！",
     "FirstEnter_FestVote_00": "目前正在舉行[color=0001]祭典[color=ffff]！[page break]如果想要在祭典舉行期間參加對戰，\n就必須先完成[color=0001]投票[color=ffff]選擇想要加入的隊伍喔！[page break]先回到廣場並前往[color=0001]祭典投票所[color=ffff]吧！",
-    "Msg_Eve00": "在前夜祭中\n將無法獲得經驗值、金錢以及超級蠑螺。\n\n此外，\n儲存資料不會繼承至《斯普拉遁 3》完整版。",
     "Msg_Legal00": "線上遊玩時將會受\nNintendo Account使用條款的規範。\n請務必遵守使用條款，\n於遊玩時尊重其他的用戶。\n\n在參加線上遊玩後，您的玩家名稱與玩家資料\n有可能會在遊戲中或網站上公開。"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -9547,7 +9546,6 @@
     "006": "先來公布準備祭的結果吧，\n在準備祭中獲得最多[color=0001]法螺[color=ffff]的是……",
     "007": "嗯，原來是這樣啊！",
     "008": "接著是[color=0001]得票率[color=ffff]對決，\n看是哪個隊伍獲得最多人票選！",
-    "008_Eve": "首先是[color=0001]得票率[color=ffff]對決，\n看是哪個隊伍獲得最多人票選！",
     "009": "魟！[group=0004 type=0005 params=]（我可不會輸喔～！）\u000f\u0004\u0005",
     "010": "哦，居然是這種結果呢！",
     "011": "魟！？[group=0004 type=0005 params=]（然後呢！？）\u000f\u0004\u0005",
@@ -10747,9 +10745,6 @@
     "T_Town_00": "尚興市",
     "T_Town_01": "蠻頹鎮"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -10767,9 +10762,15 @@
     "202": "Bravo隊",
     "203": "觀戰",
     "300": "正在等待[group=0002 type=0001 params=00 0a]……",
+    "400": "正在等待成員會合",
+    "401": "請稍待片刻……",
+    "402": "離對戰結束還剩 [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "403": "正在延長 直到對戰結束",
+    "404": "正在散步",
     "L_Btn_00-T_Btn_00": "隊伍已定！",
     "L_Call_00-T_Info_00": "更改成員",
     "L_CustomizeBtn_00-T_Info_00": "自訂",
+    "L_CustomizeBtn_01-T_Info_00": "自訂",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldBtn_01-T_Info_00": "離開房間",
     "L_HoldCancelBtn_00-T_Info_00": "取消",
@@ -10792,7 +10793,6 @@
     "T_Info_00": "請選擇規則及場地",
     "T_Message_00": "主辦者正在決定隊伍分配",
     "T_Message_01": "請決定隊伍分配",
-    "T_Progress_00": "正在等待成員會合",
     "T_RuleHeader_00": "規則",
     "T_RuleHeader_01": "規則",
     "T_StageHeader_00": "場地",
@@ -11042,21 +11042,6 @@
     "T_SubName_00": "打工專用",
     "T_WpnName_02": "鮭魚卵大炮！"
   },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "排正中間獎",
-    "L_ScoreE_00-T_Standings_00": "單排最佳表現獎",
-    "T_Title_00": "團隊打工競賽"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "第[group=0002 type=0000 params=00 01 00 00]名",
-    "001": "排正中間獎",
-    "100": "最高活動戰力：[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
-  },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "在這裡可以進行必定有獎的[color=0001]抽獎[color=ffff]。\n\n每天的第1次費用為[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff]，\n從第2次開始費用為[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000[color=ffff]。",
     "001": "在祭典舉行期間，\n可以使用1個[group=0003 type=0023 params=00 00 40 40 00 00 00 00][color=0001]法螺[color=ffff]進行1次抽獎。\n\n也能花費金錢抽獎，每天的第1次為[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff]，\n從第2次開始為[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000[color=ffff]。",
@@ -11171,6 +11156,7 @@
     "201": "[color=0000][group=0002 type=0001 params=00 00][color=ffff]",
     "L_AddRoom_00-T_Info_00": "建立房間",
     "L_BtnFriend_00-T_Summary_00": "透過《魷魚圈 3》建立的房間",
+    "L_BtnFriend_00-T_Summary_01": "大賽支援助手的房間",
     "L_GuideBtn_00-T_Info_00": "返回",
     "T_Message_01": "正在尋找房間……"
   },
@@ -11544,13 +11530,18 @@
     "016": "正在提出對戰要求",
     "017": "前往位於2樓的占地鬥士對戰台就座進行對戰吧！",
     "018": "前往占地鬥士對戰台就座進行對戰吧！",
+    "019": "請稍待片刻……",
     "100": "成員已定！",
     "101": "準備OK！",
     "102": "以目前的成員開始！",
     "120": "取消",
     "200": "離對戰結束還剩[group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
     "201": "請稍待片刻……",
-    "T_MessageSub_01": "如果有成員空缺，將會從下一場對戰開始參加。"
+    "202": "正在延長 直到對戰結束",
+    "203": "正在散步",
+    "300": "如果有成員空缺，將會從下一場對戰開始參加。",
+    "301": "對戰結束後參加",
+    "302": "散步結束後參加"
   },
   "LayoutMsg/Lobby_WaitMatchState_00": {
     "000": "配對中……已經過[group=0002 type=0000 params=00 03 02 00]秒",
@@ -11595,6 +11586,7 @@
     "090": "要前往這個房間會合嗎？",
     "091": "確定要亂入對戰嗎？\n[size=75%]將有可能被分配到與此玩家不同的隊伍。[size=100%]",
     "092": "要前往透過《魷魚圈 3》建立的房間會合嗎？",
+    "093": "要前往大賽支援助手的房間會合嗎？",
     "100": "私人比賽",
     "101": "SALMON RUN",
     "102": "一般比賽",
@@ -11613,6 +11605,7 @@
     "L_Win_00-T_Lock_00": "已設密碼",
     "L_Win_00-T_Mic_00": "語音聊天 ON",
     "L_Win_00-T_Summary_00": "透過《魷魚圈 3》建立的房間",
+    "L_Win_00-T_Summary_01": "大賽支援助手的房間",
     "L_Win_00-T_Wpn_00": "派發武器"
   },
   "LayoutMsg/Lobby_WinTalkBgm_00": {

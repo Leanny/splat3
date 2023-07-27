@@ -2947,7 +2947,6 @@
     "SakeArtillery": "Big Shot",
     "SakeArtilleryCannon": "Big Shot launcher",
     "SakeBigBoss": "King Salmonid",
-    "SakeBigBossGauge": "Salmometer",
     "SakeDolphin": "Flipper-Flopper",
     "SakeFlyBagman": "Snatcher",
     "SakePillar": "Fish Stick",
@@ -4043,7 +4042,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "How high can you get your Challenge Power this month?\n\n・ Only primary gear abilities will be enabled in [color=0001]Turf War[color=ffff] battles.\n  Secondary gear abilities will have no effect!\n・ There will be no limits on gear abilities in [color=0001]Anarchy Battle modes[color=ffff]!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Aim for the highest Challenge Power!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Monthly Challenge",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Monthly\nChallenge",
     "EventMatch_Nawabari_Manual00": "Teams have three minutes to try to ink more ground than their opponents!",
     "EventMatch_Nawabari_Manual01": "Teams have three minutes to cover the [color=0001]ground[color=ffff]\nwith ink, and the team with the most [color=0001]turf [color=ffff]inked\nwhen time runs out wins. Get inking, and try to\nclaim as much turf as possible for your team!",
     "EventMatch_Nawabari_Manual02": "The more turf you ink, the more your [color=0001]special\ngauge[color=ffff] will fill. When it's completely full,\npress [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] to unleash your [color=0001]special[color=ffff]!\n\nBut watch out! Your special gauge drops if you\nget splatted. Remember to unleash its fury, and\nyou could turn the tide of battle!",
@@ -4053,7 +4051,6 @@
     "EventMatch_NewSeasonCup_Manual": "Compete on a perfectly level playing field—everyone will be trying out\na new stage together!\n\n・ Develop stage-specific strategies and tactics in real time.\n・ Only primary gear abilities will be enabled in [color=0001]Turf War[color=ffff] battles.\n  Secondary gear abilities will have no effect!\n・ There will be no limits on gear abilities in [color=0001]Anarchy Battle modes[color=ffff]!",
     "EventMatch_NewSeasonCup_Subtitle": "Celebrate the new season on a new stage!",
     "EventMatch_NewSeasonCup_Title": "New Season Challenge",
-    "EventMatch_NewSeasonCup_Title_2L": "New Season\nChallenge",
     "EventMatch_PairCup_Manual": "Team chemistry is the name of the game in fast-paced two vs. two battles!\n\n・ Explore new strategies as you try to become the top team on the map!\n・ Respawn time will be shortened!\n・ You can participate as a[color=0001] team of 2[color=ffff] or [color=0001]solo[color=ffff].",
     "EventMatch_PairCup_Subtitle": "See what you can do as a duo!",
     "EventMatch_PairCup_Title": "Duel of Dynamic Duos",
@@ -4110,6 +4107,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "・ How do I post my image to the internet?\n    You can post your image to social media if you select [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]Post on the\n    drawing screen while connected to the internet. A social-media account\n    is required.",
+    "Miiverse_FAQManual00_01": "・ How do I share my image?\n    You can share your image with other players in the plaza or square by\n    selecting [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]Post on the drawing screen while connected to the internet.",
     "Miiverse_FAQManual01": "・ How can I make Splatfest posts?\n    Once a Splatfest theme is announced, you can make posts after you visit\n    the Splatfest Pledge Box and pick a team. You won't be able to make\n    Splatfest posts if you haven't chosen a team to support.",
     "Miiverse_FAQManual02": "・ I've found an image that violates the rules. What should I do?\n    Please report any inappropriate content that you find.\n\n・ How do I report something?\n    While on the street, select some graffiti on a wall or another surface, and\n    use [group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]Report to bring up the reporting screen. Then select the reason\n    for reporting the image and send the report.",
     "Miiverse_FAQManual03": "・ Can I prevent images from being displayed?\n    While there's no way to prevent images from displaying altogether, you can\n    opt for only preset images created by Nintendo to be displayed. From the\n    Options tab in the menu, change Post Display to OFF.",
@@ -6376,9 +6374,12 @@
   "CommonMsg/Plaza/PlazaOekaki": {
     "BtnC_CannotPost": "OK",
     "BtnC_FirstExplain": "OK",
-    "Msg_CannotPost": "You cannot post drawings to social media because\neither you're not connected to the internet or \nFree Communication With Others is restricted by \nParental Controls.",
+    "BtnL_PostConfirm": "Nah",
+    "BtnR_PostConfirm": "Post!",
+    "Msg_CannotPost": "You cannot post drawings at the moment because\neither you're not connected to the internet or \nFree Communication With Others is restricted by \nParental Controls.",
     "Msg_DidntPost": "Canceled",
-    "Msg_FirstExplain": "This mailbox is where you can make drawings and\npost them to social media. Your drawings may be\nviewable by other players, so please don't post\npersonal information or inappropriate content.\nThese drawings may be displayed as signs or\ngraffiti in Splatsville or other cities.",
+    "Msg_FirstExplain": "This mailbox is where you can make drawings and\npost them for others to see. Your drawings may be\nviewable by other players, so please don't post\npersonal information or inappropriate content.\nThese drawings may be displayed as signs or\ngraffiti in Splatsville or other cities.",
+    "Msg_PostConfirm": "Post your drawing?",
     "Msg_Posting": "Wait..."
   },
   "CommonMsg/Plaza/PlazaVendor": {
@@ -6686,17 +6687,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Pick Again",
     "BtnL_ConfirmFestRegion_AltLang": "Choose Again",
-    "BtnL_ConfirmFestRegion_EveFirst": "Change",
     "BtnL_ConfirmFestRegion_First": "Change",
     "BtnL_ConfirmFestRegion_Reboot": "Choose Again",
     "BtnR_ConfirmFestRegion": "OK",
     "BtnR_ConfirmFestRegion_AltLang": "OK!",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK!",
     "BtnR_ConfirmFestRegion_First": "OK",
     "BtnR_ConfirmFestRegion_Reboot": "OK!",
     "Msg_ConfirmFestRegion": "Play in this region's Splatfests?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "The English language is not supported for Splatfests\nin [color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nDuring the Splatfest, some text will be displayed\nin [color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]. Is this OK?",
-    "Msg_ConfirmFestRegion_EveFirst": "Play in this region's Splatfest?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nThis setting is for the Splatfest World Premiere\nonly and cannot be changed later.",
     "Msg_ConfirmFestRegion_First": "Play in this region's Splatfests?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nNote: You can change this later, but if you participate\nin a Splatfest, you will be unable to change the\nsetting for a period of time.",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "Your gear, camera options, and other\nsettings now match what they were the\nlast time you played online on a different\nNintendo Switch console.",
@@ -6720,10 +6718,6 @@
     "Msg_ConfirmLeagueInvalid": "You can't join this Challenge while equipped\nwith your current gear. Please change your\ngear in order to participate.",
     "Msg_LeagueInvalidWhileMatching": "You can't join this Challenge while equipped\nwith your current gear."
   },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "No Splatfest in session right now.",
-    "Msg_OutOfService": "The Splatoon 3: Splatfest World Premiere\nis complete.\n\nSee you around!"
-  },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "Nah",
     "BtnL_Channel_Description": "Actually...",
@@ -6735,6 +6729,7 @@
     "BtnL_CoopGradeReset": "Nah",
     "BtnL_CoopManualConfirmHo": "Nah",
     "BtnL_CoopManualConfirmKi": "Nah",
+    "BtnL_CreateRoomWhenHammerRoomExists": "Nah",
     "BtnL_CreateRoomWhenRoomKeeperExists": "Nah",
     "BtnL_DeactivateConfirm": "Nah",
     "BtnL_FestRegion_Notice": "Nah",
@@ -6743,6 +6738,7 @@
     "BtnL_LockerResetConfirm": "Never Mind",
     "BtnL_NoticeXRankingRegion": "Choose Again",
     "BtnL_QuitConfirm": "Nah",
+    "BtnL_QuitConfirm_Hammer": "Nah",
     "BtnL_QuitConfirm_RemoteRoomMaster": "Nah",
     "BtnL_ReservedReplayDownloadConfirm": "Nah",
     "BtnL_SelectXRankingRegion": "Takoroka",
@@ -6770,6 +6766,7 @@
     "BtnR_CoopGradeReset": "Demote Me!",
     "BtnR_CoopManualConfirmHo": "Yeah!",
     "BtnR_CoopManualConfirmKi": "Yeah!",
+    "BtnR_CreateRoomWhenHammerRoomExists": "Yeah!",
     "BtnR_CreateRoomWhenRoomKeeperExists": "Yeah!",
     "BtnR_DeactivateConfirm": "Close",
     "BtnR_FestRegion_Notice": "Change It!",
@@ -6778,6 +6775,7 @@
     "BtnR_LockerResetConfirm": "Clean It Up!",
     "BtnR_NoticeXRankingRegion": "OK",
     "BtnR_QuitConfirm": "Leave",
+    "BtnR_QuitConfirm_Hammer": "Leave",
     "BtnR_QuitConfirm_RemoteRoomMaster": "Leave",
     "BtnR_ReservedReplayDownloadConfirm": "Download!",
     "BtnR_SelectXRankingRegion": "Tentatek",
@@ -6823,6 +6821,7 @@
     "Msg_CoopPrivate_InvalidScenario": "This job scenario cannot be played due to\nan issue with the data.",
     "Msg_CoopPrivate_ScenarioApplied": "The host has selected a job scenario.",
     "Msg_CoopShiftBoard_WaitingForResult": "The results of this Eggstra Work are still being\nevaluated. Look forward to an announcement!",
+    "Msg_CreateRoomWhenHammerRoomExists": "There's already a tournament room.\nDo you want to create another room?",
     "Msg_CreateRoomWhenRoomKeeperExists": "There's already a room that was set up\nvia SplatNet 3. Are you sure you want to\ncreate a different room?",
     "Msg_DeactivateConfirm": "Close this room?\n(All other players will be kicked.)",
     "Msg_DescribeXRankingRegion": "X Battles and rankings are split into two divisions—\n[color=0001]Takoroka Division[color=ffff] and [color=0001]Tentatek Division[color=ffff].\n\nSo before you get started, you'll need to join the\ndivision that best matches up with your location.",
@@ -6865,6 +6864,7 @@
     "Msg_Processing_Join": "Joining...",
     "Msg_Processing_MakeRoom": "Creating room...",
     "Msg_QuitConfirm": "Leave room?",
+    "Msg_QuitConfirm_Hammer": "Leave tournament room?\n\nIf the battle doesn't begin within the allotted\ntime, it may be counted as a loss.",
     "Msg_QuitConfirm_RemoteRoomMaster": "Leave room?\n\nThe room will remain open, so if you leave and\nrejoin, you can still start a Private Battle.",
     "Msg_RecruitFullMember": "The room is full, so you can't recruit\nany more members.",
     "Msg_RecruitNotification": "Recruitment notification sent to friends and\nplayers in your Pool! (You can resend this\nnotification in a little while if you like.)",
@@ -8002,7 +8002,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "Room [group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "Mon.",
@@ -8618,7 +8618,6 @@
     "FirstEnter_03_Fest": "Well, this is exciting. There's a [color=0001]Splatfest [color=ffff]going\non right now![page break]You can head right over to the [color=0001]battle pot [color=ffff]and\nselect [color=0001]Splatfest Battle [size=75%](Open)[size=100%] [color=ffff]if you want to join.[page break]That'll launch you into a [color=0001]Turf War[color=ffff], where your\nteam has three minutes to ink the most turf!",
     "FirstEnter_04": "Eh, less chat, more splat. Let's get started!",
     "FirstEnter_FestVote_00": "Ooo, there's a [color=0001]Splatfest [color=ffff]going on right now![page break]That means you'll need to [color=0001]pick a side[color=ffff] before\nyou can join in the fun.[page break]Just pop outside and check out the\n[color=0001]Splatfest Pledge Box [color=ffff]to make your choice!",
-    "Msg_Eve00": "Just a heads-up: you won't get cash, experience,\nor Super Sea Snails for playing in this Splatfest.\n\nAlso, save data from this Splatfest won't carry\nover to the full version of Splatoon 3.",
     "Msg_Legal00": "Nintendo's Community Guidelines apply to\nonline play and can be found on our website.\nPlease be considerate to your fellow players.\n\nWhen you play online, your nickname\nand player data may be made public."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -9547,7 +9546,6 @@
     "006": "First up, Splatfest Sneak Peek results!\nThe team with the most [color=0001]conch shells [color=ffff]was...",
     "007": "Wow! They crushed it!",
     "008": "Next up...which team got the [color=0001]most votes[color=ffff]!\nGet on the bandwagon for...",
-    "008_Eve": "First, let's see which team got the\nmost [color=0001]votes [color=ffff]overall!",
     "009": "Ay...ay... [group=0004 type=0005 params=](C'mon, c'mon...)\u000f\u0004\u0005",
     "010": "No way!",
     "011": "Ay? Ay! [group=0004 type=0005 params=](What's next? Tell meee!)\u000f\u0004\u0005",
@@ -10747,9 +10745,6 @@
     "T_Town_00": "Inkopolis",
     "T_Town_01": "Splatsville"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Ver."
   },
@@ -10767,9 +10762,15 @@
     "202": "Bravo Team",
     "203": "Spectating",
     "300": "Waiting for [group=0002 type=0001 params=00 0a]...",
+    "400": "Waiting for players to join...",
+    "401": "Please wait...",
+    "402": "Battle ends in: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "403": "Battle will end after overtime!",
+    "404": "On Recon",
     "L_Btn_00-T_Btn_00": "Looks Good!",
     "L_Call_00-T_Info_00": "Adjust Players",
     "L_CustomizeBtn_00-T_Info_00": "Equip",
+    "L_CustomizeBtn_01-T_Info_00": "Equip",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldBtn_01-T_Info_00": "Leave Room",
     "L_HoldCancelBtn_00-T_Info_00": "Cancel",
@@ -10792,7 +10793,6 @@
     "T_Info_00": "Choose a mode and stage.",
     "T_Message_00": "Host is deciding teams...",
     "T_Message_01": "Choose Teams",
-    "T_Progress_00": "Waiting for players to join...",
     "T_RuleHeader_00": "Mode",
     "T_RuleHeader_01": "Mode",
     "T_StageHeader_00": "Stage",
@@ -10803,7 +10803,7 @@
   "LayoutMsg/Cmn_VersusMatch_02": {
     "010": "Waiting for players to join...",
     "011": "Waiting for players...",
-    "012": "Battle ends in [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00].",
+    "012": "Battle ends in: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "013": "Please wait...",
     "014": "You'll drop in once you're ready.",
     "020": "Rank",
@@ -11042,21 +11042,6 @@
     "T_SubName_00": "You've been loaned the",
     "T_WpnName_02": "An egg cannon!"
   },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "x[group=0002 type=0000 params=00 03 00 00]",
-    "100": "x[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "Average Roe",
-    "L_ScoreE_00-T_Standings_00": "Top Individual Contributor",
-    "T_Title_00": "Eggstra Work"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Place: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Average Roe Award",
-    "100": "Highest Challenge Power: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
-  },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "Step right up, and try your luck at the\n[color=0001]Shell-Out Machine[color=ffff]!\n\nThe first play will cost you [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5,000[color=ffff].\nAnd it's a cool [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30,000 [color=ffff]for each\nplay after that!",
     "001": "During Splatfests, you can use\n[group=0003 type=0023 params=00 00 40 40 00 00 00 00][color=0001]conch shells [color=ffff]to play the Shell-Out\nMachine. One shell gets you one play!\n\nYou can also play with cash like usual.\nJust [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5,000 [color=ffff]for the first play and\n[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30,000 [color=ffff]every time after that!",
@@ -11171,6 +11156,7 @@
     "201": "[color=0000][group=0002 type=0001 params=00 00][color=ffff]",
     "L_AddRoom_00-T_Info_00": "Create a Room",
     "L_BtnFriend_00-T_Summary_00": "Room Created via SplatNet 3",
+    "L_BtnFriend_00-T_Summary_01": "Tournament Room",
     "L_GuideBtn_00-T_Info_00": "Back",
     "T_Message_01": "Looking for a room..."
   },
@@ -11544,13 +11530,18 @@
     "016": "Challenge sent!",
     "017": "Have a seat at a card table upstairs to battle!",
     "018": "Have a seat at a card table nearby to battle!",
+    "019": "Please wait...",
     "100": "All Set!",
     "101": "Ready!",
     "102": "Here's the crew!",
     "120": "Cancel",
-    "200": "Battle ends in [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]...",
+    "200": "Battle ends in: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "201": "Please wait...",
-    "T_MessageSub_01": "You'll join the next battle once a spot opens up."
+    "202": "Battle will end after overtime!",
+    "203": "On Recon",
+    "300": "You'll join the next battle once a spot opens up.",
+    "301": "You'll join after the battle ends.",
+    "302": "You'll join once recon is complete."
   },
   "LayoutMsg/Lobby_WaitMatchState_00": {
     "000": "Matching... [group=0002 type=0000 params=00 03 02 00] sec.",
@@ -11595,6 +11586,7 @@
     "090": "Join this room?",
     "091": "Drop into a battle?\n[size=75%]You might be put on a different team than this player.[size=100%]",
     "092": "Join room created via SplatNet 3?",
+    "093": "Join tournament room?",
     "100": "Private Battle",
     "101": "Salmon Run",
     "102": "Regular Battle",
@@ -11613,6 +11605,7 @@
     "L_Win_00-T_Lock_00": "Password Req.",
     "L_Win_00-T_Mic_00": "Voice chat ON",
     "L_Win_00-T_Summary_00": "Room Created via SplatNet 3",
+    "L_Win_00-T_Summary_01": "Tournament Room",
     "L_Win_00-T_Wpn_00": "Supplied Weapons"
   },
   "LayoutMsg/Lobby_WinTalkBgm_00": {

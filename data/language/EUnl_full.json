@@ -2947,7 +2947,6 @@
     "SakeArtillery": "Bombarie",
     "SakeArtilleryCannon": "Bombariekanon",
     "SakeBigBoss": "Salmonster",
-    "SakeBigBossGauge": "Salmometer",
     "SakeDolphin": "Dompelaar",
     "SakeFlyBagman": "Zammel",
     "SakePillar": "Salmonoliet",
@@ -4043,7 +4042,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "Hoe hoog krijg jij je eventkracht deze maand?\n\n\u30fb Alleen de hoofdeffecten van uitrusting worden gebruikt tijdens\n  [color=0001]Grondoorlogen[color=ffff]. Extra effecten doen niet mee!\n\u30fb Bij [color=0001]alle chaosgevecht-vechtstijlen[color=ffff] zijn alle effecten van de partij!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Bereik de hoogste eventkracht!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Eventgevecht van de maand",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Eventgevecht\nvan de maand",
     "EventMatch_Nawabari_Manual00": "Elk team probeert om binnen drie minuten zo veel mogelijk grond te verven!",
     "EventMatch_Nawabari_Manual01": "Spelers hebben drie minuten om de [color=0001]grond [color=ffff]te\nbedekken met inkt. Het team dat [color=0001]de meeste\ngrond[color=ffff] weet in te kleuren, wint de strijd. Wees\nniet bang om te morsen, en geef een zo groot\nmogelijk deel van het level de kleur van jouw\nteam!",
     "EventMatch_Nawabari_Manual02": "Hoe meer grond je bedekt met inkt, hoe voller je\n[color=0001]speciale meter[color=ffff] loopt. Als hij helemaal vol is, druk\nje op [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] om je [color=0001]speciale wapen [color=ffff]te gebruiken!\n\nMaar let op: als je wordt uitgeschakeld, leegt de\nmeter zich voor een deel. Wacht dus niet te lang\nom je machtige wapen in te zetten en de strijd\nmisschien wel te keren!",
@@ -4052,8 +4050,7 @@
     "EventMatch_Nawabari_Title": "Grondoorlog: de spelregels",
     "EventMatch_NewSeasonCup_Manual": "Gelijke omstandigheden voor iedereen: iedereen speelt dit level voor het eerst!\n\n\u30fb Verken het nieuwe level en ontwikkel nieuwe strategie\u00ebn!\n\u30fb Alleen de hoofdeffecten van uitrusting worden gebruikt tijdens\n  [color=0001]Grondoorlogen[color=ffff]. Extra effecten doen niet mee!\n\u30fb Bij [color=0001]alle chaosgevecht-vechtstijlen[color=ffff] zijn alle effecten van de partij!",
     "EventMatch_NewSeasonCup_Subtitle": "Vier het nieuwe seizoen in een nieuw level!",
-    "EventMatch_NewSeasonCup_Title": "Eventgevecht van het nieuwe seizoen",
-    "EventMatch_NewSeasonCup_Title_2L": "Eventgevecht van\nhet nieuwe seizoen",
+    "EventMatch_NewSeasonCup_Title": "Seizoensopener",
     "EventMatch_PairCup_Manual": "Twee teams van twee treden tegen elkaar aan in deze razendsnelle\ndubbelstrijd! \n\n\u30fb Experimenteer met tactieken om het slagveld te domineren!\n\u30fb Uitgeschakelde spelers keren sneller terug!\n\u30fb Je kunt meedoen als [color=0001]team van twee[color=ffff] of als [color=0001]solospeler[color=ffff].",
     "EventMatch_PairCup_Subtitle": "Minder is meer: welk tweetal wint?",
     "EventMatch_PairCup_Title": "Duel van de dynamische duo's",
@@ -4110,6 +4107,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "Hulp",
     "Miiverse_FAQManual00": "\u30fb Hoe post ik mijn afbeelding op het internet?\n    Om je afbeelding op sociale media te posten moet je met het internet\n    verbonden zijn en [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]POSTEN kiezen in het tekenscherm. Een account\n    van een sociaal netwerk is vereist.",
+    "Miiverse_FAQManual00_01": "\u30fb Hoe kan ik mijn afbeelding delen?\n    Om je afbeelding met andere spelers op het plein te delen moet je met\n    het internet verbonden zijn en [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]POSTEN kiezen in het tekenscherm.",
     "Miiverse_FAQManual01": "\u30fb Hoe kan ik Splatfest-posts maken?\n    Zodra het thema van een Splatfest is aangekondigd en je een team hebt\n    gekozen bij de Splatfest-stembus, kun je Splatfest-posts\n    maken.\n    Je kunt geen Splatfest-posts maken als je geen team hebt gekozen.",
     "Miiverse_FAQManual02": "\u30fb Ik heb een afbeelding gevonden die de regels overtreedt. Wat moet ik doen?\n    Je kunt melding maken van ongepaste content die je tegenkomt.\n\n\u30fb Hoe maak ik een melding?\n    Selecteer graffiti van een personage of een muur en gebruik [group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00] om naar\n    het scherm te gaan waar je meldingen maakt.\n    Selecteer dan de reden waarom je melding maakt van een afbeelding en\n    verstuur vervolgens de melding.",
     "Miiverse_FAQManual03": "\u30fb Kan ik ervoor zorgen dat er geen afbeeldingen worden getoond?\n    Hoewel het niet mogelijk is om helemaal geen afbeeldingen weer te geven,\n    kun je ervoor kiezen om alleen standaardafbeeldingen van Nintendo te\n    tonen.\n    Kies OPTIES in het menu en zet 'Posts tonen' op UIT.",
@@ -4177,11 +4175,11 @@
     "Vendor_Add_Gear_Power_Manual00": "Als je de [color=0001]effectfragmenten [color=ffff]die je hebt verzameld\nnaar Mikey brengt, kun je zelf uitzoeken welke\neffecten je toevoegt aan je uitrusting!\n\nUitrusting komt altijd met een [color=0001]hoofdeffect[color=ffff], en\nheeft daarnaast vakjes voor [color=0001]extra effecten[color=ffff].\nAl die effecten kunnen worden aangepast, zodat\nje uitrusting optimaal aansluit bij je speelstijl!",
     "Vendor_Add_Gear_Power_Manual01": "[color=0001]Hoofdeffecten[color=ffff] zijn krachtig, maar het kost je\nmeer effectfragmenten als je ze wilt veranderen.\nDaarnaast heb je verschillende soorten\nfragmenten nodig om de bijzonder interessante\neffecten vrij te spelen.\n\n[color=0001]Extra effecten[color=ffff] zijn minder krachtig, maar\nvereisen ook een stuk minder fragmenten.\nHet wordt wel duurder als je meer vakjes wilt\nvullen met hetzelfde effect.",
     "Vendor_Add_Gear_Power_Manual02": "Als een vakje al een effect heeft, kun je dat wel\nvervangen door er een nieuw effect aan toe te\nwijzen, maar dan krijg je minder [color=0001]fragmenten[color=ffff]\nterug voor het effect dat je verliest. En\ndaarnaast is dat effect ook voorgoed verloren.\n\nDaarnaast kun je effectfragmenten ook niet\ngebruiken om de [color=0001]verdubbelaar[color=ffff] toe te voegen die\nop [color=0001]Splatfest-T-shirts[color=ffff] te vinden is.",
-    "Vendor_Add_Gear_Power_Title": "Extra effecten toevoegen",
+    "Vendor_Add_Gear_Power_Title": "Effecten toevoegen",
     "Vendor_Button01": "Bestelstatus",
     "Vendor_Button02": "Zeldzaamheid\nverhogen",
     "Vendor_Button03": "Vakjes legen",
-    "Vendor_Button04": "Effect\ntoevoegen",
+    "Vendor_Button04": "Effecten\ntoevoegen",
     "Vendor_Button05": "Willekeurig\nvullen",
     "Vendor_Button06": "Tentashop",
     "Vendor_Button07": "In Inkopolis",
@@ -6376,9 +6374,12 @@
   "CommonMsg/Plaza/PlazaOekaki": {
     "BtnC_CannotPost": "Ok\u00e9",
     "BtnC_FirstExplain": "Ok\u00e9",
-    "Msg_CannotPost": "Je kunt geen tekeningen online posten omdat je\ngeen internetverbinding hebt, of omdat vrije\ncommunicatie met anderen wordt beperkt door\nhet ouderlijk toezicht.",
+    "BtnL_PostConfirm": "Neuh.",
+    "BtnR_PostConfirm": "Posten!",
+    "Msg_CannotPost": "Je kunt op dit moment geen tekeningen posten\nomdat je geen internetverbinding hebt, of omdat\nvrije communicatie met anderen wordt beperkt\ndoor het ouderlijk toezicht.",
     "Msg_DidntPost": "Het bericht is niet gepost.",
-    "Msg_FirstExplain": "Je kunt tekeningen maken en ze online posten\nop sociale media. Het zou kunnen dat andere\nspelers je tekeningen zien, dus post geen\npersoonlijke informatie of ongepaste inhoud.\nSommige afbeeldingen worden op borden of\nals graffiti getoond in Splatsville of andere steden.",
+    "Msg_FirstExplain": "Je kunt tekeningen maken en delen met anderen.\nHet zou kunnen dat andere spelers je tekeningen\nzien, dus post geen persoonlijke informatie of\nongepaste inhoud. Sommige afbeeldingen worden\nop borden of als graffiti getoond in Splatsville of\nandere steden.",
+    "Msg_PostConfirm": "Wil je je afbeelding posten?",
     "Msg_Posting": "Een moment geduld..."
   },
   "CommonMsg/Plaza/PlazaVendor": {
@@ -6686,17 +6687,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Opnieuw kiezen",
     "BtnL_ConfirmFestRegion_AltLang": "Opnieuw\nkiezen",
-    "BtnL_ConfirmFestRegion_EveFirst": "Wijzigen",
     "BtnL_ConfirmFestRegion_First": "Wijzigen",
     "BtnL_ConfirmFestRegion_Reboot": "Opnieuw\nkiezen",
     "BtnR_ConfirmFestRegion": "Ok\u00e9",
     "BtnR_ConfirmFestRegion_AltLang": "Ok\u00e9!",
-    "BtnR_ConfirmFestRegion_EveFirst": "Ok\u00e9!",
     "BtnR_ConfirmFestRegion_First": "Ok\u00e9",
     "BtnR_ConfirmFestRegion_Reboot": "Ok\u00e9!",
     "Msg_ConfirmFestRegion": "Wil je meedoen aan de Splatfests van deze regio?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "Nederlands wordt niet als taal ondersteund\nvoor Splatfests in de regio\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nTijdens het Splatfest worden sommige teksten in het\n[color=0001][group=0004 type=0012 params=00 00 00 00] [color=ffff]weergegeven. Wil je verdergaan?",
-    "Msg_ConfirmFestRegion_EveFirst": "Wil je meedoen met het Splatfest in deze regio?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nDeze instelling geldt alleen voor de Splatfest World\nPremiere en kan later niet meer worden gewijzigd.",
     "Msg_ConfirmFestRegion_First": "Wil je meedoen aan de Splatfests van deze regio?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nLet op: Je kunt de regio-instelling later veranderen.\nAls je meedoet aan een Splatfest, kun je deze\ninstelling een tijdlang niet veranderen.",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\u5411\u3051\u306e\u30d5\u30a7\u30b9\u306f\u3001\n\u65e5\u672c\u8a9e\u306b\u5bfe\u5fdc\u3057\u3066\u3044\u307e\u305b\u3093\n\u30d5\u30a7\u30b9\u306e\u958b\u50ac\u4e2d\u306f\u3001\u30bd\u30d5\u30c8\u3092\u518d\u8d77\u52d5\u3057\u3066\u30b2\u30fc\u30e0\u5185\u306e\u8868\u793a\u3092\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]\u306b\u5207\u308a\u66ff\u3048\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\n\u305d\u308c\u3067\u3082\u3088\u308d\u3057\u3044\u3067\u3059\u304b\uff1f",
     "Msg_DeviceIdChanged": "Je uitrusting, de camera-instellingen en andere\ninstellingen komen nu overeen met die van de\nlaatste keer dat je online speelde op een ander\nNintendo Switch-systeem.",
@@ -6720,10 +6718,6 @@
     "Msg_ConfirmLeagueInvalid": "Je kunt niet aan dit eventgevecht meedoen met\nje huidige uitrusting. Pas je uitrusting aan om\nmee te kunnen spelen.",
     "Msg_LeagueInvalidWhileMatching": "Je kunt niet aan dit eventgevecht meedoen met\nje huidige uitrusting."
   },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "Er is nu geen Splatfest bezig.",
-    "Msg_OutOfService": "De Splatoon 3: Splatfest World Premiere\nis voorbij.\n\nTot kijk!"
-  },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "Nee",
     "BtnL_Channel_Description": "Laat maar",
@@ -6735,6 +6729,7 @@
     "BtnL_CoopGradeReset": "Nee...",
     "BtnL_CoopManualConfirmHo": "Nee",
     "BtnL_CoopManualConfirmKi": "Nee",
+    "BtnL_CreateRoomWhenHammerRoomExists": "Nee",
     "BtnL_CreateRoomWhenRoomKeeperExists": "Nee",
     "BtnL_DeactivateConfirm": "Nee",
     "BtnL_FestRegion_Notice": "Nee",
@@ -6743,6 +6738,7 @@
     "BtnL_LockerResetConfirm": "Nee",
     "BtnL_NoticeXRankingRegion": "Opnieuw\nkiezen",
     "BtnL_QuitConfirm": "Nee",
+    "BtnL_QuitConfirm_Hammer": "Nee",
     "BtnL_QuitConfirm_RemoteRoomMaster": "Nee",
     "BtnL_ReservedReplayDownloadConfirm": "Neh...",
     "BtnL_SelectXRankingRegion": "Takoroka",
@@ -6770,6 +6766,7 @@
     "BtnR_CoopGradeReset": "Ja!",
     "BtnR_CoopManualConfirmHo": "Ja!",
     "BtnR_CoopManualConfirmKi": "Ja!",
+    "BtnR_CreateRoomWhenHammerRoomExists": "Ja",
     "BtnR_CreateRoomWhenRoomKeeperExists": "Ja",
     "BtnR_DeactivateConfirm": "Ja",
     "BtnR_FestRegion_Notice": "Ja!",
@@ -6778,6 +6775,7 @@
     "BtnR_LockerResetConfirm": "Ja",
     "BtnR_NoticeXRankingRegion": "Ok\u00e9",
     "BtnR_QuitConfirm": "Ja",
+    "BtnR_QuitConfirm_Hammer": "Ja",
     "BtnR_QuitConfirm_RemoteRoomMaster": "Ja",
     "BtnR_ReservedReplayDownloadConfirm": "Ja!",
     "BtnR_SelectXRankingRegion": "Tentatek",
@@ -6823,6 +6821,7 @@
     "Msg_CoopPrivate_InvalidScenario": "Deze bewaarde klus kan niet worden gespeeld\nvanwege een probleem met de gegevens.",
     "Msg_CoopPrivate_ScenarioApplied": "De host heeft een bewaarde klus gekozen.",
     "Msg_CoopShiftBoard_WaitingForResult": "De uitslag van dit bedrijfseitje is er nog niet.\nNog even geduld!",
+    "Msg_CreateRoomWhenHammerRoomExists": "Er is al een toernooikamer gemaakt. Weet je\nzeker dat je een andere kamer wilt maken?",
     "Msg_CreateRoomWhenRoomKeeperExists": "Er is via SplatNet 3 al een kamer gemaakt. Weet\nje zeker dat je een andere kamer wilt maken?",
     "Msg_DeactivateConfirm": "Wil je deze kamer sluiten?\n(Alle spelers verlaten dan de kamer.)",
     "Msg_DescribeXRankingRegion": "De X-gevechten en de daarbij behorende ranglijsten\nzijn opgedeeld in twee verschillende competities:\nde [color=0001]Takoroka-competitie[color=ffff] en de[color=0001] Tentatek-competitie[color=ffff].\n\nVoordat je begint, moet je de competitie kiezen die\nhet beste overeenstemt met jouw regio.",
@@ -6865,6 +6864,7 @@
     "Msg_Processing_Join": "Bezig met verbinden...",
     "Msg_Processing_MakeRoom": "Bezig kamer te maken...",
     "Msg_QuitConfirm": "Wil je de kamer verlaten?",
+    "Msg_QuitConfirm_Hammer": "Wil je de toernooikamer verlaten?\n\nHoud er rekening mee dat de wedstrijd als een\nverlies gerekend kan worden als je niet op tijd\nmeedoet.",
     "Msg_QuitConfirm_RemoteRoomMaster": "Wil je de kamer verlaten?\n\nDe kamer blijft geopend, dus als je de kamer later\nopnieuw betreedt, kun je alsnog een priv\u00e9gevecht\nbeginnen.",
     "Msg_RecruitFullMember": "De kamer is vol, dus je kunt niet nog meer\nspelers werven.",
     "Msg_RecruitNotification": "Wervingsbericht naar je vrienden en spelers\nin je poel gestuurd! (Je kunt het bericht over\nkorte tijd opnieuw versturen als je dat wilt.)",
@@ -8002,7 +8002,7 @@
     "Hyphen2": "--",
     "Identifier": "Nr. [group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "\u5927\u4f1a\u30eb\u30fc\u30e0[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "Kamer '[group=0002 type=0001 params=00 07]'",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "Ma",
@@ -8618,7 +8618,6 @@
     "FirstEnter_03_Fest": "O, dit is spannend! Er is net een [color=0001]Splatfest [color=ffff]aan de\ngang![page break]Als je wilt meedoen, kun je direct naar de\n[color=0001]Knokpot [color=ffff]gaan en [color=0001]Splatfest-gevecht [size=75%](open)[size=100%] [color=ffff]kiezen.[page break]Dan begin je aan een [color=0001]Grondoorlog[color=ffff], waarin elk team in\ndrie minuten zoveel mogelijk grond moet inkleuren!",
     "FirstEnter_04": "Maar genoeg gekletst. Tijd voor gespet!\nAan de slag!",
     "FirstEnter_FestVote_00": "O, er is een [color=0001]Splatfest [color=ffff]aan de gang![page break]Dat wil zeggen dat je eerst [color=0001]een team moet\nkiezen [color=ffff]voor je je in de strijd kunt werpen.[page break]Ga eerst terug naar het plein en beken kleur bij\nde [color=0001]Splatfest-stembus[color=ffff]!",
-    "Msg_Eve00": "Kleine waarschuwing: je verdient tijdens dit\nSplatfest geen geld, ervaring of superzeeslakken.\n\nOok neem je opgeslagen gegevens van dit Splatfest\nniet mee naar de volledige versie van Splatoon 3.",
     "Msg_Legal00": "Op online spelen zijn de community-richtlijnen van\nNintendo van toepassing. Deze zijn te vinden op onze\nwebsite. Ga tijdens het spelen met respect om met\nandere spelers.\n\nWanneer je online speelt, is het mogelijk dat anderen\nje spelersnaam en spelersgegevens zien."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -9547,7 +9546,6 @@
     "006": "Ten eerste, de uitslag van de opwarmfase!\nHet team met de meeste [color=0001]prijsschelpen [color=ffff]was...",
     "007": "O, wauw! Geen discussie mogelijk!",
     "008": "Volgende vraag... Welk team heeft de\n[color=0001]meeste stemmen [color=ffff]ontvangen?",
-    "008_Eve": "Ok\u00e9, laten we eerst eens kijken welk team\nde meeste [color=0001]stemmen [color=ffff]heeft gekregen!",
     "009": "Ay... Ay... [group=0004 type=0005 params=](Kom op... Kom oooop...)\u000f\u0004\u0005",
     "010": "Dat k\u00e1n toch niet!",
     "011": "Ay? Ay! [group=0004 type=0005 params=](Wat nog meer?\nLaat me niet wachten!)\u000f\u0004\u0005",
@@ -10747,9 +10745,6 @@
     "T_Town_00": "Inkopolis",
     "T_Town_01": "Splatsville"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Ver."
   },
@@ -10767,9 +10762,15 @@
     "202": "Team Bravo",
     "203": "Toeschouwen",
     "300": "Wacht op [group=0002 type=0001 params=00 0a]...",
+    "400": "Bezig op spelers te wachten...",
+    "401": "Even wachten...",
+    "402": "Voorbij over: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "403": "Het gevecht eindigt na de verlenging!",
+    "404": "Aan het verkennen",
     "L_Btn_00-T_Btn_00": "Klaar!",
     "L_Call_00-T_Info_00": "Spelers wijzigen",
     "L_CustomizeBtn_00-T_Info_00": "Uitrusting",
+    "L_CustomizeBtn_01-T_Info_00": "Uitrusting",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldBtn_01-T_Info_00": "Kamer verlaten",
     "L_HoldCancelBtn_00-T_Info_00": "Annuleren",
@@ -10792,7 +10793,6 @@
     "T_Info_00": "Kies een vechtstijl en een level!",
     "T_Message_00": "De host is teams aan het kiezen...",
     "T_Message_01": "Kies teams",
-    "T_Progress_00": "Bezig op spelers te wachten...",
     "T_RuleHeader_00": "Vechtstijl",
     "T_RuleHeader_01": "Vechtstijl",
     "T_StageHeader_00": "Level",
@@ -10803,7 +10803,7 @@
   "LayoutMsg/Cmn_VersusMatch_02": {
     "010": "Bezig op spelers te wachten...",
     "011": "Bezig op spelers te wachten...",
-    "012": "Voorbij over [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
+    "012": "Voorbij over [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "013": "Een moment geduld...",
     "014": "Zodra je er klaar voor bent, speel je mee.",
     "020": "Rang",
@@ -11042,21 +11042,6 @@
     "T_SubName_00": "Toegewezen wapen:",
     "T_WpnName_02": "Een eierkanon!"
   },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "\u00d7[group=0002 type=0000 params=00 03 00 00]",
-    "100": "\u00d7[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1e",
-    "L_ScoreB_00-T_Standings_00": "2e",
-    "L_ScoreC_00-T_Standings_00": "3e",
-    "L_ScoreD_00-T_Standings_00": "Middenmoter",
-    "L_ScoreE_00-T_Standings_00": "Solo-superster",
-    "T_Title_00": "Bedrijfseitje"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Plaats: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Middenmoterprijs",
-    "100": "Hoogste eventkracht: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
-  },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "Beproef je geluk en waag je kans bij de\n[color=0001]Prijzenpot[color=ffff]!\n\nDe eerste keer spelen kost je [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff].\nDaarna kost een speelbeurt [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30.000[color=ffff]!",
     "001": "Tijdens een Splatfest kun je [group=0003 type=0023 params=00 00 40 40 00 00 00 00][color=0001]prijsschelpen[color=ffff]\ngebruiken om de [color=0001]Prijzenpot [color=ffff]te spelen!\nE\u00e9n schelp per speelbeurt.\n\nJe kunt natuurlijk ook gewoon voor geld\nspelen. [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff] voor de eerste keer,\nen [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30.000 [color=ffff]voor elke beurt daarna!",
@@ -11171,6 +11156,7 @@
     "201": "[color=0000][group=0002 type=0001 params=00 00][color=ffff]",
     "L_AddRoom_00-T_Info_00": "Kamer maken",
     "L_BtnFriend_00-T_Summary_00": "Kamer die via SplatNet 3 is gemaakt",
+    "L_BtnFriend_00-T_Summary_01": "Toernooikamer",
     "L_GuideBtn_00-T_Info_00": "Terug",
     "T_Message_01": "Bezig een kamer te zoeken..."
   },
@@ -11544,13 +11530,18 @@
     "016": "Uitdaging verstuurd!",
     "017": "Neem boven plaats bij een kaarttafel om te spelen!",
     "018": "Neem plaats bij een kaarttafel om te spelen!",
+    "019": "Even wachten...",
     "100": "Spelers gereed!",
     "101": "Klaar!",
     "102": "Hier is de crew!",
     "120": "Annuleren",
-    "200": "Voorbij over [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]...",
+    "200": "Voorbij over: [group=0002 type=0000 params=00 02 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "201": "Een moment geduld...",
-    "T_MessageSub_01": "Zodra er een plekje vrijkomt, doe je mee aan het volgende gevecht."
+    "202": "Het gevecht eindigt na de verlenging!",
+    "203": "Aan het verkennen",
+    "300": "Zodra er een plekje vrijkomt, doe je mee aan het volgende gevecht.",
+    "301": "Zodra het gevecht is afgelopen, doe je mee aan het volgende gevecht.",
+    "302": "Zodra het verkennen is afgelopen, doe je mee aan het volgende gevecht."
   },
   "LayoutMsg/Lobby_WaitMatchState_00": {
     "000": "Op zoek naar spelers... [group=0002 type=0000 params=00 03 02 00] s",
@@ -11595,6 +11586,7 @@
     "090": "Wil je deze kamer betreden?",
     "091": "Wil je meespelen met een gevecht?\n[size=75%]Mogelijk kom je in een ander team dan deze speler.[size=100%]",
     "092": "Wil je deze kamer betreden die via SplatNet 3 is gemaakt?",
+    "093": "Wil je deze toernooikamer betreden?",
     "100": "Priv\u00e9gevecht",
     "101": "Salmon Run",
     "102": "Standaardgevecht",
@@ -11613,6 +11605,7 @@
     "L_Win_00-T_Lock_00": "Met code",
     "L_Win_00-T_Mic_00": "Voicechat aan",
     "L_Win_00-T_Summary_00": "Kamer die via SplatNet 3 is gemaakt",
+    "L_Win_00-T_Summary_01": "Toernooikamer",
     "L_Win_00-T_Wpn_00": "Beschikbare wapens"
   },
   "LayoutMsg/Lobby_WinTalkBgm_00": {
@@ -12189,7 +12182,7 @@
     "L_Btn_00-T_WhiteText_00": "Bestelstatus",
     "L_Btn_01-T_WhiteText_00": "Zeldzaamheid verhogen",
     "L_Btn_02-T_WhiteText_00": "Vakjes legen",
-    "L_Btn_03-T_WhiteText_00": "Effect toevoegen",
+    "L_Btn_03-T_WhiteText_00": "Effecten toevoegen",
     "L_Btn_04-T_WhiteText_00": "Vakjes willekeurig\nmet effecten vullen",
     "L_Btn_05-T_WhiteText_00": "Tentashop-levering",
     "L_Exp_00-T_Info_00": "Uitleg",

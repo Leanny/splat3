@@ -2805,7 +2805,6 @@
     "SakeArtillery": "Bombarie",
     "SakeArtilleryCannon": "Bombariekanon",
     "SakeBigBoss": "Salmonster",
-    "SakeBigBossGauge": "Salmometer",
     "SakeDolphin": "Dompelaar",
     "SakeFlyBagman": "Zammel",
     "SakePillar": "Salmonoliet",
@@ -3891,7 +3890,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "Hoe hoog krijg jij je eventkracht deze maand?\n\n\u30fb Alleen de hoofdeffecten van uitrusting worden gebruikt tijdens\n  [color=0001]Grondoorlogen[color=ffff]. Extra effecten doen niet mee!\n\u30fb Bij [color=0001]alle chaosgevecht-vechtstijlen[color=ffff] zijn alle effecten van de partij!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Bereik de hoogste eventkracht!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Eventgevecht van de maand",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Eventgevecht\nvan de maand",
     "EventMatch_Nawabari_Manual00": "Elk team probeert om binnen drie minuten zo veel mogelijk grond te verven!",
     "EventMatch_Nawabari_Manual01": "Spelers hebben drie minuten om de [color=0001]grond [color=ffff]te\nbedekken met inkt. Het team dat [color=0001]de meeste\ngrond[color=ffff] weet in te kleuren, wint de strijd. Wees\nniet bang om te morsen, en geef een zo groot\nmogelijk deel van het level de kleur van jouw\nteam!",
     "EventMatch_Nawabari_Manual02": "Hoe meer grond je bedekt met inkt, hoe voller je\n[color=0001]speciale meter[color=ffff] loopt. Als hij helemaal vol is, druk\nje op [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] om je [color=0001]speciale wapen [color=ffff]te gebruiken!\n\nMaar let op: als je wordt uitgeschakeld, leegt de\nmeter zich voor een deel. Wacht dus niet te lang\nom je machtige wapen in te zetten en de strijd\nmisschien wel te keren!",
@@ -3900,8 +3898,7 @@
     "EventMatch_Nawabari_Title": "Grondoorlog: de spelregels",
     "EventMatch_NewSeasonCup_Manual": "Gelijke omstandigheden voor iedereen: iedereen speelt dit level voor het eerst!\n\n\u30fb Verken het nieuwe level en ontwikkel nieuwe strategie\u00ebn!\n\u30fb Alleen de hoofdeffecten van uitrusting worden gebruikt tijdens\n  [color=0001]Grondoorlogen[color=ffff]. Extra effecten doen niet mee!\n\u30fb Bij [color=0001]alle chaosgevecht-vechtstijlen[color=ffff] zijn alle effecten van de partij!",
     "EventMatch_NewSeasonCup_Subtitle": "Vier het nieuwe seizoen in een nieuw level!",
-    "EventMatch_NewSeasonCup_Title": "Eventgevecht van het nieuwe seizoen",
-    "EventMatch_NewSeasonCup_Title_2L": "Eventgevecht van\nhet nieuwe seizoen",
+    "EventMatch_NewSeasonCup_Title": "Seizoensopener",
     "EventMatch_PairCup_Manual": "Twee teams van twee treden tegen elkaar aan in deze razendsnelle\ndubbelstrijd! \n\n\u30fb Experimenteer met tactieken om het slagveld te domineren!\n\u30fb Uitgeschakelde spelers keren sneller terug!\n\u30fb Je kunt meedoen als [color=0001]team van twee[color=ffff] of als [color=0001]solospeler[color=ffff].",
     "EventMatch_PairCup_Subtitle": "Minder is meer: welk tweetal wint?",
     "EventMatch_PairCup_Title": "Duel van de dynamische duo's",
@@ -3958,6 +3955,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "Hulp",
     "Miiverse_FAQManual00": "\u30fb Hoe post ik mijn afbeelding op het internet?\n    Om je afbeelding op sociale media te posten moet je met het internet\n    verbonden zijn en [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]POSTEN kiezen in het tekenscherm. Een account\n    van een sociaal netwerk is vereist.",
+    "Miiverse_FAQManual00_01": "\u30fb Hoe kan ik mijn afbeelding delen?\n    Om je afbeelding met andere spelers op het plein te delen moet je met\n    het internet verbonden zijn en [group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]POSTEN kiezen in het tekenscherm.",
     "Miiverse_FAQManual01": "\u30fb Hoe kan ik Splatfest-posts maken?\n    Zodra het thema van een Splatfest is aangekondigd en je een team hebt\n    gekozen bij de Splatfest-stembus, kun je Splatfest-posts\n    maken.\n    Je kunt geen Splatfest-posts maken als je geen team hebt gekozen.",
     "Miiverse_FAQManual02": "\u30fb Ik heb een afbeelding gevonden die de regels overtreedt. Wat moet ik doen?\n    Je kunt melding maken van ongepaste content die je tegenkomt.\n\n\u30fb Hoe maak ik een melding?\n    Selecteer graffiti van een personage of een muur en gebruik [group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00] om naar\n    het scherm te gaan waar je meldingen maakt.\n    Selecteer dan de reden waarom je melding maakt van een afbeelding en\n    verstuur vervolgens de melding.",
     "Miiverse_FAQManual03": "\u30fb Kan ik ervoor zorgen dat er geen afbeeldingen worden getoond?\n    Hoewel het niet mogelijk is om helemaal geen afbeeldingen weer te geven,\n    kun je ervoor kiezen om alleen standaardafbeeldingen van Nintendo te\n    tonen.\n    Kies OPTIES in het menu en zet 'Posts tonen' op UIT.",
@@ -4025,11 +4023,11 @@
     "Vendor_Add_Gear_Power_Manual00": "Als je de [color=0001]effectfragmenten [color=ffff]die je hebt verzameld\nnaar Mikey brengt, kun je zelf uitzoeken welke\neffecten je toevoegt aan je uitrusting!\n\nUitrusting komt altijd met een [color=0001]hoofdeffect[color=ffff], en\nheeft daarnaast vakjes voor [color=0001]extra effecten[color=ffff].\nAl die effecten kunnen worden aangepast, zodat\nje uitrusting optimaal aansluit bij je speelstijl!",
     "Vendor_Add_Gear_Power_Manual01": "[color=0001]Hoofdeffecten[color=ffff] zijn krachtig, maar het kost je\nmeer effectfragmenten als je ze wilt veranderen.\nDaarnaast heb je verschillende soorten\nfragmenten nodig om de bijzonder interessante\neffecten vrij te spelen.\n\n[color=0001]Extra effecten[color=ffff] zijn minder krachtig, maar\nvereisen ook een stuk minder fragmenten.\nHet wordt wel duurder als je meer vakjes wilt\nvullen met hetzelfde effect.",
     "Vendor_Add_Gear_Power_Manual02": "Als een vakje al een effect heeft, kun je dat wel\nvervangen door er een nieuw effect aan toe te\nwijzen, maar dan krijg je minder [color=0001]fragmenten[color=ffff]\nterug voor het effect dat je verliest. En\ndaarnaast is dat effect ook voorgoed verloren.\n\nDaarnaast kun je effectfragmenten ook niet\ngebruiken om de [color=0001]verdubbelaar[color=ffff] toe te voegen die\nop [color=0001]Splatfest-T-shirts[color=ffff] te vinden is.",
-    "Vendor_Add_Gear_Power_Title": "Extra effecten toevoegen",
+    "Vendor_Add_Gear_Power_Title": "Effecten toevoegen",
     "Vendor_Button01": "Bestelstatus",
     "Vendor_Button02": "Zeldzaamheid\nverhogen",
     "Vendor_Button03": "Vakjes legen",
-    "Vendor_Button04": "Effect\ntoevoegen",
+    "Vendor_Button04": "Effecten\ntoevoegen",
     "Vendor_Button05": "Willekeurig\nvullen",
     "Vendor_Button06": "Tentashop",
     "Vendor_Button07": "In Inkopolis",
@@ -5208,7 +5206,7 @@
     "Hyphen2": "--",
     "Identifier": "Nr. [group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "\u5927\u4f1a\u30eb\u30fc\u30e0[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "Kamer '[group=0002 type=0001 params=00 07]'",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "Ma",
@@ -6426,9 +6424,6 @@
     "T_Town_00": "Inkopolis",
     "T_Town_01": "Splatsville"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "Catalogusinformatie",
     "100": "[group=0002 type=0001 params=00 0c] t/m [group=0002 type=0001 params=01 0c]",
@@ -6453,21 +6448,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "Risiconiveau gestegen!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "\u00d7[group=0002 type=0000 params=00 03 00 00]",
-    "100": "\u00d7[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1e",
-    "L_ScoreB_00-T_Standings_00": "2e",
-    "L_ScoreC_00-T_Standings_00": "3e",
-    "L_ScoreD_00-T_Standings_00": "Middenmoter",
-    "L_ScoreE_00-T_Standings_00": "Solo-superster",
-    "T_Title_00": "Bedrijfseitje"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Plaats: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Middenmoterprijs",
-    "100": "Hoogste eventkracht: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "Standaard-\ngevecht",

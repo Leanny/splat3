@@ -50,9 +50,9 @@
     "NawaBattlerRank_Lv11": "占地鬥士等級達到900",
     "NawaBattlerRank_Lv12": "占地鬥士等級達到999",
     "NawaBattlerWinAllNpcLevel3": "在占地鬥士道場戰勝最高等級的所有人",
-    "OrderFood_Lv00": "在商店完成預訂10次",
-    "OrderFood_Lv01": "在商店完成預訂100次",
-    "OrderFood_Lv02": "在商店完成預訂1000次",
+    "OrderFood_Lv00": "在商店完成了10次點餐",
+    "OrderFood_Lv01": "在商店完成了100次點餐",
+    "OrderFood_Lv02": "在商店完成了1000次點餐",
     "OrderVendor_Fsodr_Lv00": "找丹尼預訂裝備10次",
     "OrderVendor_Fsodr_Lv01": "找丹尼預訂裝備100次",
     "OrderVendor_Lv00": "找刺冠預訂裝備10次",
@@ -2805,7 +2805,6 @@
     "SakeArtillery": "鐵球魚",
     "SakeArtilleryCannon": "發射台",
     "SakeBigBoss": "頭目鮭魚",
-    "SakeBigBossGauge": "頭目槽",
     "SakeDolphin": "潛水魚",
     "SakeFlyBagman": "拾蛋魚",
     "SakePillar": "柱魚",
@@ -3891,7 +3890,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "每月一次的挑戰對戰！讓活動戰力邁向極限！\n\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "每月一次的挑戰對戰！讓活動戰力邁向極限！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "月一‧活動比賽",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "月一‧活動比賽",
     "EventMatch_Nawabari_Manual00": "隊伍必須在3分鐘內持續對地面塗墨，占地面積較多才能獲勝！",
     "EventMatch_Nawabari_Manual01": "在占地對戰中，隊伍必須在3分鐘內持續對[color=0001]地面[color=ffff]塗墨，\n[color=0001]占地面積[color=ffff]較多才能獲勝！\n持續對地面塗墨，\n拓展隊伍的占地面積並拿下勝利吧！",
     "EventMatch_Nawabari_Manual02": "[color=0001]特殊武器蓄力槽[color=ffff]會隨著對地面塗墨而增加喔！\n在蓄力槽全滿後，\n按下[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]即可發動[color=0001]特殊武器[color=ffff]！\n\n陣亡將會導致特殊武器蓄力槽減少，\n看準時機並有效地使用特殊武器吧！",
@@ -3901,7 +3899,6 @@
     "EventMatch_NewSeasonCup_Manual": "新賽季開幕！攻略新場地！\n\n‧以新場地作為對戰的舞台！\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_NewSeasonCup_Subtitle": "新賽季開幕！攻略新場地！",
     "EventMatch_NewSeasonCup_Title": "新賽季開幕紀念盃",
-    "EventMatch_NewSeasonCup_Title_2L": "新賽季\n開幕紀念盃",
     "EventMatch_PairCup_Manual": "展現搭檔間的默契！2對2的小規模對戰！\n\n‧2對2的小規模對戰！\n‧可以[color=0001]2人組隊[color=ffff]或是[color=0001]1人[color=ffff]獨自參加！\n‧復活時間將會縮短喔！",
     "EventMatch_PairCup_Subtitle": "展現搭檔間的默契！2對2的小規模對戰！",
     "EventMatch_PairCup_Title": "最強搭檔爭奪戰",
@@ -3958,6 +3955,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "‧我不知道該如何透過網路發表插畫。\n　連接網路後，在繪製插畫的畫面中按下「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]發表」，\n　即可將插畫發表至社群網站。\n    ※需要擁有社群網站的帳號。",
+    "Miiverse_FAQManual00_01": "‧我不知道該如何透過網路發表插畫。\n　連接網路後，在繪製插畫的畫面中按下「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]發表」，\n　即可發表插畫。",
     "Miiverse_FAQManual01": "‧該如何進行祭典發表？\n　在祭典主題公布之後，只要到廣場的投票所完成投票，\n　即可進行祭典發表。\n　在您尚未加入任一隊伍之前，將無法進行祭典發表。",
     "Miiverse_FAQManual02": "‧我發現了違反規則的插畫，我該怎麼做？\n　很遺憾有這樣的情況存在，請您檢舉該插畫。\n\n‧我該從哪裡進行檢舉？\n　在廣場中選擇角色或是牆上的塗鴉使插畫顯示後，\n　按下「[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]檢舉」即可進入檢舉畫面。\n　選擇檢舉原因後即可進行檢舉。",
     "Miiverse_FAQManual03": "‧是否有方法可以讓廣場不再顯示插畫？\n　沒有方法能不再顯示插畫，\n　不過您可以選擇只顯示由任天堂所準備的插畫。\n　請透過選單中的選項將「顯示發表內容」設定為「顯示OFF」。",
@@ -5208,7 +5206,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "房間[group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "一",
@@ -6426,9 +6424,6 @@
     "T_Town_00": "尚興市",
     "T_Town_01": "蠻頹鎮"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "目錄記錄",
     "100": "[group=0002 type=0001 params=00 0c]  ～  [group=0002 type=0001 params=01 0c]",
@@ -6453,21 +6448,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]％",
     "T_Danger_00": "危險度提升！！"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "排正中間獎",
-    "L_ScoreE_00-T_Standings_00": "單排最佳表現獎",
-    "T_Title_00": "團隊打工競賽"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "第[group=0002 type=0000 params=00 01 00 00]名",
-    "001": "排正中間獎",
-    "100": "最高活動戰力：[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "一般\n比賽",

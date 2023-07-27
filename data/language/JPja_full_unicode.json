@@ -2947,7 +2947,6 @@
     "SakeArtillery": "テッキュウ",
     "SakeArtilleryCannon": "発射台",
     "SakeBigBoss": "オカシラシャケ",
-    "SakeBigBossGauge": "オカシラゲージ",
     "SakeDolphin": "ダイバー",
     "SakeFlyBagman": "タマヒロイ",
     "SakePillar": "ハシラ",
@@ -3478,7 +3477,7 @@
     "Stc_Sti_Contest_Sakelien_Lv01": "ステッカー シャケ ノーマル",
     "Stc_Sti_Decoration_00": "デコ DIN-PI",
     "Stc_Sti_Decoration_01": "デコ DIN-BL",
-    "Stc_Sti_Decoration_02": "テープ  TIK",
+    "Stc_Sti_Decoration_02": "テープ TIK",
     "Stc_Sti_Decoration_03": "テープ HHI",
     "Stc_Sti_Decoration_04": "テープ ZNH",
     "Stc_Sti_Decoration_05": "デコ MDM-MI",
@@ -4043,7 +4042,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "月に一度のチャレンジバトル！ イベントパワーの限界を目指せ！\n\n・ [color=0001]ナワバリバトル[color=ffff]のときは、基本ギアパワーのみ有効だ！ 追加ギアパワーは効果がないぞ！\n・ [color=0001]バンカラマッチのルール[color=ffff]のときは、ギアパワーに制限はないぞ！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "月に一度のチャレンジバトル！ イベントパワーの限界を目指せ！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "ツキイチ・イベントマッチ",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "ツキイチ・\nイベントマッチ",
     "EventMatch_Nawabari_Manual00": "３分間地面を塗りまくって、ナワバリが多いチームの勝ち！",
     "EventMatch_Nawabari_Manual01": "ナワバリバトルは、３分間[color=0001]地面[color=ffff]を塗りまくって、\n[color=0001]ナワバリ[color=ffff]が多いチームの勝ちだ！\n地面を塗りまくり、チームのナワバリを広げて\n勝利を目指そう！",
     "EventMatch_Nawabari_Manual02": "地面を塗れば塗るほど、[color=0001]スペシャルゲージ[color=ffff]が増えるぞ。\n満タンになったら、[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]を押しこんで\n[color=0001]スペシャルウェポン[color=ffff]発動だ！\n\nスペシャルゲージは、やられると減ってしまう。\nタイミングをみて、効果的にスペシャルウェポンを\n使おう！",
@@ -4053,7 +4051,6 @@
     "EventMatch_NewSeasonCup_Manual": "新シーズン開幕！ 新しいステージを攻略せよ！\n\n・ 戦いの舞台は新しいステージだ！\n・ [color=0001]ナワバリバトル[color=ffff]のときは、基本ギアパワーのみ有効だ！ 追加ギアパワーは効果がないぞ！\n・ [color=0001]バンカラマッチのルール[color=ffff]のときは、ギアパワーに制限はないぞ！",
     "EventMatch_NewSeasonCup_Subtitle": "新シーズン開幕！ 新しいステージを攻略せよ！",
     "EventMatch_NewSeasonCup_Title": "新シーズン開幕記念カップ",
-    "EventMatch_NewSeasonCup_Title_2L": "新シーズン\n開幕記念カップ",
     "EventMatch_PairCup_Manual": "ふたりの相性を見せつけろ！ ２対２の少人数バトル！\n\n・ ２人対２人の少人数バトルだ！\n・ [color=0001]２人のチーム[color=ffff]か[color=0001]１人[color=ffff]で参加できるぞ！\n・ 復活時間が短くなるぞ！",
     "EventMatch_PairCup_Subtitle": "ふたりの相性を見せつけろ！ ２対２の少人数バトル！",
     "EventMatch_PairCup_Title": "最強ペア決定戦",
@@ -4110,6 +4107,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "・ イラストをインターネット上に投稿する方法がわかりません。\n    インターネットに接続して、イラストを書く画面で「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]投稿する」を押すと、\n    イラストをＳＮＳに投稿することができます。\n    ※ＳＮＳのアカウントが必要です。",
+    "Miiverse_FAQManual00_01": "・ イラストをインターネット上に投稿する方法がわかりません。\n    インターネットに接続して、イラストを書く画面で「[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]投稿する」を押すと、\n    イラストを投稿することができます。",
     "Miiverse_FAQManual01": "・ フェス投稿は、どうすればできますか？\n    フェスのお題が発表されたあと、広場の投票所で投票をすると、\n    フェス投稿ができるようになります。\n    どちらのチームに所属するかを決めないと、フェス投稿はできません。",
     "Miiverse_FAQManual02": "・ ルールを守っていないイラストを見つけました。どうすればいいですか？\n    残念ですが、通報してください。\n\n・ 通報はどこからできますか？\n    広場でキャラクターやカベの落書きを選んでイラストを表示し、\n    「[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]通報」を押すと、通報画面が表示されます。\n    通報理由を選ぶと、通報できます。",
     "Miiverse_FAQManual03": "・ 広場でイラストを表示しない方法はありますか？\n    表示しない方法はありませんが、\n    任天堂があらかじめ用意したイラストのみを表示することはできます。\n    メニューのオプションで「投稿の表示」を「表示ＯＦＦ」にしてください。",
@@ -6376,9 +6374,12 @@
   "CommonMsg/Plaza/PlazaOekaki": {
     "BtnC_CannotPost": "OK",
     "BtnC_FirstExplain": "OK",
+    "BtnL_PostConfirm": "やめとく",
+    "BtnR_PostConfirm": "投稿する！",
     "Msg_CannotPost": "インターネットに接続していないか、みまもり設定で\n「ほかの人との自由なコミュニケーション」が\n制限されているため 投稿することができません",
     "Msg_DidntPost": "投稿は行われませんでした",
     "Msg_FirstExplain": "手書きイラストを、インターネットに投稿することができます\nイラストは、他のユーザーに公開されることがあるので\n人のいやがることを書いたり、自分や他人の個人情報を\n書かないようにしましょう\n\n手書きイラストは、バンカラ街などの\nカンバンや ラクガキとして表示されます",
+    "Msg_PostConfirm": "手書きイラストをインターネットに投稿しますか？",
     "Msg_Posting": "終了処理が、行われています\nしばらくお待ちください"
   },
   "CommonMsg/Plaza/PlazaVendor": {
@@ -6686,17 +6687,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "選び直す",
     "BtnL_ConfirmFestRegion_AltLang": "選び直す",
-    "BtnL_ConfirmFestRegion_EveFirst": "変更する",
     "BtnL_ConfirmFestRegion_First": "変更する",
     "BtnL_ConfirmFestRegion_Reboot": "選び直す",
     "BtnR_ConfirmFestRegion": "OK！",
     "BtnR_ConfirmFestRegion_AltLang": "OK！",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK！",
     "BtnR_ConfirmFestRegion_First": "OK！",
     "BtnR_ConfirmFestRegion_Reboot": "OK！",
     "Msg_ConfirmFestRegion": "この地域のフェスでよろしいですか？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、一部の表示が[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]になります\nそれでもよろしいですか？",
-    "Msg_ConfirmFestRegion_EveFirst": "この地域のフェスでよろしいですか？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※前夜祭では、一度決定した地域を\nあとから変更することはできません",
     "Msg_ConfirmFestRegion_First": "この地域のフェスでよろしいですか？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※あとから変更できますが、フェスに参加すると\nしばらくの間は変更できなくなります",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "そうびやカメラオプションなどを、別のSwitch本体から\n最後にオンラインで遊んだ時と同じ状態にしました",
@@ -6720,10 +6718,6 @@
     "Msg_ConfirmLeagueInvalid": "このそうびでは イベントマッチに参加できません\n参加するには そうびを変えてください",
     "Msg_LeagueInvalidWhileMatching": "このそうびでは イベントマッチに参加できません"
   },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "フェスは現在開催されていません",
-    "Msg_OutOfService": "「スプラトゥーン3 前夜祭版」の\nプレイ期間は終了しました\n\nソフトを終了してください"
-  },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "やめとく",
     "BtnL_Channel_Description": "やめとく",
@@ -6735,6 +6729,7 @@
     "BtnL_CoopGradeReset": "やめとく",
     "BtnL_CoopManualConfirmHo": "やめとく",
     "BtnL_CoopManualConfirmKi": "やめとく",
+    "BtnL_CreateRoomWhenHammerRoomExists": "やめとく",
     "BtnL_CreateRoomWhenRoomKeeperExists": "やめとく",
     "BtnL_DeactivateConfirm": "やめとく",
     "BtnL_FestRegion_Notice": "やめとく",
@@ -6743,6 +6738,7 @@
     "BtnL_LockerResetConfirm": "やめとく",
     "BtnL_NoticeXRankingRegion": "選び直す",
     "BtnL_QuitConfirm": "やめとく",
+    "BtnL_QuitConfirm_Hammer": "やめとく",
     "BtnL_QuitConfirm_RemoteRoomMaster": "やめとく",
     "BtnL_ReservedReplayDownloadConfirm": "やめとく",
     "BtnL_SelectXRankingRegion": "グループ・ヤコ",
@@ -6770,6 +6766,7 @@
     "BtnR_CoopGradeReset": "リセットする！",
     "BtnR_CoopManualConfirmHo": "参加する！",
     "BtnR_CoopManualConfirmKi": "参加する！",
+    "BtnR_CreateRoomWhenHammerRoomExists": "つくる！",
     "BtnR_CreateRoomWhenRoomKeeperExists": "つくる！",
     "BtnR_DeactivateConfirm": "解散する",
     "BtnR_FestRegion_Notice": "変更する！",
@@ -6778,6 +6775,7 @@
     "BtnR_LockerResetConfirm": "全部しまう！",
     "BtnR_NoticeXRankingRegion": "OK!",
     "BtnR_QuitConfirm": "抜ける",
+    "BtnR_QuitConfirm_Hammer": "抜ける",
     "BtnR_QuitConfirm_RemoteRoomMaster": "抜ける",
     "BtnR_ReservedReplayDownloadConfirm": "ダウンロードする！",
     "BtnR_SelectXRankingRegion": "グループ・アロメ",
@@ -6823,6 +6821,7 @@
     "Msg_CoopPrivate_InvalidScenario": "このバイトシナリオはデータに問題があるため\n遊ぶことができません",
     "Msg_CoopPrivate_ScenarioApplied": "親がバイトの設定を変更しました",
     "Msg_CoopShiftBoard_WaitingForResult": "バイトチームコンテストの結果を集計中です\n発表まで しばらくお待ちください",
+    "Msg_CreateRoomWhenHammerRoomExists": "タイカイサポートの部屋があります\n別の部屋を新しく作りますか？",
     "Msg_CreateRoomWhenRoomKeeperExists": "イカリング３から立てた部屋があります\n別の部屋を新しく作りますか？",
     "Msg_DeactivateConfirm": "部屋を解散しますか？\n（参加中のプレイヤー全員が部屋から抜けます）",
     "Msg_DescribeXRankingRegion": "Xマッチは、[color=0001]グループ・ヤコ[color=ffff]と[color=0001]グループ・アロメ[color=ffff]に分かれて\n同じグループ内のプレイヤー同士で対戦します\n上位プレイヤーのランキングも、グループ別に発表されます\n\nお住まいの地域に合わせて\n今シーズン参加するグループを決めてください",
@@ -6865,6 +6864,7 @@
     "Msg_Processing_Join": "合流しています…",
     "Msg_Processing_MakeRoom": "部屋を作っています…",
     "Msg_QuitConfirm": "部屋から抜けますか？",
+    "Msg_QuitConfirm_Hammer": "タイカイサポートの部屋から抜けますか？\n\n※時間内に試合を開始しないと、負けになる場合があります",
     "Msg_QuitConfirm_RemoteRoomMaster": "部屋から抜けますか？\n\n部屋は解散されません\n再度合流すれば、プライベートマッチを開始できます",
     "Msg_RecruitFullMember": "満員のため、メンバーを募集できません",
     "Msg_RecruitNotification": "メンバー募集の通知を送りました\n（一定時間後に、再び送れるようになります）",
@@ -8002,7 +8002,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "部屋[group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "月",
@@ -8618,7 +8618,6 @@
     "FirstEnter_03_Fest": "今は[color=0001]フェス[color=ffff]が開催されている！[page break]さっそく、あそこにある[color=0001]バトルポット[color=ffff]に入って\n[color=0001]フェスマッチ[size=75%]（オープン）[size=100%][color=ffff]を選んでみよう！[page break]フェスマッチでは [color=0001]ナワバリバトル[color=ffff]に参加できるぞ\n３分間地面を塗りまくって、ナワバリが多いチームの勝ち！",
     "FirstEnter_04": "習うより慣れろだ！ これマジ！",
     "FirstEnter_FestVote_00": "今は[color=0001]フェス[color=ffff]が開催されている！[page break]フェス中にバトルに参加するには、\nまず所属したいチームに[color=0001]投票[color=ffff]する必要があるぞ[page break]いったん広場にもどって [color=0001]フェス投票所[color=ffff]へ向かってくれ！",
-    "Msg_Eve00": "前夜祭では、ケイケン値やおカネ、\nスーパーサザエは手に入りません\n\nまた、製品版『スプラトゥーン3』への\nセーブデータの引き継ぎは 行われません",
     "Msg_Legal00": "オンラインプレイには、\nニンテンドーアカウント利用規約が適用されます\n利用規約にしたがって、他のユーザーへの\n思いやりのあるプレイを心がけてください\n\nオンラインプレイに参加すると、ゲーム内やウェブサイト上で\nプレイヤー名やプレイヤーデータが公開されることがあります"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -9547,7 +9546,6 @@
     "006": "まずは ヨビ祭の結果を おさらいしとこか\nヨビ祭で[color=0001]ホラガイ[color=ffff]を多く手に入れたんは…",
     "007": "ウム、そうじゃったな！",
     "008": "次に どのチームが多く投票されたか\n[color=0001]得票率[color=ffff]の勝負！",
-    "008_Eve": "まずは どのチームが多く投票されたか\n[color=0001]得票率[color=ffff]の勝負！",
     "009": "エイ！[group=0004 type=0005 params=]（負けないぞ～！）\u000f\u0004\u0005",
     "010": "ほう、こうなっておったのか！",
     "011": "エイー？！[group=0004 type=0005 params=]（そしてそしてー？！）\u000f\u0004\u0005",
@@ -10747,9 +10745,6 @@
     "T_Town_00": "ハイカラシティ",
     "T_Town_01": "バンカラ街"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -10767,9 +10762,15 @@
     "202": "ブラボーチーム",
     "203": "観戦",
     "300": "[group=0002 type=0001 params=00 0a] を待っています…",
+    "400": "メンバーの合流を待っています",
+    "401": "しばらくお待ちください…",
+    "402": "バトル終了まで [group=0002 type=0000 params=00 02 02 00]：[group=0002 type=0000 params=01 02 01 00]",
+    "403": "バトル終了まで 延長中",
+    "404": "さんぽ中です",
     "L_Btn_00-T_Btn_00": "チーム決定！",
     "L_Call_00-T_Info_00": "メンバー変更",
     "L_CustomizeBtn_00-T_Info_00": "カスタマイズ",
+    "L_CustomizeBtn_01-T_Info_00": "カスタマイズ",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldBtn_01-T_Info_00": "部屋を抜ける",
     "L_HoldCancelBtn_00-T_Info_00": "キャンセル",
@@ -10792,7 +10793,6 @@
     "T_Info_00": "ルールとステージを選んでください",
     "T_Message_00": "親がチームを決めています",
     "T_Message_01": "チームを決めてください",
-    "T_Progress_00": "メンバーの合流を待っています",
     "T_RuleHeader_00": "ルール",
     "T_RuleHeader_01": "ルール",
     "T_StageHeader_00": "ステージ",
@@ -11042,21 +11042,6 @@
     "T_SubName_00": "バイト専用",
     "T_WpnName_02": "イクラキャノン！"
   },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "１位",
-    "L_ScoreB_00-T_Standings_00": "２位",
-    "L_ScoreC_00-T_Standings_00": "３位",
-    "L_ScoreD_00-T_Standings_00": "ぴったりまんなか賞",
-    "L_ScoreE_00-T_Standings_00": "ソロトップ賞",
-    "T_Title_00": "バイトチームコンテスト"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00]位",
-    "001": "ぴったりまんなか賞",
-    "100": "最高イベントパワー ： [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
-  },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "ここでは、ハズレなしの [color=0001]くじ引き[color=ffff]ができます\n\n毎日 最初の１回は [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000 [color=ffff]で、\n２回目からは [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000 [color=ffff]で引くことができます",
     "001": "フェスの開催中は [group=0003 type=0023 params=00 00 40 40 00 00 00 00][color=0001]ホラガイ[color=ffff]１個で\n１回くじ引きができます\n\nおカネでも、毎日１回は [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff] で\n２回目からは [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000 [color=ffff]で引くことができます",
@@ -11171,6 +11156,7 @@
     "201": "[color=0000][group=0002 type=0001 params=00 00][color=ffff]",
     "L_AddRoom_00-T_Info_00": "部屋をつくる",
     "L_BtnFriend_00-T_Summary_00": "イカリング３で作った部屋",
+    "L_BtnFriend_00-T_Summary_01": "タイカイサポートの部屋",
     "L_GuideBtn_00-T_Info_00": "もどる",
     "T_Message_01": "部屋を探しています…"
   },
@@ -11544,13 +11530,18 @@
     "016": "対戦を申しこんでいます",
     "017": "２階にあるナワバトラー台のイスに座って対戦しよう！",
     "018": "ナワバトラー台のイスに座って対戦しよう！",
+    "019": "しばらくお待ちください...",
     "100": "メンバー決定！",
     "101": "準備OK！",
     "102": "このメンバーではじめる！",
     "120": "キャンセル",
     "200": "バトル終了まで [group=0002 type=0000 params=00 02 02 00]:[group=0002 type=0000 params=01 02 01 00]",
     "201": "しばらくお待ちください...",
-    "T_MessageSub_01": "メンバーに空きができたら 次のバトルから参加します"
+    "202": "バトル終了まで 延長中",
+    "203": "さんぽ中です",
+    "300": "メンバーに空きができたら 次のバトルから参加します",
+    "301": "バトルが終わったら参加します",
+    "302": "さんぽが終わったら参加します"
   },
   "LayoutMsg/Lobby_WaitMatchState_00": {
     "000": "マッチメイク中… [group=0002 type=0000 params=00 03 02 00]秒経過",
@@ -11595,6 +11586,7 @@
     "090": "この部屋に合流しますか？",
     "091": "バトルに乱入しますか？\n[size=75%]このプレイヤーと同じチームにならないこともあります[size=100%]",
     "092": "イカリング３で作った部屋に合流しますか？",
+    "093": "タイカイサポートの部屋に合流しますか？",
     "100": "プライベートマッチ",
     "101": "SALMON RUN",
     "102": "レギュラーマッチ",
@@ -11613,6 +11605,7 @@
     "L_Win_00-T_Lock_00": "パスワードあり",
     "L_Win_00-T_Mic_00": "ボイスチャット ON",
     "L_Win_00-T_Summary_00": "イカリング３で作った部屋",
+    "L_Win_00-T_Summary_01": "タイカイサポートの部屋",
     "L_Win_00-T_Wpn_00": "支給ブキ"
   },
   "LayoutMsg/Lobby_WinTalkBgm_00": {

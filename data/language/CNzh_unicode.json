@@ -50,9 +50,9 @@
     "NawaBattlerRank_Lv11": "占地斗士等级已达到900",
     "NawaBattlerRank_Lv12": "占地斗士等级已达到999",
     "NawaBattlerWinAllNpcLevel3": "在占地斗士道场中战胜最高等级的所有人",
-    "OrderFood_Lv00": "在商店完成预订10次",
-    "OrderFood_Lv01": "在商店完成预订100次",
-    "OrderFood_Lv02": "在商店完成预订1000次",
+    "OrderFood_Lv00": "在商店完成了10次点餐",
+    "OrderFood_Lv01": "在商店完成了100次点餐",
+    "OrderFood_Lv02": "在商店完成了1000次点餐",
     "OrderVendor_Fsodr_Lv00": "通过丹尼完成装备预订10次",
     "OrderVendor_Fsodr_Lv01": "通过丹尼完成装备预订100次",
     "OrderVendor_Lv00": "通过刺冠完成装备预订10次",
@@ -2805,7 +2805,6 @@
     "SakeArtillery": "铁球鱼",
     "SakeArtilleryCannon": "发射台",
     "SakeBigBoss": "头目鲑鱼",
-    "SakeBigBossGauge": "头目槽",
     "SakeDolphin": "潜水鱼",
     "SakeFlyBagman": "拾蛋鱼",
     "SakePillar": "柱鱼",
@@ -3891,7 +3890,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "每月一次的挑战对战！目标是达到活动战力的极限！\n\n·进行[color=0001]占地对战[color=ffff]时，只有基本装备能力会生效！追加装备能力不会有效果哦！\n·采用[color=0001]蛮颓比赛的规则[color=ffff]时，装备能力不会受到限制哦！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "每月一次的挑战对战！目标是达到活动战力的极限！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "月一·活动比赛",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "月一·活动比赛",
     "EventMatch_Nawabari_Manual00": "在3分钟内持续对地面涂墨，占地面积更多的队伍即可获胜！",
     "EventMatch_Nawabari_Manual01": "在占地对战中，你需要在3分钟内持续对[color=0001]地面[color=ffff]涂墨，\n[color=0001]占地面积[color=ffff]更多的队伍即可获胜！\n持续对地面涂墨来扩大队伍的占地面积，\n以此获得胜利吧！",
     "EventMatch_Nawabari_Manual02": "[color=0001]特殊武器蓄力槽[color=ffff]会随着对地面涂墨而增加哦。\n蓄力槽全满后，\n按下[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]即可发动[color=0001]特殊武器[color=ffff]！\n\n阵亡会导致特殊武器蓄力槽减少，\n看准时机有效地使用特殊武器吧！",
@@ -3901,7 +3899,6 @@
     "EventMatch_NewSeasonCup_Manual": "新赛季开幕！攻略新场地！\n\n·对战的舞台为新场地！\n·进行[color=0001]占地对战[color=ffff]时，只有基本装备能力会生效！追加装备能力不会有效果哦！\n·采用[color=0001]蛮颓比赛的规则[color=ffff]时，装备能力不会受到限制哦！",
     "EventMatch_NewSeasonCup_Subtitle": "新赛季开幕！攻略新场地！",
     "EventMatch_NewSeasonCup_Title": "新赛季开幕纪念杯",
-    "EventMatch_NewSeasonCup_Title_2L": "新赛季\n开幕纪念杯",
     "EventMatch_PairCup_Manual": "展现两人的默契！2对2的小规模对战！\n\n·为2对2的小规模对战！\n·能以[color=0001]2人队伍[color=ffff]或[color=0001]独自1人[color=ffff]参加哦！\n·复活时间将会缩短哦！",
     "EventMatch_PairCup_Subtitle": "展现两人的默契！2对2的小规模对战！",
     "EventMatch_PairCup_Title": "最强搭档争夺战",
@@ -3958,6 +3955,7 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "FAQ",
     "Miiverse_FAQManual00": "·我不知道该如何通过互联网发布插画。\n　连接互联网后，在绘制插画的界面按“[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]发布”，\n　即可将插画发布至SNS。\n　※需要拥有SNS账号。",
+    "Miiverse_FAQManual00_01": "·我不知道该如何通过互联网发布插画。\n　连接互联网后，在绘制插画的界面按“[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00]发布”，\n　即可发布插画。",
     "Miiverse_FAQManual01": "·我该如何进行祭典发布？\n　在祭典主题公布后，只要在广场的投票所完成投票，\n　即可进行祭典发布。\n　在您尚未决定参加任一队伍之前，将无法进行祭典发布。",
     "Miiverse_FAQManual02": "·我发现了违反规则的插画，我该怎么做？\n　很遗憾有这种情况存在，请您举报该插画。\n\n·我该从哪里进行举报？\n　在广场中选择角色或墙壁上的涂鸦使插画显示后，\n　按“[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00]举报”即可进入举报界面。\n　选择举报原因后就能进行举报。",
     "Miiverse_FAQManual03": "·是否有方法可以让广场不再显示插画？\n　没有方法让插画不再显示，\n　不过您可以选择只显示由任天堂准备的插画。\n　请通过菜单中的选项将“显示发布内容”设置为“关闭显示”。",
@@ -4977,7 +4975,7 @@
     "Blaster_Middle_00": "主要武器[color=0001]火热爆破枪[color=ffff]\n是属于[color=0001]爆破枪[color=ffff]类型的武器之一，\n可以发射触碰到空气就会爆炸的墨汁。[page break]虽然连射性能与射程都很普通，\n但是只要直接命中对手就能造成极大伤害！\n还能利用爆炸冲击波攻击躲在墙后的对手！[page break]如果对手迟迟不现出身影，\n就将[color=0001]机器人炸弹[color=ffff]作为大礼送给对手，\n看准其被迫现身的时机展开华丽的轰炸吧！[page break]当对手逼近时，只要有[color=0001]巨大防护罩[color=ffff]就不成问题！\n非常推荐想在实战中\n控制对手行动的玩家使用！",
     "Blaster_Precision_00": "主要武器[color=0001]S-BLAST92[color=ffff]\n是通过内置2个墨汁发射机构\n来实现切换性能的爆破枪！[page break]正常射击能发射高射程高射速的墨汁！\n子弹偏移较小，容易命中瞄准的地方，\n但是爆炸范围也偏小。[page break]在跳跃时射击则能发射在近处爆炸的墨汁！\n虽然射程较短，但取而代之的是\n爆炸范围会变大！[page break]连射速度较慢，需要多加注意。\n灵活运用次要武器[color=0001]洒墨器[color=ffff]\n和特殊武器[color=0001]鲨鱼坐骑[color=ffff]就能弥补破绽。[page break]这把武器的用途广泛，导致难以驾驭，\n但是如果能熟练使用，一定会很帅气～\n请务必试着使用一下！",
     "Blaster_Short_00": "主要武器[color=0001]新星爆破枪[color=ffff]是近身战用的爆破枪，\n与它可爱的外表相反，\n内部采用了会在短时间内爆炸的墨汁。[page break]虽然可以连射，但鱿于射程很短，\n必须灵活配合次要武器[color=0001]斯普拉炸弹[color=ffff]\n逼对手移动，使其受到爆炸的冲击。[page break]遇到从远处攻击的对手时，\n就用特殊武器[color=0001]触手喷射[color=ffff]绕到对手后方，\n展开帅气的轰炸进行反击！[page break]非常推荐能够完整观察战场地形\n以及看穿对手行动的聪明玩家使用！",
-    "Blaster_Short_01": "主要武器[color=0001]新星爆破枪 新型[color=ffff]，\n是新星爆破枪的微幅改装款式。\n虽然外形没有改动，但是表面做了哑光处理。[page break]可以利用次要武器[color=0001]碳酸炸弹[color=ffff]来牵制\n难以对付的远距离对手，在偷偷靠近之后，\n就让对手尝尝主要武器的爆炸威力吧！[page break]无法顺利拉进与对手的距离时，\n就用[color=0001]终极印章[color=ffff]强行突破，砸扁对手吧！[page break]别看这把武器外观可爱，\n它可是很有攻击性的哦，\n所以非常推荐喜欢反差感的玩家使用！",
+    "Blaster_Short_01": "主要武器[color=0001]新星爆破枪 新型[color=ffff]，\n是新星爆破枪的微幅改装款式。\n虽然外形没有改动，但是表面做了哑光处理。[page break]可以利用次要武器[color=0001]碳酸炸弹[color=ffff]来牵制\n难以对付的远距离对手，在偷偷靠近之后，\n就让对手尝尝主要武器的爆炸威力吧！[page break]无法顺利拉近与对手的距离时，\n就用[color=0001]终极印章[color=ffff]强行突破，砸扁对手吧！[page break]别看这把武器外观可爱，\n它可是很有攻击性的哦，\n所以非常推荐喜欢反差感的玩家使用！",
     "Brush_Heavy_00": "主要武器[color=0001]文森[color=ffff]\n是通过搭载笔头部分90°旋转的构造，\n从而兼备了射程与攻击力的画笔！[page break]虽然开始挥击时的破绽较大，\n但是能将墨汁泼洒得更远！\n射程在画笔之中无可匹敌～[page break]因为是画笔，涂墨前进的速度也很快，\n再搭配使用次要武器[color=0001]冰壶炸弹[color=ffff]，\n就很容易保持有利的距离！[page break]利用[color=0001]弹跳声呐[color=ffff]标记对手，可以准确地将其击倒！\n如果喜欢鱿效利用速度与射程进行对战，\n那就一定会喜欢上这把武器！",
     "Brush_Mini_00": "主要武器[color=0001]巴勃罗[color=ffff]\n是一把非常轻巧的画笔，\n可以高速涂墨前进！[page break]虽然在攻击力方面无法符合期待，\n不过只要利用高机动力与[color=0001]斯普拉炸弹[color=ffff]扰敌，\n一旦创造出反击的破绽，就能手到擒来了！[page break]再搭配上特殊武器[color=0001]喇叭镭射5.1ch[color=ffff]，\n就能让对手陷入大混乱！\n然后一口气缩短与对手的距离并展开猛攻！[page break]可以利用本身的移动速度来扰乱前线！\n非常推荐想在战场上四处奔走，\n用墨汁改写对战常识的玩家使用！",
     "Brush_Mini_01": "主要武器[color=0001]巴勃罗·新艺术[color=ffff]\n和巴勃罗的性能相同，\n但本款式主打不同的作战风格！[page break]鱿效利用机动力到处设置[color=0001]墨汁陷阱[color=ffff]，\n对手一旦中招就咻地一下靠近，\n再啪啪啪地将其解决！[page break]不易靠近的地方就靠[color=0001]终极印章[color=ffff]强行突破！\n进入对手的占地区域之后，\n就是展现移动速度的时刻！[page break]这把武器既能支援同伴，也能妨碍对手，\n在战场上忙碌地驰骋！\n非常推荐热爱工作的玩家使用！",
@@ -5208,7 +5206,7 @@
     "Hyphen2": "--",
     "Identifier": "#[group=0002 type=0001 params=00 00]",
     "LeaguePower": "[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]",
-    "MatchRoom": "大会ルーム[group=0002 type=0001 params=00 07]",
+    "MatchRoom": "房间[group=0002 type=0001 params=00 07]",
     "MinSec_1Digit": "[group=0002 type=0000 params=00 01 00 00]:[group=0002 type=0000 params=01 02 01 00]",
     "MiniGameRankExp": "[group=0002 type=0000 params=00 04 00 00]/[group=0002 type=0000 params=01 04 00 00]",
     "Monday": "一",
@@ -6426,9 +6424,6 @@
     "T_Town_00": "尚兴市",
     "T_Town_01": "蛮颓镇"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "目录记录",
     "100": "[group=0002 type=0001 params=00 0c]  ～  [group=0002 type=0001 params=01 0c]",
@@ -6453,21 +6448,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "危险度提升！！"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "排正中间奖",
-    "L_ScoreE_00-T_Standings_00": "单排最佳表现奖",
-    "T_Title_00": "团队打工竞赛"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "第[group=0002 type=0000 params=00 01 00 00]名",
-    "001": "排正中间奖",
-    "100": "最高活动战力：[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "一般\n比赛",
