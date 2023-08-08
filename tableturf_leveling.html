@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/default.min.css"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath/css/texmath.min.css" />
+        <script type="module">
+            import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"
+        </script>
+    </head>
+    <body class="markdown-body">
+        <div class="github-markdown-body" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+            <div class="github-markdown-content">
+                <span
+                    id="markdown-mermaid"
+                    aria-hidden="true"
+                    data-dark-mode-theme="dark"
+                    data-light-mode-theme="default"
+                ></span>
+                <h1 dir="auto" id="the-art-of-efficient-grinding-in-tableturf">
+                    The Art of Efficient Grinding in Tableturf
+                </h1>
+                <ul dir="auto">
+                    <li dir="auto">
+                        <ol dir="auto">
+                            <li dir="auto"><a href="#Introduction">Introduction</a></li>
+                        </ol>
+                    </li>
+                    <li dir="auto">
+                        <ol start="2" dir="auto">
+                            <li dir="auto"><a href="#Strategies">Strategies</a></li>
+                        </ol>
+                        <ul dir="auto">
+                            <li dir="auto">2.1. <a href="#EvaluatingAStrategy">Evaluating a Strategy</a></li>
+                            <li dir="auto">2.2. <a href="#CodeFormat">Code Format</a></li>
+                            <li dir="auto">
+                                2.3. <a href="#Singleplayer">Singleplayer</a>
+                                <ul dir="auto">
+                                    <li dir="auto">2.3.1. <a href="#AutoPass">Auto Pass</a></li>
+                                    <li dir="auto">2.3.2. <a href="#CloneJelly">Clone Jelly</a></li>
+                                </ul>
+                            </li>
+                            <li dir="auto">
+                                2.4. <a href="#Multiplayer">Multiplayer</a>
+                                <ul dir="auto">
+                                    <li dir="auto">2.4.1. <a href="#Idea">Idea</a></li>
+                                    <li dir="auto">2.4.2. <a href="#Execution">Execution</a></li>
+                                    <li dir="auto">
+                                        2.4.3. <a href="#AutomatingEverything">Automating Everything</a>
+                                    </li>
+                                    <li dir="auto">2.4.4. <a href="#ImprovingAutomation">Improving Automation</a></li>
+                                    <li dir="auto">2.4.5. <a href="#ReliableMovement">Reliable Movement</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li dir="auto">
+                        <ol start="3" dir="auto">
+                            <li dir="auto"><a href="#Conclusion">Conclusion</a></li>
+                        </ol>
+                    </li>
+                    <li dir="auto">
+                        <ol start="4" dir="auto">
+                            <li dir="auto"><a href="#Acknowledgment">Acknowledgment</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <h2 dir="auto" id="1-a-nameintroductionaintroduction">1. <a name="Introduction"></a>Introduction</h2>
+                <p dir="auto">
+                    Welcome to the fascinating world of Tableturf Battle! Whether you're a seasoned player or just
+                    stepping into this realm, leveling up is a quest we all embark upon. In this guide, I'll unveil some
+                    of the most efficient strategies to supercharge your leveling journey. A quick note: while I delve
+                    deep into the tactics, a basic understanding of the game's core concepts will come in handy.
+                </p>
+                <h2 dir="auto" id="2-a-namestrategiesastrategies">2. <a name="Strategies"></a>Strategies</h2>
+                <p dir="auto">
+                    This section will focus on the main part of the article: How to level up fast and/or with barely any
+                    effort. Here we have two main categories: Singleplayer (SP) and Multiplayer (MP) strategies. SP
+                    strategies can be executed offline and alone. They are not really efficient, but reliable and easy
+                    to automate as well. The MP strategies involve two switches that play against each other.
+                </p>
+                <h3 dir="auto" id="21-a-nameevaluatingastrategyaevaluating-a-strategy">
+                    2.1. <a name="EvaluatingAStrategy"></a>Evaluating a Strategy
+                </h3>
+                <p dir="auto">
+                    The metric I use to describe how good a strategy is, is &quot;Points per Second&quot;. which means
+                    the more points you gain in a second, the faster you will level up. For simplicity sake I will
+                    assume that one level requires you to get 3333 EXP and that you start at level 50. Here are some key
+                    numbers:
+                </p>
+                <table dir="auto">
+                    <thead dir="auto">
+                        <tr dir="auto">
+                            <th>EXP per Second</th>
+                            <th>EXP per Hour</th>
+                            <th>Minutes per Level</th>
+                            <th>Level Per 30 Days</th>
+                            <th>Days To Level 999</th>
+                        </tr>
+                    </thead>
+                    <tbody dir="auto">
+                        <tr dir="auto">
+                            <td>0.31</td>
+                            <td>1111</td>
+                            <td>180</td>
+                            <td>240</td>
+                            <td>119</td>
+                        </tr>
+                        <tr dir="auto">
+                            <td>0.62</td>
+                            <td>2222</td>
+                            <td>120</td>
+                            <td>480</td>
+                            <td>60</td>
+                        </tr>
+                        <tr dir="auto">
+                            <td>0.93</td>
+                            <td>3333</td>
+                            <td>60</td>
+                            <td>720</td>
+                            <td>40</td>
+                        </tr>
+                        <tr dir="auto">
+                            <td>1</td>
+                            <td>3600</td>
+                            <td>56</td>
+                            <td>777</td>
+                            <td>37</td>
+                        </tr>
+                        <tr dir="auto">
+                            <td>1.2</td>
+                            <td>4320</td>
+                            <td>46</td>
+                            <td>933</td>
+                            <td>31</td>
+                        </tr>
+                        <tr dir="auto">
+                            <td>1.5</td>
+                            <td>5400</td>
+                            <td>37</td>
+                            <td>1166</td>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p dir="auto">
+                    Ideally we want to get as high as possible, but something like 1.2 EXP per Second is already enough
+                    to get to level 999 within a month.
+                </p>
+                <h3 dir="auto" id="22-a-namecodeformatacode-format">2.2. <a name="CodeFormat"></a>Code Format</h3>
+                <p dir="auto">
+                    In order to describe certain aspects that can be coded a pseudocode language similar to python is
+                    used. Further the following assumptions are met:
+                </p>
+                <ul dir="auto">
+                    <li dir="auto"><code>player1</code> refers to the controller of player 1.</li>
+                    <li dir="auto"><code>player2</code> refers to the controller of player 2.</li>
+                    <li dir="auto">
+                        <code>current_frame</code> refers to the current frame returned by the capture device.
+                    </li>
+                    <li dir="auto">
+                        <code>controller.input(buttons, delay)</code> refers to a method that inputs a list of buttons
+                        with a delay between each of press <code>delay</code>seconds.
+                    </li>
+                </ul>
+                <h3 dir="auto" id="23-a-namesingleplayerasingle-player">
+                    2.3. <a name="Singleplayer"></a>Singleplayer
+                </h3>
+                <h4 dir="auto" id="231-a-nameautopassaauto-pass">2.3.1. <a name="AutoPass"></a>Auto Pass</h4>
+                <p dir="auto">
+                    This is the simplest strategy. It takes quite some time to level up, but it is really reliable and
+                    has no additional costs. For this strategy you go into a battle and simply pass every turn until you
+                    lose. Every loss will give you 40 EXP and takes roughly 2 minutes, which means we get roughly 0.33
+                    EXP per Second. This task can easily be automated, i.e. with a
+                    <a href="https://github.com/Brikwerk/nxbt">Bluetooth Controller</a>. The macro here to use is
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">skip_turn</span>():
+       player1.<span class="hljs-built_in">input</span>([DPAD_UP, A, A, B], <span class="hljs-number">0.02</span>)
+       sleep(<span class="hljs-number">1</span>)
+   </div></code></pre>
+                <p dir="auto">
+                    Repeating this sequence an infinite amount of time will let you pass every match and start a new
+                    match.
+                </p>
+                <h4 dir="auto" id="232-a-nameclonejellyaclone-jelly">2.3.2. <a name="CloneJelly"></a>Clone Jelly</h4>
+                <p dir="auto">
+                    This method requires you to be on level 47 or higher as this unlocks the NPC opponent &quot;Clone
+                    Jelly&quot;. This enemy has the specific trait that it copies your deck. With the correct strategy
+                    you can get up to 0.83 Points per Second when playing against a Level 1 Clone Jelly, 0.96 Points per
+                    Second when playing against a Level 2 Clone Jelly, or 1.08 Points per Second when playing against a
+                    Level 3 Clone Jelly. There are two main strategies to beat Clone Jelly reliably:
+                </p>
+                <ol dir="auto">
+                    <li dir="auto">
+                        Low Tile Count + 3-12 Finish: The deck here is pretty simple: it consists of your 14 lowest tile
+                        count cards and one card with a tile count of 12 and a special cost of 3. Your strategy is to
+                        build 3 special points and use the 3-12 card on the last turn to overlap the tiles of the enemy.
+                    </li>
+                    <li dir="auto">
+                        Low Tile Count: This deck consists of 3 low tile count cards and 12 cards that have a higher
+                        tile count than the 3. As of Splatoon 3 Version 4.x the smallest possible deck that fulfils this
+                        criteria consists of 1 card of size 1, 2 cards of size 2, 5 cards of size 3, and 7 cards of size
+                        4. Alternative you can also use 12 cards of size 5. The strategy is to place every card except
+                        for the low tile count ones, no specials needed. Clone Jelly Level 3 will always force a Draw
+                        out of this, against Clone Jelly Level 2 you will have a win rate of around 66% and against
+                        Clone Jelly Level 1 you will have a win rate of around 75% with this strategy.
+                    </li>
+                </ol>
+                <h3 dir="auto" id="24-a-namemultiplayeramultiplayer">2.4. <a name="Multiplayer"></a>Multiplayer</h3>
+                <p dir="auto">
+                    This section talks about the most efficient way of leveling. This requires additional hardware:
+                </p>
+                <ul dir="auto">
+                    <li dir="auto">Two switch consoles</li>
+                    <li dir="auto">A capture card</li>
+                    <li dir="auto">Two controlling devices</li>
+                    <li dir="auto">Two copies of the game</li>
+                </ul>
+                <p dir="auto">
+                    I will not talk about the different possible controlling devices in detail, but my personal
+                    suggestion is either using an emulated
+                    <a href="https://github.com/Brikwerk/nxbt">Bluetooth Controller</a>, as this technically allows you
+                    to control two switches with only one dongle, or using two arduino boards running a modified version
+                    of the <a href="https://github.com/shinyquagsire23/Switch-Fightstick">Switch Fightstick PoC</a> for
+                    optimal controller connection and speed. My personal recommendation is the
+                    <a href="https://github.com/brianuuu/AutoController_swsh">Smart Program Controller</a> by
+                    <a href="https://twitter.com/brianuuuSonic/">Brianuuu</a>, which also includes a manual with all
+                    hardware and setup information you need.
+                </p>
+                <h4 dir="auto" id="241-a-nameideaaidea">2.4.1. <a name="Idea"></a>Idea</h4>
+                <p dir="auto">
+                    The core idea for this farming method is that in a match against another real player, you get as
+                    many EXP as you get points in the round. This unfortunately caps at 100 points per player, but you
+                    still get the points no matter if you win, or lose. You also get the points when prematurely ending
+                    the match, which allows us to reduce the time of a match to less than 90 seconds while getting a lot
+                    of EXP.
+                </p>
+                <h4 dir="auto" id="242-a-nameexecutionaexecution">2.4.2. <a name="Execution"></a>Execution</h4>
+                <p dir="auto">
+                    The most simple way to gain a lot of EXP is to use the Auto Pass strategy on one switch, and play
+                    for as many points as possible. The deck to use here is your 15 cards with the biggest tile count.
+                    This method gave me on average 1.3 EXP per Second. Further, it is optimal to give up the match when
+                    you have 90 or more points, as the additional time to place another card is not efficient for the
+                    time it takes to select and place the card.
+                </p>
+                <p dir="auto">
+                    This method is simple and does not require much additional equipment besides a second switch and a
+                    second game. Theoretically this method can also be executed with a friend online, with the only
+                    problem being that you automatically disconnect after 4h in a lobby (see
+                    <a
+                        href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/59461/~/how-to-update-splatoon-3"
+                        >Splatoon 3 Patch Notes, Version 4.0.0</a
+                    >
+                    for them acknowledging the bug).
+                </p>
+                <h4 dir="auto" id="243-a-nameautomatingeverythingaautomating-everything">
+                    2.4.3. <a name="AutomatingEverything"></a>Automating Everything
+                </h4>
+                <p dir="auto">
+                    Ideally we want to automate this whole process for both switches. In this section I will give an
+                    overview of various steps that are required for automating the process.
+                </p>
+                <p dir="auto">First I will define some functions that will be used in the code:</p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">confirm</span>(<span class="hljs-params">controller</span>):
+       controller.<span class="hljs-built_in">input</span>([A], <span class="hljs-number">0.02</span>)
+   
+   <span class="hljs-keyword">def</span> <span class="hljs-title function_">cancel</span>(<span class="hljs-params">controller</span>):
+       controller.<span class="hljs-built_in">input</span>([B], <span class="hljs-number">0.02</span>)
+   
+   <span class="hljs-keyword">def</span> <span class="hljs-title function_">skip_turn</span>(<span class="hljs-params">controller</span>):
+       controller.<span class="hljs-built_in">input</span>([DPAD_UP, A, A, B], <span class="hljs-number">0.02</span>)
+       sleep(<span class="hljs-number">1</span>)
+   </div></code></pre>
+                <p dir="auto">Next I want to describe a state machine that describes a game:</p>
+                <pre style="all: unset"><div class="mermaid">stateDiagram-v2
+       direction LR
+       state "Get Frame" as gf
+       state "Wait" as w
+       state "Deck Selection" as ds
+       state "Redraw" as rd
+       state "Stage Selection" as ss
+       state "Select Card" as sc
+       state "Place Card" as pc
+       state "Check End Of Turn" as ceot
+       state "Give Up" as gu
+       state Turn {
+           direction LR
+           [*] --&gt; gf
+           gf --&gt; ss
+           gf --&gt; ds
+           gf --&gt; rd
+           gf --&gt; sc
+           gf --&gt; pc
+           gf --&gt; w
+           ss --&gt; ceot
+           ds --&gt; ceot
+           rd --&gt; ceot
+           sc --&gt; ceot
+           pc --&gt; ceot
+           w --&gt; ceot
+           ceot --&gt; gf: if turn not over
+           ceot --&gt; [*]: if turn over
+       }
+   
+       [*] --&gt; Turn
+       Turn --&gt; Turn: if points &lt; 90
+       Turn --&gt; gu: if points =&gt; 90
+       gu --&gt; [*]</div></pre>
+                <p dir="auto">
+                    The advantages of a system like this is that it does not depend on the previous state and can
+                    basically be started from any point of the game. Further, a new state to handle a disconnect can
+                    also be introduced easily. I will now talk about some of the states in detail.
+                </p>
+                <p dir="auto">
+                    The <code>Stage Selection</code> is quite easy. We can either play on the Stage
+                    <em>Main Street</em> or on the Stage <em>Double Gemini</em> for the most reliable way to get points.
+                    <em>Double Gemini</em> is the stage with the most tiles, so even by placing cards randomly on the
+                    board we can assure a lot of points per game. On the other hand is Main Street the first map in the
+                    selection screen, which makes the <code>Stage Selection</code> part trivial. The code for this state
+                    could look like this:
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_stage_selection</span>(<span class="hljs-params">frame</span>):
+       cursor = get_current_cursor_position(frame)
+       <span class="hljs-keyword">if</span> cursor != target:
+           move_cursor(cursor, target)
+       <span class="hljs-keyword">else</span>:
+           confirm(player1)
+   </div></code></pre>
+                <p dir="auto">
+                    This implementation ensures that all movement input comes through before confirming it.
+                </p>
+                <p dir="auto">
+                    The next state is the <code>Deck Selection</code>. We can use the same code base as for
+                    <code>Stage Selection</code> here, but my suggestion is that we assume that the deck we want to use
+                    is on the first slot for both players:
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_deck_selection</span>(<span class="hljs-params">frame</span>):
+       confirm(player1)
+       confirm(player2)
+   </div></code></pre>
+                <p dir="auto">
+                    For the <code>Redraw</code> state we have two choices: Either parse the current hand and redraw if
+                    we only have &quot;low cards&quot; or just accept it and confirm as fast as possible.
+                </p>
+                <p dir="auto">
+                    The <code>Select Card</code> state is a lot more interesting. In this state we pick a card that we
+                    want to place on the board. The AI algorithm can be a lot of things, depending on your map. In
+                    general it is advised to only look at <strong>unrotated</strong> cards, as rotations also rotate the
+                    start point of the card which makes it harder to correctly calculate the sequence for the movement.
+                    Further, it should always pick the card with the most tiles. For <em>Main Street</em> I suggest to
+                    play the card as close to your start point as possible, while on <em>Double Gemini</em> nearly
+                    everything will work.
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_select_card</span>(<span class="hljs-params">frame</span>):
+       skip_turn(player2)
+       hand = get_hand(frame)
+       field = get_field(frame)
+       cursor = get_current_cursor_position(frame)
+       turn = generate_turn(hand, field)
+       <span class="hljs-keyword">if</span> cursor != turn.hand:
+           move_cursor(cursor, turn.hand)
+       <span class="hljs-keyword">else</span>:
+           confirm(player1)
+           <span class="hljs-keyword">return</span> turn
+   </div></code></pre>
+                <p dir="auto">
+                    For the <code>Place Card</code> state the difference between current position and target position is
+                    calculated and then the card is moved. This could look like this:
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_place_card</span>(<span class="hljs-params">frame, turn</span>):
+       current = get_current_card_position(frame)
+       diff_x, diff_y = current - turn.target
+       sequence = []
+       <span class="hljs-keyword">if</span> diff_x &gt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_LEFT] * diff_x)
+       <span class="hljs-keyword">elif</span> diff_x &lt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_RIGHT] * -diff_x)
+       <span class="hljs-keyword">if</span> diff_y &gt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_DOWN] * diff_y)
+       <span class="hljs-keyword">elif</span> diff_y &lt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_UP] * -diff_y)
+       <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(sequence) == <span class="hljs-number">0</span>:
+           <span class="hljs-comment"># no moves to do</span>
+           confirm(player1)
+       <span class="hljs-keyword">else</span>:
+           <span class="hljs-comment"># move to position</span>
+           player1.<span class="hljs-built_in">input</span>(sequence, <span class="hljs-number">0.03</span>)
+   </div></code></pre>
+                <p dir="auto">
+                    After placing the card we repeat the process until we detect that our points are greater than 90 OR
+                    when no turn can be executed anymore. In that case we enter the state <code>Give Up</code>:
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_give_up</span>(<span class="hljs-params">frame</span>):
+       cursor = get_current_cursor_position(frame)
+       <span class="hljs-keyword">if</span> cursor == -<span class="hljs-number">1</span>:
+           <span class="hljs-comment"># no give up screen up yet</span>
+           player1.<span class="hljs-built_in">input</span>([PLUS], <span class="hljs-number">0.02</span>)
+       <span class="hljs-keyword">if</span> cursor == <span class="hljs-number">0</span>:
+           <span class="hljs-comment"># not giving up</span>
+           player1.<span class="hljs-built_in">input</span>([DPAD_RIGHT], <span class="hljs-number">0.02</span>)
+       <span class="hljs-keyword">if</span> cursor == <span class="hljs-number">1</span>:
+           confirm(player1)
+   </div></code></pre>
+                <p dir="auto">
+                    After that we can either introduce more states or start a new round and be in state
+                    <code>Wait</code>:
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_wait</span>(<span class="hljs-params">frame</span>):
+       confirm(player1)
+       confirm(player2)
+   </div></code></pre>
+                <h4 dir="auto" id="244-a-nameimprovingautomationaimproving-automation">
+                    2.4.4. <a name="ImprovingAutomation"></a>Improving Automation
+                </h4>
+                <p dir="auto">
+                    With a bot implemented as above we can expect roughly 0.8-0.9 EXP per Second. From my research I was
+                    able to identify the biggest bottlenecks: The safety nets that ensure that we can execute the bot
+                    from any given state. With a few assumptions we can improve the speed by a lot, but also make the
+                    bot more prone to errors. First, let's take a look at the new state diagram:
+                </p>
+                <pre style="all: unset"><div class="mermaid">stateDiagram-v2
+       direction LR
+       state "Get Frame" as gf
+       state "Wait" as w
+       state "Select Card" as sc
+       state "Check End Of Turn" as ceot
+       state "Give Up" as gu
+       state Turn {
+           direction LR
+           [*] --&gt; gf
+           gf --&gt; sc
+           gf --&gt; w
+           sc --&gt; ceot
+           w --&gt; ceot
+           ceot --&gt; gf: if turn not over
+           ceot --&gt; [*]: if turn over
+       }
+   
+       [*] --&gt; Turn
+       Turn --&gt; Turn: if points &lt; 90
+       Turn --&gt; gu: if points =&gt; 90
+       gu --&gt; [*]</div></pre>
+                <p dir="auto">
+                    By removing every state except for <code>Select Card</code>, <code>Wait</code> and
+                    <code>Give Up</code>, we assume that both players have the deck in position 1, and that we always
+                    play on <em>Main Street</em>. Further, depending on the controller type we use, we might end up in
+                    an endless-loop as commands might not get through. But if none of that is a problem, then we can
+                    change the <code>Select Card</code> method to the following:
+                </p>
+                <pre><code class="code-line language-python" dir="auto"><div><span class="hljs-keyword">def</span> <span class="hljs-title function_">handle_select_card</span>(<span class="hljs-params">frame</span>):
+       <span class="hljs-comment"># always skip player 2</span>
+       skip_turn(player2)
+   
+       <span class="hljs-comment"># we get the current hand and field</span>
+       hand = get_hand(frame)
+       field = get_field(frame)
+   
+       <span class="hljs-comment"># cursor is always 0 in our assumption</span>
+       cursor = <span class="hljs-number">0</span>
+   
+       <span class="hljs-comment"># we assume that we have no rotations</span>
+       turn = generate_turn(hand, field)
+   
+       <span class="hljs-keyword">if</span> cursor != turn.hand:
+           <span class="hljs-comment"># move to position</span>
+           move_cursor(cursor, turn.hand)
+       <span class="hljs-comment"># assume that we are correct with out placement</span>
+       confirm(player1)
+       
+       <span class="hljs-comment"># we calculate the starting position based on the shape of the card</span>
+       current = get_current_card_position(turn.card)
+   
+       diff_x, diff_y = current - turn.target
+       sequence = []
+       <span class="hljs-keyword">if</span> diff_x &gt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_LEFT] * diff_x)
+       <span class="hljs-keyword">elif</span> diff_x &lt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_RIGHT] * -diff_x)
+       <span class="hljs-keyword">if</span> diff_y &gt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_DOWN] * diff_y)
+       <span class="hljs-keyword">elif</span> diff_y &lt; <span class="hljs-number">0</span>:
+           sequence.extend([DPAD_UP] * -diff_y)
+   
+       <span class="hljs-comment"># press A at the end of the sequence    </span>
+       sequence.append(A)
+       player1.<span class="hljs-built_in">input</span>(sequence, <span class="hljs-number">0.03</span>)
+   </div></code></pre>
+                <p dir="auto">
+                    The start position of a card can easily be calculated. For <em>Main Stage</em> we use the following
+                    assumptions:
+                </p>
+                <ul dir="auto">
+                    <li dir="auto">
+                        The field size is
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow><mn>9</mn><mo>×</mo><mn>26</mn></mrow>
+                                            <annotation encoding="application/x-tex">9\times26</annotation></semantics>
+                                        </math>
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span
+                                            class="strut"
+                                            style="height: 0.72777em; vertical-align: -0.08333em"
+                                        ></span>
+                                        <span class="mord">9</span>
+                                        <span class="mspace" style="margin-right: 0.2222222222222222em"></span>
+                                        <span class="mbin">×</span>
+                                        <span class="mspace" style="margin-right: 0.2222222222222222em"></span></span>
+                                    <span class="base"></span>
+                                        <span class="strut" style="height: 0.64444em; vertical-align: 0em"></span>
+                                        <span class="mord">26</span></span>
+                                    </span>
+                                </span>
+                            </eq>.
+                    </li>
+                    <li dir="auto">
+                        Top left is
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><mo stretchy="false">(</mo><mn>0</mn><mo separator="true">,</mo>
+                                                <mn>0</mn><mo stretchy="false">)</mo></mrow>
+                                            <annotation encoding="application/x-tex">(0, 0)</annotation></semantics>
+                                    </math>
+                                    </span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 1em; vertical-align: -0.25em"></span
+                                        ><span class="mopen">(</span><span class="mord">0</span
+                                        ><span class="mpunct">,</span
+                                        ><span class="mspace" style="margin-right: 0.16666666666666666em"></span
+                                        ><span class="mord">0</span><span class="mclose">)</span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >.
+                    </li>
+                    <li dir="auto">
+                        The opponent start position is
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><mo stretchy="false">(</mo><mn>4</mn><mo separator="true">,</mo
+                                                ><mn>3</mn><mo stretchy="false">)</mo></mrow
+                                            ><annotation encoding="application/x-tex">(4, 3)</annotation></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 1em; vertical-align: -0.25em"></span
+                                        ><span class="mopen">(</span><span class="mord">4</span
+                                        ><span class="mpunct">,</span
+                                        ><span class="mspace" style="margin-right: 0.16666666666666666em"></span
+                                        ><span class="mord">3</span><span class="mclose">)</span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >.
+                    </li>
+                    <li dir="auto">
+                        Your start position is
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><mo stretchy="false">(</mo><mn>4</mn><mo separator="true">,</mo
+                                                ><mn>22</mn><mo stretchy="false">)</mo></mrow
+                                            ><annotation encoding="application/x-tex">(4, 22)</annotation></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 1em; vertical-align: -0.25em"></span
+                                        ><span class="mopen">(</span><span class="mord">4</span
+                                        ><span class="mpunct">,</span
+                                        ><span class="mspace" style="margin-right: 0.16666666666666666em"></span
+                                        ><span class="mord">22</span><span class="mclose">)</span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >.
+                    </li>
+                    <li dir="auto">Our card is shrunken, i.e. there is no full row or column with unset tiles only.</li>
+                    <li dir="auto">The position of a card is given by the coordinates of its top left tile.</li>
+                    <li dir="auto">
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow><mi>h</mi></mrow
+                                            ><annotation encoding="application/x-tex">h</annotation></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 0.69444em; vertical-align: 0em"></span
+                                        ><span class="mord mathnormal">h</span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >
+                        is defined as the height of the shrunken card, and
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow><mi>w</mi></mrow
+                                            ><annotation encoding="application/x-tex">w</annotation></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 0.43056em; vertical-align: 0em"></span
+                                        ><span class="mord mathnormal" style="margin-right: 0.02691em">w</span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >
+                        as the width.
+                    </li>
+                    <li dir="auto">
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><msub><mi>o</mi><mi>h</mi></msub
+                                                ><mo lspace="0em" rspace="0em"><mi mathvariant="normal">≔</mi></mo
+                                                ><mo stretchy="false" lspace="0em" rspace="0em">⌊</mo
+                                                ><mfrac><mi>h</mi><mn>2</mn></mfrac
+                                                ><mo stretchy="false" lspace="0em" rspace="0em">⌋</mo></mrow
+                                            ><annotation encoding="application/x-tex"
+                                                >o_h{\coloneqq}{\lfloor}\frac{h}{2}{\rfloor}</annotation
+                                            ></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span
+                                            class="strut"
+                                            style="height: 1.2251079999999999em; vertical-align: -0.345em"
+                                        ></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">o</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.33610799999999996em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mathnormal mtight">h</span></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span
+                                        ><span class="mord"
+                                            ><span class="mrel"
+                                                ><span class="mrel"
+                                                    ><span class="mop" style="position: relative; top: -0.03472em"
+                                                        >:</span
+                                                    ></span
+                                                ><span class="mrel"
+                                                    ><span
+                                                        class="mspace"
+                                                        style="margin-right: -0.06666666666666667em"
+                                                    ></span></span
+                                                ><span class="mrel">=</span></span
+                                            ></span
+                                        ><span class="mord"><span class="mopen">⌊</span></span
+                                        ><span class="mord"
+                                            ><span class="mopen nulldelimiter"></span
+                                            ><span class="mfrac"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.8801079999999999em"
+                                                            ><span style="top: -2.6550000000000002em"
+                                                                ><span class="pstrut" style="height: 3em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mtight"
+                                                                        ><span class="mord mtight">2</span></span
+                                                                    ></span
+                                                                ></span
+                                                            ><span style="top: -3.23em"
+                                                                ><span class="pstrut" style="height: 3em"></span
+                                                                ><span
+                                                                    class="frac-line"
+                                                                    style="border-bottom-width: 0.04em"
+                                                                ></span></span
+                                                            ><span style="top: -3.394em"
+                                                                ><span class="pstrut" style="height: 3em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mtight"
+                                                                        ><span class="mord mathnormal mtight"
+                                                                            >h</span
+                                                                        ></span
+                                                                    ></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.345em"
+                                                            ><span></span></span></span></span></span
+                                            ><span class="mclose nulldelimiter"></span></span
+                                        ><span class="mord"><span class="mclose">⌋</span></span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >
+                    </li>
+                    <li dir="auto">
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><msub><mi>o</mi><mi>w</mi></msub
+                                                ><mo lspace="0em" rspace="0em"><mi mathvariant="normal">≔</mi></mo
+                                                ><mo stretchy="false" lspace="0em" rspace="0em">⌊</mo
+                                                ><mfrac
+                                                    ><mrow><mi>w</mi><mo>−</mo><mn>1</mn></mrow
+                                                    ><mn>2</mn></mfrac
+                                                ><mo stretchy="false" lspace="0em" rspace="0em">⌋</mo></mrow
+                                            ><annotation encoding="application/x-tex"
+                                                >o_w{\coloneqq}{\lfloor}\frac{w-1}{2}{\rfloor}</annotation
+                                            ></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 1.190108em; vertical-align: -0.345em"></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">o</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.151392em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.02691em"
+                                                                        >w</span
+                                                                    ></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span
+                                        ><span class="mord"
+                                            ><span class="mrel"
+                                                ><span class="mrel"
+                                                    ><span class="mop" style="position: relative; top: -0.03472em"
+                                                        >:</span
+                                                    ></span
+                                                ><span class="mrel"
+                                                    ><span
+                                                        class="mspace"
+                                                        style="margin-right: -0.06666666666666667em"
+                                                    ></span></span
+                                                ><span class="mrel">=</span></span
+                                            ></span
+                                        ><span class="mord"><span class="mopen">⌊</span></span
+                                        ><span class="mord"
+                                            ><span class="mopen nulldelimiter"></span
+                                            ><span class="mfrac"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.845108em"
+                                                            ><span style="top: -2.6550000000000002em"
+                                                                ><span class="pstrut" style="height: 3em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mtight"
+                                                                        ><span class="mord mtight">2</span></span
+                                                                    ></span
+                                                                ></span
+                                                            ><span style="top: -3.23em"
+                                                                ><span class="pstrut" style="height: 3em"></span
+                                                                ><span
+                                                                    class="frac-line"
+                                                                    style="border-bottom-width: 0.04em"
+                                                                ></span></span
+                                                            ><span style="top: -3.394em"
+                                                                ><span class="pstrut" style="height: 3em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mtight"
+                                                                        ><span
+                                                                            class="mord mathnormal mtight"
+                                                                            style="margin-right: 0.02691em"
+                                                                            >w</span
+                                                                        ><span class="mbin mtight">−</span
+                                                                        ><span class="mord mtight">1</span></span
+                                                                    ></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.345em"
+                                                            ><span></span></span></span></span></span
+                                            ><span class="mclose nulldelimiter"></span></span
+                                        ><span class="mord"><span class="mclose">⌋</span></span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >
+                    </li>
+                    <li dir="auto">
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><msub><mi>t</mi><mi>h</mi></msub
+                                                ><mo lspace="0em" rspace="0em"><mi mathvariant="normal">≔</mi></mo
+                                                ><mn>22</mn><mo>−</mo><msub><mi>o</mi><mi>h</mi></msub></mrow
+                                            ><annotation encoding="application/x-tex"
+                                                >t_h{\coloneqq}22 - o_h</annotation
+                                            ></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 0.79444em; vertical-align: -0.15em"></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">t</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.33610799999999996em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mathnormal mtight">h</span></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span
+                                        ><span class="mord"
+                                            ><span class="mrel"
+                                                ><span class="mrel"
+                                                    ><span class="mop" style="position: relative; top: -0.03472em"
+                                                        >:</span
+                                                    ></span
+                                                ><span class="mrel"
+                                                    ><span
+                                                        class="mspace"
+                                                        style="margin-right: -0.06666666666666667em"
+                                                    ></span></span
+                                                ><span class="mrel">=</span></span
+                                            ></span
+                                        ><span class="mord">22</span
+                                        ><span class="mspace" style="margin-right: 0.2222222222222222em"></span
+                                        ><span class="mbin">−</span
+                                        ><span class="mspace" style="margin-right: 0.2222222222222222em"></span></span
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 0.58056em; vertical-align: -0.15em"></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">o</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.33610799999999996em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mathnormal mtight">h</span></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span></span></span></span
+                        ></eq>
+                    </li>
+                    <li dir="auto">
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><msub><mi>t</mi><mi>w</mi></msub
+                                                ><mo lspace="0em" rspace="0em"><mi mathvariant="normal">≔</mi></mo
+                                                ><mn>4</mn><mo>−</mo><msub><mi>o</mi><mi>w</mi></msub></mrow
+                                            ><annotation encoding="application/x-tex"
+                                                >t_w{\coloneqq}4 - o_w</annotation
+                                            ></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 0.79444em; vertical-align: -0.15em"></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">t</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.151392em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.02691em"
+                                                                        >w</span
+                                                                    ></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span
+                                        ><span class="mord"
+                                            ><span class="mrel"
+                                                ><span class="mrel"
+                                                    ><span class="mop" style="position: relative; top: -0.03472em"
+                                                        >:</span
+                                                    ></span
+                                                ><span class="mrel"
+                                                    ><span
+                                                        class="mspace"
+                                                        style="margin-right: -0.06666666666666667em"
+                                                    ></span></span
+                                                ><span class="mrel">=</span></span
+                                            ></span
+                                        ><span class="mord">4</span
+                                        ><span class="mspace" style="margin-right: 0.2222222222222222em"></span
+                                        ><span class="mbin">−</span
+                                        ><span class="mspace" style="margin-right: 0.2222222222222222em"></span></span
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 0.58056em; vertical-align: -0.15em"></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">o</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.151392em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.02691em"
+                                                                        >w</span
+                                                                    ></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span></span></span></span
+                        ></eq>
+                    </li>
+                    <li dir="auto">
+                        target is now defined as
+                        <eq
+                            ><span class="katex"
+                                ><span class="katex-mathml"
+                                    ><math xmlns="http://www.w3.org/1998/Math/MathML"
+                                        ><semantics
+                                            ><mrow
+                                                ><mo stretchy="false">(</mo><msub><mi>t</mi><mi>h</mi></msub
+                                                ><mo separator="true">,</mo><msub><mi>t</mi><mi>w</mi></msub
+                                                ><mo stretchy="false">)</mo></mrow
+                                            ><annotation encoding="application/x-tex">(t_h, t_w)</annotation></semantics
+                                        ></math
+                                    ></span
+                                ><span class="katex-html" aria-hidden="true"
+                                    ><span class="base"
+                                        ><span class="strut" style="height: 1em; vertical-align: -0.25em"></span
+                                        ><span class="mopen">(</span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">t</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.33610799999999996em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span class="mord mathnormal mtight">h</span></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span
+                                        ><span class="mpunct">,</span
+                                        ><span class="mspace" style="margin-right: 0.16666666666666666em"></span
+                                        ><span class="mord"
+                                            ><span class="mord mathnormal">t</span
+                                            ><span class="msupsub"
+                                                ><span class="vlist-t vlist-t2"
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.151392em"
+                                                            ><span
+                                                                style="
+                                                                    top: -2.5500000000000003em;
+                                                                    margin-left: 0em;
+                                                                    margin-right: 0.05em;
+                                                                "
+                                                                ><span class="pstrut" style="height: 2.7em"></span
+                                                                ><span class="sizing reset-size6 size3 mtight"
+                                                                    ><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.02691em"
+                                                                        >w</span
+                                                                    ></span
+                                                                ></span
+                                                            ></span
+                                                        ><span class="vlist-s">​</span></span
+                                                    ><span class="vlist-r"
+                                                        ><span class="vlist" style="height: 0.15em"
+                                                            ><span></span></span></span></span></span></span
+                                        ><span class="mclose">)</span></span
+                                    ></span
+                                ></span
+                            ></eq
+                        >.
+                    </li>
+                </ul>
+                <p dir="auto">With this optimization I was able to get to 1.4 Points per Second.</p>
+                <h4 dir="auto" id="245-a-namereliablemovementareliable-movement">
+                    2.4.5. <a name="ReliableMovement"></a>Reliable Movement
+                </h4>
+                <p dir="auto">
+                    One of the big issues with the current approach is that we need to have long times between each DPAD
+                    input in order for it to register properly. In order to ensure that our next input is registered, we
+                    need to send a different output between these two, i.e. instead of sending
+                    <code>[DPAD_UP, DPAD_UP]</code> we should send something like
+                    <code>[DPAD_UP, NOTHING, DPAD_UP]</code> or even something like
+                    <code>[DPAD_UP, R, DPAD_UP]</code> works. But this is only a slight improvement. The trick that
+                    doubles the moving speed is by replacing every 2nd DPAD command with the left stick. So for example,
+                    instead of sending <code>[DPAD_UP, DPAD_UP, DPAD_UP, DPAD_UP]</code> we send
+                    <code>[DPAD_UP, LSTICK_UP, DPAD_UP, LSTICK_UP]</code>. This has the same properties as sending a
+                    different button and we can send another direction button even faster, allowing us to move as
+                    unhuman speed.
+                </p>
+                <h2 dir="auto" id="3-a-nameconclusionaconclusion">3. <a name="Conclusion"></a>Conclusion</h2>
+                <p dir="auto">
+                    To wrap up, this guide has shed light on the art and science of efficient farming in Tableturf
+                    Battle. Remember, while strategies play a pivotal role, the tools at your disposal - be it consoles,
+                    arduino boards, or other resources - can amplify your efficiency. So, gear up, strategize, and
+                    embark on your accelerated leveling journey!
+                </p>
+                <h2 dir="auto" id="4-a-nameacknowledgmentaacknowledgment">
+                    4. <a name="Acknowledgment"></a>Acknowledgment
+                </h2>
+                <p dir="auto">I would like to thank the following people that supported me on this journey:</p>
+                <ul dir="auto">
+                    <li dir="auto">
+                        <a href="https://github.com/fga401/AutoTableTurf/">fga401</a> and their Auto Table Turf
+                        repository for providing me with a code baseline for detecting the game state.
+                    </li>
+                    <li dir="auto">
+                        <a href="https://twitter.com/Meleciest">Meleciest</a> for their input regarding more efficient
+                        Clone Jelly farming.
+                    </li>
+                    <li dir="auto">
+                        <a href="https://discord.gg/fRT8ydhhxT">TBS Discord</a> for a lot of discussions regarding
+                        farming efficiency.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
