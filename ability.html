@@ -751,10 +751,17 @@
                         const max = 30
                         for (var i = min; i >= max; i--) {
                             const v = Math.min(1.0, (min + 1 - i) / (min + 1 - max))
-                            new_data.push({
-                                AP: Math.floor(24 * v),
-                                Score: i,
-                            })
+                            if (version < 500) {
+                                new_data.push({
+                                    AP: Math.floor(24 * v),
+                                    Score: i,
+                                })
+                            } else {
+                                new_data.push({
+                                    AP: Math.floor(18 * v),
+                                    Score: i,
+                                })
+                            }
                         }
                         $("#EndAllUp-table").bootstrapTable("refreshOptions", {
                             data: new_data,
@@ -1068,7 +1075,7 @@
 
                 $(function () {
                     $("#version").change(function () {
-                        version = $(this).val()
+                        version = $("#version").val()
                         load_data()
                     })
 

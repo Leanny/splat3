@@ -494,7 +494,7 @@
                         <source type="image/webp" srcset="${new_img}" ${extra}>
                         <source type="image/png" srcset="${img}" ${extra}>
                         <img src="${img}" alt="${alt}" ${extra}>
-                    </picture>`
+                    </picture>` //
             }
 
             const format_img = (base_url, value, width) =>
@@ -860,7 +860,7 @@
                     change_lang($(this).val())
                 })
                 $("#version").change(() => {
-                    version = $(this).val()
+                    version = $("#version").val()
                     loadData()
                 })
             })

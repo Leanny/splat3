@@ -183,7 +183,9 @@
                 function translate_menu() {
                     $("#title-tab").text(capitalizeFirstLetter(localize("CommonMsg/Glossary", "Byname")))
                     $("#nameplate-tab").text(capitalizeFirstLetter(localize("CommonMsg/Glossary", "NamePlateBg")))
-                    $("#badge-tab").text(capitalizeFirstLetter(localize("CommonMsg/Glossary", "Sticker")))
+                    $("#badge-tab").text(
+                        capitalizeFirstLetter(localize("LayoutMsg/Cmn_NmpEdit_00", "L_Tab_01-T_Text_00"))
+                    )
                     $("#locker-tab").text(capitalizeFirstLetter(localize("CommonMsg/Glossary", "NamePlateBg")))
                     $("#emote-tab").text(capitalizeFirstLetter(localize("CommonMsg/Glossary", "Emote")))
                 }

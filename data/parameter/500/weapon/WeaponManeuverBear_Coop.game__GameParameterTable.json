@@ -1,0 +1,89 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponManeuverNormal.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageLapOverParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ReduceEndFrame": 15,
+      "ReduceStartFrame": 7,
+      "ValueMax": 300,
+      "ValueMin": 250
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 300,
+      "ValueMin": 250
+    },
+    "MoveLapOverParam": {
+      "$type": "spl__BulletSimpleMoveParam",
+      "GoStraightStateEndMaxSpeed": 1.6,
+      "GoStraightToBrakeStateFrame": 4,
+      "SpawnSpeed": 1.84
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSimpleMoveParam",
+      "GoStraightStateEndMaxSpeed": 1.58,
+      "GoStraightToBrakeStateFrame": 2,
+      "SpawnSpeed": 1.58
+    },
+    "SideStepBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 3.0,
+      "CrossPaintRadius": 3.0,
+      "DamageLinear": true,
+      "DistanceDamage": [
+        {
+          "Damage": 1250,
+          "Distance": 4.0
+        },
+        {
+          "Damage": 400,
+          "Distance": 6.0
+        }
+      ],
+      "PaintHeight": 5.0,
+      "PaintRadius": 5.0
+    },
+    "SideStepParam": {
+      "$type": "spl__PlayerSideStepParam",
+      "ChargeFrame": 5,
+      "InkConsume": 0.07,
+      "InkRecoverStop": 75,
+      "MoveDist": 5.0,
+      "MoveFrame": 10,
+      "RepeatCnt": 9,
+      "SlipMoveDistAir": 1.0,
+      "SlipMoveDistGnd": 1.0,
+      "UnrelaxFrameMove": 32,
+      "UnrelaxFrameMove_Last": 32,
+      "UnrelaxFrameNoSideStep": 32,
+      "UnrelaxFrameNoSideStep_Last": 32,
+      "UnrelaxFrameNoSquid": 32,
+      "UnrelaxFrameNoSquid_Last": 32,
+      "UnrelaxFrameNoWeapon": 4,
+      "UnrelaxFrameNoWeapon_Last": 4,
+      "UnrelaxFrameOneMuzzle": 32,
+      "UnrelaxFrameOneMuzzle_Last": 32
+    },
+    "SplashSpawnLapOverParam": {
+      "$type": "spl__BulletSplashShooterSpawnParam",
+      "SpawnBetweenLength": 14.0,
+      "SpawnNearestLength": 1.0,
+      "SpawnNum": 1.0,
+      "SplitNum": 7
+    },
+    "SplashSpawnParam": {
+      "$type": "spl__BulletSplashShooterSpawnParam",
+      "SpawnNum": 1.0
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponManeuverParam",
+      "InkConsume": 0.005,
+      "Jump_DegSwerve": 18.0,
+      "LapOver_DegSwerve": 1.0,
+      "LapOver_RepeatFrame": 4,
+      "PostDelayFrame": 4,
+      "RepeatFrame": 5,
+      "Stand_DegSwerve": 13.0
+    }
+  }
+}

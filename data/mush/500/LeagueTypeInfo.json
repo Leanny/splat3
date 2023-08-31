@@ -1,0 +1,348 @@
+[
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 701375625,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsAU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 2486460167,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsEU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1593192822,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsJP"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 2518533870,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsUS"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1072525081,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsAU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1578089851,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsEU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 3069412178,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsJP"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 3572649309,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsUS"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 2024127544,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "RandomAmiiboGear",
+    "__RowId": "CostumeParty"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "DeepFog"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 755117056,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "DeepFog"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SquidSpeedUp"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 439030072,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "FastMove"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "HighJump",
+      "SpawnArmorUp"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 1971242582,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "HighJump"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "ModifiedRainmaker"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 1883578391,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "Modified_Rainmaker"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 3231517975,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "MonthlyLeagueMatchReal"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 233132200,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "NewSeasonCup"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FastRespawnForPair"
+    ],
+    "MatchmakeType": "Pair",
+    "NameHash": 2824129491,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "PairCup"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 1348455335,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "RandomWeapon",
+    "__RowId": "RandomWeapon"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 3410404554,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_JetPack"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 2384314719,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_Skewer"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 4172244339,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_UltraShot"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 650047369,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_ZipCaster"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SuperSubWeapon"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 568445881,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [
+      "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml"
+    ],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SuperSubWeapon_LineMarker"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1106369088,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "Usually"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 427903129,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "UsuallyRehearsals"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 145057565,
+    "RectrictMainWeaponTypes": [
+      "Roller",
+      "Brush"
+    ],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "WeaponLimited_RollerBrush"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 4055967049,
+    "RectrictMainWeaponTypes": [
+      "Spinner"
+    ],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "WeaponLimited_Spinner"
+  }
+]
