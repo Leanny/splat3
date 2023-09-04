@@ -119,6 +119,26 @@
                 const format_img = (base_url, value, width) =>
                     get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
 
+                const get_gear_html = (value, type) => {
+                    image_name = value.replace("Work/Gyml/", "").replace(".spl__GearInfo.gyml", "")
+                    return `<center>${format_img(prefix + "images/gear/", image_name, 96)}<br />${localize(
+                        type,
+                        image_name.substring(4)
+                    )}</center>`
+                }
+
+                const get_head_gear = value => {
+                    return get_gear_html(value, "CommonMsg/Gear/GearName_Head")
+                }
+
+                const get_clothes_gear = value => {
+                    return get_gear_html(value, "CommonMsg/Gear/GearName_Clothes")
+                }
+
+                const get_shoes_gear = value => {
+                    return get_gear_html(value, "CommonMsg/Gear/GearName_Shoes")
+                }
+
                 var rewardFormatter = value => {
                     if (value.Type === "NamePlateBg") {
                         const img_name = value.NamePlateBgInfo.replace("Work/Gyml/NamePlateBgInfo/", "").replace(
@@ -198,24 +218,17 @@
                                     "PartyMoney_Up"
                                 )}</center></p>`
                         }
+                    } else if (value.Type === "GearPack") {
+                        const head = get_head_gear(value.HeadInfo)
+                        const clothes = get_clothes_gear(value.ClothesInfo)
+                        const shoes = get_shoes_gear(value.ShoesInfo)
+                        return `<div>${head}${clothes}${shoes}</div>`
                     } else if (value.Type === "Gear_Head") {
-                        image_name = value.GearInfo.replace("Work/Gyml/", "").replace(".spl__GearInfo.gyml", "")
-                        return `<center>${format_img(prefix + "images/gear/", image_name, 96)}<br />${localize(
-                            "CommonMsg/Gear/GearName_Head",
-                            image_name.substring(4)
-                        )}</center>`
+                        return get_head_gear(value.GearInfo)
                     } else if (value.Type === "Gear_Clothes") {
-                        image_name = value.GearInfo.replace("Work/Gyml/", "").replace(".spl__GearInfo.gyml", "")
-                        return `<center>${format_img(prefix + "images/gear/", image_name, 96)}<br />${localize(
-                            "CommonMsg/Gear/GearName_Clothes",
-                            image_name.substring(4)
-                        )}</center>`
+                        return get_clothes_gear(value.GearInfo)
                     } else if (value.Type === "Gear_Shoes") {
-                        image_name = value.GearInfo.replace("Work/Gyml/", "").replace(".spl__GearInfo.gyml", "")
-                        return `<center>${format_img(prefix + "images/gear/", image_name, 96)}<br />${localize(
-                            "CommonMsg/Gear/GearName_Shoes",
-                            image_name.substring(4)
-                        )}</center>`
+                        return get_shoes_gear(value.GearInfo)
                     } else if (value.Type === "MiniGameCardPack") {
                         return `<center>${format_img(prefix + "images/catalog/", "IconCardPack_00")}</center>`
                     } else if (value.Type === "MiniGameCardPackFresh") {
