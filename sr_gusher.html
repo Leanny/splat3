@@ -96,10 +96,8 @@
                     <a href="https://github.com/leanny/splat3"><span class="fa fa-github"></span></a>.
                 </p>
                 <p>
-                    Map Images based on the work of
-                    <a href="https://salmon-learn-nw.gungee.jp/">Salmon Learn NW</a> from Gungee<a
-                        href="https://twitter.com/GungeeSpla"
-                        ><span class="fa fa-twitter"></span></a
+                    Map Images generated with help from zhuyifei1999<a href="https://github.com/zhuyifei1999">
+                        <span class="fa fa-github"></span></a
                     >.
                 </p>
             </footer>
@@ -232,6 +230,24 @@
                 ["C", "M, B, D"],
                 ["D", "B"],
             ])
+            addTab("Salmonid Smokeyard - Mid", "smokeyard_mid", getPrefix() + "sr/smokeyard_mid.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "C, D, E"],
+                ["B", "C, D, E"],
+                ["C", "A, B, G"],
+                ["D", "A, G"],
+                ["E", "B, F"],
+                ["F", "C, D, E"],
+                ["G", "C, D, E"],
+            ])
+            addTab("Salmonid Smokeyard - High", "smokeyard_high", getPrefix() + "sr/smokeyard_high.png", [
+                ["Gusher", "Possible Destinations"],
+                ["A", "C, D, E"],
+                ["B", "C, D, E"],
+                ["C", "A, B"],
+                ["D", "A"],
+                ["E", "B"],
+            ])
             addTab("Marooner's Bay - Mid", "marooners_mid", getPrefix() + "sr/marooners_mid.png", [
                 ["Gusher", "Possible Destinations"],
                 ["A", "C, D"],
@@ -268,7 +284,7 @@
                 ["C", "M, A, B, D"],
                 ["D", "B"],
             ])
-            addTab("Jammin' Salmon Junction - Mid", "jammins_mid", getPrefix() + "sr/jamminsalmonjunction_mid.png", [
+            addTab("Jammin' Salmon Junction - Mid", "jammin_mid", getPrefix() + "sr/jammin_mid.png", [
                 ["Gusher", "Possible Destinations"],
                 ["A", "B, F, G, H"],
                 ["B", "A, C"],
@@ -279,13 +295,14 @@
                 ["G", "A, C"],
                 ["H", "A, C"],
             ])
-            addTab("Jammin' Salmon Junction - High", "jammin_high", getPrefix() + "sr/jamminsalmonjunction_high.png", [
+            addTab("Jammin' Salmon Junction - High", "jammin_high", getPrefix() + "sr/jammin.png", [
                 ["Gusher", "Possible Destinations"],
                 ["A", "B"],
                 ["B", "A, C"],
                 ["C", "D"],
                 ["D", "A, C"],
             ])
+
             // Handle tab change event
             const tabLinks = document.querySelectorAll(".nav-link")
             tabLinks.forEach(function (tabLink) {
