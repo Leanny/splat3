@@ -16218,14 +16218,14 @@
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
-      "X": 0.3378242,
-      "Y": 0.6392347,
-      "Z": 0.61507785
+      "X": 0.2969826,
+      "Y": 0.5572846,
+      "Z": 0.64843285
     },
     "ModelAabbMin": {
-      "X": -0.308904,
-      "Y": -0.41786748,
-      "Z": -0.657524
+      "X": -0.34161934,
+      "Y": -0.402633,
+      "Z": -0.6724329
     },
     "__RowId": "DObj_Duck"
   },
@@ -16238,14 +16238,14 @@
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
-      "X": 0.12753455,
-      "Y": 0.25371623,
-      "Z": 0.19411488
+      "X": 0.13579036,
+      "Y": 0.25590354,
+      "Z": -0.6281095
     },
     "ModelAabbMin": {
-      "X": -0.13125172,
-      "Y": -0.14404336,
-      "Z": -0.1380705
+      "X": -0.13639246,
+      "Y": -0.13908514,
+      "Z": -0.97186184
     },
     "__RowId": "DObj_DuckChild"
   },
@@ -16414,7 +16414,7 @@
     "Category": "DesignerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Twist00/output/FldObj_BlueCranes.fmdb",
-    "InstanceHeapSize": 287600,
+    "InstanceHeapSize": 287592,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -16814,7 +16814,7 @@
     "Category": "DesignerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/FirstOrder/FldObj_FsodrPlazaTrain/output/FldObj_FsodrPlazaTrain.fmdb",
-    "InstanceHeapSize": 609384,
+    "InstanceHeapSize": 538920,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -18214,7 +18214,7 @@
     "Category": "DesignerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/FirstOrder/Obj_FsodrPlazaFestDecoration/output/Obj_FsodrPlazaFestDecoration.fmdb",
-    "InstanceHeapSize": 6404080,
+    "InstanceHeapSize": 6342640,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -20278,14 +20278,14 @@
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
-      "X": 0.27074665,
-      "Y": 0.56383824,
-      "Z": 0.62172186
+      "X": 0.2706862,
+      "Y": 0.5638332,
+      "Z": 0.6232877
     },
     "ModelAabbMin": {
-      "X": -0.25389972,
-      "Y": -0.120253116,
-      "Z": -0.04946059
+      "X": -0.25537574,
+      "Y": -0.12024492,
+      "Z": -0.047746867
     },
     "__RowId": "DObj_Starling"
   },
@@ -22037,7 +22037,7 @@
     "Category": "Enemy",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Enemy/Enm_Utsubox/output/Enm_Utsubox.fmdb",
-    "InstanceHeapSize": 697136,
+    "InstanceHeapSize": 701232,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -23019,7 +23019,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Mission/Fld_Alterna1c03/output/Fld_Alterna1c03.fmdb",
-    "InstanceHeapSize": 672072,
+    "InstanceHeapSize": 667976,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -23059,7 +23059,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Mission/Fld_Alterna1c05/output/Fld_Alterna1c05.fmdb",
-    "InstanceHeapSize": 454984,
+    "InstanceHeapSize": 456488,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -23239,7 +23239,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Mission/Fld_Alterna2c03/output/Fld_Alterna2c03Decoration.fmdb",
-    "InstanceHeapSize": 265832,
+    "InstanceHeapSize": 263240,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -24439,7 +24439,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Mission/Fld_AlternaR05/output/Fld_AlternaR05.fmdb",
-    "InstanceHeapSize": 1090120,
+    "InstanceHeapSize": 1086024,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -24699,7 +24699,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCity/output/Fld_BankaraCity.fmdb",
-    "InstanceHeapSize": 6911512,
+    "InstanceHeapSize": 6907416,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -24739,7 +24739,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Coop/Fld_BigRunFactory00/output/Fld_BigRunFactory00.fmdb",
-    "InstanceHeapSize": 3487440,
+    "InstanceHeapSize": 3483344,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -24859,7 +24859,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Carousel03/output/Fld_Carousel03.fmdb",
-    "InstanceHeapSize": 2234032,
+    "InstanceHeapSize": 2229936,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -24999,7 +24999,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_District00/output/Fld_District00.fmdb",
-    "InstanceHeapSize": 3217072,
+    "InstanceHeapSize": 3221168,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -25239,7 +25239,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Pillar03/output/Fld_Pillar03.fmdb",
-    "InstanceHeapSize": 2725552,
+    "InstanceHeapSize": 2721456,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -25499,7 +25499,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Room/Fld_Room_anim/output/Fld_Room_anim.fmdb",
-    "InstanceHeapSize": 2216640,
+    "InstanceHeapSize": 2144672,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -25739,7 +25739,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Spider00/output/Fld_Spider00.fmdb",
-    "InstanceHeapSize": 3419440,
+    "InstanceHeapSize": 3415344,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -25819,7 +25819,7 @@
     "Category": "Field",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Upland03/output/Fld_Upland03.fmdb",
-    "InstanceHeapSize": 2676392,
+    "InstanceHeapSize": 2680488,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -32028,7 +32028,7 @@
     "Category": "Item",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Object/Obj_EnergyCore_Item/output/Obj_EnergyCore_Item.fmdb",
-    "InstanceHeapSize": 177072,
+    "InstanceHeapSize": 177080,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -41672,7 +41672,7 @@
     "Category": "LockerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Gear/Clt_TES095/output/Clt_TES095.fmdb",
-    "InstanceHeapSize": 180424,
+    "InstanceHeapSize": 180416,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -51812,7 +51812,7 @@
     "Category": "LockerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Gear/Hed_COP118/output/Hed_COP118.fmdb",
-    "InstanceHeapSize": 131472,
+    "InstanceHeapSize": 131464,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -64932,7 +64932,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCityFes/output/FldObj_BankaraCityFestDayOrSunset.fmdb",
-    "InstanceHeapSize": 5177408,
+    "InstanceHeapSize": 5107776,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -64972,7 +64972,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCityFes/output/FldObj_BankaraCityFestFirst.fmdb",
-    "InstanceHeapSize": 8495448,
+    "InstanceHeapSize": 8368472,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -64992,7 +64992,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCityFes/output/FldObj_BankaraCityFestSecond.fmdb",
-    "InstanceHeapSize": 8474960,
+    "InstanceHeapSize": 8352080,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -66332,7 +66332,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03Area.fmdb",
-    "InstanceHeapSize": 354248,
+    "InstanceHeapSize": 355752,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -66352,7 +66352,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03AreaFloat.fmdb",
-    "InstanceHeapSize": 818016,
+    "InstanceHeapSize": 813920,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -66392,7 +66392,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03Asari.fmdb",
-    "InstanceHeapSize": 573928,
+    "InstanceHeapSize": 575432,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -66412,7 +66412,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03Hoko.fmdb",
-    "InstanceHeapSize": 573928,
+    "InstanceHeapSize": 575432,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -67532,7 +67532,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Line03/output/FldObj_LineTriColor.fmdb",
-    "InstanceHeapSize": 968232,
+    "InstanceHeapSize": 964136,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -67812,7 +67812,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Pillar03/output/FldObj_Pillar_HokoRightBox.fmdb",
-    "InstanceHeapSize": 233664,
+    "InstanceHeapSize": 235168,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -68312,7 +68312,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCity/output/FldObj_PlazaDecorationDay.fmdb",
-    "InstanceHeapSize": 791896,
+    "InstanceHeapSize": 793400,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -70012,7 +70012,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Twist00/output/FldObj_Twist_AreaBridge.fmdb",
-    "InstanceHeapSize": 617536,
+    "InstanceHeapSize": 614944,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -70192,7 +70192,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Twist00/output/FldObj_Twist_HokoFence.fmdb",
-    "InstanceHeapSize": 245992,
+    "InstanceHeapSize": 247496,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -70212,7 +70212,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Twist00/output/FldObj_Twist_HokoMushroom.fmdb",
-    "InstanceHeapSize": 237032,
+    "InstanceHeapSize": 234440,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -71852,7 +71852,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Spider00/output/Fld_Spider00_VarCenterFence.fmdb",
-    "InstanceHeapSize": 245456,
+    "InstanceHeapSize": 242864,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -72012,7 +72012,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Spider00/output/Fld_Spider00_VlfCenterFence.fmdb",
-    "InstanceHeapSize": 245456,
+    "InstanceHeapSize": 242864,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -72894,7 +72894,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Mikoshi/output/FldObj_MikoshiHead.fmdb",
-    "InstanceHeapSize": 262816,
+    "InstanceHeapSize": 264320,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -72934,7 +72934,7 @@
     "Category": "Lift",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Mikoshi/output/FldObj_MikoshiStage.fmdb",
-    "InstanceHeapSize": 261872,
+    "InstanceHeapSize": 259280,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -78831,7 +78831,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCityFes/output/FldObj_BankaraCityFestDayOrSunset.fmdb",
-    "InstanceHeapSize": 5169072,
+    "InstanceHeapSize": 5099440,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -78871,7 +78871,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCityFes/output/FldObj_BankaraCityFestFirst.fmdb",
-    "InstanceHeapSize": 8315072,
+    "InstanceHeapSize": 8188096,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -78891,7 +78891,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/Plaza/Fld_BankaraCityFes/output/FldObj_BankaraCityFestSecond.fmdb",
-    "InstanceHeapSize": 8466624,
+    "InstanceHeapSize": 8343744,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -80211,7 +80211,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03Area.fmdb",
-    "InstanceHeapSize": 342464,
+    "InstanceHeapSize": 343968,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -80231,7 +80231,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03AreaFloat.fmdb",
-    "InstanceHeapSize": 806232,
+    "InstanceHeapSize": 802136,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -80271,7 +80271,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03Asari.fmdb",
-    "InstanceHeapSize": 566248,
+    "InstanceHeapSize": 567752,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -80291,7 +80291,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Hiagari03/output/FldObj_Hiagari03Hoko.fmdb",
-    "InstanceHeapSize": 566240,
+    "InstanceHeapSize": 567744,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -81411,7 +81411,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Line03/output/FldObj_LineTriColor.fmdb",
-    "InstanceHeapSize": 956448,
+    "InstanceHeapSize": 952352,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -81691,7 +81691,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Pillar03/output/FldObj_Pillar_HokoRightBox.fmdb",
-    "InstanceHeapSize": 221888,
+    "InstanceHeapSize": 223392,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -83851,7 +83851,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Twist00/output/FldObj_Twist_AreaBridge.fmdb",
-    "InstanceHeapSize": 609856,
+    "InstanceHeapSize": 607264,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -84031,7 +84031,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Twist00/output/FldObj_Twist_HokoFence.fmdb",
-    "InstanceHeapSize": 238304,
+    "InstanceHeapSize": 239808,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -84051,7 +84051,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Twist00/output/FldObj_Twist_HokoMushroom.fmdb",
-    "InstanceHeapSize": 229344,
+    "InstanceHeapSize": 226752,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -85811,7 +85811,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Spider00/output/Fld_Spider00_VarCenterFence.fmdb",
-    "InstanceHeapSize": 237584,
+    "InstanceHeapSize": 234992,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -85971,7 +85971,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/VSGame/Fld_Spider00/output/Fld_Spider00_VlfCenterFence.fmdb",
-    "InstanceHeapSize": 237584,
+    "InstanceHeapSize": 234992,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -86833,7 +86833,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Mikoshi/output/FldObj_MikoshiHead.fmdb",
-    "InstanceHeapSize": 233000,
+    "InstanceHeapSize": 234504,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -86873,7 +86873,7 @@
     "Category": "MapPart",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Field/MapParts/FldObj_Mikoshi/output/FldObj_MikoshiStage.fmdb",
-    "InstanceHeapSize": 275664,
+    "InstanceHeapSize": 273072,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -90874,7 +90874,7 @@
     "Category": "Obj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Npc/Npc_Jerry00/output/Npc_JerryAssistantDirector.fmdb",
-    "InstanceHeapSize": 286912,
+    "InstanceHeapSize": 214448,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -90894,7 +90894,7 @@
     "Category": "DesignerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Npc/Npc_Jerry00/output/Npc_JerryAssistantDirector.fmdb",
-    "InstanceHeapSize": 298144,
+    "InstanceHeapSize": 225680,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -96394,7 +96394,7 @@
     "Category": "DesignerObj",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Npc/Npc_Jerry00/output/Npc_JerryAssistantDirector.fmdb",
-    "InstanceHeapSize": 298280,
+    "InstanceHeapSize": 225816,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -96854,7 +96854,7 @@
     "Category": "Npc",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Npc/Npc_RailKingSpace/output/Npc_RailKingSpace_Robo.fmdb",
-    "InstanceHeapSize": 970840,
+    "InstanceHeapSize": 966744,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -97134,7 +97134,7 @@
     "Category": "Npc",
     "ClassName": "SplNpcPlayerActor",
     "Fmdb": "",
-    "InstanceHeapSize": 890696,
+    "InstanceHeapSize": 886600,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -98870,7 +98870,7 @@
     "Category": "Gear",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Weapon/Tnk_Simple/output/Tnk_Simple.fmdb",
-    "InstanceHeapSize": 648424,
+    "InstanceHeapSize": 579464,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -98990,7 +98990,7 @@
     "Category": "Gear",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Weapon/Tnk_Simple/output/Tnk_Simple.fmdb",
-    "InstanceHeapSize": 648456,
+    "InstanceHeapSize": 579496,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -99090,7 +99090,7 @@
     "Category": "Gear",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Weapon/Tnk_Simple/output/Tnk_Simple.fmdb",
-    "InstanceHeapSize": 646272,
+    "InstanceHeapSize": 577312,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -104639,7 +104639,7 @@
     "DisplayRadius": 1000.0,
     "DisplayRadiusDistanceType": "EuclideanXZ",
     "Fmdb": "Work/Model/SkySphere/Sky_Nighttime03/output/Sky_Nighttime03.fmdb",
-    "InstanceHeapSize": 117704,
+    "InstanceHeapSize": 117696,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "LoadRadius": -1.0,
@@ -105764,7 +105764,7 @@
     "Category": "Enemy",
     "ClassName": "SplActor",
     "Fmdb": "Work/Model/Enemy/Enm_RailKingDesert/output/Enm_RailKingDesert.fmdb",
-    "InstanceHeapSize": 1040112,
+    "InstanceHeapSize": 1038192,
     "IsCalcNodePushBack": true,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -105928,7 +105928,7 @@
     "Category": "Player",
     "ClassName": "SplPlayerActor",
     "Fmdb": "",
-    "InstanceHeapSize": 3234368,
+    "InstanceHeapSize": 3230272,
     "IsCalcNodePushBack": false,
     "IsFarActor": false,
     "ModelAabbMax": {
@@ -106351,7 +106351,7 @@
     "Category": "Player",
     "ClassName": "SplPlayerActor",
     "Fmdb": "",
-    "InstanceHeapSize": 2750000,
+    "InstanceHeapSize": 2745904,
     "IsCalcNodePushBack": false,
     "IsFarActor": false,
     "ModelAabbMax": {

@@ -3801,6 +3801,25 @@
   },
   {
     "HowToGet": "Other",
+    "Id": 810,
+    "Order": 810,
+    "Season": -1,
+    "TextColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUhlockLevel": 1,
+    "__RowId": "Npl_Sdodr00"
+  },
+  {
+    "HowToGet": "Other",
     "Id": 901,
     "Order": 901,
     "Season": 1,
