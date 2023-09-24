@@ -130,5 +130,23 @@
             "https://leanny.github.io/splat3/images/gear/Clt_COP113.png"
         ],
         "current": "https://leanny.github.io/splat3/images/gear/Hed_COP119.png"
+    },
+    "2023-09-30T16:00:00Z": {
+        "past": [
+            "https://leanny.github.io/splat3/images/gear/Hed_COP110.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP111.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP115.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP113.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP112.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP114.png",
+            "https://leanny.github.io/splat3/images/gear/Clt_COP112.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP116.png",
+            "https://leanny.github.io/splat3/images/gear/Clt_COP111.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP117.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP118.png",
+            "https://leanny.github.io/splat3/images/gear/Clt_COP113.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP119.png"
+        ],
+        "current": "https://leanny.github.io/splat3/images/gear/Clt_COP114.png"
     }
 }
