@@ -3625,6 +3625,10 @@
     "EYE030": "眼鯛墨鏡",
     "EYE031": "粗框方形眼鏡",
     "FST000": "頭帶 白色",
+    "HAP016": "木乃魷裹頭布",
+    "HAP017": "石狗公隊長",
+    "HAP018": "嚇人面具",
+    "HAP019": "旗魚面罩",
     "HAT000": "龍蝦登山帽",
     "HAT001": "野外觀察圓邊帽",
     "HAT002": "露營圓邊帽",
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in my Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "Inkopolis Lobby",
     "LobbyVersus_03_Fsodr": "Inkopolis News",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

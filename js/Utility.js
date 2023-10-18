@@ -71,7 +71,7 @@ export function localize(dir, key) {
 export function get_image_tag(img, alt, extra = "") {
     const new_img = img.replace(".png", ".webp")
     return `<picture>
-    <source type="image/webp" srcset="${new_img}" ${extra}>
+        <source type="image/webp" srcset="${new_img}" ${extra}>
         <source type="image/png" srcset="${img}" ${extra}>
         <img src="${img}" alt="${alt}" ${extra}>
     </picture>`

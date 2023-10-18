@@ -3625,6 +3625,10 @@
     "EYE030": "Geblindeerde bril",
     "EYE031": "Hoekige hoornen bril",
     "FST000": "Witte hoofdband",
+    "HAP016": "Mummiewikkel",
+    "HAP017": "Piratenhoed met pluim",
+    "HAP018": "Tentakelmasker",
+    "HAP019": "Snavelmasker",
     "HAT000": "Safarihoed",
     "HAT001": "Camouflagehoed",
     "HAT002": "Campinghoed",
@@ -5821,7 +5825,7 @@
     "Msg_NetworkError": "Er is een communicatiefout opgetreden.\nSlijkslag wordt beëindigd.",
     "Msg_NoValidDeck": "Om Slijkslag te spelen heb je een set van 15\nkaarten nodig. Open je [color=0001]kaartenoverzicht [color=ffff]via\nhet gevechtsmenu en stel je set samen.",
     "SortCardNumber": "Op nummer",
-    "SortRarity": "Zeldzaamheid",
+    "SortRarity": "Op zeldzaamheid",
     "SortSquareNum": "Op aantal vakjes",
     "StarterDeckName": "Starterset",
     "WinCountInGame": "[group=0002 type=0000 params=00 02 00 00] keer op rij gewonnen!"
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in my Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "Inkopolis Lobby",
     "LobbyVersus_03_Fsodr": "Inkopolis News",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

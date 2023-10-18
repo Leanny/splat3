@@ -3625,6 +3625,10 @@
     "EYE030": "Очки «Эль-Дорада»",
     "EYE031": "Очки хипстера",
     "FST000": "Белая повязка",
+    "HAP016": "Маска кальмумии",
+    "HAP017": "Треуголка пирата-зомби",
+    "HAP018": "Маска «Осьмовопль»",
+    "HAP019": "Маска клювоноса",
     "HAT000": "Панама для сафари",
     "HAT001": "Камуфляжная панама",
     "HAT002": "Панама туриста",
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in My Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "Inkopolis Lobby",
     "LobbyVersus_03_Fsodr": "Inkopolis News",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

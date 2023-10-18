@@ -3625,6 +3625,10 @@
     "EYE030": "\uc655\ub208\uc774 \uc120\uae00\ub77c\uc2a4",
     "EYE031": "\uad75\uc740 \uc0ac\uac01 \ubfd4\ud14c \uc548\uacbd",
     "FST000": "\ud654\uc774\ud2b8 \ud5e4\ub4dc\ubc34\ub4dc",
+    "HAP016": "\ubbf8\ub77c \uc624\uc9d5\uc5b4 \ud5e4\ub4dc",
+    "HAP017": "\ucea1\ud2f4 \uc3e8\ubc45\uc774",
+    "HAP018": "\ud638\ub7ec \ud398\uc774\uc2a4",
+    "HAP019": "\uccad\uc0c8\uce58 \ub9c8\uc2a4\ud06c",
     "HAT000": "\ub78d\uc2a4\ud130 \ubd80\ub2c8 \ud574\ud2b8",
     "HAT001": "\uc0ac\ud30c\ub9ac \ud574\ud2b8",
     "HAT002": "\ucea0\ud504 \ud574\ud2b8",
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in my Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "\uc624\ub354\ud3f4\ub9ac\uc2a4 \uc2dc\ud2f0 \ub85c\ube44",
     "LobbyVersus_03_Fsodr": "\uc624\ub354\ud3f4\ub9ac\uc2a4 \ub274\uc2a4",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

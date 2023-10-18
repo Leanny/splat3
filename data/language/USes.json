@@ -3625,6 +3625,10 @@
     "EYE030": "Gafas besugo",
     "EYE031": "Gafas montura extragruesa",
     "FST000": "Cinta blanca",
+    "HAP016": "Antifaz de momia",
+    "HAP017": "Sombrero con pluma",
+    "HAP018": "M\u00e1scara tentaculosa",
+    "HAP019": "M\u00e1scara con pico",
     "HAT000": "Sombrero safari",
     "HAT001": "Sombrero camuflado",
     "HAT002": "Sombrero acampada",
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in my Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "Inkopolis Lobby",
     "LobbyVersus_03_Fsodr": "Inkopolis News",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

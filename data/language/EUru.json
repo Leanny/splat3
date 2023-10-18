@@ -3625,6 +3625,10 @@
     "EYE030": "\u041e\u0447\u043a\u0438 \u00ab\u042d\u043b\u044c-\u0414\u043e\u0440\u0430\u0434\u0430\u00bb",
     "EYE031": "\u041e\u0447\u043a\u0438 \u0445\u0438\u043f\u0441\u0442\u0435\u0440\u0430",
     "FST000": "\u0411\u0435\u043b\u0430\u044f \u043f\u043e\u0432\u044f\u0437\u043a\u0430",
+    "HAP016": "\u041c\u0430\u0441\u043a\u0430 \u043a\u0430\u043b\u044c\u043c\u0443\u043c\u0438\u0438",
+    "HAP017": "\u0422\u0440\u0435\u0443\u0433\u043e\u043b\u043a\u0430 \u043f\u0438\u0440\u0430\u0442\u0430-\u0437\u043e\u043c\u0431\u0438",
+    "HAP018": "\u041c\u0430\u0441\u043a\u0430 \u00ab\u041e\u0441\u044c\u043c\u043e\u0432\u043e\u043f\u043b\u044c\u00bb",
+    "HAP019": "\u041c\u0430\u0441\u043a\u0430 \u043a\u043b\u044e\u0432\u043e\u043d\u043e\u0441\u0430",
     "HAT000": "\u041f\u0430\u043d\u0430\u043c\u0430 \u0434\u043b\u044f \u0441\u0430\u0444\u0430\u0440\u0438",
     "HAT001": "\u041a\u0430\u043c\u0443\u0444\u043b\u044f\u0436\u043d\u0430\u044f \u043f\u0430\u043d\u0430\u043c\u0430",
     "HAT002": "\u041f\u0430\u043d\u0430\u043c\u0430 \u0442\u0443\u0440\u0438\u0441\u0442\u0430",
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in My Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "Inkopolis Lobby",
     "LobbyVersus_03_Fsodr": "Inkopolis News",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

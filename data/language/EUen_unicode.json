@@ -3625,6 +3625,10 @@
     "EYE030": "Sea-Me-Nots",
     "EYE031": "Hipster Horn-Rims",
     "FST000": "White Headband",
+    "HAP016": "Undead Head",
+    "HAP017": "The Plankton Walker",
+    "HAP018": "Swim Reaper",
+    "HAP019": "Bleak Beak",
     "HAT000": "Safari Hat",
     "HAT001": "Jungle Hat",
     "HAT002": "Camping Hat",
@@ -5821,7 +5825,7 @@
     "Msg_NetworkError": "A communication error has occurred.\nClosing Tableturf Battle.",
     "Msg_NoValidDeck": "You need a deck of 15 cards in order to play\nTableturf Battle. Please open your [color=0001]Card List[color=ffff]\nfrom the match menu and edit your deck.",
     "SortCardNumber": "Sort by Number",
-    "SortRarity": "Rarity",
+    "SortRarity": "Sort by Rarity",
     "SortSquareNum": "Sort by Spaces",
     "StarterDeckName": "Starter Deck",
     "WinCountInGame": "Current win streak: [group=0002 type=0000 params=00 02 00 00]!"
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in My Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "Inkopolis Lobby",
     "LobbyVersus_03_Fsodr": "Inkopolis News",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",

@@ -3625,6 +3625,10 @@
     "EYE030": "왕눈이 선글라스",
     "EYE031": "굵은 사각 뿔테 안경",
     "FST000": "화이트 헤드밴드",
+    "HAP016": "미라 오징어 헤드",
+    "HAP017": "캡틴 쏨뱅이",
+    "HAP018": "호러 페이스",
+    "HAP019": "청새치 마스크",
     "HAT000": "랍스터 부니 해트",
     "HAT001": "사파리 해트",
     "HAT002": "캠프 해트",
@@ -6534,7 +6538,8 @@
     "050": "Chroma Chaos",
     "051": "Medusa",
     "052": "Nothing in my Wave",
-    "053": "H2Whoa"
+    "053": "H2Whoa",
+    "054": "Bloody Hook"
   },
   "CommonMsg/Sound/MusicName": {
     "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
@@ -6577,6 +6582,7 @@
     "LobbyVersus_01_Fsodr": "오더폴리스 시티 로비",
     "LobbyVersus_03_Fsodr": "오더폴리스 뉴스",
     "LobbyVersus_Fes_02": "Soak & Stomp",
+    "LobbyVersus_Fes_Maple": "Deepers Creepers",
     "LobbyVersus_Holiday_Main_01": "Drip Feed",
     "LobbyVersus_Sub_01": "Heliocentri City",
     "LobbyVersus_Sub_02": "Fuzzy Dazzler",
