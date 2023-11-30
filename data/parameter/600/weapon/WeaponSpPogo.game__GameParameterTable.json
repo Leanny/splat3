@@ -1,0 +1,125 @@
+{
+  "GameParameters": {
+    "BlastParamDokanWarp": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 6.0,
+      "CrossPaintRadius": 6.0,
+      "CrossPaintTexture": "SprLanding00",
+      "DistanceDamage": [
+        {
+          "Damage": 2200,
+          "Distance": 7.0
+        },
+        {
+          "Damage": 600,
+          "Distance": 12.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 420.0,
+        "Distance": 15.0
+      },
+      "PaintRadius": 9.0,
+      "PaintTexture": "SprLanding00",
+      "PlaneDamage": [
+        {
+          "Damage": 10000,
+          "Distance": -4.5
+        },
+        {
+          "Damage": 10000,
+          "Distance": 6.4
+        }
+      ],
+      "SubSpecialSpecUpList": [
+        {
+          "SpecUpType": "DistanceDamageDistanceRate",
+          "Value": {
+            "High": 1.1,
+            "Low": 1.0,
+            "Mid": 1.05
+          }
+        },
+        {
+          "SpecUpType": "PaintRadius",
+          "Value": {
+            "High": 10.8,
+            "Low": 9.0,
+            "Mid": 9.9
+          }
+        }
+      ]
+    },
+    "BlastParamNormal": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 6.0,
+      "CrossPaintRadius": 6.0,
+      "CrossPaintTexture": "SprLanding00",
+      "DistanceDamage": [
+        {
+          "Damage": 2200,
+          "Distance": 7.0
+        },
+        {
+          "Damage": 600,
+          "Distance": 12.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 420.0,
+        "Distance": 15.0
+      },
+      "PaintRadius": 9.0,
+      "PaintTexture": "SprLanding00",
+      "PlaneDamage": [
+        {
+          "Damage": 10000,
+          "Distance": -4.5
+        },
+        {
+          "Damage": 10000,
+          "Distance": 6.4
+        }
+      ],
+      "SubSpecialSpecUpList": [
+        {
+          "SpecUpType": "DistanceDamageDistanceRate",
+          "Value": {
+            "High": 1.1,
+            "Low": 1.0,
+            "Mid": 1.05
+          }
+        },
+        {
+          "Value": {
+            "High": 10.8,
+            "Low": 9.0,
+            "Mid": 9.9
+          }
+        }
+      ]
+    },
+    "BulletParam": {
+      "$type": "spl__BulletSpPogoParam",
+      "HitPoint": 1000,
+      "MoveCollisionHeight": [
+        2.0,
+        1.5,
+        1.0,
+        0.5
+      ],
+      "MoveDistance": 6.0,
+      "MoveFrame": 15,
+      "StartInvincibleFrame": 65,
+      "SuperJumpWaitFrame0": 30,
+      "SuperJumpWaitFrame1": 60,
+      "WaitRiseFrame": 0
+    },
+    "spl__WeaponSpPogoParam": {
+      "$type": "spl__WeaponSpPogoParam",
+      "Rise_Frame": 70,
+      "Rise_NoDamageStartFrame": 70,
+      "SpecialTotalFrame": 70
+    }
+  }
+}

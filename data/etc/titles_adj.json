@@ -60,6 +60,12 @@
     "0019": [
       "\u9ad8\u811a\u7ecf\u6d4e\u7279\u533a\u7684"
     ],
+    "0020": [
+      "\u8d1d\u89c1\u4ead\u7684"
+    ],
+    "0021": [
+      "\u8471\u9c94\u9c7c\u7164\u77ff\u573a\u7684"
+    ],
     "0040": [
       "\u9c91\u575d\u7684"
     ],
@@ -2883,6 +2889,9 @@
     "1143": [
       "\u796d\u5178\u6bd4\u8d5b\u7684"
     ],
+    "1145": [
+      "\u7c97\u7cd9\u7684"
+    ],
     "2002": [
       "\u9ed1\u767d\u7684"
     ],
@@ -2907,6 +2916,12 @@
     "2009": [
       "\u5782\u66ae\u4e4b\u5e74\u7684"
     ],
+    "2012": [
+      "\u6c34\u6da6\u7684"
+    ],
+    "2013": [
+      "\u4e58\u98ce\u7684"
+    ],
     "2500": [
       "\u5927\u5927\u5409\u7684"
     ],
@@ -2921,6 +2936,9 @@
     ],
     "2504": [
       "\u5947\u8ff9\u7684"
+    ],
+    "2505": [
+      "\u53d7\u6069\u60e0\u7684"
     ],
     "3000": [
       "\u86ee\u9893\u7684"
@@ -2987,6 +3005,9 @@
     ],
     "3302": [
       "\u723d\u8106\u7684"
+    ],
+    "3303": [
+      "\u6e38\u9f99\u7684"
     ]
   },
   "EUde": {
@@ -3049,6 +3070,12 @@
     ],
     "0019": [
       "Seespinnen-Skyline-"
+    ],
+    "0020": [
+      "ROM & RAMen-"
+    ],
+    "0021": [
+      "Blauflossen-Depot-"
     ],
     "0040": [
       "Salmoniden-Damm-"
@@ -7295,6 +7322,11 @@
     "1143": [
       "Splatfestkampf-"
     ],
+    "1145": [
+      "B\u00e4rbei\u00dfiger",
+      "B\u00e4rbei\u00dfige",
+      "B\u00e4rbei\u00dfiges"
+    ],
     "2002": [
       "Monochromer",
       "Monochrome",
@@ -7333,6 +7365,16 @@
       "D\u00e4mmernde",
       "D\u00e4mmerndes"
     ],
+    "2012": [
+      "Freudespr\u00fchender",
+      "Freudespr\u00fchende",
+      "Freudespr\u00fchendes"
+    ],
+    "2013": [
+      "Von R\u00fcckenwind getragener",
+      "Von R\u00fcckenwind getragene",
+      "Von R\u00fcckenwind getragenes"
+    ],
     "2500": [
       "Riesengl\u00fccks-"
     ],
@@ -7353,6 +7395,11 @@
       "Wundersamer",
       "Wundersame",
       "Wundersames"
+    ],
+    "2505": [
+      "Umschw\u00e4rmter",
+      "Umschw\u00e4rmte",
+      "Umschw\u00e4rmtes"
     ],
     "3000": [
       "Splatsville-"
@@ -7429,6 +7476,11 @@
       "Schnittiger",
       "Schnittige",
       "Schnittiges"
+    ],
+    "3303": [
+      "Shrimpson-tourender",
+      "Shrimpson-tourende",
+      "Shrimpson-tourendes"
     ]
   },
   "EUen": {
@@ -7491,6 +7543,12 @@
     ],
     "0019": [
       "Crableg Capital"
+    ],
+    "0020": [
+      "Robo ROM-en"
+    ],
+    "0021": [
+      "Bluefin Depot"
     ],
     "0040": [
       "Spawning Grounds"
@@ -10315,6 +10373,9 @@
     "1143": [
       "Splatfest Battle's"
     ],
+    "1145": [
+      "Rugged"
+    ],
     "2002": [
       "Monochrome"
     ],
@@ -10339,6 +10400,12 @@
     "2009": [
       "Dim"
     ],
+    "2012": [
+      "Ebullient"
+    ],
+    "2013": [
+      "Tailwind-Riding"
+    ],
     "2500": [
       "Super-Duper Lucky"
     ],
@@ -10353,6 +10420,9 @@
     ],
     "2504": [
       "Astonishing"
+    ],
+    "2505": [
+      "Adored"
     ],
     "3000": [
       "Splatlandian"
@@ -10419,6 +10489,9 @@
     ],
     "3302": [
       "Streamlined"
+    ],
+    "3303": [
+      "Wandercrust"
     ]
   },
   "EUes": {
@@ -10481,6 +10554,12 @@
     ],
     "0019": [
       "en Distrito Rascal\u00f3podo"
+    ],
+    "0020": [
+      "en Factor\u00eda RAMen"
+    ],
+    "0021": [
+      "en la mina costera"
     ],
     "0040": [
       "en Presa salm\u00f3nida"
@@ -13768,6 +13847,10 @@
     "1143": [
       "de combates tem\u00e1ticos"
     ],
+    "1145": [
+      "escabroso",
+      "escabrosa"
+    ],
     "2002": [
       "monocromo",
       "monocroma"
@@ -13797,6 +13880,13 @@
       "sombr\u00edo",
       "sombr\u00eda"
     ],
+    "2012": [
+      "jubiloso",
+      "jubilosa"
+    ],
+    "2013": [
+      "cabalgavientos"
+    ],
     "2500": [
       "de potra"
     ],
@@ -13814,6 +13904,10 @@
     "2504": [
       "portentoso",
       "portentosa"
+    ],
+    "2505": [
+      "adorado",
+      "adorada"
     ],
     "3000": [
       "tinteliano",
@@ -13887,6 +13981,9 @@
     "3302": [
       "optimizado",
       "optimizada"
+    ],
+    "3303": [
+      "de Ruta Adolfrito"
     ]
   },
   "EUfr": {
@@ -13949,6 +14046,12 @@
     ],
     "0019": [
       "du quartier Crabe-ciels"
+    ],
+    "0020": [
+      "de l'ar\u00e8ne M\u00e9ca-ramen"
+    ],
+    "0021": [
+      "de la mine marine"
     ],
     "0040": [
       "du barrage salmono\u00efde"
@@ -17210,6 +17313,10 @@
     "1143": [
       "de match de festival"
     ],
+    "1145": [
+      "bourru",
+      "bourrue"
+    ],
     "2002": [
       "monochrome"
     ],
@@ -17237,6 +17344,14 @@
     "2009": [
       "cr\u00e9pusculaire"
     ],
+    "2012": [
+      "expansif",
+      "expansive"
+    ],
+    "2013": [
+      "pouss\u00e9 par le vent",
+      "pouss\u00e9e par le vent"
+    ],
     "2500": [
       "m\u00e9gachanceux",
       "m\u00e9gachanceuse"
@@ -17254,6 +17369,10 @@
     "2504": [
       "\u00e9poustouflant",
       "\u00e9poustouflante"
+    ],
+    "2505": [
+      "adul\u00e9",
+      "adul\u00e9e"
     ],
     "3000": [
       "de la Contr\u00e9e Clabousse"
@@ -17324,6 +17443,9 @@
     "3302": [
       "effil\u00e9",
       "effil\u00e9e"
+    ],
+    "3303": [
+      "de l'Odyss\u00e9e d'Omar"
     ]
   },
   "EUit": {
@@ -17386,6 +17508,12 @@
     ],
     "0019": [
       "dei Granchiacieli"
+    ],
+    "0020": [
+      "del Roboramen"
+    ],
+    "0021": [
+      "del Molo Mollusco"
     ],
     "0040": [
       "della Diga salmonoide"
@@ -20695,6 +20823,10 @@
     "1143": [
       "delle partite tematiche"
     ],
+    "1145": [
+      "tosto",
+      "tosta"
+    ],
     "2002": [
       "monocromatico",
       "monocromatica"
@@ -20721,6 +20853,12 @@
     "2009": [
       "del tramonto"
     ],
+    "2012": [
+      "spumeggiante"
+    ],
+    "2013": [
+      "col vento a favore"
+    ],
     "2500": [
       "nato con la camicia",
       "nata con la camicia"
@@ -20737,6 +20875,10 @@
     ],
     "2504": [
       "mirabolante"
+    ],
+    "2505": [
+      "ammirato",
+      "ammirata"
     ],
     "3000": [
       "splattoniano",
@@ -20806,6 +20948,9 @@
     "3302": [
       "produttivo",
       "produttiva"
+    ],
+    "3303": [
+      "del Gambertour"
     ]
   },
   "EUnl": {
@@ -20868,6 +21013,12 @@
     ],
     "0019": [
       "Visstickdistrict-"
+    ],
+    "0020": [
+      "Bami-Byte-"
+    ],
+    "0021": [
+      "Blauwvin-depot-"
     ],
     "0040": [
       "Salmonietendam-"
@@ -26005,6 +26156,12 @@
     "1143": [
       "Splatfest-gevecht-"
     ],
+    "1145": [
+      "Ruw",
+      "Ruw",
+      "Ruw",
+      "Ruwe"
+    ],
     "2002": [
       "Monochro",
       "Monochro",
@@ -26044,6 +26201,18 @@
     "2009": [
       "Avondhemel-"
     ],
+    "2012": [
+      "Vita",
+      "Vita",
+      "Vitaal",
+      "Vitale"
+    ],
+    "2013": [
+      "Meeliftend",
+      "Meeliftend",
+      "Meeliftend",
+      "Meeliftende"
+    ],
     "2500": [
       "Superfortuinlijk",
       "Superfortuinlijk",
@@ -26070,6 +26239,12 @@
       "Wonderbaarlijk",
       "Wonderbaarlijk",
       "Wonderbaarlijke"
+    ],
+    "2505": [
+      "Vereerd",
+      "Vereerd",
+      "Vereerd",
+      "Vereerde"
     ],
     "3000": [
       "Splatlandisch",
@@ -26184,6 +26359,12 @@
       "Gestroomlijnd",
       "Gestroomlijnd",
       "Gestroomlijnde"
+    ],
+    "3303": [
+      "Aardboltoerend",
+      "Aardboltoerend",
+      "Aardboltoerend",
+      "Aardboltoerende"
     ]
   },
   "EUru": {
@@ -26286,6 +26467,16 @@
       "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0432 \u041a\u0440\u0430\u0431\u0445\u044d\u0442\u0442\u0435\u043d\u0435",
       "\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0432 \u041a\u0440\u0430\u0431\u0445\u044d\u0442\u0442\u0435\u043d\u0435",
       "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u0432 \u041a\u0440\u0430\u0431\u0445\u044d\u0442\u0442\u0435\u043d\u0435"
+    ],
+    "0020": [
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0432 \u00ab\u0420\u043e\u0431\u043e\u0440\u0430\u043c\u044d\u043d\u0435\u00bb",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0432 \u00ab\u0420\u043e\u0431\u043e\u0440\u0430\u043c\u044d\u043d\u0435\u00bb",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u0432 \u00ab\u0420\u043e\u0431\u043e\u0440\u0430\u043c\u044d\u043d\u0435\u00bb"
+    ],
+    "0021": [
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0432 \u0422\u0443\u043d\u0446\u043e\u0432\u043e\u043c \u0434\u0435\u043f\u043e",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0432 \u0422\u0443\u043d\u0446\u043e\u0432\u043e\u043c \u0434\u0435\u043f\u043e",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u0432 \u0422\u0443\u043d\u0446\u043e\u0432\u043e\u043c \u0434\u0435\u043f\u043e"
     ],
     "0040": [
       "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u043d\u0430 \u0441\u0430\u043c\u043e\u043d\u0438\u0434\u0441\u043a\u043e\u0439 \u0413\u042d\u0421",
@@ -30980,6 +31171,11 @@
       "\u043b\u044e\u0431\u044f\u0449\u0430\u044f \u0421\u043f\u043b\u0430\u0442\u0444\u0435\u0441\u0442-\u0431\u043e\u0438",
       "\u043b\u044e\u0431\u044f\u0449\u0435\u0435 \u0421\u043f\u043b\u0430\u0442\u0444\u0435\u0441\u0442-\u0431\u043e\u0438"
     ],
+    "1145": [
+      "\u043d\u0435\u043e\u0442\u0435\u0441\u0430\u043d\u043d\u044b\u0439",
+      "\u043d\u0435\u043e\u0442\u0435\u0441\u0430\u043d\u043d\u0430\u044f",
+      "\u043d\u0435\u043e\u0442\u0435\u0441\u0430\u043d\u043d\u043e\u0435"
+    ],
     "2002": [
       "\u043c\u043e\u043d\u043e\u0445\u0440\u043e\u043c\u043d\u044b\u0439",
       "\u043c\u043e\u043d\u043e\u0445\u0440\u043e\u043c\u043d\u0430\u044f",
@@ -31020,6 +31216,16 @@
       "\u0441\u043c\u0435\u0440\u043a\u0430\u044e\u0449\u0430\u044f\u0441\u044f",
       "\u0441\u043c\u0435\u0440\u043a\u0430\u044e\u0449\u0435\u0435\u0441\u044f"
     ],
+    "2012": [
+      "\u043a\u0438\u043f\u0443\u0447\u0438\u0439",
+      "\u043a\u0438\u043f\u0443\u0447\u0430\u044f",
+      "\u043a\u0438\u043f\u0443\u0447\u0435\u0435"
+    ],
+    "2013": [
+      "\u0445\u0432\u0430\u0442\u0430\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0445\u0432\u043e\u0441\u0442",
+      "\u0445\u0432\u0430\u0442\u0430\u044e\u0449\u0430\u044f \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0445\u0432\u043e\u0441\u0442",
+      "\u0445\u0432\u0430\u0442\u0430\u044e\u0449\u0435\u0435 \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0445\u0432\u043e\u0441\u0442"
+    ],
     "2500": [
       "\u0441\u0432\u0435\u0440\u0445\u0443\u0434\u0430\u0447\u043b\u0438\u0432\u044b\u0439",
       "\u0441\u0432\u0435\u0440\u0445\u0443\u0434\u0430\u0447\u043b\u0438\u0432\u0430\u044f",
@@ -31044,6 +31250,11 @@
       "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
       "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
       "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435"
+    ],
+    "2505": [
+      "\u043e\u043a\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435\u043c",
+      "\u043e\u043a\u0440\u0443\u0436\u0435\u043d\u043d\u0430\u044f \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435\u043c",
+      "\u043e\u043a\u0440\u0443\u0436\u0435\u043d\u043d\u043e\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435\u043c"
     ],
     "3000": [
       "\u043f\u043b\u044e\u0445\u0442\u043e\u043d\u0441\u043a\u0438\u0439",
@@ -31152,6 +31363,11 @@
       "\u043d\u0430\u043b\u0430\u0436\u0435\u043d\u043d\u044b\u0439",
       "\u043d\u0430\u043b\u0430\u0436\u0435\u043d\u043d\u0430\u044f",
       "\u043d\u0430\u043b\u0430\u0436\u0435\u043d\u043d\u043e\u0435"
+    ],
+    "3303": [
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0432 \u0417\u0430\u043a\u0440\u0430\u0441-\u0442\u0443\u0440\u0435",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0432 \u0417\u0430\u043a\u0440\u0430\u0441-\u0442\u0443\u0440\u0435",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u0432 \u0417\u0430\u043a\u0440\u0430\u0441-\u0442\u0443\u0440\u0435"
     ]
   },
   "JPja": {
@@ -31214,6 +31430,12 @@
     ],
     "0019": [
       "\u30bf\u30ab\u30a2\u30b7\u7d4c\u6e08\u7279\u533a\u306e"
+    ],
+    "0020": [
+      "\u30d0\u30a4\u30ac\u30a4\u4ead\u306e"
+    ],
+    "0021": [
+      "\u30cd\u30ae\u30c8\u30ed\u70ad\u9271\u306e"
     ],
     "0040": [
       "\u30b7\u30a7\u30b1\u30ca\u30c0\u30e0\u306e"
@@ -34038,6 +34260,9 @@
     "1143": [
       "\u30d5\u30a7\u30b9\u30de\u30c3\u30c1\u306e"
     ],
+    "1145": [
+      "\u30b4\u30c4\u3044"
+    ],
     "2002": [
       "\u30e2\u30ce\u30af\u30ed\u306e"
     ],
@@ -34062,6 +34287,12 @@
     "2009": [
       "\u9ec4\u660f\u306e"
     ],
+    "2012": [
+      "\u307f\u305a\u307f\u305a\u3057\u3044"
+    ],
+    "2013": [
+      "\u4e57\u308b"
+    ],
     "2500": [
       "\u5927\u5927\u5409\u306e"
     ],
@@ -34076,6 +34307,9 @@
     ],
     "2504": [
       "\u5947\u8de1\u306e"
+    ],
+    "2505": [
+      "\u6075\u307e\u308c\u305f"
     ],
     "3000": [
       "\u30d0\u30f3\u30ab\u30e9\u306a"
@@ -34142,6 +34376,9 @@
     ],
     "3302": [
       "\u30b5\u30af\u30b5\u30af\u306e"
+    ],
+    "3303": [
+      "\u30ed\u30d6\u30a4\u30c1\u306e"
     ]
   },
   "KRko": {
@@ -34204,6 +34441,12 @@
     ],
     "0019": [
       "\uac70\ubbf8\uac8c \uacbd\uc81c\ud2b9\uad6c\uc758"
+    ],
+    "0020": [
+      "\uc218\ub791\uc815\uc758"
+    ],
+    "0021": [
+      "\ucc38\uce58 \ud0c4\uad11\uc758"
     ],
     "0040": [
       "\uc170\ucf00\ub098 \ub310\uc758"
@@ -37028,6 +37271,9 @@
     "1143": [
       "\ud398\uc2a4\ud2f0\ubc8c \ub9e4\uce58\uc758"
     ],
+    "1145": [
+      "\ud22c\ubc15\ud55c"
+    ],
     "2002": [
       "\ubaa8\ub178\ud06c\ub86c\uc758"
     ],
@@ -37052,6 +37298,12 @@
     "2009": [
       "\ud669\ud63c\uc758"
     ],
+    "2012": [
+      "\uc2f1\uc2f1\ud55c"
+    ],
+    "2013": [
+      "\uc21c\ud48d\uc744 \ud0c4"
+    ],
     "2500": [
       "\uc6b4\uc774 \uc5c4\uccad \uc88b\uc740"
     ],
@@ -37066,6 +37318,9 @@
     ],
     "2504": [
       "\uae30\uc801\uc758"
+    ],
+    "2505": [
+      "\ubcf5 \ubc1b\uc740"
     ],
     "3000": [
       "\uce74\uc624\ud3f4\ub9ac\uc2a4\uc758"
@@ -37132,6 +37387,9 @@
     ],
     "3302": [
       "\ubc14\uc0ad\ubc14\uc0ad\ud55c"
+    ],
+    "3303": [
+      "\ub86d\ucf00\uc774\uc158\uc758"
     ]
   },
   "TWzh": {
@@ -37194,6 +37452,12 @@
     ],
     "0019": [
       "\u9ad8\u8173\u7d93\u6fdf\u7279\u5340\u7684"
+    ],
+    "0020": [
+      "\u8c9d\u898b\u4ead\u7684"
+    ],
+    "0021": [
+      "\u8525\u9baa\u9b5a\u7164\u7926\u5834\u7684"
     ],
     "0040": [
       "\u9bad\u58e9\u7684"
@@ -40018,6 +40282,9 @@
     "1143": [
       "\u796d\u5178\u6bd4\u8cfd\u7684"
     ],
+    "1145": [
+      "\u7c97\u7cd9\u7684"
+    ],
     "2002": [
       "\u9ed1\u767d\u7684"
     ],
@@ -40042,6 +40309,12 @@
     "2009": [
       "\u5782\u66ae\u4e4b\u5e74\u7684"
     ],
+    "2012": [
+      "\u6c34\u6f64\u7684"
+    ],
+    "2013": [
+      "\u4e58\u98a8\u7684"
+    ],
     "2500": [
       "\u5927\u5927\u5409\u7684"
     ],
@@ -40056,6 +40329,9 @@
     ],
     "2504": [
       "\u5947\u8e5f\u7684"
+    ],
+    "2505": [
+      "\u53d7\u6069\u60e0\u7684"
     ],
     "3000": [
       "\u883b\u9839\u7684"
@@ -40122,6 +40398,9 @@
     ],
     "3302": [
       "\u723d\u8106\u7684"
+    ],
+    "3303": [
+      "\u904a\u9f8d\u7684"
     ]
   },
   "USen": {
@@ -40184,6 +40463,12 @@
     ],
     "0019": [
       "Crableg Capital"
+    ],
+    "0020": [
+      "Robo ROM-en"
+    ],
+    "0021": [
+      "Bluefin Depot"
     ],
     "0040": [
       "Spawning Grounds"
@@ -43008,6 +43293,9 @@
     "1143": [
       "Splatfest Battle's"
     ],
+    "1145": [
+      "Rugged"
+    ],
     "2002": [
       "Monochrome"
     ],
@@ -43032,6 +43320,12 @@
     "2009": [
       "Dim"
     ],
+    "2012": [
+      "Ebullient"
+    ],
+    "2013": [
+      "Tailwind-Riding"
+    ],
     "2500": [
       "Super-Duper Lucky"
     ],
@@ -43046,6 +43340,9 @@
     ],
     "2504": [
       "Astonishing"
+    ],
+    "2505": [
+      "Adored"
     ],
     "3000": [
       "Splatlandian"
@@ -43112,6 +43409,9 @@
     ],
     "3302": [
       "Streamlined"
+    ],
+    "3303": [
+      "Wandercrust"
     ]
   },
   "USes": {
@@ -43174,6 +43474,12 @@
     ],
     "0019": [
       "en Distrito Rascal\u00f3podo"
+    ],
+    "0020": [
+      "en Factor\u00eda RAMen"
+    ],
+    "0021": [
+      "en la mina costera"
     ],
     "0040": [
       "en Presa salm\u00f3nida"
@@ -46467,6 +46773,10 @@
     "1143": [
       "de combates tem\u00e1ticos"
     ],
+    "1145": [
+      "abrupto",
+      "abrupta"
+    ],
     "2002": [
       "monocromo",
       "monocroma"
@@ -46495,6 +46805,13 @@
     "2009": [
       "l\u00fagubre"
     ],
+    "2012": [
+      "jubiloso",
+      "jubilosa"
+    ],
+    "2013": [
+      "cabalgavientos"
+    ],
     "2500": [
       "recontrasuertudo",
       "recontrasuertuda"
@@ -46513,6 +46830,10 @@
     ],
     "2504": [
       "incre\u00edble"
+    ],
+    "2505": [
+      "adorado",
+      "adorada"
     ],
     "3000": [
       "tinteliano",
@@ -46586,6 +46907,9 @@
     "3302": [
       "optimizado",
       "optimizada"
+    ],
+    "3303": [
+      "en la ruta de Adolfrito"
     ]
   },
   "USfr": {
@@ -46648,6 +46972,12 @@
     ],
     "0019": [
       "du quartier Crabe-ciels"
+    ],
+    "0020": [
+      "de l'ar\u00e8ne M\u00e9ca-ramen"
+    ],
+    "0021": [
+      "de la mine marine"
     ],
     "0040": [
       "du barrage salmono\u00efde"
@@ -48541,7 +48871,7 @@
       "inexp\u00e9riment\u00e9e"
     ],
     "0740": [
-      "\u00e0 manches"
+      "dans la bo\u00eete"
     ],
     "0741": [
       "champion du monde",
@@ -49456,8 +49786,7 @@
       "vert\u00e9br\u00e9e"
     ],
     "1009": [
-      "savant",
-      "savante"
+      "sagace"
     ],
     "1010": [
       "g\u00e9ant",
@@ -49917,6 +50246,10 @@
     "1143": [
       "de festimatch"
     ],
+    "1145": [
+      "bourru",
+      "bourrue"
+    ],
     "2002": [
       "monochrome"
     ],
@@ -49944,6 +50277,14 @@
     "2009": [
       "cr\u00e9pusculaire"
     ],
+    "2012": [
+      "expansif",
+      "expansive"
+    ],
+    "2013": [
+      "pouss\u00e9 par le vent",
+      "pouss\u00e9e par le vent"
+    ],
     "2500": [
       "m\u00e9gachanceux",
       "m\u00e9gachanceuse"
@@ -49961,6 +50302,10 @@
     "2504": [
       "\u00e9poustouflant",
       "\u00e9poustouflante"
+    ],
+    "2505": [
+      "adul\u00e9",
+      "adul\u00e9e"
     ],
     "3000": [
       "de la Contr\u00e9e Clabousse"
@@ -50031,6 +50376,9 @@
     "3302": [
       "effil\u00e9",
       "effil\u00e9e"
+    ],
+    "3303": [
+      "de l'Odyss\u00e9e d'Omar"
     ]
   }
 }

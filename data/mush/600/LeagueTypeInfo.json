@@ -1,0 +1,444 @@
+[
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 701375625,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsAU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 2486460167,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsEU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1593192822,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsJP"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 2518533870,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionRehearsalsUS"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1072525081,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsAU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1578089851,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsEU"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 3069412178,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsJP"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 3572649309,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "CompetitionsUS"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 2024127544,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "RandomAmiiboGear",
+    "__RowId": "CostumeParty"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "DeepFog"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 755117056,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "DeepFog"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SquidSpeedUp"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 439030072,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "FastMove"
+  },
+  {
+    "BinLayers": [
+      "Work/Banc/BinLayer/Vss_Yagara_Pnt-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yunohana_Vcl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yunohana_Vgl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yunohana_Pnt-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yunohana_Var-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yunohana_Vlf-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yagara_Vcl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Pillar03_Vcl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Factory00_Vcl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_District00_Vcl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Scrap00_Vcl-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Factory00_Pnt-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Scrap00_Pnt-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Pillar03_Pnt-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_District00_Pnt-Geyser.bcett.json",
+      "Work/Banc/BinLayer/Vss_Wave03_Pnt-Geyser.bcett.json"
+    ],
+    "InGameModifiers": [],
+    "MatchmakeType": "Normal",
+    "NameHash": 2952821816,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "Geyser"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "HighJump",
+      "SpawnArmorUp"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 1971242582,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "HighJump"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "ModifiedRainmaker"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 1883578391,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "Modified_Rainmaker"
+  },
+  {
+    "BinLayers": [
+      "Work/Banc/BinLayer/Vss_Scrap00_Vlf-ModifiedTowerControl.bcett.json",
+      "Work/Banc/BinLayer/Vss_Temple00_Vlf-ModifiedTowerControl.bcett.json",
+      "Work/Banc/BinLayer/Vss_Twist00_Vlf-ModifiedTowerControl.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yagara_Vlf-ModifiedTowerControl.bcett.json",
+      "Work/Banc/BinLayer/Vss_Yunohana_Vlf-ModifiedTowerControl.bcett.json"
+    ],
+    "InGameModifiers": [
+      "ModifiedTowerControl"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 1668905308,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "Modified_TowerControl"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 3231517975,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "MonthlyLeagueMatchReal"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 233132200,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "NewSeasonCup"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FastRespawnForPair"
+    ],
+    "MatchmakeType": "Pair",
+    "NameHash": 2824129491,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "PairCup"
+  },
+  {
+    "BinLayers": [
+      "Work/Banc/BinLayer/Vss_District00_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Spider00_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Kaisou03_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Upland03_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Wave03_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Nagasaki03_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Hiagari04_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Line03_Pnt-RainmakerDrop.bcett.json",
+      "Work/Banc/BinLayer/Vss_Pivot03_Pnt-RainmakerDrop.bcett.json"
+    ],
+    "InGameModifiers": [
+      "RainmakerDrop"
+    ],
+    "MatchmakeType": "Normal",
+    "NameHash": 1983094922,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "RainmakerDrop"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 1348455335,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "RandomWeapon",
+    "__RowId": "RandomWeapon"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 3410404554,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_JetPack"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 2384314719,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_Skewer"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 4172244339,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_UltraShot"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SpecialFill"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 650047369,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [
+      "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml"
+    ],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SpecialRush_ZipCaster"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "SuperSubWeapon"
+    ],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 568445881,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [
+      "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml"
+    ],
+    "UserSettingModifier": "DisableAdditionalGearSkill",
+    "__RowId": "SuperSubWeapon_LineMarker"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 1106369088,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "Usually"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [
+      "FullMemberAvoidNogame"
+    ],
+    "MatchmakeType": "Tournament",
+    "NameHash": 427903129,
+    "RectrictMainWeaponTypes": [],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "DisableAdditionalGearSkillIfTurfWar",
+    "__RowId": "UsuallyRehearsals"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 4040985145,
+    "RectrictMainWeaponTypes": [
+      "Blaster"
+    ],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "WeaponLimited_Blaster"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 3268537477,
+    "RectrictMainWeaponTypes": [
+      "Charger"
+    ],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "WeaponLimited_Charger"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 145057565,
+    "RectrictMainWeaponTypes": [
+      "Roller",
+      "Brush"
+    ],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "WeaponLimited_RollerBrush"
+  },
+  {
+    "BinLayers": [],
+    "InGameModifiers": [],
+    "MatchmakeType": "IgnoreWeaponType",
+    "NameHash": 4055967049,
+    "RectrictMainWeaponTypes": [
+      "Spinner"
+    ],
+    "RestrictSpecialWeapons": [],
+    "RestrictSubWeapons": [],
+    "UserSettingModifier": "None",
+    "__RowId": "WeaponLimited_Spinner"
+  }
+]
