@@ -1,0 +1,50 @@
+[
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-300",
+      "Player00_Castle_v-300",
+      "Player01_v-300",
+      "Player02_v-300",
+      "Player03_v-300"
+    ],
+    "__RowId": "Work/Gyml/300.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-400",
+      "Player01_v-400",
+      "Player03_v-400",
+      "Player02_v-400"
+    ],
+    "__RowId": "Work/Gyml/400.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-500",
+      "Player01_v-500",
+      "Player03_v-500",
+      "Player02_v-500"
+    ],
+    "__RowId": "Work/Gyml/500.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-600",
+      "Player03_v-600",
+      "Player01_v-600",
+      "Player02_v-600"
+    ],
+    "__RowId": "Work/Gyml/600.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00"
+    ],
+    "__RowId": "Work/Gyml/dummy.game__gfx__VersionedModelResource.gyml"
+  }
+]
