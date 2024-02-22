@@ -1,0 +1,118 @@
+{
+  "GameParameters": {
+    "MoveParam": {
+      "$type": "spl__BulletSpChimneyGeneratorMoveParam",
+      "DamageValueForDamageTag": 4000,
+      "GuideHitCollisionType": "InkStorm",
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.68,
+        "Low": 1.12,
+        "Mid": 1.4
+      }
+    },
+    "WallParam": {
+      "$type": "spl__BulletSpChimneyWallParam",
+      "ClosingFrame": 60,
+      "DamageValue": 300,
+      "DebugBlockRotateDistance": 0.5,
+      "DebugBlockRotateSpeedMax": 1.0,
+      "DebugBlockRotateSpeedMin": 0.5,
+      "DebugCircleRadius": 1.0,
+      "DebugCircleSideOffset": 1.5,
+      "DebugCircleSlantOffset": {
+        "X": 0.75,
+        "Y": 1.0
+      },
+      "DebugWallAlpha": 0,
+      "MarkingFrame": 120,
+      "MoveSpeed": {
+        "High": 0.06,
+        "Low": 0.04,
+        "Mid": 0.053
+      },
+      "RunningFrame": 560,
+      "SaturationChangeOutFrame": 120,
+      "SaturationFrame": 360,
+      "SaturationTarget": 0.05,
+      "SplashPaintRadius": 2.5,
+      "SplashSpawnAllFrame": 10,
+      "SplashSpawnPosition": [
+        {
+          "X": -5.0,
+          "Y": 4.5,
+          "Z": 0.85
+        },
+        {
+          "X": 7.0,
+          "Y": 5.0,
+          "Z": 0.25
+        },
+        {
+          "X": -3.0,
+          "Y": 4.0,
+          "Z": 1.25
+        },
+        {
+          "X": 1.0,
+          "Y": 4.0,
+          "Z": 1.5
+        },
+        {
+          "X": 11.0,
+          "Y": 6.5,
+          "Z": -2.0
+        },
+        {
+          "X": 3.0,
+          "Y": 4.0,
+          "Z": 1.25
+        },
+        {
+          "X": 9.0,
+          "Y": 6.5,
+          "Z": -0.6
+        },
+        {
+          "X": -9.0,
+          "Y": 6.5,
+          "Z": -0.6
+        },
+        {
+          "X": -1.0,
+          "Y": 4.0,
+          "Z": 1.5
+        },
+        {
+          "X": -7.0,
+          "Y": 5.0,
+          "Z": 0.25
+        },
+        {
+          "X": 5.0,
+          "Y": 4.5,
+          "Z": 0.85
+        },
+        {
+          "X": -11.0,
+          "Y": 6.5,
+          "Z": -2.0
+        }
+      ],
+      "SplashSpawnSpan": 45,
+      "StartUpFrame": 60,
+      "TargetSpeedFrame": 300,
+      "WallDepth": 0.25,
+      "WallHeightDown": 4.5,
+      "WallHeightUp": 4.5,
+      "WallWidth": 15.0
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.16,
+      "YPlusRate": 4.0
+    }
+  }
+}

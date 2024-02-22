@@ -322,6 +322,15 @@
                                             </th>
                                             <th
                                                 scope="col"
+                                                data-field="UrokoPrice"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                                data-formatter="uroko_array_formatter"
+                                            >
+                                                Uroko Price
+                                            </th>
+                                            <th
+                                                scope="col"
                                                 data-field="Season"
                                                 data-sortable="true"
                                                 data-visible="false"
@@ -383,6 +392,15 @@
                                                 data-visible="false"
                                             >
                                                 How To Get
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="UrokoPrice"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                                data-formatter="uroko_array_formatter"
+                                            >
+                                                Uroko Price
                                             </th>
                                             <th
                                                 scope="col"
@@ -450,6 +468,15 @@
                                             </th>
                                             <th
                                                 scope="col"
+                                                data-field="UrokoPrice"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                                data-formatter="uroko_array_formatter"
+                                            >
+                                                Uroko Price
+                                            </th>
+                                            <th
+                                                scope="col"
                                                 data-field="Season"
                                                 data-sortable="true"
                                                 data-visible="false"
@@ -466,8 +493,9 @@
             </div>
         </main>
         <script type="module">
-            import { generateHeader } from "./js/Utility.js"
+            import { generateHeader, uroko_array_formatter } from "./js/Utility.js"
             generateHeader($("#navbarCollapse"))
+            window.uroko_array_formatter = uroko_array_formatter
         </script>
         <script>
             let prefix = ""
@@ -835,6 +863,7 @@
                             Rarity: gear["Rarity"],
                             Skill0: gear["Skill"],
                             HowToGet: gear["HowToGet"],
+                            UrokoPrice: gear["UrokoPrice"],
                             Season: gear["Season"],
                         }
                         geardata.push(row)

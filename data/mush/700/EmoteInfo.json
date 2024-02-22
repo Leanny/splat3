@@ -1,0 +1,1425 @@
+[
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 105,
+    "Order": 3022,
+    "Pattern": "BlowKiss",
+    "Season": 6,
+    "Type": "Normal",
+    "__RowId": "BlowKiss"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.25,
+          "Y": -0.3
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 106,
+    "Order": 2000,
+    "Pattern": "Crouching00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Crouching00"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.05,
+          "Y": 0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 120,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 100,
+    "Order": 3000,
+    "Pattern": "FeelingWarm00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "FeelingWarm00"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": -0.01,
+          "Y": 0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 200,
+      "IsLoopStart": false
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Other",
+    "Id": 112,
+    "Order": 3901,
+    "Pattern": "Idol01",
+    "Season": -1,
+    "Type": "Normal",
+    "__RowId": "Idol01"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": 0.1
+        },
+        "CamRot": {
+          "X": 3.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 111,
+    "Order": 3900,
+    "Pattern": "Idol02",
+    "Season": 5,
+    "Type": "Normal",
+    "__RowId": "Idol02"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": 0.05,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": -0.01
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 108,
+    "Order": 2009,
+    "Pattern": "IkachanDance",
+    "Season": 6,
+    "Type": "Normal",
+    "__RowId": "IkachanDance"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Other",
+    "Id": 110,
+    "Order": 4010,
+    "Pattern": "NwBtl00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "NwBtl00"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.08,
+          "Y": -0.01
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 102,
+    "Order": 3001,
+    "Pattern": "Shivering00",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Shivering00"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.3
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 107,
+    "Order": 3010,
+    "Pattern": "SittingCrossedLegs",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "SittingCrossedLegs"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -0.5,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 103,
+    "Order": 2006,
+    "Pattern": "TransformationPose00",
+    "Season": 4,
+    "Type": "Normal",
+    "__RowId": "TransformationPose00"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 37,
+      "IsLoopStart": false
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 104,
+    "Order": 3021,
+    "Pattern": "WaveHands",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "WaveHands"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -0.5,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.2
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 179,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 4,
+    "Order": 2001,
+    "Pattern": "Win04",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win04"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 7,
+    "Order": 1100,
+    "Pattern": "Win07",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Win07"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.5,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.2
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 150,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 8,
+    "Order": 1000,
+    "Pattern": "Win08",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win08"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.3,
+        "CamPosOffset": {
+          "X": -0.04,
+          "Y": 0.1
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 9,
+    "Order": 2002,
+    "Pattern": "Win09",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win09"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.03,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 10,
+    "Order": 3030,
+    "Pattern": "Win10",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win10"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 11,
+    "Order": 2003,
+    "Pattern": "Win11",
+    "Season": 4,
+    "Type": "Normal",
+    "__RowId": "Win11"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": 0.06,
+          "Y": 0.13
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 12,
+    "Order": 2004,
+    "Pattern": "Win12",
+    "Season": 4,
+    "Type": "Normal",
+    "__RowId": "Win12"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": 0.15
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 130,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 13,
+    "Order": 1001,
+    "Pattern": "Win13",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win13"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": 0.3
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 14,
+    "Order": 1003,
+    "Pattern": "Win14",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Win14"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 15,
+    "Order": 1002,
+    "Pattern": "Win15",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win15"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 16,
+    "Order": 1101,
+    "Pattern": "Win16",
+    "Season": 5,
+    "Type": "Normal",
+    "__RowId": "Win16"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": -0.06,
+          "Y": 0.3
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 17,
+    "Order": 3040,
+    "Pattern": "Win17",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win17"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.8,
+        "CamPosOffset": {
+          "X": 0.15,
+          "Y": 0.35
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 18,
+    "Order": 3041,
+    "Pattern": "Win18",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win18"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.5,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": 0.3
+        },
+        "CamRot": {
+          "X": 2.0,
+          "Y": 3.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 19,
+    "Order": 3043,
+    "Pattern": "Win19",
+    "Season": 5,
+    "Type": "Normal",
+    "__RowId": "Win19"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -0.1,
+        "CamPosOffset": {
+          "X": -0.03,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": -11.0,
+          "Y": 5.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 20,
+    "Order": 3020,
+    "Pattern": "Win20",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Win20"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": -0.05,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 70,
+      "IsLoopStart": false
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 21,
+    "Order": 3024,
+    "Pattern": "Win21",
+    "Season": 7,
+    "Type": "Normal",
+    "__RowId": "Win21"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": 0.1
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 22,
+    "Order": 3023,
+    "Pattern": "Win22",
+    "Season": 6,
+    "Type": "Normal",
+    "__RowId": "Win22"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.5,
+        "CamPosOffset": {
+          "X": 0.05,
+          "Y": 0.2
+        },
+        "CamRot": {
+          "X": 3.0,
+          "Y": 10.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 24,
+    "Order": 2007,
+    "Pattern": "Win24",
+    "Season": 5,
+    "Type": "Normal",
+    "__RowId": "Win24"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": -0.3
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": -0.02
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 25,
+    "Order": 2008,
+    "Pattern": "Win25",
+    "Season": 5,
+    "Type": "Normal",
+    "__RowId": "Win25"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": 0.4
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 26,
+    "Order": 1004,
+    "Pattern": "Win26",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win26"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.03,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 27,
+    "Order": 2005,
+    "Pattern": "Win27",
+    "Season": 4,
+    "Type": "Normal",
+    "__RowId": "Win27"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": -0.08,
+          "Y": 0.3
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 29,
+    "Order": 3042,
+    "Pattern": "Win29",
+    "Season": 4,
+    "Type": "Normal",
+    "__RowId": "Win29"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": -0.07
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 30,
+    "Order": 1009,
+    "Pattern": "Win30",
+    "Season": 7,
+    "Type": "Normal",
+    "__RowId": "Win30"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": -0.05,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 32,
+    "Order": 1005,
+    "Pattern": "Win32",
+    "Season": 4,
+    "Type": "Normal",
+    "__RowId": "Win32"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 33,
+    "Order": 1007,
+    "Pattern": "Win33",
+    "Season": 6,
+    "Type": "Normal",
+    "__RowId": "Win33"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 34,
+    "Order": 1008,
+    "Pattern": "Win34",
+    "Season": 6,
+    "Type": "Normal",
+    "__RowId": "Win34"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Upper",
+    "HowToGet": "Catalog",
+    "Id": 35,
+    "Order": 2012,
+    "Pattern": "Win35",
+    "Season": 7,
+    "Type": "Normal",
+    "__RowId": "Win35"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": 0.2
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": -5.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 36,
+    "Order": 1006,
+    "Pattern": "Win36",
+    "Season": 5,
+    "Type": "Normal",
+    "__RowId": "Win36"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.04,
+          "Y": -0.3
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": -0.02
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 37,
+    "Order": 2010,
+    "Pattern": "Win37",
+    "Season": 6,
+    "Type": "Normal",
+    "__RowId": "Win37"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -0.08,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": -0.25
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 38,
+    "Order": 2013,
+    "Pattern": "Win38",
+    "Season": 7,
+    "Type": "Normal",
+    "__RowId": "Win38"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": -0.8,
+        "CamPosOffset": {
+          "X": 0.04,
+          "Y": -0.4
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Invalid"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Lower",
+    "HowToGet": "Catalog",
+    "Id": 39,
+    "Order": 2011,
+    "Pattern": "Win39",
+    "Season": 7,
+    "Type": "Normal",
+    "__RowId": "Win39"
+  },
+  {
+    "AwardPhotoParam": [],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "None",
+    "HowToGet": "Impossible",
+    "Id": 0,
+    "Order": 99999,
+    "Pattern": "Win_Tricol",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win_Tricol"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Shooter"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Brush"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.15
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Charger"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": -8.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Maneuver"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Saber"
+      },
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": 0.18,
+          "Y": 0.15
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Spinner"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Stringer"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": 0.05
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Blaster"
+      },
+      {
+        "CamDistOffset": -2.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": 0.4
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Slosher"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 201,
+    "Order": 4001,
+    "Pattern": "Win_$(WEAPON)01",
+    "Season": 3,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon01"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.15,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Charger"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Maneuver"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Saber"
+      },
+      {
+        "CamDistOffset": -0.5,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Spinner"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Stringer"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.05,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Brush"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Catalog",
+    "Id": 202,
+    "Order": 4002,
+    "Pattern": "Win_$(WEAPON)02",
+    "Season": 7,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon02"
+  },
+  {
+    "AwardPhotoParam": [
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.2,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Blaster"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.2
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Brush"
+      },
+      {
+        "CamDistOffset": 0.2,
+        "CamPosOffset": {
+          "X": -0.05,
+          "Y": 0.05
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Charger"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": -8.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Maneuver"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": -0.05,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Roller"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": 0.0
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Saber"
+      },
+      {
+        "CamDistOffset": -1.0,
+        "CamPosOffset": {
+          "X": -0.1,
+          "Y": -0.3
+        },
+        "CamRot": {
+          "X": -5.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Slosher"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.1,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Spinner"
+      },
+      {
+        "CamDistOffset": 0.0,
+        "CamPosOffset": {
+          "X": 0.0,
+          "Y": -0.1
+        },
+        "CamRot": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "WeaponType": "Stringer"
+      }
+    ],
+    "CaptureParam": {
+      "Frame": 259,
+      "IsLoopStart": true
+    },
+    "FistBumpType": "Middle",
+    "HowToGet": "Other",
+    "Id": 203,
+    "Order": 4003,
+    "Pattern": "Win_$(WEAPON)03",
+    "Season": 0,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon03"
+  }
+]
