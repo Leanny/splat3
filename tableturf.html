@@ -149,6 +149,37 @@
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
 
+                var NPCFormatter = value => {
+                    var x =
+                        localize("CommonMsg/Glossary", value.replace("MiniGame_", "")) ||
+                        localize("CommonMsg/MiniGame/MiniGameCardName", value.replace("MiniGame_", "")) ||
+                        localize("CommonMsg/Glossary", value.replace("_", "")) ||
+                        localize("CommonMsg/Glossary", value.replace("MiniGame_", "").replace("_", "")) ||
+                        value.replace("MiniGame_", "")
+                    return x
+                }
+
+                var StageFormatter = value => {
+                    var [x1, x2, x3] = value
+                    return localize("CommonMsg/MiniGame/MiniGameMapName", x1)
+                }
+
+                var AIFormatter = value => {
+                    var [x1, x2, x3] = value
+                    return `<p>${x1}</p>`
+                }
+
+                function card_sleeve_formatter2(value) {
+                    const name = value
+                        .replace("Work/Gyml/MiniGameCardSleeve", "")
+                        .replace(".spl__MiniGameCardSleeve.gyml", "")
+                    return `<div class="card-sleeve">${format_img(
+                        `${get_prefix()}images/minigame/sleeveL/`,
+                        "MngCardSleeve" + name,
+                        96
+                    )}</div>`
+                }
+
                 const prefix = get_prefix()
                 let version = "100"
                 window.lang_dict = {}
@@ -162,6 +193,10 @@
                 window.card_square_formatter = card_square_formatter
                 window.card_sleeve_formatter = card_sleeve_formatter
                 window.card_reward_formatter = card_reward_formatter
+                window.NPCFormatter = NPCFormatter
+                window.StageFormatter = StageFormatter
+                window.card_sleeve_formatter2 = card_sleeve_formatter2
+                window.AIFormatter = AIFormatter
 
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
@@ -196,7 +231,14 @@
                         }
                         translate_menu()
                         $.getJSON(mush_url(version, "MiniGameCardInfo"), data_dict => {
-                            $("#minigamecardinfo-table").bootstrapTable("refreshOptions", { data: data_dict })
+                            $("#minigamecardinfo-table").bootstrapTable("refreshOptions", {
+                                data: data_dict,
+                                sortName: "Number",
+                            })
+                        })
+                        $.getJSON(mush_url(version, "MiniGameGameNpcData"), data_dict => {
+                            add_to_dict(data_dict, "Name")
+                            $(`#npcinfo-table`).bootstrapTable("refreshOptions", { data: data_dict, sortName: "Order" })
                         })
                         $.getJSON(mush_url(version, "MiniGamePresetDeck"), data_dict => {
                             $("#decklistTabControl").children().remove()
@@ -208,8 +250,11 @@
                                         elem.__RowId.replace("MiniGame_", "")
                                     ) ||
                                     localize("CommonMsg/Glossary", elem.__RowId.replace("_", "")) ||
+                                    localize(
+                                        "CommonMsg/Glossary",
+                                        elem.__RowId.replace("MiniGame_", "").replace("_", "")
+                                    ) ||
                                     elem.__RowId.replace("MiniGame_", "")
-
                                 add_table(
                                     "decklist",
                                     `minigamedeck-${idx}-table`,
@@ -261,6 +306,8 @@
                         load_data()
                     })
                     add_tab("cardlist", "Card List")
+                    add_tab("npcinfo", "NPC Info")
+
                     add_tab("decklist", "Deck List")
                     add_tab("sleevelist", "Card Sleeves")
                     add_tab("ranklist", "Ranks")
@@ -285,6 +332,14 @@
                         },
                         { Field: "Season", Label: "Season", sortable: "true" },
                         { Field: "Square", Label: "Square", formatter: "card_square_formatter" },
+                    ])
+
+                    add_table("npcinfo", "npcinfo-table", [
+                        { Field: "__RowId", Label: "Name", formatter: "NPCFormatter" },
+                        { Field: "Order", Label: "Order", sortable: true, visible: false },
+                        { Field: "Map", Label: "Map", formatter: "StageFormatter" },
+                        { Field: "CardSleeve", Label: "CardSleeve", formatter: "card_sleeve_formatter2" },
+                        { Field: "AIType", Label: "AIType", formatter: "AIFormatter" },
                     ])
 
                     add_table("ranklist", "rankinfo-table", [
