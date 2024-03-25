@@ -10730,6 +10730,7 @@
     "059": "Dedf1sh",
     "060": "腕儿姐妹 feat. Dedf1sh",
     "061": "Dedf1sh feat. 腕儿姐妹",
+    "062": "腕儿姐妹 vs 曼曼&莎莎",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -10834,8 +10835,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day1_Sdodr": "Color Pulse (2024)",
     "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
+    "Plaza_Fes_Day2_Sdodr": "We're So Back",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "蛮颓电台",
     "Privilege01_Fsodr": "Ink Me Up",
@@ -10870,7 +10873,7 @@
     "Sdodr_Stage_Area_02": "routine2",
     "Sdodr_Stage_Area_03": "routin3s",
     "Sdodr_Stage_Boss_BallKing": "CΘld StΘrage",
-    "Sdodr_Stage_Boss_Iida": "Unsconscience",
+    "Sdodr_Stage_Boss_Iida": "Unconscience",
     "Sdodr_Stage_Boss_Ooda_01": "New World Order",
     "Sdodr_Stage_Boss_Ooda_02": "Spectrum Obligato ~ Ebb & Flow (Out of Order)",
     "Sdodr_Stage_Boss_Ooda_EX": "Short Order",
@@ -10889,6 +10892,7 @@
     "Versus_Fes_Thunder_01": "Fins in the Air",
     "Versus_Fes_Thunder_02": "Till Depth Do Us Part",
     "Versus_Fes_Thunder_04": "Big Betrayal",
+    "Versus_Fes_Thunder_05": "Suffer No Fools",
     "Versus_Fes_Thunder_Last1Min": "Now or Never!",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -18079,6 +18083,7 @@
     "011": "回想救出饭田时的事",
     "020": "回想色彩丰富的战斗",
     "021": "回想登天电梯",
+    "022": "回想第一次见到的尚兴广场",
     "030_0": "取消",
     "030_1": "回想！",
     "030_2": "要回想初始之塔吗？\n\n※将改用小姬的调色盘，重新攀登初始之塔。\n　可以通过按[group=0003 type=004a params=00 00 80 3f 00 00 00 00]暂停，返回入口大厅。",
@@ -18090,7 +18095,10 @@
     "032_2": "要回想色彩丰富的战斗吗？",
     "033_0": "取消",
     "033_1": "回想！",
-    "033_2": "要回想登天电梯吗？"
+    "033_2": "要回想登天电梯吗？",
+    "034_0": "取消",
+    "034_1": "回想！",
+    "034_2": "要回想第一次去尚兴广场时的场景吗？\n\n※即将移动到尚兴广场。"
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "查看图片",

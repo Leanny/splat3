@@ -8888,6 +8888,7 @@
     "059": "Dedf1sh",
     "060": "テンタクルズ feat. Dedf1sh",
     "061": "Dedf1sh feat. テンタクルズ",
+    "062": "テンタクルズ vs 空帆＆楓火",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -8992,8 +8993,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "蛮殻三毒楽（鳥天楽・今様）",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "蛮殻三毒楽（猪神楽・今様）",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "蛮殻三毒楽（大蛇舞・今様）",
+    "Plaza_Fes_Day1_Sdodr": "ウルトラ・カラーパルス'24",
     "Plaza_Fes_Day2_Fsodr": "BRANDNEW HOMETOWN ～それより明日の話を～",
     "Plaza_Fes_Day2_IdolSong": "蛮殻ミックスモダン",
+    "Plaza_Fes_Day2_Sdodr": "ヘッドライナーズ・ハイ",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "バンカラジオ",
     "Privilege01_Fsodr": "キミ色に染めて",
@@ -9047,6 +9050,7 @@
     "Versus_Fes_Thunder_01": "衝天プチョフィンザ",
     "Versus_Fes_Thunder_02": "張拳ゴーアヘッド",
     "Versus_Fes_Thunder_04": "鉄槌ピシャゲルド",
+    "Versus_Fes_Thunder_05": "蛮殻 MC BATTLE ～The King of Tentacular～",
     "Versus_Fes_Thunder_Last1Min": "イマ・ヌラネバー！",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -11964,6 +11968,7 @@
     "011": "イイダを助け出したときを思い出す",
     "020": "色にあふれた戦いを思い出す",
     "021": "天に上るエレベーターを思い出す",
+    "022": "初めて見たハイカラスクエアを思い出す",
     "030_0": "やめとく",
     "030_1": "思い出す！",
     "030_2": "最初の塔を思い出しますか？\n\n※ヒメのパレットに変えて、最初の塔を上り直します\n[group=0003 type=004a params=00 00 80 3f 00 00 00 00]ポーズから エントランスへ もどれます",
@@ -11975,7 +11980,10 @@
     "032_2": "色にあふれた戦いを思い出しますか？",
     "033_0": "やめとく",
     "033_1": "思い出す！",
-    "033_2": "天に上るエレベーターを思い出しますか？"
+    "033_2": "天に上るエレベーターを思い出しますか？",
+    "034_0": "やめとく",
+    "034_1": "思い出す！",
+    "034_2": "初めてハイカラスクエアに行ったときのことを\n思い出しますか？\n\n※ハイカラスクエアに移動します"
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "画像を見る",

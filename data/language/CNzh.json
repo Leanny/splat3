@@ -8888,6 +8888,7 @@
     "059": "Dedf1sh",
     "060": "\u8155\u513f\u59d0\u59b9 feat. Dedf1sh",
     "061": "Dedf1sh feat. \u8155\u513f\u59d0\u59b9",
+    "062": "\u8155\u513f\u59d0\u59b9 vs \u66fc\u66fc&\u838e\u838e",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -8992,8 +8993,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day1_Sdodr": "Color Pulse (2024)",
     "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
+    "Plaza_Fes_Day2_Sdodr": "We're So Back",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "\u86ee\u9893\u7535\u53f0",
     "Privilege01_Fsodr": "Ink Me Up",
@@ -9028,7 +9031,7 @@
     "Sdodr_Stage_Area_02": "routine2",
     "Sdodr_Stage_Area_03": "routin3s",
     "Sdodr_Stage_Boss_BallKing": "C\u0398ld St\u0398rage",
-    "Sdodr_Stage_Boss_Iida": "Unsconscience",
+    "Sdodr_Stage_Boss_Iida": "Unconscience",
     "Sdodr_Stage_Boss_Ooda_01": "New World Order",
     "Sdodr_Stage_Boss_Ooda_02": "Spectrum Obligato ~ Ebb & Flow (Out of Order)",
     "Sdodr_Stage_Boss_Ooda_EX": "Short Order",
@@ -9047,6 +9050,7 @@
     "Versus_Fes_Thunder_01": "Fins in the Air",
     "Versus_Fes_Thunder_02": "Till Depth Do Us Part",
     "Versus_Fes_Thunder_04": "Big Betrayal",
+    "Versus_Fes_Thunder_05": "Suffer No Fools",
     "Versus_Fes_Thunder_Last1Min": "Now or Never!",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -11964,6 +11968,7 @@
     "011": "\u56de\u60f3\u6551\u51fa\u996d\u7530\u65f6\u7684\u4e8b",
     "020": "\u56de\u60f3\u8272\u5f69\u4e30\u5bcc\u7684\u6218\u6597",
     "021": "\u56de\u60f3\u767b\u5929\u7535\u68af",
+    "022": "\u56de\u60f3\u7b2c\u4e00\u6b21\u89c1\u5230\u7684\u5c1a\u5174\u5e7f\u573a",
     "030_0": "\u53d6\u6d88",
     "030_1": "\u56de\u60f3\uff01",
     "030_2": "\u8981\u56de\u60f3\u521d\u59cb\u4e4b\u5854\u5417\uff1f\n\n\u203b\u5c06\u6539\u7528\u5c0f\u59ec\u7684\u8c03\u8272\u76d8\uff0c\u91cd\u65b0\u6500\u767b\u521d\u59cb\u4e4b\u5854\u3002\n\u3000\u53ef\u4ee5\u901a\u8fc7\u6309[group=0003 type=004a params=00 00 80 3f 00 00 00 00]\u6682\u505c\uff0c\u8fd4\u56de\u5165\u53e3\u5927\u5385\u3002",
@@ -11975,7 +11980,10 @@
     "032_2": "\u8981\u56de\u60f3\u8272\u5f69\u4e30\u5bcc\u7684\u6218\u6597\u5417\uff1f",
     "033_0": "\u53d6\u6d88",
     "033_1": "\u56de\u60f3\uff01",
-    "033_2": "\u8981\u56de\u60f3\u767b\u5929\u7535\u68af\u5417\uff1f"
+    "033_2": "\u8981\u56de\u60f3\u767b\u5929\u7535\u68af\u5417\uff1f",
+    "034_0": "\u53d6\u6d88",
+    "034_1": "\u56de\u60f3\uff01",
+    "034_2": "\u8981\u56de\u60f3\u7b2c\u4e00\u6b21\u53bb\u5c1a\u5174\u5e7f\u573a\u65f6\u7684\u573a\u666f\u5417\uff1f\n\n\u203b\u5373\u5c06\u79fb\u52a8\u5230\u5c1a\u5174\u5e7f\u573a\u3002"
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "\u67e5\u770b\u56fe\u7247",

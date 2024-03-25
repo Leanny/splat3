@@ -8888,6 +8888,7 @@
     "059": "Dedf1sh",
     "060": "Cefalopop y Dedf1sh",
     "061": "Dedf1sh y Cefalopop",
+    "062": "Cefalopop con Fire & Ice",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -8992,8 +8993,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day1_Sdodr": "Color Pulse (2024)",
     "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
+    "Plaza_Fes_Day2_Sdodr": "We're So Back",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "Radio caótica",
     "Privilege01_Fsodr": "Ink Me Up",
@@ -9047,6 +9050,7 @@
     "Versus_Fes_Thunder_01": "Fins in the Air",
     "Versus_Fes_Thunder_02": "Till Depth Do Us Part",
     "Versus_Fes_Thunder_04": "Big Betrayal",
+    "Versus_Fes_Thunder_05": "Suffer No Fools",
     "Versus_Fes_Thunder_Last1Min": "Now or Never!",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -11964,6 +11968,7 @@
     "011": "El rescate de Marina",
     "020": "El vibrante y épico combate",
     "021": "El elevador a los cielos",
+    "022": "La llegada al centro de Cromópolis",
     "030_0": "No...",
     "030_1": "¡Recordar!",
     "030_2": "¿Quieres recordar tu primer ascenso?\n\nUsarás la paleta de Perla para subir por la\ntorre, como la primera vez. Puedes volver a\nla entrada si oprimes [group=0003 type=004a params=00 00 80 3f 00 00 00 00] para pausar el juego.",
@@ -11975,7 +11980,10 @@
     "032_2": "¿Quieres recordar ese vibrante\ny épico combate?",
     "033_0": "No...",
     "033_1": "¡Recordar!",
-    "033_2": "¿Quieres recordar el viaje\nen elevador a los cielos?"
+    "033_2": "¿Quieres recordar el viaje\nen elevador a los cielos?",
+    "034_0": "No...",
+    "034_1": "¡Recordar!",
+    "034_2": "¿Quieres recordar tu llegada\nal centro de Cromópolis?\n\nTe trasladarás allí."
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "Ver imagen",

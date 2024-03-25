@@ -8013,7 +8013,7 @@
     "Murch_PaletteName": "Palette de Tipik",
     "Takowasa_ClearText": "OH OH ! C'est une grosse légume, cet\nOctarien ! Même qu'il a un énorme\nrobot volant et qu'il fait rien qu'à\nse pavaner dedans !\n\nMais c'est pas le moment de planter\ndu wasabi ! Le bonheur des Octalings\ndépend de toi ! Alors, ressaisis-toi !\n\nJe suis le patron de l'Ordre, et chez moi,\nmême les grosses légumes peuvent pas\nfaire tout qu'est-ce qu'elles veulent !\nCe serait intolérable et il faut les PUNIR !",
     "Takowasa_PaletteName": "Palette de DJ Octave",
-    "Utsuho_ClearText": "PFFFF ! Quel désordre ! C'est ça,\nles âmes de Cité-Clabousse ?\n\nEn plus, quand il souffle dans sa flûte\ntoute bizarre, pouf ! Tout plein de\nbébêtes jaunes apparaissent et font\ndes cabrioles ! C'est dingue ! Elles ont\nl'air si bien dressées et sympas avec...\n\nNON ! Des clowns pareils feraient\nrien qu'à me distraire de mon objectif !\nEt c'est intolérable ! Pour le bien de\nl'Ordre, il faut les PUNIR !",
+    "Utsuho_ClearText": "PFFFF ! Quel désordre ! C'est ça,\nles âmes de Cité-Clabousse ?\n\nEn plus, quand elle souffle dans sa flûte\ntoute bizarre, pouf ! Tout plein de\nbébêtes jaunes apparaissent et font\ndes cabrioles ! C'est dingue ! Elles ont\nl'air si bien dressées et sympas avec...\n\nNON ! Des clowns pareils feraient\nrien qu'à me distraire de mon objectif !\nEt c'est intolérable ! Pour le bien de\nl'Ordre, il faut les PUNIR !",
     "Utsuho_PaletteName": "Palette d'Angie"
   },
   "CommonMsg/Sdodr/Sdodr_StageName": {
@@ -8075,7 +8075,7 @@
     "hills_lift": "étage.double_colline\\trampoline",
     "hills_spawner": "étage.double_colline\\trampoline_fourmillant",
     "infinity_area": "étage.cruels_allers_retours_sur_octogone",
-    "jumpjump_spawner": "Étage.matelas_et_saut_instable",
+    "jumpjump_spawner": "étage.matelas_et_saut_instable",
     "koguchi_area": "étage.porte\\éternel_cauchemar_à_découvert",
     "koguchi_ball": "étage.porte\\trampoline",
     "koguchi_chase": "étage.porte\\bain_d_encre",
@@ -8677,7 +8677,7 @@
     "drone_trap_01": "Et une mine déposée, une !",
     "drone_trap_02": "L'endroit est parfait pour une mine, pas vrai ?",
     "event_bonus_attack00": "Waouh, y a une tonne de puces ici ! Ouvre le menu de\npause avec [group=0003 type=004a params=00 00 80 3f 00 00 00 00] et jette un œil à ta [color=0004]palette [color=ffff]avec [group=0003 type=0048 params=00 00 80 3f 00 00 00 00] !",
-    "event_bonus_attack01": "Oooh, t'as vu toutes ces puces de Puissance ?\nOn va allumer les Squelécaille comme au stand de tir !",
+    "event_bonus_attack01": "Oooh, t'as vu toutes ces puces de Puissance ?\nOn va allumer les Squelécailles comme au stand de tir !",
     "event_bonus_auto00": "Waouh, y a une tonne de puces ici ! Ouvre le menu de\npause avec [group=0003 type=004a params=00 00 80 3f 00 00 00 00] et jette un œil à ta [color=0004]palette [color=ffff]avec [group=0003 type=0048 params=00 00 80 3f 00 00 00 00] !",
     "event_bonus_auto01": "Oooh, t'as vu toutes ces puces de drone ?\nÇa va être un véritable PERLIVAL ! Accroche-toi, Huit !",
     "event_bonus_continuity00": "Waouh, y a une tonne de puces ici ! Ouvre le menu de\npause avec [group=0003 type=004a params=00 00 80 3f 00 00 00 00] et jette un œil à ta [color=0004]palette [color=ffff]avec [group=0003 type=0048 params=00 00 80 3f 00 00 00 00] !",
@@ -8888,6 +8888,7 @@
     "059": "Dedf1sh",
     "060": "Tenta-Cool feat. Dedf1sh",
     "061": "Dedf1sh feat. Tenta-Cool",
+    "062": "Tenta-Cool vs Feu & Glace",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -8992,8 +8993,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day1_Sdodr": "Color Pulse (2024)",
     "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
+    "Plaza_Fes_Day2_Sdodr": "We're So Back",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "Anarchie Splatcast",
     "Privilege01_Fsodr": "Ink Me Up",
@@ -9028,7 +9031,7 @@
     "Sdodr_Stage_Area_02": "routine2",
     "Sdodr_Stage_Area_03": "routin3s",
     "Sdodr_Stage_Boss_BallKing": "CΘld StΘrage",
-    "Sdodr_Stage_Boss_Iida": "Unsconscience",
+    "Sdodr_Stage_Boss_Iida": "Unconscience",
     "Sdodr_Stage_Boss_Ooda_01": "New World Order",
     "Sdodr_Stage_Boss_Ooda_02": "Spectrum Obligato ~ Ebb & Flow (Out of Order)",
     "Sdodr_Stage_Boss_Ooda_EX": "Short Order",
@@ -9047,6 +9050,7 @@
     "Versus_Fes_Thunder_01": "Fins in the Air",
     "Versus_Fes_Thunder_02": "Till Depth Do Us Part",
     "Versus_Fes_Thunder_04": "Big Betrayal",
+    "Versus_Fes_Thunder_05": "Suffer No Fools",
     "Versus_Fes_Thunder_Last1Min": "Now or Never!",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -11964,6 +11968,7 @@
     "011": "Le sauvetage de Coralie.",
     "020": "Mon combat épique et coloré.",
     "021": "L'ascenseur montant vers les cieux.",
+    "022": "Ma première visite au square de Chromapolis.",
     "030_0": "Non",
     "030_1": "Me souvenir !",
     "030_2": "Te souvenir de ta première ascension ?\n\nÉquipe la palette de Perle et escalade la tour\ncomme si c'était la première fois. Appuie sur\npause [group=0003 type=004a params=00 00 80 3f 00 00 00 00] pour retourner au hall d'entrée.",
@@ -11975,7 +11980,10 @@
     "032_2": "Te souvenir de ce combat si épique\net si coloré ?",
     "033_0": "Non",
     "033_1": "Me souvenir !",
-    "033_2": "Te souvenir de ce jour où tu étais dans\nl'ascenseur, montant vers les cieux ?"
+    "033_2": "Te souvenir de ce jour où tu étais dans\nl'ascenseur, montant vers les cieux ?",
+    "034_0": "Non",
+    "034_1": "Me souvenir !",
+    "034_2": "Te souvenir du jour où tu as découvert\nle square de Chromapolis ?\n(Tu te retrouveras au square de Chromapolis.)"
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "Afficher l'image",

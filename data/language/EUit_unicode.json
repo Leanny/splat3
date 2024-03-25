@@ -8888,6 +8888,7 @@
     "059": "Dedf1sh",
     "060": "Tenta Cool feat. Dedf1sh",
     "061": "Dedf1sh feat. Tenta Cool",
+    "062": "Tenta Cool VS Fuoco & Ghiaccio",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -8992,8 +8993,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day1_Sdodr": "Color Pulse (2024)",
     "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
+    "Plaza_Fes_Day2_Sdodr": "We're So Back",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "Splatcast Anarchia",
     "Privilege01_Fsodr": "Ink Me Up",
@@ -9028,7 +9031,7 @@
     "Sdodr_Stage_Area_02": "routine2",
     "Sdodr_Stage_Area_03": "routin3s",
     "Sdodr_Stage_Boss_BallKing": "CΘld StΘrage",
-    "Sdodr_Stage_Boss_Iida": "Unsconscience",
+    "Sdodr_Stage_Boss_Iida": "Unconscience",
     "Sdodr_Stage_Boss_Ooda_01": "New World Order",
     "Sdodr_Stage_Boss_Ooda_02": "Spectrum Obligato ~ Ebb & Flow (Out of Order)",
     "Sdodr_Stage_Boss_Ooda_EX": "Short Order",
@@ -9047,6 +9050,7 @@
     "Versus_Fes_Thunder_01": "Fins in the Air",
     "Versus_Fes_Thunder_02": "Till Depth Do Us Part",
     "Versus_Fes_Thunder_04": "Big Betrayal",
+    "Versus_Fes_Thunder_05": "Suffer No Fools",
     "Versus_Fes_Thunder_Last1Min": "Now or Never!",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -11964,6 +11968,7 @@
     "011": "Ricorda il salvataggio di Nori.",
     "020": "Ricorda la battaglia epica e colorata.",
     "021": "Ricorda l'ascensore che sale in cielo.",
+    "022": "Ricorda piazza Coloropoli.",
     "030_0": "No",
     "030_1": "Sì",
     "030_2": "Vuoi ricordare la tua prima scalata?\n\nUserai la tavoletta di Alga e scalerai la\ntorre com'era la prima volta. Accedi al menu\ndi pausa con [group=0003 type=004a params=00 00 80 3f 00 00 00 00] per tornare all'ingresso.",
@@ -11975,7 +11980,10 @@
     "032_2": "Vuoi ricordare quella battaglia epica\ne colorata?",
     "033_0": "No",
     "033_1": "Sì",
-    "033_2": "Vuoi ricordare l'ascensore che sale in cielo?"
+    "033_2": "Vuoi ricordare l'ascensore che sale in cielo?",
+    "034_0": "No",
+    "034_1": "Sì",
+    "034_2": "Vuoi ricordare la prima volta che hai\nvisto piazza Coloropoli?\n\nTi sposterai a piazza Coloropoli."
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "Vedi immagine",

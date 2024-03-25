@@ -8888,6 +8888,7 @@
     "059": "Dedf1sh",
     "060": "Tentacool feat. Dedf1sh",
     "061": "Dedf1sh feat. Tentacool",
+    "062": "Tentacool VS Vuur & IJs",
     "063": "Saplings"
   },
   "CommonMsg/Sound/MusicName": {
@@ -8992,8 +8993,10 @@
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day1_Sdodr": "Color Pulse (2024)",
     "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
+    "Plaza_Fes_Day2_Sdodr": "We're So Back",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "Anarchie-Splatcast",
     "Privilege01_Fsodr": "Ink Me Up",
@@ -9028,7 +9031,7 @@
     "Sdodr_Stage_Area_02": "routine2",
     "Sdodr_Stage_Area_03": "routin3s",
     "Sdodr_Stage_Boss_BallKing": "CΘld StΘrage",
-    "Sdodr_Stage_Boss_Iida": "Unsconscience",
+    "Sdodr_Stage_Boss_Iida": "Unconscience",
     "Sdodr_Stage_Boss_Ooda_01": "New World Order",
     "Sdodr_Stage_Boss_Ooda_02": "Spectrum Obligato ~ Ebb & Flow (Out of Order)",
     "Sdodr_Stage_Boss_Ooda_EX": "Short Order",
@@ -9047,6 +9050,7 @@
     "Versus_Fes_Thunder_01": "Fins in the Air",
     "Versus_Fes_Thunder_02": "Till Depth Do Us Part",
     "Versus_Fes_Thunder_04": "Big Betrayal",
+    "Versus_Fes_Thunder_05": "Suffer No Fools",
     "Versus_Fes_Thunder_Last1Min": "Now or Never!",
     "Versus_GambitLast1min": "Now or Never!",
     "Versus_Last1Min": "Now or Never!",
@@ -11964,6 +11968,7 @@
     "011": "Herinnering aan Mariana's redding",
     "020": "Herinnering aan de epische, bonte strijd",
     "021": "Herinnering aan de lift naar de hemel",
+    "022": "Herinnering aan je eerste Inkopolispleinbezoek",
     "030_0": "Neuh...",
     "030_1": "Ja!",
     "030_2": "Wil je in de herinnering aan je eerste klim duiken?\n\nJe gebruikt Loreleis palet en beklimt de toren\nzoals je dat de eerste keer hebt gedaan. Druk\nop [group=0003 type=004a params=00 00 80 3f 00 00 00 00] als je terug wilt naar de ingang.",
@@ -11975,7 +11980,10 @@
     "032_2": "Wil je in de herinnering aan de epische,\nbonte strijd duiken?",
     "033_0": "Neuh...",
     "033_1": "Ja!",
-    "033_2": "Wil je in de herinnering aan de lift naar\nde hemel duiken?"
+    "033_2": "Wil je in de herinnering aan de lift naar\nde hemel duiken?",
+    "034_0": "Neuh...",
+    "034_1": "Ja!",
+    "034_2": "Wil je in de herinnering aan je eerste\nInkopolispleinbezoek duiken? (Je zult dan\nnaar het Inkopolisplein worden gebracht.)"
   },
   "LayoutMsg/Sdodr_DevelopLog_00": {
     "100": "Afbeelding bekijken",
