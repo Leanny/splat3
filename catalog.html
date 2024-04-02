@@ -108,12 +108,7 @@
                 const localize = (dir, key) => lang_dict[dir][key]
 
                 const get_image_tag = (img, alt, extra = "") => {
-                    new_img = img.replace(".png", ".webp")
-                    return `<picture>
-                        <source type="image/webp" srcset="${new_img}" ${extra}>
-                        <source type="image/png" srcset="${img}" ${extra}>
-                        <img src="${img}" alt="${alt}" ${extra}>
-                    </picture>`
+                    return `<img src="${img}" alt="${alt}" ${extra} loading="lazy">`
                 }
 
                 const format_img = (base_url, value, width) =>
