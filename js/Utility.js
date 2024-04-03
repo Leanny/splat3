@@ -68,14 +68,9 @@ export function localize(dir, key) {
     return lang_dict[dir][key]
 }
 
-export function get_image_tag(img, alt, extra = "") {
-    const new_img = img.replace(".png", ".webp")
-    return `<picture>
-        <source type="image/webp" srcset="${new_img}" ${extra}>
-        <source type="image/png" srcset="${img}" ${extra}>
-        <img src="${img}" alt="${alt}" ${extra}>
-    </picture>`
-} //
+export const get_image_tag = (img, alt, extra = "") => {
+    return `<img src="${img}" alt="${alt}" ${extra} loading="lazy">`
+}
 
 export function format_img(base_url, value, width) {
     return get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
