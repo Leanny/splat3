@@ -1,0 +1,93 @@
+[
+  {
+    "DisplayOrder": -1,
+    "Id": 100,
+    "IsBigRun": true,
+    "Season": 2,
+    "__RowId": "Cop_Carousel"
+  },
+  {
+    "DisplayOrder": -1,
+    "Id": 106,
+    "IsBigRun": true,
+    "Season": 7,
+    "__RowId": "Cop_District00"
+  },
+  {
+    "DisplayOrder": -1,
+    "Id": 104,
+    "IsBigRun": true,
+    "Season": 5,
+    "__RowId": "Cop_Factory"
+  },
+  {
+    "DisplayOrder": -1,
+    "Id": 105,
+    "IsBigRun": true,
+    "Season": 6,
+    "__RowId": "Cop_Section"
+  },
+  {
+    "DisplayOrder": 1,
+    "Id": 7,
+    "IsBigRun": false,
+    "Season": 1,
+    "__RowId": "Cop_Shakedent"
+  },
+  {
+    "DisplayOrder": 4,
+    "Id": 8,
+    "IsBigRun": false,
+    "Season": 4,
+    "__RowId": "Cop_Shakehighway"
+  },
+  {
+    "DisplayOrder": 7,
+    "Id": 4,
+    "IsBigRun": false,
+    "Season": 5,
+    "__RowId": "Cop_Shakelift"
+  },
+  {
+    "DisplayOrder": 8,
+    "Id": 9,
+    "IsBigRun": false,
+    "Season": 7,
+    "__RowId": "Cop_Shakerail"
+  },
+  {
+    "DisplayOrder": 3,
+    "Id": 6,
+    "IsBigRun": false,
+    "Season": 2,
+    "__RowId": "Cop_Shakeship"
+  },
+  {
+    "DisplayOrder": 0,
+    "Id": 2,
+    "IsBigRun": false,
+    "Season": 0,
+    "__RowId": "Cop_Shakespiral"
+  },
+  {
+    "DisplayOrder": 2,
+    "Id": 1,
+    "IsBigRun": false,
+    "Season": 1,
+    "__RowId": "Cop_Shakeup"
+  },
+  {
+    "DisplayOrder": -1,
+    "Id": 103,
+    "IsBigRun": true,
+    "Season": 4,
+    "__RowId": "Cop_Temple"
+  },
+  {
+    "DisplayOrder": -1,
+    "Id": 102,
+    "IsBigRun": true,
+    "Season": 3,
+    "__RowId": "Cop_Upland"
+  }
+]

@@ -4783,7 +4783,6 @@
     "Fig_CoopHelicopter01": "H\u00e9licopt\u00e8re en bronze",
     "Fig_CoopHelicopter02": "H\u00e9licopt\u00e8re en argent",
     "Fig_CoopHelicopter03": "H\u00e9licopt\u00e8re en or",
-    "Fig_CoopHelicopter99": "H\u00e9licopt\u00e8re de M. Ours Cie",
     "Fig_CoopIkuraGolden00": "Figurine d'\u0153uf dor\u00e9 en bronze",
     "Fig_CoopIkuraGolden01": "Figurine d'\u0153uf dor\u00e9 en argent",
     "Fig_CoopIkuraGolden02": "Figurine d'\u0153uf dor\u00e9 en or",
@@ -8013,7 +8012,7 @@
     "Murch_PaletteName": "Palette de Tipik",
     "Takowasa_ClearText": "OH OH? C'est une grosse l\u00e9gume, cet\noctarien! M\u00eame qu'il a un \u00e9norme\nrobot volant et qu'il fait rien qu'\u00e0\nse pavaner dedans!\n\nMais c'est pas le moment de planter\ndu wasabi! Le bonheur des octalings\nd\u00e9pend de toi! Alors, ressaisis-toi!\n\nJe suis le patron de l'Ordre, et chez moi,\nm\u00eame les grosses l\u00e9gumes peuvent pas\nfaire tout qu'est-ce qu'elles veulent!\nCe serait intol\u00e9rable et il faut les PUNIR!",
     "Takowasa_PaletteName": "Palette de DJ Octave",
-    "Utsuho_ClearText": "PFFF! Quel d\u00e9sordre! C'est \u00e7a,\nles \u00e2mes de Cit\u00e9-Clabousse?\n\nEn plus, quand elle souffle dans sa fl\u00fbte\ntoute bizarre, pouf! Tout plein de\nb\u00e9b\u00eates jaunes apparaissent et font\ndes cabrioles! C'est fou! Elles ont\nl'air si bien dress\u00e9es et sympas avec...\n\nNON! Des clowns pareils feraient\nrien qu'\u00e0 me distraire de mon objectif!\nEt c'est intol\u00e9rable! Pour le bien de\nl'Ordre, il faut les PUNIR!",
+    "Utsuho_ClearText": "PFFF! Quel d\u00e9sordre! C'est \u00e7a,\nles \u00e2mes de Cit\u00e9-Clabousse?\n\nEn plus, quand elle souffle dans sa fl\u00fbte\ntoute bizarre, pouf! Tout plein de\nb\u00e9b\u00eates jaunes apparaissent et font\ndes cabrioles! C'est fou! Elles ont\nl'air si bien dress\u00e9es et gentilles avec...\n\nNON! Des clowns pareils feraient\nrien que me distraire de mon objectif!\nEt c'est intol\u00e9rable! Pour le bien de\nl'Ordre, il faut les PUNIR!",
     "Utsuho_PaletteName": "Palette d'Angie"
   },
   "CommonMsg/Sdodr/Sdodr_StageName": {

@@ -4783,7 +4783,6 @@
     "Fig_CoopHelicopter01": "Hélicoptère en bronze",
     "Fig_CoopHelicopter02": "Hélicoptère en argent",
     "Fig_CoopHelicopter03": "Hélicoptère en or",
-    "Fig_CoopHelicopter99": "Hélicoptère de M. Ours Cie",
     "Fig_CoopIkuraGolden00": "Figurine d'œuf doré en bronze",
     "Fig_CoopIkuraGolden01": "Figurine d'œuf doré en argent",
     "Fig_CoopIkuraGolden02": "Figurine d'œuf doré en or",
@@ -8013,7 +8012,7 @@
     "Murch_PaletteName": "Palette de Tipik",
     "Takowasa_ClearText": "OH OH? C'est une grosse légume, cet\noctarien! Même qu'il a un énorme\nrobot volant et qu'il fait rien qu'à\nse pavaner dedans!\n\nMais c'est pas le moment de planter\ndu wasabi! Le bonheur des octalings\ndépend de toi! Alors, ressaisis-toi!\n\nJe suis le patron de l'Ordre, et chez moi,\nmême les grosses légumes peuvent pas\nfaire tout qu'est-ce qu'elles veulent!\nCe serait intolérable et il faut les PUNIR!",
     "Takowasa_PaletteName": "Palette de DJ Octave",
-    "Utsuho_ClearText": "PFFF! Quel désordre! C'est ça,\nles âmes de Cité-Clabousse?\n\nEn plus, quand elle souffle dans sa flûte\ntoute bizarre, pouf! Tout plein de\nbébêtes jaunes apparaissent et font\ndes cabrioles! C'est fou! Elles ont\nl'air si bien dressées et sympas avec...\n\nNON! Des clowns pareils feraient\nrien qu'à me distraire de mon objectif!\nEt c'est intolérable! Pour le bien de\nl'Ordre, il faut les PUNIR!",
+    "Utsuho_ClearText": "PFFF! Quel désordre! C'est ça,\nles âmes de Cité-Clabousse?\n\nEn plus, quand elle souffle dans sa flûte\ntoute bizarre, pouf! Tout plein de\nbébêtes jaunes apparaissent et font\ndes cabrioles! C'est fou! Elles ont\nl'air si bien dressées et gentilles avec...\n\nNON! Des clowns pareils feraient\nrien que me distraire de mon objectif!\nEt c'est intolérable! Pour le bien de\nl'Ordre, il faut les PUNIR!",
     "Utsuho_PaletteName": "Palette d'Angie"
   },
   "CommonMsg/Sdodr/Sdodr_StageName": {
