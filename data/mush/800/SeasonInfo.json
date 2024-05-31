@@ -1,0 +1,65 @@
+[
+  {
+    "CatalogA": "",
+    "CatalogB": "",
+    "Id": 0,
+    "News": "",
+    "__RowId": "000"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season01_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 1,
+    "News": "",
+    "__RowId": "001"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season02_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 2,
+    "News": "Work/Event/EventSetting/News_Season02.engine__event__EventSettingParam.gyml",
+    "__RowId": "002"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season03_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 3,
+    "News": "Work/Event/EventSetting/News_Season03.engine__event__EventSettingParam.gyml",
+    "__RowId": "003"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season04_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 4,
+    "News": "Work/Event/EventSetting/News_Season04.engine__event__EventSettingParam.gyml",
+    "__RowId": "004"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season05_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 5,
+    "News": "Work/Event/EventSetting/News_Season05.engine__event__EventSettingParam.gyml",
+    "__RowId": "005"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season06_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 6,
+    "News": "Work/Event/EventSetting/News_Season06.engine__event__EventSettingParam.gyml",
+    "__RowId": "006"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season07_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 7,
+    "News": "Work/Event/EventSetting/News_Season07.engine__event__EventSettingParam.gyml",
+    "__RowId": "007"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season08_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 8,
+    "News": "Work/Event/EventSetting/News_Season08.engine__event__EventSettingParam.gyml",
+    "__RowId": "008"
+  }
+]

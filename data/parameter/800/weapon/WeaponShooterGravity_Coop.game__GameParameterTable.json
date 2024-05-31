@@ -1,0 +1,14 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterGravity.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 520,
+      "ValueMin": 350
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.013
+    }
+  }
+}
