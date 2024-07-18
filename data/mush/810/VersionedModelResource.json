@@ -1,0 +1,92 @@
+[
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-300",
+      "Player00_Castle_v-300",
+      "Player01_v-300",
+      "Player02_v-300",
+      "Player03_v-300"
+    ],
+    "__RowId": "Work/Gyml/300.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-400",
+      "Player01_v-400",
+      "Player03_v-400",
+      "Player02_v-400"
+    ],
+    "__RowId": "Work/Gyml/400.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-500",
+      "Player01_v-500",
+      "Player03_v-500",
+      "Player02_v-500"
+    ],
+    "__RowId": "Work/Gyml/500.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00_v-600",
+      "Player03_v-600",
+      "Player01_v-600",
+      "Player02_v-600"
+    ],
+    "__RowId": "Work/Gyml/600.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {
+      "InkFlakesTexture": "InkFlakesTexture_700"
+    },
+    "PlayerExtraResources": [
+      "Player00_v-700",
+      "Player03_v-700",
+      "Player01_v-700",
+      "Player02_v-700"
+    ],
+    "__RowId": "Work/Gyml/700.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {
+      "InkFlakesTexture": "InkFlakesTexture_800"
+    },
+    "PlayerExtraResources": [
+      "Player00_v-800",
+      "Player02_v-800",
+      "Player01_v-800",
+      "Player03_v-800"
+    ],
+    "__RowId": "Work/Gyml/800.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {
+      "InkFlakesTexture": "InkFlakesTexture_Sdodr",
+      "InkTexture": "InkTexture_Sdodr"
+    },
+    "PlayerExtraResources": [
+      "Player00_Sdodr",
+      "Player02_Sdodr",
+      "Player03_Sdodr",
+      "Player01_Sdodr",
+      "Player02_SdodrCstm00",
+      "Player03_SdodrCstm00",
+      "Player_Octopus_SdodrCstm00",
+      "Player00_SdodrCstm10",
+      "Player01_SdodrCstm10"
+    ],
+    "__RowId": "Work/Gyml/Sdodr.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "ExtraResourceDict": {},
+    "PlayerExtraResources": [
+      "Player00"
+    ],
+    "__RowId": "Work/Gyml/dummy.game__gfx__VersionedModelResource.gyml"
+  }
+]
