@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Salmon Run Pillar Index</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+        <style>
+            /* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+            /*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+            body {
+                font-family: var(
+                    --vscode-markdown-font-family,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe WPC",
+                    "Segoe UI",
+                    "Ubuntu",
+                    "Droid Sans",
+                    sans-serif
+                );
+                font-size: var(--vscode-markdown-font-size, 14px);
+                padding: 0 26px;
+                line-height: var(--vscode-markdown-line-height, 22px);
+                word-wrap: break-word;
+            }
+
+            #code-csp-warning {
+                position: fixed;
+                top: 0;
+                right: 0;
+                color: white;
+                margin: 16px;
+                text-align: center;
+                font-size: 12px;
+                font-family: sans-serif;
+                background-color: #444444;
+                cursor: pointer;
+                padding: 6px;
+                box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+            }
+
+            #code-csp-warning:hover {
+                text-decoration: none;
+                background-color: #007acc;
+                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+            }
+
+            body.scrollBeyondLastLine {
+                margin-bottom: calc(100vh - 22px);
+            }
+
+            body.showEditorSelection .code-line {
+                position: relative;
+            }
+
+            body.showEditorSelection .code-active-line:before,
+            body.showEditorSelection .code-line:hover:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -12px;
+                height: 100%;
+            }
+
+            body.showEditorSelection li.code-active-line:before,
+            body.showEditorSelection li.code-line:hover:before {
+                left: -30px;
+            }
+
+            .vscode-light.showEditorSelection .code-active-line:before {
+                border-left: 3px solid rgba(0, 0, 0, 0.15);
+            }
+
+            .vscode-light.showEditorSelection .code-line:hover:before {
+                border-left: 3px solid rgba(0, 0, 0, 0.4);
+            }
+
+            .vscode-light.showEditorSelection .code-line .code-line:hover:before {
+                border-left: none;
+            }
+
+            .vscode-dark.showEditorSelection .code-active-line:before {
+                border-left: 3px solid rgba(255, 255, 255, 0.4);
+            }
+
+            .vscode-dark.showEditorSelection .code-line:hover:before {
+                border-left: 3px solid rgba(255, 255, 255, 0.6);
+            }
+
+            .vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+                border-left: none;
+            }
+
+            .vscode-high-contrast.showEditorSelection .code-active-line:before {
+                border-left: 3px solid rgba(255, 160, 0, 0.7);
+            }
+
+            .vscode-high-contrast.showEditorSelection .code-line:hover:before {
+                border-left: 3px solid rgba(255, 160, 0, 1);
+            }
+
+            .vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+                border-left: none;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            a:focus,
+            input:focus,
+            select:focus,
+            textarea:focus {
+                outline: 1px solid -webkit-focus-ring-color;
+                outline-offset: -1px;
+            }
+
+            hr {
+                border: 0;
+                height: 2px;
+                border-bottom: 2px solid;
+            }
+
+            h1 {
+                padding-bottom: 0.3em;
+                line-height: 1.2;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+
+            h1,
+            h2,
+            h3 {
+                font-weight: normal;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            table > thead > tr > th {
+                text-align: left;
+                border-bottom: 1px solid;
+            }
+
+            table > thead > tr > th,
+            table > thead > tr > td,
+            table > tbody > tr > th,
+            table > tbody > tr > td {
+                padding: 5px 10px;
+            }
+
+            table > tbody > tr + tr > td {
+                border-top: 1px solid;
+            }
+
+            blockquote {
+                margin: 0 7px 0 5px;
+                padding: 0 16px 0 10px;
+                border-left-width: 5px;
+                border-left-style: solid;
+            }
+
+            code {
+                font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+                font-size: 1em;
+                line-height: 1.357em;
+            }
+
+            body.wordWrap pre {
+                white-space: pre-wrap;
+            }
+
+            pre:not(.hljs),
+            pre.hljs code > div {
+                padding: 16px;
+                border-radius: 3px;
+                overflow: auto;
+            }
+
+            pre code {
+                color: var(--vscode-editor-foreground);
+                tab-size: 4;
+            }
+
+            /** Theming */
+
+            .vscode-light pre {
+                background-color: rgba(220, 220, 220, 0.4);
+            }
+
+            .vscode-dark pre {
+                background-color: rgba(10, 10, 10, 0.4);
+            }
+
+            .vscode-high-contrast pre {
+                background-color: rgb(0, 0, 0);
+            }
+
+            .vscode-high-contrast h1 {
+                border-color: rgb(0, 0, 0);
+            }
+
+            .vscode-light table > thead > tr > th {
+                border-color: rgba(0, 0, 0, 0.69);
+            }
+
+            .vscode-dark table > thead > tr > th {
+                border-color: rgba(255, 255, 255, 0.69);
+            }
+
+            .vscode-light h1,
+            .vscode-light hr,
+            .vscode-light table > tbody > tr + tr > td {
+                border-color: rgba(0, 0, 0, 0.18);
+            }
+
+            .vscode-dark h1,
+            .vscode-dark hr,
+            .vscode-dark table > tbody > tr + tr > td {
+                border-color: rgba(255, 255, 255, 0.18);
+            }
+        </style>
+
+        <style>
+            /* Tomorrow Theme */
+            /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+            /* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+            /* Tomorrow Comment */
+            .hljs-comment,
+            .hljs-quote {
+                color: #8e908c;
+            }
+
+            /* Tomorrow Red */
+            .hljs-variable,
+            .hljs-template-variable,
+            .hljs-tag,
+            .hljs-name,
+            .hljs-selector-id,
+            .hljs-selector-class,
+            .hljs-regexp,
+            .hljs-deletion {
+                color: #c82829;
+            }
+
+            /* Tomorrow Orange */
+            .hljs-number,
+            .hljs-built_in,
+            .hljs-builtin-name,
+            .hljs-literal,
+            .hljs-type,
+            .hljs-params,
+            .hljs-meta,
+            .hljs-link {
+                color: #f5871f;
+            }
+
+            /* Tomorrow Yellow */
+            .hljs-attribute {
+                color: #eab700;
+            }
+
+            /* Tomorrow Green */
+            .hljs-string,
+            .hljs-symbol,
+            .hljs-bullet,
+            .hljs-addition {
+                color: #718c00;
+            }
+
+            /* Tomorrow Blue */
+            .hljs-title,
+            .hljs-section {
+                color: #4271ae;
+            }
+
+            /* Tomorrow Purple */
+            .hljs-keyword,
+            .hljs-selector-tag {
+                color: #8959a8;
+            }
+
+            .hljs {
+                display: block;
+                overflow-x: auto;
+                color: #4d4d4c;
+                padding: 0.5em;
+            }
+
+            .hljs-emphasis {
+                font-style: italic;
+            }
+
+            .hljs-strong {
+                font-weight: bold;
+            }
+        </style>
+
+        <style>
+            /*
+ * Markdown PDF CSS
+ */
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+                padding: 0 12px;
+            }
+
+            pre {
+                background-color: #f8f8f8;
+                border: 1px solid #cccccc;
+                border-radius: 3px;
+                overflow-x: auto;
+                white-space: pre-wrap;
+                overflow-wrap: break-word;
+            }
+
+            pre:not(.hljs) {
+                padding: 23px;
+                line-height: 19px;
+            }
+
+            blockquote {
+                background: rgba(127, 127, 127, 0.1);
+                border-color: rgba(0, 122, 204, 0.5);
+            }
+
+            .emoji {
+                height: 1.4em;
+            }
+
+            code {
+                font-size: 14px;
+                line-height: 19px;
+            }
+
+            /* for inline code */
+            :not(pre):not(.hljs) > code {
+                color: #c9ae75; /* Change the old color so it seems less like an error */
+                font-size: inherit;
+            }
+
+            /* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+            .page {
+                page-break-after: always;
+            }
+        </style>
+
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+    </head>
+    <body>
+        <script>
+            mermaid.initialize({
+                startOnLoad: true,
+                theme:
+                    document.body.classList.contains("vscode-dark") || document.body.classList.contains("vscode-high-contrast")
+                        ? "dark"
+                        : "default",
+            })
+        </script>
+        <h1 id="wahoo-world">Wahoo World</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Carousel_Low.png" alt="Carousel_Low" title="Carousel Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Carousel_Mid.png" alt="Carousel_Mid" title="Carousel Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>c, d, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Carousel_High.png" alt="Carousel_High" title="Carousel High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="eeltail-alley">Eeltail Alley</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/District00_Low.png" alt="District00_Low" title="District00 Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/District00_Mid.png" alt="District00_Mid" title="District00 Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>a, b, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/District00_High.png" alt="District00_High" title="District00 High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="umami-ruins">Um'ami Ruins</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Factory_Low.png" alt="Factory_Low" title="Factory Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Factory_Mid.png" alt="Factory_Mid" title="Factory Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Factory_High.png" alt="Factory_High" title="Factory High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="barnacle--dime">Barnacle &amp; Dime</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Section_Low.png" alt="Section_Low" title="Section Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Section_Mid.png" alt="Section_Mid" title="Section Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Section_High.png" alt="Section_High" title="Section High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="gone-fission-hydroplant">Gone Fission Hydroplant</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakedent_Low.png" alt="Shakedent_Low" title="Shakedent Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakedent_Mid.png" alt="Shakedent_Mid" title="Shakedent Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>e, f, g</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, d, f</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakedent_High.png" alt="Shakedent_High" title="Shakedent High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, c</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="jammin-salmon-junction">Jammin' Salmon Junction</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakehighway_Low.png" alt="Shakehighway_Low" title="Shakehighway Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, c, d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, d, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakehighway_Mid.png" alt="Shakehighway_Mid" title="Shakehighway Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c, d, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakehighway_High.png" alt="Shakehighway_High" title="Shakehighway High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="salmonid-smokeyard">Salmonid Smokeyard</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakelift_Low.png" alt="Shakelift_Low" title="Shakelift Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, d, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, c, d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakelift_Mid.png" alt="Shakelift_Mid" title="Shakelift Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, d, e, h</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c, e, g</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>d, e, f, g, h</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakelift_High.png" alt="Shakelift_High" title="Shakelift High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, e, f</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, c, d, f</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, d, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="bonerattle-arena">Bonerattle Arena</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakerail_Low.png" alt="Shakerail_Low" title="Shakerail Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, e, f</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, f</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakerail_Mid.png" alt="Shakerail_Mid" title="Shakerail Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakerail_High.png" alt="Shakerail_High" title="Shakerail High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="marooners-bay">Marooner's Bay</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakeship_Low.png" alt="Shakeship_Low" title="Shakeship Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakeship_Mid.png" alt="Shakeship_Mid" title="Shakeship Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, f</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, d, f</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, e, f</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakeship_High.png" alt="Shakeship_High" title="Shakeship High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, d, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="sockeye-station">Sockeye Station</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakespiral_Low.png" alt="Shakespiral_Low" title="Shakespiral Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>c, d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakespiral_Mid.png" alt="Shakespiral_Mid" title="Shakespiral Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakespiral_High.png" alt="Shakespiral_High" title="Shakespiral High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="spawning-grounds">Spawning Grounds</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakeup_Low.png" alt="Shakeup_Low" title="Shakeup Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakeup_Mid.png" alt="Shakeup_Mid" title="Shakeup Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, e, f</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, d, f</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Shakeup_High.png" alt="Shakeup_High" title="Shakeup High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>d, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, c, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="undertow-spillway">Undertow Spillway</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Temple_Low.png" alt="Temple_Low" title="Temple Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>d, e</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>f</td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>a, b</td>
+                </tr>
+                <tr>
+                    <td>e</td>
+                    <td>c</td>
+                </tr>
+                <tr>
+                    <td>f</td>
+                    <td>b, f</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Temple_Mid.png" alt="Temple_Mid" title="Temple Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Temple_High.png" alt="Temple_High" title="Temple High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, b, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, b, d</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="inkblot-art-academy">Inkblot Art Academy</h1>
+        <h2 id="low">Low</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Upland_Low.png" alt="Upland_Low" title="Upland Low" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b, d, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>b, c, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="mid">Mid</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Upland_Mid.png" alt="Upland_Mid" title="Upland Mid" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, d, e</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c, d</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, d, e</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="high">High</h2>
+        <p><img src="https://leanny.github.io/splat3/sr/sticks/Upland_High.png" alt="Upland_High" title="Upland High" /></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a, c, d</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b, c</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>a, d</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
