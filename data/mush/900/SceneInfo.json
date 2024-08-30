@@ -1,0 +1,3042 @@
+[
+  {
+    "ClassName": "",
+    "Label": "01_Msn ワールド オルタナ00 (大ワールド)",
+    "PreloadResources": [
+      "Model/Obj_Pipeline.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "World",
+    "__RowId": "BigWorld"
+  },
+  {
+    "ClassName": "",
+    "Label": "ブート",
+    "SequenceName": "Boot",
+    "__RowId": "Boot"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRunスメーシーワールド",
+    "PreloadResources": [
+      "Model/Fld_BigRunCarousel03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_Carousel",
+    "StageIconL": "Vss_Carousel",
+    "StageIconS": "Vss_Carousel",
+    "__RowId": "Cop_Carousel"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRunゴンズイ地区",
+    "PreloadResources": [
+      "Model/Fld_BigRunDistrict00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_District",
+    "StageIconL": "Vss_District",
+    "StageIconS": "Vss_District",
+    "__RowId": "Cop_District00"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRunナンプラー遺跡",
+    "PreloadResources": [
+      "Model/Fld_BigRunFactory00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_Factory",
+    "StageIconL": "Vss_Factory",
+    "StageIconS": "Vss_Factory",
+    "__RowId": "Cop_Factory"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRunグランドバンカラアリーナ",
+    "PreloadResources": [
+      "Model/Fld_BigRunManbou00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_Manbou",
+    "StageIconL": "Vss_Manbou",
+    "StageIconS": "Vss_Manbou",
+    "__RowId": "Cop_Manbou00"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRunタラポートショッピングパーク",
+    "PreloadResources": [
+      "Model/FldBG_BigRunSection00.bfres",
+      "Model/Fld_BigRunSection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_Section",
+    "StageIconL": "Vss_Section",
+    "StageIconS": "Vss_Section",
+    "__RowId": "Cop_Section"
+  },
+  {
+    "ClassName": "",
+    "Label": "ムニ・エ―ル海洋発電所",
+    "PreloadResources": [
+      "Model/Fld_Shakedent00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakedent",
+    "StageIconL": "Cop_Shakedent",
+    "StageIconS": "Cop_Shakedent",
+    "__RowId": "Cop_Shakedent"
+  },
+  {
+    "ClassName": "",
+    "Label": "すじこジャンクション跡",
+    "PreloadResources": [
+      "Model/Fld_Shakehighway00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakehighway",
+    "StageIconL": "Cop_Shakehighway",
+    "StageIconS": "Cop_Shakehighway",
+    "__RowId": "Cop_Shakehighway"
+  },
+  {
+    "ClassName": "",
+    "Label": "トキシラズいぶし工房",
+    "PreloadResources": [
+      "Model/Fld_Shakelift00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakelift",
+    "StageIconL": "Cop_Shakelift",
+    "StageIconS": "Cop_Shakelift",
+    "__RowId": "Cop_Shakelift"
+  },
+  {
+    "ClassName": "",
+    "Label": "どんぴこ闘技場",
+    "PreloadResources": [
+      "Model/FldBG_Shakerail00RockyMountain.bfres",
+      "Model/Fld_Shakerail00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakerail",
+    "StageIconL": "Cop_Shakerail",
+    "StageIconS": "Cop_Shakerail",
+    "__RowId": "Cop_Shakerail"
+  },
+  {
+    "ClassName": "",
+    "Label": "難破船ドン・ブラコ",
+    "PreloadResources": [
+      "Model/Fld_Shakeship00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakeship",
+    "StageIconL": "Cop_Shakeship",
+    "StageIconS": "Cop_Shakeship",
+    "__RowId": "Cop_Shakeship"
+  },
+  {
+    "ClassName": "",
+    "Label": "アラマキ砦",
+    "PreloadResources": [
+      "Model/Fld_Shakespiral00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakespiral",
+    "StageIconL": "Cop_Shakespiral",
+    "StageIconS": "Cop_Shakespiral",
+    "__RowId": "Cop_Shakespiral"
+  },
+  {
+    "ClassName": "",
+    "Label": "シェケナダム",
+    "PreloadResources": [
+      "Model/Fld_Shakeup00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Cop_Shakeup",
+    "StageIconL": "Cop_Shakeup",
+    "StageIconS": "Cop_Shakeup",
+    "__RowId": "Cop_Shakeup"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRunマテガイ放水路",
+    "PreloadResources": [
+      "Model/Fld_BigRunTemple00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_Temple",
+    "StageIconL": "Vss_Temple",
+    "StageIconS": "Vss_Temple",
+    "__RowId": "Cop_Temple"
+  },
+  {
+    "ClassName": "",
+    "Label": "Coopチュートリアル",
+    "PreloadResources": [
+      "Model/Fld_Shakespiral00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "__RowId": "Cop_Tutorial"
+  },
+  {
+    "ClassName": "",
+    "Label": "BigRun海女美術大学",
+    "PreloadResources": [
+      "Model/Fld_BigRunUpland03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "StageIconBanner": "Vss_Upland",
+    "StageIconL": "Vss_Upland",
+    "StageIconS": "Vss_Upland",
+    "__RowId": "Cop_Upland"
+  },
+  {
+    "ClassName": "",
+    "Label": "DayChange",
+    "SequenceName": "DayChange",
+    "__RowId": "DayChange"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 05ラスボス",
+    "PreloadResources": [
+      "Model/FldObj_KumaRocket.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Kumasan01",
+    "SequenceName": "Mission",
+    "__RowId": "LastBoss"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 05ラスボス第２形態",
+    "PreloadResources": [
+      "Model/FldObj_KumaRocketBroken.bfres",
+      "Model/FldObj_KumaRocketBrokenDebris.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Kumasan02",
+    "SequenceName": "Mission",
+    "__RowId": "LastBoss02"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Msn ワールド オルタナ01 発射台",
+    "PreloadResources": [
+      "Model/Obj_Pipeline.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "World",
+    "__RowId": "LaunchPadWorld"
+  },
+  {
+    "ClassName": "",
+    "Label": "クマサン商会",
+    "PreloadResources": [
+      "Model/Fld_CoopLobby.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyCoop",
+    "__RowId": "LobbyCoop"
+  },
+  {
+    "ClassName": "",
+    "Label": "イカッチャ",
+    "PreloadResources": [
+      "Model/Fld_LocalLobby.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyLocal",
+    "__RowId": "LobbyLocal"
+  },
+  {
+    "ClassName": "",
+    "Label": "対戦ロビー",
+    "PreloadResources": [
+      "Model/Fld_VSLobby.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyVersus",
+    "__RowId": "LobbyVersus"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ1 (いろんなオブジェとこんにちは)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ1（全部塗ったらクリア）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ2 (タコポッドと遊ぼう)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ2 （簡単カギヅメ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ3（びっくりタコ屋敷）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ3 (でんでんコジャケ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ4 (インドア＆カギ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ4 (巻き込め爆風1ショット）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ5 (ストリンガーコース)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ6（ショックソナーをかわせ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 ステージ1（回転ネタ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ1(レール木箱サーフィン)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 ステージ2（スポンジのぼり）",
+    "PreloadResources": [
+      "Model/Fld_Alterna2n02.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ2（チャリオットリガーハッピー）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 ステージ3 （ヘビブロック機能説明）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ3 (迷路を登る)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ4 (インク制限・塗れるOBJ祭り)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ5 (気持ちの良いコースをつくるコース)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 ステージ1（戦いの丘）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ1 (カーリングボムでカーリング)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 ステージ2 (空の上で大渋滞)",
+    "PreloadResources": [
+      "Model/Fld_Alterna3n02.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ2 (ブラシラッシュ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 ステージ3 （ヌリコロガシとヘビブロック）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ3(ふりむかなくてよい射的）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ4 （インクレール登山）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 ステージ1(水上リフト)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ1（コジャケとヘビブロック）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 ステージ2 (恐怖のタコホッパー！)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ2 (立体機動カタヌキ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 ステージ3（タコストライク滝）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ3 （サシ木箱的な）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ4 （チャージキープ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ5 (レールで風船全滅簡単)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ6 (タコッペリンとタコミサイル）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ7 (早撃ち)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_07C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ8（セイバーコース）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_08C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ9（一筆入魂）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_09C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ1 (バイタコと待ち伏せ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ1 (タコドーザーとコジャケ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ2 (背中を狙え)",
+    "PreloadResources": [
+      "Model/Fld_Alterna5n02.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ2 (カギヅメステージ中)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ3（廃ビルに潜むタコスナイパー）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ3（レール木箱ストリンガー）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ4 （タコインザバリア）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ4 (スーパーチャクチ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ5 （行きは霧 帰りも霧）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ6(ライドレールショート）",
+    "PreloadResources": [
+      "Model/Fld_Alterna5c06.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ7 （ニンジャ・パルクール）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_07C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ8（長射程ブキ練）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_08C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ9 (ラインマーカー研究所)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_09C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 ステージ1 （夜霧のタコゾネス）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ1 (インク制限・ムズカシ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 ステージ2 （タコタワーリングインフェルノ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ2 （カーリング・インクを踏んだらさようなら）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 ステージ3 (タコオールスターズ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ3 (ローラーでタコ殴り)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ4 (沈む塔から逃げろ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ5 （見上げれば、タコ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ6 (イカレース)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ7 (ピロジェットプロ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_07C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ8 (スタコラーを追え)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_08C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ9 （ウルトラハンコ）",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_09C"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ1（撃って撃って撃ちまくれ！）",
+    "PreloadResources": [
+      "Model/Fld_Crater00.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ2（イカダッシュでどこまでも）",
+    "PreloadResources": [
+      "Model/Fld_Crater01.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ3（インクレールでカギを探せ！）",
+    "PreloadResources": [
+      "Model/Fld_Crater02.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ4（タコとの遭遇）",
+    "PreloadResources": [
+      "Model/Fld_Crater03.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX01 (パルクール)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX01"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX02 (的あて)",
+    "PreloadResources": [
+      "Model/Fld_AlternaEX02.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX02"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX03 (ヘビブロック)",
+    "PreloadResources": [
+      "Model/Fld_AlternaEX03.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX03"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX04 (タコゾネスパーティー)",
+    "PreloadResources": [
+      "Model/Fld_AlternaEX04.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX04"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 04毒マンタ(ボスＣ)",
+    "PreloadResources": [
+      "Model/Fld_Alterna6Boss04.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Mantaro",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_MantaKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 02ウツボックス(ボスB ウツホ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Utsuho",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_MorayKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ1 （セキュリティゲート：コジャケのみ）",
+    "PreloadResources": [
+      "Model/Fld_AlternaR01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ2 （格納庫：アクション映画）",
+    "PreloadResources": [
+      "Model/Fld_AlternaR02.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ3 （研究棟：フォグリフト）",
+    "PreloadResources": [
+      "Model/Fld_AlternaR03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ4 （ロケット前半：螺旋階段）",
+    "PreloadResources": [
+      "Model/Fld_AlternaR04.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ5 （ロケット後半：ショクワンダーロゲイニング）",
+    "PreloadResources": [
+      "Model/Fld_AlternaR05.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_05"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 01タコワサ",
+    "PreloadResources": [
+      "Model/Fld_SmallWorld.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Takowasa",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_RailKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 03フカシャーク(ボスA フウカ)",
+    "PreloadResources": [
+      "Model/FldObj_MsnStartCreanRoom.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Fuuka",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_SharkKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "ウォーミングアップ（プレイヤーメイク）",
+    "PreloadResources": [
+      "Model/Fld_PlayerMake.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "PlayerMake",
+    "__RowId": "PlayerMake"
+  },
+  {
+    "ClassName": "",
+    "Label": "プラザ",
+    "PreloadResources": [
+      "Model/Fld_BankaraCity.bfres",
+      "Model/Fld_BankaraCityTownHouse.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Plaza",
+    "__RowId": "Plaza"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Fsodr]プラザ",
+    "PreloadResources": [
+      "Model/Fld_FsodrPlaza.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Plaza",
+    "__RowId": "Plaza_Fsodr"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr]プラザ",
+    "PreloadResources": [
+      "Model/Fld_SdodrPlaza.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Plaza",
+    "__RowId": "Plaza_Sdodr"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] 周遊ボス10F",
+    "PreloadResources": [
+      "Model/Fld_SdodrBallKing.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_BallKing_10F"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] 周遊ボス20F",
+    "PreloadResources": [
+      "Model/Fld_SdodrBallKing.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_BallKing_20F"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] イイダボス",
+    "PreloadResources": [
+      "Model/Fld_SdodrPlazaOrderFirst.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStageNoElevator",
+    "__RowId": "Sdodr_BarrierKingSdodrIida"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] オーダコボス",
+    "PreloadResources": [
+      "Model/Fld_SdodrBarrierKingOdako1st.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStageNoElevator",
+    "__RowId": "Sdodr_BarrierKingSdodrOdako"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] オーダコボスEX",
+    "PreloadResources": [
+      "Model/Fld_SdodrBarrierKingOdakoPlayField.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStageNoElevator",
+    "__RowId": "Sdodr_BarrierKingSdodrOdakoEX"
+  },
+  {
+    "ClassName": "",
+    "Label": "00-Sdodr 秩序スクエア",
+    "PreloadResources": [
+      "Model/Fld_SdodrPlazaOrderSecond.bfres",
+      "Model/Fld_SdodrPlazaOrderFirst.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "SdodrWorld",
+    "__RowId": "Sdodr_City"
+  },
+  {
+    "ClassName": "",
+    "Label": "00_Sdodr エレベータ",
+    "PreloadResources": [
+      "Model/Fld_SdodrElevator.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_Elevator"
+  },
+  {
+    "ClassName": "",
+    "Label": "00_Sdodr エントランス",
+    "PreloadResources": [
+      "Model/Fld_SdodrEntrance.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "SdodrWorld",
+    "__RowId": "Sdodr_Entrance"
+  },
+  {
+    "ClassName": "",
+    "Label": "00_Sdodr 塔内ショップ",
+    "PreloadResources": [
+      "Model/Fld_SdodrElevator.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_FloorShop"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] ミラーボス10F",
+    "PreloadResources": [
+      "Model/Fld_SdodrRivalKing.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStageNoElevator",
+    "__RowId": "Sdodr_RivalKing_10F"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] ミラーボス20F",
+    "PreloadResources": [
+      "Model/Fld_SdodrRivalKing.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStageNoElevator",
+    "__RowId": "Sdodr_RivalKing_20F"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Sdodr スタッフロール",
+    "PreloadResources": [
+      "Model/Fld_SdodrStaffRollDebris.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "SdodrStaffRoll",
+    "__RowId": "Sdodr_StaffRoll"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] オーダコボス・フェーズ２第二形態（ストーリーボス）",
+    "PreloadResources": [
+      "Model/Fld_SdodrBarrierKingOdakoPlayField.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStageNoElevator",
+    "__RowId": "Sdodr_StoryBoss"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] 中央ボス10F",
+    "PreloadResources": [
+      "Model/Fld_SdodrTowerKing.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_TowerKing_10F"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr] 中央ボス20F",
+    "PreloadResources": [
+      "Model/Fld_SdodrTowerKing.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_TowerKing_20F"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 空中 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh04.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_airLift_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 オールスター スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh05.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_allStar_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 特化 古墳 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPMiddle01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_ancientTomb_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 すり鉢 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_antHell_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 すり鉢 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_antHell_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 すり鉢 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_antHell_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 すり鉢 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_antHell_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 すり鉢 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_antHell_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 すり鉢 スポナー 2",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_antHell_spawner_2"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 1F（スポナー）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginStorage.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_1F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 2F（スポナー）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginPiller.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_2F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 3F（スポナー）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginShelf.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_3F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 4F（エリア）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginDisplay.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_4F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 5F（ヤグラ）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginExhibition.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_5F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 6F（エリア）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginStairs.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_6F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 7F（スタコラー）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginFill.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_7F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 8F（スポナー）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginDrawer.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_8F"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Sdodr 始まりの塔 9F（エイトボール）",
+    "PreloadResources": [
+      "Model/FldBG_SdodrBeginCellar.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_beginning_9F"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 ピラミッド大 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighBlowing00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bigPyramid_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 ピラミッド大 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighBlowing00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bigPyramid_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 ピラミッド大 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighBlowing00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bigPyramid_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 ピラミッド大 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighBlowing00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bigPyramid_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 ピラミッド大 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighBlowing00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bigPyramid_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 大坂道 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase05.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bigSlope_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 特化 ボムピューピュー エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPMiddle03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bombers_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 ボムポカポカ スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase04.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bombs_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 二本橋 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighWaterfall00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bridges_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 二本橋 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighWaterfall00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bridges_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 二本橋 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighWaterfall00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bridges_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 二本橋 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighWaterfall00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bridges_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 二本橋 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighWaterfall00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_bridges_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 特化 中央チャージャー ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPMiddle04.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_centralSniper_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 一本道 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh02.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_climbing_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 ダッシュ板 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase02.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_dash_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 砦 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_fortress_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 砦 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_fortress_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 砦 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_fortress_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 砦 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_fortress_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 砦 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_fortress_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 ゴルフ エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase07.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_golf_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 ライドレール スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase06.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_grindRail_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 二つの高台 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleDisinfection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_hills_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 二つの高台 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleDisinfection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_hills_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 二つの高台 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleDisinfection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_hills_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 二つの高台 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleDisinfection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_hills_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 二つの高台 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleDisinfection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_hills_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 8の字 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_infinity_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 ジャンプマット地獄 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_jumpjump_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 虎口 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighChimney00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_koguchi_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 虎口 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighChimney00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_koguchi_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 虎口 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighChimney00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_koguchi_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 虎口 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighChimney00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_koguchi_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 虎口 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrHighChimney00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_koguchi_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 月面砂丘 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleWheel00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_lunarSurface_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 月面砂丘 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleWheel00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_lunarSurface_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 月面砂丘 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleWheel00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_lunarSurface_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 月面砂丘 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleWheel00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_lunarSurface_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 月面砂丘 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleWheel00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_lunarSurface_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 野原 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_meadow_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 野原 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_meadow_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 野原 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_meadow_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 野原 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_meadow_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 野原 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_meadow_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 野原 スポナー 2",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_meadow_spawner_2"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 一本道 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase09.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_oneRoad_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 特化 プロペラエレベーター スポナー ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPMiddle02.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_propellerRising_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 リフト床 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowInspection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_rising_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 リフト床 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowInspection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_rising_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 リフト床 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowInspection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_rising_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 リフト床 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowInspection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_rising_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 リフト床 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowInspection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_rising_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 リフト床 スポナー 2",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowInspection00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_rising_spawner_2"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 特化 ノコノコ スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPMiddle05.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_shellsDash_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 特化 ノコノコ エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPMiddle00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_shellsParty_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 ノコノコ エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_shells_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 ピラミッド小 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_smallPyramid_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 ピラミッド小 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_smallPyramid_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 ピラミッド小 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_smallPyramid_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 ピラミッド小 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_smallPyramid_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 ピラミッド小 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_smallPyramid_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 ピラミッド小 スポナー 2",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowPipe00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_smallPyramid_spawner_2"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 ヘビブロック エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh06.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_snakeBlocks_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 蜘蛛の巣インクレール エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase08.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_spiderweb_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 スポンジ遮蔽 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_spongeHidding_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 特化 飛び石 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPBase03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_stones_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 塔 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_tower_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 塔 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_tower_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 塔 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_tower_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 塔 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_tower_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 塔 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_tower_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Sdodr 下層 汎用 塔 スポナー 2",
+    "PreloadResources": [
+      "Model/FldBG_SdodrLowBase00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_tower_spawner_2"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 左右分断 エリア",
+    "PreloadResources": [
+      "Model/Fld_Sdodr_valley_area.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_valley_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 左右分断 エイトボール",
+    "PreloadResources": [
+      "Model/Fld_Sdodr_valley_ball.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_valley_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 左右分断 スタコラー",
+    "PreloadResources": [
+      "Model/Fld_Sdodr_valley_chase.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_valley_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 左右分断 ヤグラ",
+    "PreloadResources": [
+      "Model/Fld_Sdodr_valley_lift.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_valley_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 汎用 左右分断 スポナー",
+    "PreloadResources": [
+      "Model/Fld_Sdodr_valley_spawner.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_valley_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Sdodr 上層 特化 ドデカ エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrSPHigh03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_wideArea_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 つづら坂 エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleFiltration00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_windingRoad_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 つづら坂 エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleFiltration00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_windingRoad_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 つづら坂 スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleFiltration00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_windingRoad_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 つづら坂 ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleFiltration00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_windingRoad_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 つづら坂 スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleFiltration00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_windingRoad_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 エックス エリア",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_x_area"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 エックス エイトボール",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_x_ball"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 エックス スタコラー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_x_chase"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 エックス ヤグラ",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_x_lift"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Sdodr 中層 汎用 エックス スポナー",
+    "PreloadResources": [
+      "Model/FldBG_SdodrMiddleBase01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmSdodrSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "SdodrStage",
+    "__RowId": "Sdodr_x_spawner"
+  },
+  {
+    "ClassName": "",
+    "Label": "試射場",
+    "PreloadResources": [
+      "Model/Fld_ShootingRange.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "ShootingRange",
+    "__RowId": "ShootingRange"
+  },
+  {
+    "ClassName": "",
+    "Label": "ショップ",
+    "PreloadResources": [
+      "Model/Fld_Room_Shoes.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Shop",
+    "__RowId": "Shop"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Fsodr]ショップ",
+    "PreloadResources": [
+      "Model/Fld_Room_ShoesFsodr.bfres",
+      "Model/Fld_Room_GearFsodr.bfres",
+      "Model/Fld_Room_TshirtsFsodr.bfres",
+      "Model/Fld_Room_WeaponsFsodr.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Shop",
+    "__RowId": "Shop_Fsodr"
+  },
+  {
+    "ClassName": "",
+    "Label": "[Sdodr]ショップ",
+    "PreloadResources": [
+      "Model/Fld_Room_WeaponsSdodr.bfres",
+      "Model/Fld_Room_GearSdodr.bfres"
+    ],
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Shop",
+    "__RowId": "Shop_Sdodr"
+  },
+  {
+    "ClassName": "",
+    "Label": "00_Msn ワールド クレーター（小ワールド）",
+    "PreloadResources": [
+      "Model/Fld_SmallWorld.bfres"
+    ],
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "World",
+    "__RowId": "SmallWorld"
+  },
+  {
+    "ClassName": "",
+    "Label": "05_Msn スタッフロール",
+    "PreloadResources": [],
+    "SequenceName": "StaffRoll",
+    "__RowId": "StaffRoll"
+  },
+  {
+    "ClassName": "",
+    "Label": "リュウグウターミナル",
+    "PreloadResources": [
+      "Model/FldBG_AutoWalk00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_AutoWalk",
+    "StageIconL": "Vss_AutoWalk",
+    "StageIconS": "Vss_AutoWalk",
+    "__RowId": "Vss_AutoWalk00"
+  },
+  {
+    "ClassName": "",
+    "Label": "クサヤ温泉",
+    "PreloadResources": [
+      "Model/Fld_BigSlope00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_BigSlope",
+    "StageIconL": "Vss_BigSlope",
+    "StageIconS": "Vss_BigSlope",
+    "__RowId": "Vss_BigSlope00"
+  },
+  {
+    "ClassName": "",
+    "Label": "スメーシーワールド",
+    "PreloadResources": [
+      "Model/Fld_Carousel03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Carousel",
+    "StageIconL": "Vss_Carousel",
+    "StageIconS": "Vss_Carousel",
+    "__RowId": "Vss_Carousel"
+  },
+  {
+    "ClassName": "",
+    "Label": "バイガイ亭",
+    "PreloadResources": [
+      "Model/Fld_Cross00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Cross",
+    "StageIconL": "Vss_Cross",
+    "StageIconS": "Vss_Cross",
+    "__RowId": "Vss_Cross00"
+  },
+  {
+    "ClassName": "",
+    "Label": "ゴンズイ地区",
+    "PreloadResources": [
+      "Model/Fld_District00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_District",
+    "StageIconL": "Vss_District",
+    "StageIconS": "Vss_District",
+    "__RowId": "Vss_District00"
+  },
+  {
+    "ClassName": "",
+    "Label": "ナンプラー遺跡",
+    "PreloadResources": [
+      "Model/Fld_Factory00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Factory",
+    "StageIconL": "Vss_Factory",
+    "StageIconS": "Vss_Factory",
+    "__RowId": "Vss_Factory00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マヒマヒリゾート&スパ",
+    "PreloadResources": [
+      "Model/Fld_Hiagari03.bfres",
+      "Model/FldObj_Hiagari03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Hiagari",
+    "StageIconL": "Vss_Hiagari",
+    "StageIconS": "Vss_Hiagari",
+    "__RowId": "Vss_Hiagari03"
+  },
+  {
+    "ClassName": "",
+    "Label": "マヒマヒリゾート&スパ(改修後)",
+    "PreloadResources": [
+      "Model/FldObj_Hiagari04.bfres",
+      "Model/Fld_Hiagari04.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Hiagari",
+    "StageIconL": "Vss_Hiagari",
+    "StageIconS": "Vss_Hiagari",
+    "__RowId": "Vss_Hiagari04"
+  },
+  {
+    "ClassName": "",
+    "Label": "ヒラメが丘団地",
+    "PreloadResources": [
+      "Model/Fld_Jyoheki03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Jyoheki",
+    "StageIconL": "Vss_Jyoheki",
+    "StageIconS": "Vss_Jyoheki",
+    "__RowId": "Vss_Jyoheki03"
+  },
+  {
+    "ClassName": "",
+    "Label": "マサバ海峡大橋",
+    "PreloadResources": [
+      "Model/Fld_Kaisou03.bfres",
+      "Model/FldObj_Kaisou03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Kaisou",
+    "StageIconL": "Vss_Kaisou",
+    "StageIconS": "Vss_Kaisou",
+    "__RowId": "Vss_Kaisou03"
+  },
+  {
+    "ClassName": "",
+    "Label": "マサバ海峡大橋（改修後）",
+    "PreloadResources": [
+      "Model/Fld_Kaisou04.bfres",
+      "Model/FldObj_Kaisou04.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Kaisou",
+    "StageIconL": "Vss_Kaisou",
+    "StageIconS": "Vss_Kaisou",
+    "__RowId": "Vss_Kaisou04"
+  },
+  {
+    "ClassName": "",
+    "Label": "ザトウマーケット",
+    "PreloadResources": [
+      "Model/Fld_Line03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Line",
+    "StageIconL": "Vss_Line",
+    "StageIconS": "Vss_Line",
+    "__RowId": "Vss_Line03"
+  },
+  {
+    "ClassName": "",
+    "Label": "チョウザメ造船",
+    "PreloadResources": [
+      "Model/Fld_Nagasaki03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Nagasaki",
+    "StageIconL": "Vss_Nagasaki",
+    "StageIconS": "Vss_Nagasaki",
+    "__RowId": "Vss_Nagasaki03"
+  },
+  {
+    "ClassName": "",
+    "Label": "マンタマリア号",
+    "PreloadResources": [
+      "Model/FldObj_Pillar03.bfres",
+      "Model/Fld_Pillar03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Pillar",
+    "StageIconL": "Vss_Pillar",
+    "StageIconS": "Vss_Pillar",
+    "__RowId": "Vss_Pillar03"
+  },
+  {
+    "ClassName": "",
+    "Label": "キンメダイ美術館",
+    "PreloadResources": [
+      "Model/Fld_Pivot03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Pivot",
+    "StageIconL": "Vss_Pivot",
+    "StageIconS": "Vss_Pivot",
+    "__RowId": "Vss_Pivot03"
+  },
+  {
+    "ClassName": "",
+    "Label": "カジキ空港",
+    "PreloadResources": [
+      "Model/Fld_Propeller00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Propeller",
+    "StageIconL": "Vss_Propeller",
+    "StageIconS": "Vss_Propeller",
+    "__RowId": "Vss_Propeller00"
+  },
+  {
+    "ClassName": "",
+    "Label": "ネギトロ炭鉱",
+    "PreloadResources": [
+      "Model/Fld_Ruins03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Ruins",
+    "StageIconL": "Vss_Ruins",
+    "StageIconS": "Vss_Ruins",
+    "__RowId": "Vss_Ruins03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ナメロウ金属",
+    "PreloadResources": [
+      "Model/Fld_Scrap00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Scrap",
+    "StageIconL": "Vss_Scrap",
+    "StageIconS": "Vss_Scrap",
+    "__RowId": "Vss_Scrap00"
+  },
+  {
+    "ClassName": "",
+    "Label": "ナメロウ金属（改修後）",
+    "PreloadResources": [
+      "Model/Fld_Scrap01.bfres",
+      "Model/Fld_Scrap00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Scrap",
+    "StageIconL": "Vss_Scrap",
+    "StageIconS": "Vss_Scrap",
+    "__RowId": "Vss_Scrap01"
+  },
+  {
+    "ClassName": "",
+    "Label": "タラポートショッピングパーク",
+    "PreloadResources": [
+      "Model/Fld_Section00.bfres",
+      "Model/FldBG_Section00.bfres",
+      "Model/FldBG_Section01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Section",
+    "StageIconL": "Vss_Section",
+    "StageIconS": "Vss_Section",
+    "__RowId": "Vss_Section00"
+  },
+  {
+    "ClassName": "",
+    "Label": "タラポートショッピングパーク（改修後）",
+    "PreloadResources": [
+      "Model/FldBG_Section01.bfres",
+      "Model/Fld_Section01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Section",
+    "StageIconL": "Vss_Section",
+    "StageIconS": "Vss_Section",
+    "__RowId": "Vss_Section01"
+  },
+  {
+    "ClassName": "",
+    "Label": "タカアシ経済特区",
+    "PreloadResources": [
+      "Model/Fld_Spider00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Spider",
+    "StageIconL": "Vss_Spider",
+    "StageIconS": "Vss_Spider",
+    "__RowId": "Vss_Spider00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マテガイ放水路",
+    "PreloadResources": [
+      "Model/Fld_Temple00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Temple",
+    "StageIconL": "Vss_Temple",
+    "StageIconS": "Vss_Temple",
+    "__RowId": "Vss_Temple00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マテガイ放水路（改修後）",
+    "PreloadResources": [
+      "Model/Fld_Temple01.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Temple",
+    "StageIconL": "Vss_Temple",
+    "StageIconS": "Vss_Temple",
+    "__RowId": "Vss_Temple01"
+  },
+  {
+    "ClassName": "",
+    "Label": "オヒョウ海運",
+    "PreloadResources": [
+      "Model/Fld_Twist00.bfres",
+      "Model/FldObj_Twist00.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Twist",
+    "StageIconL": "Vss_Twist",
+    "StageIconS": "Vss_Twist",
+    "__RowId": "Vss_Twist00"
+  },
+  {
+    "ClassName": "",
+    "Label": "海女美術大学",
+    "PreloadResources": [
+      "Model/Fld_Upland03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Upland",
+    "StageIconL": "Vss_Upland",
+    "StageIconS": "Vss_Upland",
+    "__RowId": "Vss_Upland03"
+  },
+  {
+    "ClassName": "",
+    "Label": "コンブトラック",
+    "PreloadResources": [
+      "Model/Fld_Wave03.bfres",
+      "Model/FldObj_Wave03.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Wave",
+    "StageIconL": "Vss_Wave",
+    "StageIconS": "Vss_Wave",
+    "__RowId": "Vss_Wave03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ヤガラ市場",
+    "PreloadResources": [
+      "Model/Fld_Yagara.bfres",
+      "Model/FldObj_Yagara.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Yagara",
+    "StageIconL": "Vss_Yagara",
+    "StageIconS": "Vss_Yagara",
+    "__RowId": "Vss_Yagara"
+  },
+  {
+    "ClassName": "",
+    "Label": "ユノハナ渓谷",
+    "PreloadResources": [
+      "Model/Fld_Yunohana.bfres"
+    ],
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "StageIconBanner": "Vss_Yunohana",
+    "StageIconL": "Vss_Yunohana",
+    "StageIconS": "Vss_Yunohana",
+    "__RowId": "Vss_Yunohana"
+  }
+]
