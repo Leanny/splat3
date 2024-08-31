@@ -69,6 +69,9 @@
     "0022": [
       "\u65d7\u9c7c\u673a\u573a\u7684"
     ],
+    "0023": [
+      "\u9f99\u5bab\u8f6c\u8fd0\u7ad9\u7684"
+    ],
     "0040": [
       "\u9c91\u575d\u7684"
     ],
@@ -1758,6 +1761,9 @@
     "0749": [
       "\u865a\u5e7b\u7684"
     ],
+    "0750": [
+      "\u73cd\u7231\u7684"
+    ],
     "0751": [
       "\u91d1\u8272\u7248"
     ],
@@ -2901,6 +2907,9 @@
     "1145": [
       "\u7c97\u7cd9\u7684"
     ],
+    "1146": [
+      "\u5927\u578b\u796d\u5178\u7684"
+    ],
     "2002": [
       "\u9ed1\u767d\u7684"
     ],
@@ -2937,6 +2946,12 @@
     "2013": [
       "\u4e58\u98ce\u7684"
     ],
+    "2014": [
+      "\u72b6\u6001\u7edd\u4f73\u7684"
+    ],
+    "2015": [
+      "Thank You For "
+    ],
     "2500": [
       "\u5927\u5927\u5409\u7684"
     ],
@@ -2957,6 +2972,9 @@
     ],
     "2506": [
       "\u8d70\u8fd0\u7684"
+    ],
+    "2507": [
+      "\u62bd\u5956\u7684"
     ],
     "3000": [
       "\u86ee\u9893\u7684"
@@ -3083,6 +3101,9 @@
     ],
     "3304": [
       "\u8f6f\u5ae9\u7684"
+    ],
+    "3305": [
+      "\u611f\u52a8\u7684"
     ]
   },
   "EUde": {
@@ -3154,6 +3175,9 @@
     ],
     "0022": [
       "La Ola Airport-"
+    ],
+    "0023": [
+      "Bahnhof-Lemuria-"
     ],
     "0040": [
       "Salmoniden-Damm-"
@@ -5616,6 +5640,11 @@
       "Geisterhafte",
       "Geisterhaftes"
     ],
+    "0750": [
+      "Gehegter",
+      "Gehegte",
+      "Gehegtes"
+    ],
     "0751": [
       "Gold-"
     ],
@@ -7413,6 +7442,9 @@
       "B\u00e4rbei\u00dfige",
       "B\u00e4rbei\u00dfiges"
     ],
+    "1146": [
+      "Grand Festival-"
+    ],
     "2002": [
       "Monochromer",
       "Monochrome",
@@ -7471,6 +7503,16 @@
       "Von R\u00fcckenwind getragene",
       "Von R\u00fcckenwind getragenes"
     ],
+    "2014": [
+      "Topgest\u00e4hlter",
+      "Topgest\u00e4hlte",
+      "Topgest\u00e4hltes"
+    ],
+    "2015": [
+      "F\u00fcr alle ein",
+      "F\u00fcr alle eine",
+      "F\u00fcr alle ein"
+    ],
     "2500": [
       "Riesengl\u00fccks-"
     ],
@@ -7501,6 +7543,11 @@
       "Bezaubernder",
       "Bezaubernde",
       "Bezauberndes"
+    ],
+    "2507": [
+      "Gl\u00fcckskapselnder",
+      "Gl\u00fcckskapselnde",
+      "Gl\u00fcckskapselndes"
     ],
     "3000": [
       "Splatsville-"
@@ -7675,6 +7722,11 @@
       "Hauchzarter",
       "Hauchzarte",
       "Hauchzartes"
+    ],
+    "3305": [
+      "Wild bewegter",
+      "Wild bewegte",
+      "Wild bewegtes"
     ]
   },
   "EUen": {
@@ -7746,6 +7798,9 @@
     ],
     "0022": [
       "Marlin Airport"
+    ],
+    "0023": [
+      "Lemuria Hub"
     ],
     "0040": [
       "Spawning Grounds"
@@ -9436,6 +9491,9 @@
     "0749": [
       "Phantom"
     ],
+    "0750": [
+      "Cherished"
+    ],
     "0751": [
       "Gold"
     ],
@@ -10579,6 +10637,9 @@
     "1145": [
       "Rugged"
     ],
+    "1146": [
+      "Grand Festival"
+    ],
     "2002": [
       "Monochrome"
     ],
@@ -10615,6 +10676,12 @@
     "2013": [
       "Tailwind-Riding"
     ],
+    "2014": [
+      "Peak-Condition"
+    ],
+    "2015": [
+      "Thank You for"
+    ],
     "2500": [
       "Super-Duper Lucky"
     ],
@@ -10635,6 +10702,9 @@
     ],
     "2506": [
       "Charmed"
+    ],
+    "2507": [
+      "Shell-Out"
     ],
     "3000": [
       "Splatlandian"
@@ -10761,6 +10831,9 @@
     ],
     "3304": [
       "Tender"
+    ],
+    "3305": [
+      "Moving"
     ]
   },
   "EUes": {
@@ -10832,6 +10905,9 @@
     ],
     "0022": [
       "en Aeropuerto Marl\u00edn"
+    ],
+    "0023": [
+      "en Terminal Drag\u00f3n"
     ],
     "0040": [
       "en Presa salm\u00f3nida"
@@ -12790,6 +12866,10 @@
     "0749": [
       "espectral"
     ],
+    "0750": [
+      "apreciado",
+      "apreciada"
+    ],
     "0751": [
       "de oro"
     ],
@@ -14130,6 +14210,9 @@
       "escabroso",
       "escabrosa"
     ],
+    "1146": [
+      "del Grand Festival"
+    ],
     "2002": [
       "monocromo",
       "monocroma"
@@ -14174,6 +14257,12 @@
     "2013": [
       "cabalgavientos"
     ],
+    "2014": [
+      "en perfecto estado"
+    ],
+    "2015": [
+      "por jugar"
+    ],
     "2500": [
       "de potra"
     ],
@@ -14198,6 +14287,9 @@
     ],
     "2506": [
       "hechizante"
+    ],
+    "2507": [
+      "sacapremios"
     ],
     "3000": [
       "tinteliano",
@@ -14335,6 +14427,10 @@
     ],
     "3304": [
       "moldeable"
+    ],
+    "3305": [
+      "conmovedor",
+      "conmovedora"
     ]
   },
   "EUfr": {
@@ -14406,6 +14502,9 @@
     ],
     "0022": [
       "du terminal Rorqual"
+    ],
+    "0023": [
+      "de la gare Aiguillat"
     ],
     "0040": [
       "du barrage salmono\u00efde"
@@ -16334,6 +16433,10 @@
       "spectral",
       "spectrale"
     ],
+    "0750": [
+      "ador\u00e9",
+      "ador\u00e9e"
+    ],
     "0751": [
       "en or"
     ],
@@ -17678,6 +17781,9 @@
       "bourru",
       "bourrue"
     ],
+    "1146": [
+      "de Grand Festival"
+    ],
     "2002": [
       "monochrome"
     ],
@@ -17721,6 +17827,12 @@
       "pouss\u00e9 par le vent",
       "pouss\u00e9e par le vent"
     ],
+    "2014": [
+      "en pleine forme"
+    ],
+    "2015": [
+      "d'avoir jou\u00e9"
+    ],
     "2500": [
       "m\u00e9gachanceux",
       "m\u00e9gachanceuse"
@@ -17746,6 +17858,9 @@
     "2506": [
       "heureux",
       "heureuse"
+    ],
+    "2507": [
+      "du Capsulomate"
     ],
     "3000": [
       "de la Contr\u00e9e Clabousse"
@@ -17886,6 +18001,10 @@
     ],
     "3304": [
       "sensible"
+    ],
+    "3305": [
+      "\u00e9mouvant",
+      "\u00e9mouvante"
     ]
   },
   "EUit": {
@@ -17957,6 +18076,9 @@
     ],
     "0022": [
       "dell'Aeroporto Ondabianca"
+    ],
+    "0023": [
+      "della stazione Lemuria"
     ],
     "0040": [
       "della Diga salmonoide"
@@ -19928,6 +20050,10 @@
     "0749": [
       "spettrale"
     ],
+    "0750": [
+      "preziosissimo",
+      "preziosissima"
+    ],
     "0751": [
       "d'oro"
     ],
@@ -21277,6 +21403,9 @@
       "tosto",
       "tosta"
     ],
+    "1146": [
+      "del Grand Festival"
+    ],
     "2002": [
       "monocromatico",
       "monocromatica"
@@ -21315,6 +21444,12 @@
     "2013": [
       "col vento a favore"
     ],
+    "2014": [
+      "in perfetta forma"
+    ],
+    "2015": [
+      "per aver giocato"
+    ],
     "2500": [
       "nato con la camicia",
       "nata con la camicia"
@@ -21339,6 +21474,9 @@
     "2506": [
       "affascinato",
       "affascinata"
+    ],
+    "2507": [
+      "al Premi-o-matic"
     ],
     "3000": [
       "splattoniano",
@@ -21476,6 +21614,9 @@
     ],
     "3304": [
       "malleabile"
+    ],
+    "3305": [
+      "commovente"
     ]
   },
   "EUnl": {
@@ -21547,6 +21688,9 @@
     ],
     "0022": [
       "Trekvis Airport-"
+    ],
+    "0023": [
+      "Lemuri\u00eb Centraal-"
     ],
     "0040": [
       "Salmonietendam-"
@@ -24629,6 +24773,12 @@
     "0749": [
       "Spook-"
     ],
+    "0750": [
+      "Gekoesterd",
+      "Gekoesterd",
+      "Gekoesterd",
+      "Gekoesterde"
+    ],
     "0751": [
       "Gouden"
     ],
@@ -26699,6 +26849,9 @@
       "Ruw",
       "Ruwe"
     ],
+    "1146": [
+      "Grand Festival-"
+    ],
     "2002": [
       "Monochro",
       "Monochro",
@@ -26762,6 +26915,15 @@
       "Meeliftend",
       "Meeliftende"
     ],
+    "2014": [
+      "Topvorm-"
+    ],
+    "2015": [
+      "Bedankt voor ",
+      "Bedankt voor ",
+      "Bedankt voor het",
+      "Bedankt voor de"
+    ],
     "2500": [
       "Superfortuinlijk",
       "Superfortuinlijk",
@@ -26800,6 +26962,9 @@
       "Gezegend",
       "Gezegend",
       "Gezegende"
+    ],
+    "2507": [
+      "Prijsschelpen-"
     ],
     "3000": [
       "Splatlandisch",
@@ -27034,6 +27199,12 @@
       "Teder",
       "Teder",
       "Tedere"
+    ],
+    "3305": [
+      "Beweeglijk",
+      "Beweeglijk",
+      "Beweeglijk",
+      "Beweeglijke"
     ]
   },
   "EUru": {
@@ -27151,6 +27322,11 @@
       "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u041f\u0435\u043d\u043a\u043e\u0432\u043e",
       "\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u041f\u0435\u043d\u043a\u043e\u0432\u043e",
       "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u041f\u0435\u043d\u043a\u043e\u0432\u043e"
+    ],
+    "0023": [
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u043d\u0430 \u0432\u043e\u043a\u0437\u0430\u043b\u0435 \u041b\u0435\u043c\u0443\u0440\u0438\u044f",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u043d\u0430 \u0432\u043e\u043a\u0437\u0430\u043b\u0435 \u041b\u0435\u043c\u0443\u0440\u0438\u044f",
+      "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043d\u0430 \u0432\u043e\u043a\u0437\u0430\u043b\u0435 \u041b\u0435\u043c\u0443\u0440\u0438\u044f"
     ],
     "0040": [
       "\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u043d\u0430 \u0441\u0430\u043c\u043e\u043d\u0438\u0434\u0441\u043a\u043e\u0439 \u0413\u042d\u0421",
@@ -29967,6 +30143,11 @@
       "\u0444\u0430\u043d\u0442\u043e\u043c\u043d\u0430\u044f",
       "\u0444\u0430\u043d\u0442\u043e\u043c\u043d\u043e\u0435"
     ],
+    "0750": [
+      "\u0445\u043e\u043b\u0438\u043c\u044b\u0439",
+      "\u0445\u043e\u043b\u0438\u043c\u0430\u044f",
+      "\u0445\u043e\u043b\u0438\u043c\u043e\u0435"
+    ],
     "0751": [
       "\u0437\u043e\u043b\u043e\u0442\u043e\u0439",
       "\u0437\u043e\u043b\u043e\u0442\u0430\u044f",
@@ -31860,6 +32041,11 @@
       "\u043d\u0435\u043e\u0442\u0435\u0441\u0430\u043d\u043d\u0430\u044f",
       "\u043d\u0435\u043e\u0442\u0435\u0441\u0430\u043d\u043d\u043e\u0435"
     ],
+    "1146": [
+      "\u043b\u044e\u0431\u044f\u0449\u0438\u0439 \u0413\u0440\u0430\u043d\u0434-\u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c",
+      "\u043b\u044e\u0431\u044f\u0449\u0430\u044f \u0413\u0440\u0430\u043d\u0434-\u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c",
+      "\u043b\u044e\u0431\u044f\u0449\u0435\u0435 \u0413\u0440\u0430\u043d\u0434-\u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c"
+    ],
     "2002": [
       "\u043c\u043e\u043d\u043e\u0445\u0440\u043e\u043c\u043d\u044b\u0439",
       "\u043c\u043e\u043d\u043e\u0445\u0440\u043e\u043c\u043d\u0430\u044f",
@@ -31920,6 +32106,16 @@
       "\u0445\u0432\u0430\u0442\u0430\u044e\u0449\u0430\u044f \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0445\u0432\u043e\u0441\u0442",
       "\u0445\u0432\u0430\u0442\u0430\u044e\u0449\u0435\u0435 \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0445\u0432\u043e\u0441\u0442"
     ],
+    "2014": [
+      "\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439 \u0444\u043e\u0440\u043c\u0443",
+      "\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0430\u044f \u0444\u043e\u0440\u043c\u0443",
+      "\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0435\u0435 \u0444\u043e\u0440\u043c\u0443"
+    ],
+    "2015": [
+      "\u0433\u043e\u0432\u043e\u0440\u044f\u0449\u0438\u0439",
+      "\u0433\u043e\u0432\u043e\u0440\u044f\u0449\u0430\u044f",
+      "\u0433\u043e\u0432\u043e\u0440\u044f\u0449\u0435\u0435"
+    ],
     "2500": [
       "\u0441\u0432\u0435\u0440\u0445\u0443\u0434\u0430\u0447\u043b\u0438\u0432\u044b\u0439",
       "\u0441\u0432\u0435\u0440\u0445\u0443\u0434\u0430\u0447\u043b\u0438\u0432\u0430\u044f",
@@ -31954,6 +32150,11 @@
       "\u0431\u043b\u0435\u0441\u0442\u044f\u0449\u0438\u0439",
       "\u0431\u043b\u0435\u0441\u0442\u044f\u0449\u0430\u044f",
       "\u0431\u043b\u0435\u0441\u0442\u044f\u0449\u0435\u0435"
+    ],
+    "2507": [
+      "\u043a\u0430\u043f\u0441\u0443\u043b\u044c\u043d\u044b\u0439",
+      "\u043a\u0430\u043f\u0441\u0443\u043b\u044c\u043d\u0430\u044f",
+      "\u043a\u0430\u043f\u0441\u0443\u043b\u044c\u043d\u043e\u0435"
     ],
     "3000": [
       "\u043f\u043b\u044e\u0445\u0442\u043e\u043d\u0441\u043a\u0438\u0439",
@@ -32162,6 +32363,11 @@
       "\u0432\u044f\u0437\u043a\u0438\u0439",
       "\u0432\u044f\u0437\u043a\u0430\u044f",
       "\u0432\u044f\u0437\u043a\u043e\u0435"
+    ],
+    "3305": [
+      "\u044d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+      "\u044d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f",
+      "\u044d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435"
     ]
   },
   "JPja": {
@@ -32233,6 +32439,9 @@
     ],
     "0022": [
       "\u30ab\u30b8\u30ad\u7a7a\u6e2f\u306e"
+    ],
+    "0023": [
+      "\u30ea\u30e5\u30a6\u30b0\u30a6\u30bf\u30fc\u30df\u30ca\u30eb\u306e"
     ],
     "0040": [
       "\u30b7\u30a7\u30b1\u30ca\u30c0\u30e0\u306e"
@@ -33923,6 +34132,9 @@
     "0749": [
       "\u5e7b\u306e"
     ],
+    "0750": [
+      "\u5b50\u306e"
+    ],
     "0751": [
       "\u30b4\u30fc\u30eb\u30c9"
     ],
@@ -35066,6 +35278,9 @@
     "1145": [
       "\u30b4\u30c4\u3044"
     ],
+    "1146": [
+      "\u30b0\u30e9\u30f3\u30c9\u30d5\u30a7\u30b9\u30c6\u30a3\u30d0\u30eb\u306e"
+    ],
     "2002": [
       "\u30e2\u30ce\u30af\u30ed\u306e"
     ],
@@ -35102,6 +35317,12 @@
     "2013": [
       "\u4e57\u308b"
     ],
+    "2014": [
+      "\u7d76\u597d\u8abf\u306e"
+    ],
+    "2015": [
+      "Thank You For "
+    ],
     "2500": [
       "\u5927\u5927\u5409\u306e"
     ],
@@ -35122,6 +35343,9 @@
     ],
     "2506": [
       "\u30c4\u30a4\u3066\u308b"
+    ],
+    "2507": [
+      "\u304f\u3058\u5f15\u304d\u306e"
     ],
     "3000": [
       "\u30d0\u30f3\u30ab\u30e9\u306a"
@@ -35248,6 +35472,9 @@
     ],
     "3304": [
       "\u30d7\u30ea\u30d7\u30ea\u306e"
+    ],
+    "3305": [
+      "\u611f\u52d5\u306e"
     ]
   },
   "KRko": {
@@ -35319,6 +35546,9 @@
     ],
     "0022": [
       "\uccad\uc0c8\uce58 \uacf5\ud56d\uc758"
+    ],
+    "0023": [
+      "\uc6a9\uad81 \ud130\ubbf8\ub110\uc758"
     ],
     "0040": [
       "\uc170\ucf00\ub098 \ub310\uc758"
@@ -37009,6 +37239,9 @@
     "0749": [
       "\ud658\uc0c1\uc758"
     ],
+    "0750": [
+      "\uc560\uc9c0\uc911\uc9c0\ud558\ub294"
+    ],
     "0751": [
       "\uace8\ub4dc"
     ],
@@ -38152,6 +38385,9 @@
     "1145": [
       "\ud22c\ubc15\ud55c"
     ],
+    "1146": [
+      "\uadf8\ub79c\ub4dc \ud398\uc2a4\ud2f0\ubc8c\uc758"
+    ],
     "2002": [
       "\ubaa8\ub178\ud06c\ub86c\uc758"
     ],
@@ -38188,6 +38424,12 @@
     "2013": [
       "\uc21c\ud48d\uc744 \ud0c4"
     ],
+    "2014": [
+      "\ucd5c\uc0c1\uc758 \ucee8\ub514\uc158\uc778"
+    ],
+    "2015": [
+      "Thank You For"
+    ],
     "2500": [
       "\uc6b4\uc774 \uc5c4\uccad \uc88b\uc740"
     ],
@@ -38208,6 +38450,9 @@
     ],
     "2506": [
       "\uc6b4 \uc88b\uc740"
+    ],
+    "2507": [
+      "\ubf51\uae30\uc758"
     ],
     "3000": [
       "\uce74\uc624\ud3f4\ub9ac\uc2a4\uc758"
@@ -38334,6 +38579,9 @@
     ],
     "3304": [
       "\ud0c4\ub825 \uc788\ub294"
+    ],
+    "3305": [
+      "\uac10\ub3d9\uc758"
     ]
   },
   "TWzh": {
@@ -38405,6 +38653,9 @@
     ],
     "0022": [
       "\u65d7\u9b5a\u6a5f\u5834\u7684"
+    ],
+    "0023": [
+      "\u9f8d\u5bae\u8f49\u904b\u7ad9\u7684"
     ],
     "0040": [
       "\u9bad\u58e9\u7684"
@@ -40095,6 +40346,9 @@
     "0749": [
       "\u865b\u5e7b\u7684"
     ],
+    "0750": [
+      "\u73cd\u611b\u7684"
+    ],
     "0751": [
       "\u91d1\u8272\u7248"
     ],
@@ -41238,6 +41492,9 @@
     "1145": [
       "\u7c97\u7cd9\u7684"
     ],
+    "1146": [
+      "\u5927\u578b\u796d\u5178\u7684"
+    ],
     "2002": [
       "\u9ed1\u767d\u7684"
     ],
@@ -41274,6 +41531,12 @@
     "2013": [
       "\u4e58\u98a8\u7684"
     ],
+    "2014": [
+      "\u72c0\u614b\u7d55\u4f73\u7684"
+    ],
+    "2015": [
+      "Thank You For "
+    ],
     "2500": [
       "\u5927\u5927\u5409\u7684"
     ],
@@ -41294,6 +41557,9 @@
     ],
     "2506": [
       "\u8d70\u904b\u7684"
+    ],
+    "2507": [
+      "\u62bd\u734e\u7684"
     ],
     "3000": [
       "\u883b\u9839\u7684"
@@ -41420,6 +41686,9 @@
     ],
     "3304": [
       "\u8edf\u5ae9\u7684"
+    ],
+    "3305": [
+      "\u611f\u52d5\u7684"
     ]
   },
   "USen": {
@@ -41491,6 +41760,9 @@
     ],
     "0022": [
       "Marlin Airport"
+    ],
+    "0023": [
+      "Lemuria Hub"
     ],
     "0040": [
       "Spawning Grounds"
@@ -43181,6 +43453,9 @@
     "0749": [
       "Phantom"
     ],
+    "0750": [
+      "Cherished"
+    ],
     "0751": [
       "Gold"
     ],
@@ -44324,6 +44599,9 @@
     "1145": [
       "Rugged"
     ],
+    "1146": [
+      "Grand Festival"
+    ],
     "2002": [
       "Monochrome"
     ],
@@ -44360,6 +44638,12 @@
     "2013": [
       "Tailwind-Riding"
     ],
+    "2014": [
+      "Peak-Condition"
+    ],
+    "2015": [
+      "Thank You for"
+    ],
     "2500": [
       "Super-Duper Lucky"
     ],
@@ -44380,6 +44664,9 @@
     ],
     "2506": [
       "Charmed"
+    ],
+    "2507": [
+      "Shell-Out"
     ],
     "3000": [
       "Splatlandian"
@@ -44506,6 +44793,9 @@
     ],
     "3304": [
       "Tender"
+    ],
+    "3305": [
+      "Moving"
     ]
   },
   "USes": {
@@ -44577,6 +44867,9 @@
     ],
     "0022": [
       "en Aeropuerto Marl\u00edn"
+    ],
+    "0023": [
+      "en Terminal Drag\u00f3n"
     ],
     "0040": [
       "en Presa salm\u00f3nida"
@@ -46542,6 +46835,10 @@
     "0749": [
       "espectral"
     ],
+    "0750": [
+      "apreciado",
+      "apreciada"
+    ],
     "0751": [
       "de oro"
     ],
@@ -47881,6 +48178,9 @@
       "abrupto",
       "abrupta"
     ],
+    "1146": [
+      "del Grand Festival"
+    ],
     "2002": [
       "monocromo",
       "monocroma"
@@ -47924,6 +48224,12 @@
     "2013": [
       "cabalgavientos"
     ],
+    "2014": [
+      "en perfecto estado"
+    ],
+    "2015": [
+      "por jugar"
+    ],
     "2500": [
       "recontrasuertudo",
       "recontrasuertuda"
@@ -47949,6 +48255,9 @@
     ],
     "2506": [
       "hechizante"
+    ],
+    "2507": [
+      "del premiotr\u00f3n"
     ],
     "3000": [
       "tinteliano",
@@ -48085,6 +48394,10 @@
     ],
     "3304": [
       "moldeable"
+    ],
+    "3305": [
+      "conmovedor",
+      "conmovedora"
     ]
   },
   "USfr": {
@@ -48156,6 +48469,9 @@
     ],
     "0022": [
       "du terminal Rorqual"
+    ],
+    "0023": [
+      "de la gare Aiguillat"
     ],
     "0040": [
       "du barrage salmono\u00efde"
@@ -50089,6 +50405,10 @@
       "spectral",
       "spectrale"
     ],
+    "0750": [
+      "ch\u00e9ri",
+      "ch\u00e9rie"
+    ],
     "0751": [
       "en or"
     ],
@@ -51435,6 +51755,9 @@
       "bourru",
       "bourrue"
     ],
+    "1146": [
+      "de Grand Festival"
+    ],
     "2002": [
       "monochrome"
     ],
@@ -51478,6 +51801,12 @@
       "pouss\u00e9 par le vent",
       "pouss\u00e9e par le vent"
     ],
+    "2014": [
+      "en pleine forme"
+    ],
+    "2015": [
+      "d'avoir jou\u00e9"
+    ],
     "2500": [
       "m\u00e9gachanceux",
       "m\u00e9gachanceuse"
@@ -51503,6 +51832,9 @@
     "2506": [
       "heureux",
       "heureuse"
+    ],
+    "2507": [
+      "du Capsulomate"
     ],
     "3000": [
       "de la Contr\u00e9e Clabousse"
@@ -51561,7 +51893,7 @@
       "m\u00e9morielle"
     ],
     "3111": [
-      "du Poulpiverse"
+      "du Poulpivers"
     ],
     "3112": [
       "de la tour de l'Ordre"
@@ -51643,6 +51975,10 @@
     ],
     "3304": [
       "sensible"
+    ],
+    "3305": [
+      "\u00e9mouvant",
+      "\u00e9mouvante"
     ]
   }
 }
