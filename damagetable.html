@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -161,7 +158,7 @@
                         console.log(elem)
                         data.push({
                             Name: elem.RowKey,
-                            Multiplier: elem.DamageRate || 1.0,
+                            Multiplier: elem.DamageRate === undefined ? 1.0 : elem.DamageRate,
                         })
                     })
 
@@ -173,10 +170,7 @@
                 function loadData() {
                     dmginfodata = {}
                     $.getJSON(
-                        prefix +
-                            "data/parameter/" +
-                            version +
-                            "/misc/spl__DamageRateInfoConfig.pp__CombinationDataTableData.json",
+                        prefix + "data/parameter/" + version + "/misc/spl__DamageRateInfoConfig.pp__CombinationDataTableData.json",
                         dmgrateinfo => {
                             $("#object").children().remove()
                             for (const [key, val] of Object.entries(dmgrateinfo.CellList)) {
