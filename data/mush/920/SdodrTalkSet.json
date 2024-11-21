@@ -1,0 +1,1781 @@
+[
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureAllLayer_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureAllLayer_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureAllLayer_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureAllLayer_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ボス層失敗会話プール：周遊ボス（易）",
+      "Label": "FailureBallKing_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBallKing_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureBallKing_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBallKing_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ボス層失敗会話プール：オーダボスEX",
+      "Label": "FailureBarrierKingOdakoEx_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBarrierKingOdakoEx_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureBarrierKingOdakoEx_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBarrierKingOdakoEx_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ボス層失敗会話プール：オーダボス",
+      "Label": "FailureBarrierKingOdako_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBarrierKingOdako_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureBarrierKingOdako_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBarrierKingOdako_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureBombBlow_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureBombBlow_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureChargerTower_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureChargerTower_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureEscape_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureEscape_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "奈落死因会話プール",
+      "Label": "FailureFall_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureFall_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureFall_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureFall_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "上層失敗時汎用会話プール",
+      "Label": "FailureHighLayer_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureHighLayer_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureHighLayer_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureHighLayer_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureHopper_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureHopper_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "どんまい、ハチ！\nちょっと油断しちまったな…！",
+      "Label": "FailureLowLayer_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureLowLayer_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureLowLayer_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureLowLayer_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "中層失敗時汎用会話プール",
+      "Label": "FailureMiddleLayer_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureMiddleLayer_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureMiddleLayer_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureMiddleLayer_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ボス層失敗会話プール：ミラーボス（易）",
+      "Label": "FailureRivalKing_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureRivalKing_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureRivalKing_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureRivalKing_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureShell_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureShell_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureSpawner_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureSpawner_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureSpawner_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureSpawner_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ボス層失敗会話プール：中央ボス（易）",
+      "Label": "FailureTowerKing_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureTowerKing_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureTowerKing_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureTowerKing_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "FailureTreeMissile_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureTreeMissile_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "敵死因会話プール：制圧するグラーヴェ",
+      "Label": "FailureZakoLarge_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureZakoLarge_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureZakoLarge_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureZakoLarge_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "敵死因会話プール：群れるラングエンド",
+      "Label": "FailureZakoSmall_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureZakoSmall_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "敵死因会話プール：行進するアンダンテ",
+      "Label": "FailureZakoStandard_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureZakoStandard_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "FailureZakoStandard_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/FailureZakoStandard_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "そんな気味悪い所にいないで、早くエレベーターに帰ってきなヨ",
+      "Label": "Floor_Shop_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "うー、ここ暗いしジメジメするな。早くエレベーターに戻ろうぜ",
+      "Label": "Floor_Shop_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ふー、一段落だな。次のフロアに進みたくなったらエレベーターに乗ってくれよ",
+      "Label": "Floor_Shop_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "うーん、なんかこの辺り気味悪いな。はやくエレベーターに帰ろうぜ",
+      "Label": "Floor_Shop_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "買い物は終わったカ？　そろそろエレベーターに戻ってきなヨ",
+      "Label": "Floor_Shop_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "一休みできたみたいダナ。次のフロアに進みたくなったらエレベーターに乗ってクレ",
+      "Label": "Floor_Shop_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "腹減ってきたな～。 ハチ、なんか食えるもの持ってねぇ？",
+      "Label": "Floor_Shop_06"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_06.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_07"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_07.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_08"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_08.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_09"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_09.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_10"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_10.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_11"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_11.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_12"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_12.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_13"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_13.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_14"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_14.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_15"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_15.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_16"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_16.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_17"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_17.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_18"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_18.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "Floor_Shop_19"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_19.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "いいもん買えたか？そんじゃ、エレベーターに戻って次のフロアに進もうぜ",
+      "Label": "Floor_Shop_Leave_First"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Floor_Shop_Leave_First.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り１０個",
+      "Label": "Phase3_PaletteCleared_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り９個",
+      "Label": "Phase3_PaletteCleared_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り８個",
+      "Label": "Phase3_PaletteCleared_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り７個",
+      "Label": "Phase3_PaletteCleared_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り６個",
+      "Label": "Phase3_PaletteCleared_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り５個",
+      "Label": "Phase3_PaletteCleared_06"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_06.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り４個",
+      "Label": "Phase3_PaletteCleared_07"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_07.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り３個",
+      "Label": "Phase3_PaletteCleared_08"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_08.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り２個",
+      "Label": "Phase3_PaletteCleared_09"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_09.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り１個",
+      "Label": "Phase3_PaletteCleared_10"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_10.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレット初クリア：残り０個",
+      "Label": "Phase3_PaletteCleared_11"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_11.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "アーマーブレイク00",
+      "Label": "armorLv0_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/armorLv0_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "armorLv0_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/armorLv0_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "armorLv0_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/armorLv0_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "armorLv0_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/armorLv0_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "armorLv0_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/armorLv0_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "armorLv0_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/armorLv0_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（敵全塗り）",
+      "Label": "badevent_allpaint_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_allpaint_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（黒いフロア）",
+      "Label": "badevent_allpaint_fog_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_allpaint_fog_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（スケルトーン強化）",
+      "Label": "badevent_enemypowerup_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_enemypowerup_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（黒い霧）",
+      "Label": "badevent_fog_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_fog_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（無限アルペジオ）",
+      "Label": "badevent_missile_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_missile_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（スケルトーン大強化）",
+      "Label": "badevent_missile_enemypowerup_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_missile_enemypowerup_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（ドローン封印）",
+      "Label": "badevent_nodrone_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_nodrone_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（ドローン＆アイテム封印）",
+      "Label": "badevent_nodrone_unlucky"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_nodrone_unlucky.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わるイベント（アンラッキー）",
+      "Label": "badevent_unlucky_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/badevent_unlucky_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "チェックポイント00",
+      "Label": "checkpoint_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_06"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_06.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_07"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_07.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_08"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_08.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_area_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_area_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_area_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_area_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_area_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_area_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_ball_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_ball_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_ball_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_ball_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_ball_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_ball_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_ball_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_ball_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_chase_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_chase_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_chase_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_chase_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_chase_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_chase_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_chase_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_chase_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_lift_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_lift_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_lift_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_lift_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_lift_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_lift_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_spawner_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_spawner_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_spawner_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_spawner_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_spawner_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_spawner_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "checkpoint_final_spawner_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/checkpoint_final_spawner_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヒメドローンボム投てき00",
+      "Label": "drone_bomb_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_bomb_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_bomb_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_bomb_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_bomb_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_bomb_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヒメドローンアイテム放出00",
+      "Label": "drone_item_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_item_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_item_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_item_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_item_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_item_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヒメドローンメガホンレーザー00",
+      "Label": "drone_microLaser_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_microLaser_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_microLaser_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_microLaser_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_microLaser_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_microLaser_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヒメドローンスタンボム00",
+      "Label": "drone_stan_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_stan_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_stan_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_stan_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_stan_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_stan_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヒメドローントルネード00",
+      "Label": "drone_tornado_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_tornado_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_tornado_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_tornado_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_tornado_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_tornado_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヒメドローントラップ00",
+      "Label": "drone_trap_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_trap_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_trap_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_trap_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "drone_trap_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/drone_trap_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_phase2_random_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_phase2_random_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_phase3_random_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_phase3_random_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_random_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_random_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_random_01_0"
+    },
+    "Tail": [
+      {
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "",
+        "Label": "entracnce_random_01_1"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_random_01_0.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_random_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_random_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_random_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_random_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_random_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_random_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "entracnce_random_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/entracnce_random_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（チップフィーバー火力）00",
+      "Label": "event_bonus_attack00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_attack00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "event_bonus_attack01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_attack01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（チップフィーバー自動）00",
+      "Label": "event_bonus_auto00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_auto00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "event_bonus_auto01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_auto01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（チップフィーバー継戦）00",
+      "Label": "event_bonus_continuity00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_continuity00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "event_bonus_continuity01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_continuity01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（チップフィーバー運）00",
+      "Label": "event_bonus_luck00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_luck00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "event_bonus_luck01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_luck01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（チップフィーバー移動）00",
+      "Label": "event_bonus_move00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_move00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "event_bonus_move01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_move01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（チップフィーバー範囲）00",
+      "Label": "event_bonus_range00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_range00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "event_bonus_range01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/event_bonus_range01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "FleaMarketSdodr",
+      "DevText": "タコさん、お疲れ様です。\nうちの商品みていきませんか。",
+      "Label": "fleamarket00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/fleamarket00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "FleaMarketSdodr",
+      "DevText": "",
+      "Label": "fleamarket01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/fleamarket01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、新しいハッキング項目を見つけたのですが、見ていきませんか？",
+      "Label": "iidaHacking00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/iidaHacking00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、お疲れさまでした！\nシンジュが余っていたら、ハッキングに協力してもらえませんか？",
+      "Label": "iidaHacking01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/iidaHacking01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "key01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/key01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "key02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/key02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "新しく手に入れたパレットで挑戦するのもアリかもな\n+ボタンでパレットを変更できるぞ！",
+      "Label": "palette00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/palette00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "palette01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/palette01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（汎用）00",
+      "Label": "random_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "random_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "random_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "random_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "random_06"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_06.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "random_07"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_07.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "random_08"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_08.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_09"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_09.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_10"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_10.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_11"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_11.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_12"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_12.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "random_13"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/random_13.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（リスポーン）00",
+      "Label": "respawn_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "respawn_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "respawn_05"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_05.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_boss_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_boss_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "respawn_boss_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_boss_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "respawn_boss_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_boss_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（リスポーン残機 1）00",
+      "Label": "respawn_last_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_last_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_last_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "respawn_last_03"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_03.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "respawn_last_04"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_04.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "",
+      "Label": "respawn_last_boss_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_boss_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "IidaSdodr",
+      "DevText": "",
+      "Label": "respawn_last_boss_01"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_boss_01.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "MizutaSdodr",
+      "DevText": "",
+      "Label": "respawn_last_boss_02"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/respawn_last_boss_02.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標ダメージ）00",
+      "Label": "save_damage_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_damage_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標ヒト移動）00",
+      "Label": "save_human_move_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_human_move_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標ジャンプ）00",
+      "Label": "save_jump_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_jump_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標滑空）00",
+      "Label": "save_kite_move_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_kite_move_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標メインウェポン）00",
+      "Label": "save_main_weapon_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_main_weapon_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標スペシャルウェポン）00",
+      "Label": "save_special_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_special_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標イカ移動）00",
+      "Label": "save_squid_move_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_squid_move_00.spl__SdodrTalkSet.gyml"
+  },
+  {
+    "Head": {
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "入場リフト（サブ目標サブウェポン）00",
+      "Label": "save_sub_weapon_00"
+    },
+    "Tail": [],
+    "__RowId": "Work/Gyml/SdodrTalkSet/save_sub_weapon_00.spl__SdodrTalkSet.gyml"
+  }
+]

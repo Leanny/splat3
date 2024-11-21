@@ -214,7 +214,7 @@
                 ["Gusher", "Possible Destinations"],
                 ["A", "B, F, G"],
                 ["B", "A, D, E, G"],
-                ["C", "A, D"],
+                ["C", ""],
                 ["D", "B, E, F, G"],
                 ["E", "B, D, F"],
                 ["F", "A, D, E"],
@@ -222,10 +222,10 @@
             ])
             addTab("Sockeye Station - High", "Shakespiral_High", getPrefix() + "sr/Shakespiral_High.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "B, C, D"],
+                ["A", "B"],
                 ["B", "A, D"],
-                ["C", "A, D"],
-                ["D", "A, B, C"],
+                ["C", ""],
+                ["D", "B"],
             ])
             addTab("Salmonid Smokeyard - Mid", "Shakelift_Mid", getPrefix() + "sr/Shakelift_Mid.png", [
                 ["Gusher", "Possible Destinations"],
@@ -242,15 +242,15 @@
                 ["A", "C, D"],
                 ["B", "C, E"],
                 ["C", "A, B"],
-                ["D", "A, C, E"],
-                ["E", "B, C, D"],
+                ["D", "A"],
+                ["E", "B"],
             ])
             addTab("Marooner's Bay - Mid", "Shakeship_Mid", getPrefix() + "sr/Shakeship_Mid.png", [
                 ["Gusher", "Possible Destinations"],
                 ["A", "C, H"],
                 ["B", "C, H"],
                 ["C", "A, B, F, G"],
-                ["D", "C, F"],
+                ["D", "F"],
                 ["E", "F, G"],
                 ["F", "C, D, E, H"],
                 ["G", "C, E"],
@@ -258,14 +258,14 @@
             ])
             addTab("Marooner's Bay - High", "Shakeship_High", getPrefix() + "sr/Shakeship_High.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "C, D"],
-                ["B", "C, D"],
+                ["A", "C"],
+                ["B", "C"],
                 ["C", "A, B"],
-                ["D", "C"],
+                ["D", ""],
             ])
             addTab("Gone Fission Hydroplant - Mid", "Shakedent_Mid", getPrefix() + "sr/Shakedent_Mid.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "B, C, D"],
+                ["A", ""],
                 ["B", "D, F, G"],
                 ["C", "F, G, H"],
                 ["D", "B, E, F, H"],
@@ -276,10 +276,10 @@
             ])
             addTab("Gone Fission Hydroplant - High", "Shakedent_High", getPrefix() + "sr/Shakedent_High.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "B, C, D"],
-                ["B", "A, C, D"],
-                ["C", "A, B, D"],
-                ["D", "A, B, C"],
+                ["A", ""],
+                ["B", "D"],
+                ["C", ""],
+                ["D", "B"],
             ])
             addTab("Jammin' Salmon Junction - Mid", "Shakehighway_Mid", getPrefix() + "sr/Shakehighway_Mid.png", [
                 ["Gusher", "Possible Destinations"],
@@ -294,9 +294,9 @@
             ])
             addTab("Jammin' Salmon Junction - High", "Shakehighway_High", getPrefix() + "sr/Shakehighway_High.png", [
                 ["Gusher", "Possible Destinations"],
-                ["A", "B, C"],
+                ["A", "B"],
                 ["B", "A, D"],
-                ["C", "A, D"],
+                ["C", "D"],
                 ["D", "B, C"],
             ])
             addTab("Bonerattle Arena - Mid", "Shakerail_Mid", getPrefix() + "sr/Shakerail_Mid.png", [
@@ -320,7 +320,6 @@
                 ["E", "C, D, F"],
                 ["F", "A, C, E"],
             ])
-
             // Handle tab change event
             const tabLinks = document.querySelectorAll(".nav-link")
             tabLinks.forEach(function (tabLink) {
