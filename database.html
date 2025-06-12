@@ -227,6 +227,10 @@
                                             >
                                                 Uroko Price
                                             </th>
+                                            <th scope="col" data-field="CallSign" data-formatter="callSignFormatter" data-sortable="true">
+                                                Call Sign
+                                            </th>
+                                            <th scope="col" data-field="CallSignPriority" data-sortable="true">Call Sign Priority</th>
                                             <th scope="col" data-field="Season" data-sortable="true" data-visible="false">Season</th>
                                         </tr>
                                     </thead>
@@ -269,6 +273,10 @@
                                             >
                                                 Uroko Price
                                             </th>
+                                            <th scope="col" data-field="CallSign" data-formatter="callSignFormatter" data-sortable="true">
+                                                Call Sign
+                                            </th>
+                                            <th scope="col" data-field="CallSignPriority" data-sortable="true">Call Sign Priority</th>
                                             <th scope="col" data-field="Season" data-sortable="true" data-visible="false">Season</th>
                                         </tr>
                                     </thead>
@@ -386,6 +394,11 @@
                     .replace(".spl__LockerGoodsStickerInfo", "")
             }
 
+            var callSignFormatter = value => {
+                if (value === -1) return "N/A"
+                const padded = String(value).padStart(4, "0")
+                return `<center>${localize("CommonMsg/VS/CallSign", padded)}</center>`
+            }
             var badgeFormatter = value => `<center>${format_img(prefix + "images/badge/", getFilenameOfReward(value), 96)}</center>`
 
             var zakkaFormatter = value => `<center>${format_img(prefix + "images/zakka/", getFilenameOfReward(value), 96)}</center>`
@@ -638,8 +651,6 @@
                             Range: weapon["Range"],
                             RewardLvl2: weapon["RewardLv2"],
                             RewardLvl3: weapon["RewardLv3"],
-                            RewardLvl4: weapon["RewardLv4"],
-                            RewardLvl5: weapon["RewardLv5"],
                             Season: weapon["Season"],
                             ShopUnlockRank: weapon["ShopUnlockRank"],
                             UIParam: weapon["UIParam"],
@@ -684,6 +695,8 @@
                             HowToGet: gear["HowToGet"],
                             UrokoPrice: gear["UrokoPrice"],
                             Season: gear["Season"],
+                            CallSign: gear["CallSign"],
+                            CallSignPriority: gear["CallSignPriority"],
                         }
                         geardata.push(row)
                     }
