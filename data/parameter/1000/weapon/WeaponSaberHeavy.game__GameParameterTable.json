@@ -1,0 +1,461 @@
+{
+  "GameParameters": {
+    "BulletSaberHorizontalParam": {
+      "$type": "spl__BulletSaberParam",
+      "BurstParam": {
+        "BurstFrame": 6,
+        "SplashColRadius": 0.1,
+        "SplashDrawRadius": 0.2,
+        "SplashPaintRadius": 2.2
+      },
+      "CollisionParam": {
+        "CoreIndex": 3,
+        "OffsetArray": [
+          {
+            "X": -1.2,
+            "Y": 0.0,
+            "Z": -0.2
+          },
+          {
+            "X": -0.8,
+            "Y": 0.0,
+            "Z": -0.125
+          },
+          {
+            "X": -0.4,
+            "Y": 0.0,
+            "Z": -0.075
+          },
+          {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          {
+            "X": 0.4,
+            "Y": 0.0,
+            "Z": -0.075
+          },
+          {
+            "X": 0.8,
+            "Y": 0.0,
+            "Z": -0.125
+          },
+          {
+            "X": 1.2,
+            "Y": 0.0,
+            "Z": -0.2
+          }
+        ],
+        "ParamArray": [
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.275,
+            "EndRadiusForPlayer": 0.275,
+            "InitRadiusForField": 0.275,
+            "InitRadiusForPlayer": 0.275
+          },
+          {
+            "EndRadiusForField": 0.3,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.3,
+            "InitRadiusForPlayer": 0.3
+          },
+          {
+            "EndRadiusForField": 0.275,
+            "EndRadiusForPlayer": 0.275,
+            "InitRadiusForField": 0.275,
+            "InitRadiusForPlayer": 0.275
+          },
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          }
+        ]
+      },
+      "DamageParam": {
+        "HasGuard": false,
+        "HitDamage": 400,
+        "IsSleepAfterDefenceBullet": false
+      },
+      "MoveParam": {
+        "BrakeAirResist": 0.0,
+        "BrakeGravity": 0.0,
+        "BrakeToFreeStateFrame": 0,
+        "BrakeToFreeVelocityXZ": 0.0,
+        "BrakeToFreeVelocityY": 0.0,
+        "FreeAirResist": 0.0,
+        "FreeGravity": 0.0,
+        "GoStraightToBrakeStateFrame": 6,
+        "SpawnSpeed": 2.3
+      },
+      "PaintParam": {
+        "DepthScaleMax": 1.4,
+        "DepthScaleMin": 0.4,
+        "PaintDegreeMax": 60.0,
+        "WidthHalf": 2.6
+      },
+      "SplashPaintParam": {
+        "DepthScaleMax": 1.5,
+        "WidthHalf": 2.112,
+        "WidthHalfNearest": 1.76
+      },
+      "SplashSpawnParam": {
+        "DropInterval": 2.0,
+        "NearestLen": 1.25,
+        "RandomSpawnVelXMax": 0.055,
+        "RandomSpawnVelYMax": 0.015,
+        "RandomSpawnVelZMax": 0.02,
+        "RandomSpawnVelZMin": 0.01,
+        "SplashNumMax": 8,
+        "SplitNum": 8
+      },
+      "WallDropMoveParam": {
+        "FallPeriodFirstTargetSpeed": 0.08,
+        "FallPeriodSecondTargetSpeed": 0.08
+      },
+      "WallDropPaintParam": {
+        "PaintRadiusFall": 0.8,
+        "PaintRadiusGround": 0.7,
+        "PaintRadiusShock": 1.55
+      }
+    },
+    "BulletSaberSlashHorizontalParam": {
+      "$type": "spl__BulletSaberSlashParam",
+      "DamageParam": {
+        "AccelForCastle": 100.0,
+        "DamageValue": 300
+      },
+      "MoveParam": {
+        "AliveFrame": 4
+      },
+      "ShapeParam": {
+        "BoxCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.4
+        },
+        "BoxHalfExtents": {
+          "X": 1.8,
+          "Y": 0.25,
+          "Z": 1.6
+        },
+        "CylinderCenterA": {
+          "X": -2.5,
+          "Y": 0.5,
+          "Z": 1.0
+        },
+        "CylinderCenterB": {
+          "X": 2.5,
+          "Y": 0.5,
+          "Z": 1.0
+        },
+        "CylinderRadius": 2.5,
+        "HasCylinderShape": false
+      }
+    },
+    "BulletSaberSlashVerticalParam": {
+      "$type": "spl__BulletSaberSlashParam",
+      "DamageParam": {
+        "AccelForCastle": 150.0,
+        "DamageValue": 1600
+      },
+      "MoveParam": {
+        "AliveFrame": 4
+      },
+      "ShapeParam": {
+        "BoxCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxHalfExtents": {
+          "X": 1.8,
+          "Y": 0.3,
+          "Z": 1.7
+        },
+        "CylinderCenterA": {
+          "X": 0.0,
+          "Y": -0.3,
+          "Z": 1.7
+        },
+        "CylinderCenterB": {
+          "X": 0.0,
+          "Y": 0.3,
+          "Z": 1.7
+        },
+        "CylinderRadius": 1.8,
+        "HasCylinderShape": true
+      }
+    },
+    "BulletSaberVerticalParam": {
+      "$type": "spl__BulletSaberParam",
+      "BurstParam": {
+        "BurstFrame": 21,
+        "SplashColRadius": 0.1,
+        "SplashDrawRadius": 0.2,
+        "SplashPaintRadius": 3.0
+      },
+      "CollisionParam": {
+        "CoreIndex": 3,
+        "OffsetArray": [
+          {
+            "X": 2.4,
+            "Y": 0.0,
+            "Z": -0.2
+          },
+          {
+            "X": 1.6,
+            "Y": 0.0,
+            "Z": -0.125
+          },
+          {
+            "X": 0.8,
+            "Y": 0.0,
+            "Z": -0.075
+          },
+          {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          {
+            "X": -0.8,
+            "Y": 0.0,
+            "Z": -0.075
+          },
+          {
+            "X": -1.6,
+            "Y": 0.0,
+            "Z": -0.125
+          },
+          {
+            "X": -2.4,
+            "Y": 0.0,
+            "Z": -0.2
+          }
+        ],
+        "ParamArray": [
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.275,
+            "EndRadiusForPlayer": 0.275,
+            "InitRadiusForField": 0.275,
+            "InitRadiusForPlayer": 0.275
+          },
+          {
+            "EndRadiusForField": 0.3,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.3,
+            "InitRadiusForPlayer": 0.3
+          },
+          {
+            "EndRadiusForField": 0.275,
+            "EndRadiusForPlayer": 0.275,
+            "InitRadiusForField": 0.275,
+            "InitRadiusForPlayer": 0.275
+          },
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          }
+        ]
+      },
+      "DamageParam": {
+        "HasGuard": false,
+        "HitDamage": 800
+      },
+      "MoveParam": {
+        "BrakeAirResist": 0.0,
+        "BrakeGravity": 0.02,
+        "BrakeToFreeStateFrame": 0,
+        "BrakeToFreeVelocityXZ": 0.0,
+        "BrakeToFreeVelocityY": 0.0,
+        "FreeAirResist": 0.0,
+        "FreeGravity": 0.1,
+        "GoStraightStateEndMaxSpeed": 10.0,
+        "GoStraightToBrakeStateFrame": 21,
+        "SpawnSpeed": 0.7
+      },
+      "PaintParam": {
+        "DepthScaleMax": 1.4,
+        "DepthScaleMin": 0.4,
+        "PaintDegreeMax": 60.0,
+        "WidthHalf": 2.6
+      },
+      "SplashPaintParam": {
+        "WidthHalf": 2.8,
+        "WidthHalfNearest": 2.4
+      },
+      "SplashSpawnParam": {
+        "DropInterval": 2.5,
+        "SplashNumMax": 14
+      },
+      "WallDropMoveParam": {
+        "FallPeriodFirstTargetSpeed": 0.08,
+        "FallPeriodSecondTargetSpeed": 0.08
+      },
+      "WallDropPaintParam": {
+        "PaintRadiusFall": 0.8,
+        "PaintRadiusGround": 0.7,
+        "PaintRadiusShock": 1.55
+      }
+    },
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponAccType": "Mid",
+      "WeaponSpeedType": "Mid"
+    },
+    "spl__WeaponSaberParam": {
+      "$type": "spl__WeaponSaberParam",
+      "ChargeParam": {
+        "AirChargeRateByInkEmpty": 3,
+        "ChargeFrameFullCharge": 20,
+        "ChargeFrameMinCharge": 5,
+        "InkConsumeFullCharge": 0.13,
+        "InkConsumeMinCharge": 0.035,
+        "InkRecoverStop": 50,
+        "MoveSpeedFullCharge": 0.35
+      },
+      "FootSplashPaintParam": {
+        "DepthMaxDropHeight": 0.0,
+        "DepthMinDropHeight": 0.0,
+        "DepthScaleMax": 1.0,
+        "DepthScaleMin": 0.0,
+        "WidthHalf": 0.0,
+        "WidthHalfNearest": 2.4
+      },
+      "IsEnableChargeKeep": false,
+      "ShotGuideParam": {
+        "ChargeStepSwingShotGuideFrame": 40,
+        "ChargeSwingShotGuideFrame": 26,
+        "HorizontalSightFrame": 6,
+        "HorizontalSphereIndex": 3,
+        "VerticalSightFrame": 21,
+        "VerticalSphereIndex": 3
+      },
+      "SwingParam": {
+        "ChargeMoveVelLimit": 0.055,
+        "ChargeSwingASFrame": 90,
+        "ChargeSwingFrame": 32,
+        "ChargeSwingFrameStepAdd": 23,
+        "ChargeSwingPostDelayFrame": 30,
+        "ChargeSwingShotBulletFrame": 23,
+        "ChargeSwingShotSlashFrame": 20,
+        "ChargeSwingStepShotBulletFrame": 37,
+        "ChargeSwingStepShotSlashFrame": 34,
+        "InkConsume": 0.065,
+        "InkRecoverStop": 50,
+        "InkRecoverStop_ChargeSwing": 50,
+        "IsShotEnable": true,
+        "ReserveAcceptFrame": 14,
+        "ShotBulletOffset_L": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 1.4
+        },
+        "ShotBulletOffset_R": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 1.4
+        },
+        "ShotBulletOffset_Vertical": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 1.4
+        },
+        "ShotSlashOffset_L": {
+          "X": 0.0,
+          "Y": 0.9,
+          "Z": 0.3
+        },
+        "ShotSlashOffset_R": {
+          "X": 0.0,
+          "Y": 0.9,
+          "Z": 0.3
+        },
+        "ShotSlashOffset_Vertical": {
+          "X": 0.0,
+          "Y": 0.9,
+          "Z": 0.3
+        },
+        "SideStepParam": {
+          "ChargeFrame": 10,
+          "InkConsume": 0.0,
+          "InkRecoverStop": 0,
+          "InputReqAcceptFrame": 0,
+          "MoveDist": 5.5,
+          "MoveDistKd_OnSlideGnd": 0.5,
+          "MoveFrame": 15,
+          "MoveStepKd": 0.95,
+          "MoveStepKd_Air": 0.98,
+          "RepeatCnt": 1,
+          "SlipMoveDistAir": 1.0,
+          "SlipMoveDistGnd": 1.0,
+          "SlipMoveFrame": 0,
+          "TimeScale": 1.0,
+          "TimeScaleFrm": 0,
+          "UnrelaxFrameMove": 0,
+          "UnrelaxFrameMove_Last": 23,
+          "UnrelaxFrameNoSideStep": 0,
+          "UnrelaxFrameNoSideStep_Last": 23,
+          "UnrelaxFrameNoSquid": 0,
+          "UnrelaxFrameNoSquid_Last": 23,
+          "UnrelaxFrameNoWeapon": 0,
+          "UnrelaxFrameNoWeapon_Last": 23,
+          "UnrelaxFrameOneMuzzle": 0,
+          "UnrelaxFrameOneMuzzle_Last": 0
+        },
+        "StepStartStickHistoryFrame": 5,
+        "StepStartStickThresholdY": 0.9,
+        "WeakSwingASFrame": 40,
+        "WeakSwingFrame": 30,
+        "WeakSwingMoveVelLimit": 0.055,
+        "WeakSwingPostDelayFrame": 27,
+        "WeakSwingShotBulletFrame": 12,
+        "WeakSwingShotSlashFrame": 9
+      }
+    }
+  }
+}

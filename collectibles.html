@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -147,7 +144,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
                         last = ver
                     })
@@ -198,49 +200,43 @@
                     load_lang()
                     $.getJSON(mush_url(version, "BynameAdjectiveInfo"), data_dict => {
                         const all_titles = convert_to_dict(data_dict, "Id")
-                        $.getJSON(
-                            `${prefix}data/parameter/${version}/byname/Adjective_${current_lang}.json`,
-                            new_data_dict => {
-                                const all_labels = []
-                                new_data_dict.Labels.forEach(element => {
-                                    if (getNum(element) in all_titles) {
-                                        const e = all_titles[getNum(element)]
-                                        const row = {
-                                            Id: element,
-                                            HowToGet: e.HowToGet,
-                                            Season: e.Season,
-                                        }
-                                        all_labels.push(row)
+                        $.getJSON(`${prefix}data/parameter/${version}/byname/Adjective_${current_lang}.json`, new_data_dict => {
+                            const all_labels = []
+                            new_data_dict.Labels.forEach(element => {
+                                if (getNum(element) in all_titles) {
+                                    const e = all_titles[getNum(element)]
+                                    const row = {
+                                        Id: element,
+                                        HowToGet: e.HowToGet,
+                                        Season: e.Season,
                                     }
-                                })
-                                $("#title-adjective-table").bootstrapTable("refreshOptions", {
-                                    data: all_labels,
-                                })
-                            }
-                        )
+                                    all_labels.push(row)
+                                }
+                            })
+                            $("#title-adjective-table").bootstrapTable("refreshOptions", {
+                                data: all_labels,
+                            })
+                        })
                     })
                     $.getJSON(mush_url(version, "BynameSubjectInfo"), data_dict => {
                         const all_subs = convert_to_dict(data_dict, "Id")
-                        $.getJSON(
-                            `${prefix}data/parameter/${version}/byname/Subject_${current_lang}.json`,
-                            subject_dict => {
-                                const all_labels = []
-                                subject_dict.Labels.forEach(element => {
-                                    if (getNum2(element) in all_subs) {
-                                        const e = all_subs[getNum2(element)]
-                                        const row = {
-                                            Id: element,
-                                            HowToGet: e.HowToGet,
-                                            Season: e.Season,
-                                        }
-                                        all_labels.push(row)
+                        $.getJSON(`${prefix}data/parameter/${version}/byname/Subject_${current_lang}.json`, subject_dict => {
+                            const all_labels = []
+                            subject_dict.Labels.forEach(element => {
+                                if (getNum2(element) in all_subs) {
+                                    const e = all_subs[getNum2(element)]
+                                    const row = {
+                                        Id: element,
+                                        HowToGet: e.HowToGet,
+                                        Season: e.Season,
                                     }
-                                })
-                                $("#title-subjective-table").bootstrapTable("refreshOptions", {
-                                    data: all_labels,
-                                })
-                            }
-                        )
+                                    all_labels.push(row)
+                                }
+                            })
+                            $("#title-subjective-table").bootstrapTable("refreshOptions", {
+                                data: all_labels,
+                            })
+                        })
                     })
                     $.getJSON(mush_url(version, "NamePlateBgInfo"), data_dict => {
                         $("#nameplates-table").bootstrapTable("refreshOptions", { data: data_dict })

@@ -111,7 +111,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
                         last = ver
                     })

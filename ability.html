@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -133,7 +130,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
                         last = ver
                     })
@@ -144,20 +146,17 @@
 
                 lang_dict = {
                     "CommonMsg/Gear/GearPowerExp": {
-                        Action_Up:
-                            "Makes Squid Rolls and Squid Surges easier to do\nand steadies your aim when firing after jumping.",
+                        Action_Up: "Makes Squid Rolls and Squid Surges easier to do\nand steadies your aim when firing after jumping.",
 
                         ComeBack: "Boosts some of your abilities for a short time\nafter respawning.",
 
                         DeathMarking: "Once you've respawned, reveals the position of\nthe players who splatted you.",
 
-                        EndAllUp:
-                            "Boosts ink-recovery rate and weapon-ink\nefficiency for the last 30 seconds of battle.",
+                        EndAllUp: "Boosts ink-recovery rate and weapon-ink\nefficiency for the last 30 seconds of battle.",
 
                         ExSkillDouble: "Doubles the effect of other gear abilities\nattached to this gear.",
 
-                        Exorcist:
-                            "Increases respawn time and special-gauge spawn\npenalty for you and any player you splat.",
+                        Exorcist: "Increases respawn time and special-gauge spawn\npenalty for you and any player you splat.",
 
                         HumanMove_Up: "Increases movement speed in Inkling or\nOctoling form.",
 
@@ -167,20 +166,17 @@
 
                         MainInk_Save: "Decreases amount of ink consumed by your\nmain weapon.",
 
-                        MinorityUp:
-                            "Fills special gauge automatically if your team\nhas fewer active players than the enemy.",
+                        MinorityUp: "Fills special gauge automatically if your team\nhas fewer active players than the enemy.",
 
                         None: "Unlock this ability by battling while wearing\nthis gear.",
 
                         ObjectEffect_Up: "Increases damage dealt to all nonplayer targets.",
 
-                        OpInkEffect_Reduction:
-                            "Reduces damage taken and improves mobility\nwhen walking through enemy ink.",
+                        OpInkEffect_Reduction: "Reduces damage taken and improves mobility\nwhen walking through enemy ink.",
 
                         RespawnSpecialGauge_Save: "Reduces special-gauge decrease after\ngetting splatted.",
 
-                        RespawnTime_Save:
-                            "Reduces respawn time after getting splatted\nrepeatedly without splatting any opponents.",
+                        RespawnTime_Save: "Reduces respawn time after getting splatted\nrepeatedly without splatting any opponents.",
 
                         SomersaultLanding:
                             "Tilting the Left Stick during a Super Jump lets\nyou perform a roll in that direction when landing.",
@@ -189,8 +185,7 @@
 
                         SpecialSpec_Up: "Upgrades your special weapon.",
 
-                        SquidMoveSpatter_Reduction:
-                            "Leaves no trace when swimming in inked ground\nbut slightly reduces swim speed.",
+                        SquidMoveSpatter_Reduction: "Leaves no trace when swimming in inked ground\nbut slightly reduces swim speed.",
 
                         SquidMove_Up: "Increases movement speed in swim form.",
 
@@ -265,8 +260,8 @@
                 }
 
                 const useable_ap = [
-                    0, 3, 6, 9, 10, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
-                    35, 36, 37, 38, 39, 41, 42, 44, 45, 47, 48, 51, 54, 57,
+                    0, 3, 6, 9, 10, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+                    41, 42, 44, 45, 47, 48, 51, 54, 57,
                 ]
 
                 function calcSkillPoint2Percent(ap) {
@@ -363,8 +358,7 @@
                     }
                 }
 
-                const weapon_param = name =>
-                    `${prefix}data/parameter/${version}/weapon/${name}.game__GameParameterTable.json`
+                const weapon_param = name => `${prefix}data/parameter/${version}/weapon/${name}.game__GameParameterTable.json`
 
                 function load_data() {
                     $.getJSON(prefix + "data/language/EUen.json", d => {
@@ -375,11 +369,7 @@
                         $.getJSON(misc_url(version, "params"), data_dict => {
                             $.getJSON(misc_url(version, "SplPlayer.game__GameParameterTable"), gameParamTable => {
                                 const c = gameParamTable.GameParameters.spl__PlayerGearSkillParam_ActionSpecUp_Squid
-                                data_dict.WallJumpChargeFrm = [
-                                    c.WallJumpChargeFrm_High,
-                                    c.WallJumpChargeFrm_Mid,
-                                    c.WallJumpChargeFrm_Low,
-                                ]
+                                data_dict.WallJumpChargeFrm = [c.WallJumpChargeFrm_High, c.WallJumpChargeFrm_Mid, c.WallJumpChargeFrm_Low]
                                 for (const [v, k] of Object.entries(data_dict)) {
                                     add_ability_table(v, k)
                                 }
@@ -723,27 +713,20 @@
                                 ])
                             })
                         })
-                        $.getJSON(
-                            misc_url(version, "spl__DamageRateInfoConfig.pp__CombinationDataTableData"),
-                            dmg_table => {
-                                const res = []
-                                for (const [key, val] of Object.entries(dmg_table.CellList)) {
-                                    if (
-                                        val.RowKey === "ObjectEffect_Up" &&
-                                        val.DamageRate !== undefined &&
-                                        val.DamageRate > 1.0
-                                    ) {
-                                        res.push({
-                                            ColumnKey: translate_object_shredder_key(val.ColumnKey),
-                                            DamageRate: val.DamageRate,
-                                        })
-                                    }
+                        $.getJSON(misc_url(version, "spl__DamageRateInfoConfig.pp__CombinationDataTableData"), dmg_table => {
+                            const res = []
+                            for (const [key, val] of Object.entries(dmg_table.CellList)) {
+                                if (val.RowKey === "ObjectEffect_Up" && val.DamageRate !== undefined && val.DamageRate > 1.0) {
+                                    res.push({
+                                        ColumnKey: translate_object_shredder_key(val.ColumnKey),
+                                        DamageRate: val.DamageRate,
+                                    })
                                 }
-                                $("#ObjectEffect_Up-table").bootstrapTable("refreshOptions", {
-                                    data: res,
-                                })
                             }
-                        )
+                            $("#ObjectEffect_Up-table").bootstrapTable("refreshOptions", {
+                                data: res,
+                            })
+                        })
                     })
                     {
                         const new_data = []
@@ -772,10 +755,10 @@
                 function create_tab(val) {
                     add_tab(val, format_img(`${get_prefix()}images/skill/`, val, 64))
                     $(`#${val}`).append(
-                        `<div class="AbilityIntro"><h1>${localize(
-                            "CommonMsg/Gear/GearPowerName",
+                        `<div class="AbilityIntro"><h1>${localize("CommonMsg/Gear/GearPowerName", val)}</h1><br />${localize(
+                            "CommonMsg/Gear/GearPowerExp",
                             val
-                        )}</h1><br />${localize("CommonMsg/Gear/GearPowerExp", val)}</div>`
+                        )}</div>`
                     )
                 }
 

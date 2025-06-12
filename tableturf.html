@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -170,9 +167,7 @@
                 }
 
                 function card_sleeve_formatter2(value) {
-                    const name = value
-                        .replace("Work/Gyml/MiniGameCardSleeve", "")
-                        .replace(".spl__MiniGameCardSleeve.gyml", "")
+                    const name = value.replace("Work/Gyml/MiniGameCardSleeve", "").replace(".spl__MiniGameCardSleeve.gyml", "")
                     return `<div class="card-sleeve">${format_img(
                         `${get_prefix()}images/minigame/sleeveL/`,
                         "MngCardSleeve" + name,
@@ -204,7 +199,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
                         last = ver
                     })
@@ -245,15 +245,9 @@
                             data_dict.forEach((elem, idx) => {
                                 const deckname =
                                     localize("CommonMsg/Glossary", elem.__RowId.replace("MiniGame_", "")) ||
-                                    localize(
-                                        "CommonMsg/MiniGame/MiniGameCardName",
-                                        elem.__RowId.replace("MiniGame_", "")
-                                    ) ||
+                                    localize("CommonMsg/MiniGame/MiniGameCardName", elem.__RowId.replace("MiniGame_", "")) ||
                                     localize("CommonMsg/Glossary", elem.__RowId.replace("_", "")) ||
-                                    localize(
-                                        "CommonMsg/Glossary",
-                                        elem.__RowId.replace("MiniGame_", "").replace("_", "")
-                                    ) ||
+                                    localize("CommonMsg/Glossary", elem.__RowId.replace("MiniGame_", "").replace("_", "")) ||
                                     elem.__RowId.replace("MiniGame_", "")
                                 add_table(
                                     "decklist",
@@ -271,9 +265,7 @@
                                 const all_cards = []
                                 elem.Card.forEach(card => {
                                     const row = {
-                                        Name: card
-                                            .replace("Work/Gyml/MiniGame_", "")
-                                            .replace(".spl__MiniGameCardInfo.gyml", ""),
+                                        Name: card.replace("Work/Gyml/MiniGame_", "").replace(".spl__MiniGameCardInfo.gyml", ""),
                                     }
                                     all_cards.push(row)
                                 })
@@ -288,15 +280,12 @@
                                     $("#sleevelist-content").append(card_sleeve_formatter(card.Name))
                                 })
                         })
-                        $.getJSON(
-                            misc_url(version, "spl__MiniGameRankInfoTable.spl__MiniGameRankInfoTable"),
-                            data_dict => {
-                                add_to_dict(data_dict.Info, "Reward")
-                                $(`#rankinfo-table`).bootstrapTable("refreshOptions", {
-                                    data: data_dict.Info.filter(val => val.Rank !== undefined),
-                                })
-                            }
-                        )
+                        $.getJSON(misc_url(version, "spl__MiniGameRankInfoTable.spl__MiniGameRankInfoTable"), data_dict => {
+                            add_to_dict(data_dict.Info, "Reward")
+                            $(`#rankinfo-table`).bootstrapTable("refreshOptions", {
+                                data: data_dict.Info.filter(val => val.Rank !== undefined),
+                            })
+                        })
                     })
                 }
 

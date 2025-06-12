@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -121,12 +118,7 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="modeTabControl">
-                        <div
-                            class="tab-pane fade show active"
-                            id="weapons"
-                            role="tabpanel"
-                            aria-labelledby="weapons-tab"
-                        >
+                        <div class="tab-pane fade show active" id="weapons" role="tabpanel" aria-labelledby="weapons-tab">
                             <div class="tab-content" id="weaponsTabControl">
                                 <select class="form-control" id="weapon-select"></select>
                             </div>
@@ -134,12 +126,7 @@
                         <div class="tab-pane fade" id="subweapons" role="tabpanel" aria-labelledby="subweapons-tab">
                             <select class="form-control" id="sub-select"></select>
                         </div>
-                        <div
-                            class="tab-pane fade"
-                            id="specialweapons"
-                            role="tabpanel"
-                            aria-labelledby="specialweapons-tab"
-                        >
+                        <div class="tab-pane fade" id="specialweapons" role="tabpanel" aria-labelledby="specialweapons-tab">
                             <select class="form-control" id="special-select"></select>
                         </div>
                     </div>
@@ -169,7 +156,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
 
                         last = ver
@@ -196,10 +188,7 @@
                                 $("#weapon-select").append(
                                     new Option(
                                         localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId),
-                                        item.SpecActor.replace("Work/Actor/", "").replace(
-                                            ".engine__actor__ActorParam.gyml",
-                                            ""
-                                        )
+                                        item.SpecActor.replace("Work/Actor/", "").replace(".engine__actor__ActorParam.gyml", "")
                                     )
                                 )
                             }
@@ -219,10 +208,7 @@
                                     $("#weapon-select").append(
                                         new Option(
                                             localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId) + " (SR)",
-                                            item.SpecActor.replace("Work/Actor/", "").replace(
-                                                ".engine__actor__ActorParam.gyml",
-                                                ""
-                                            )
+                                            item.SpecActor.replace("Work/Actor/", "").replace(".engine__actor__ActorParam.gyml", "")
                                         )
                                     )
                                 }
@@ -240,10 +226,7 @@
                                 $("#sub-select").append(
                                     new Option(
                                         localize("CommonMsg/Weapon/WeaponName_Sub", item.__RowId),
-                                        item.SpecActor.replace("Work/Actor/", "").replace(
-                                            ".engine__actor__ActorParam.gyml",
-                                            ""
-                                        )
+                                        item.SpecActor.replace("Work/Actor/", "").replace(".engine__actor__ActorParam.gyml", "")
                                     )
                                 )
                             }
@@ -258,10 +241,7 @@
                                 $("#special-select").append(
                                     new Option(
                                         localize("CommonMsg/Weapon/WeaponName_Special", item.__RowId),
-                                        item.SpecActor.replace("Work/Actor/", "").replace(
-                                            ".engine__actor__ActorParam.gyml",
-                                            ""
-                                        )
+                                        item.SpecActor.replace("Work/Actor/", "").replace(".engine__actor__ActorParam.gyml", "")
                                     )
                                 )
                             }
@@ -270,15 +250,12 @@
                 }
 
                 function load_params(name) {
-                    $.getJSON(
-                        prefix + "data/parameter/" + version + "/weapon/" + name + ".game__GameParameterTable.json",
-                        data => {
-                            const formatter = new JSONFormatter(data)
-                            $(`#parameterContent`).children().remove()
-                            $(`#parameterContent`).append(formatter.render())
-                            formatter.openAtDepth(5)
-                        }
-                    )
+                    $.getJSON(prefix + "data/parameter/" + version + "/weapon/" + name + ".game__GameParameterTable.json", data => {
+                        const formatter = new JSONFormatter(data)
+                        $(`#parameterContent`).children().remove()
+                        $(`#parameterContent`).append(formatter.render())
+                        formatter.openAtDepth(5)
+                    })
                 }
 
                 function load_init() {

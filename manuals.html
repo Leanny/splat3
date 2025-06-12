@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
             integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
@@ -366,12 +363,7 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="modeTabControl">
-                        <div
-                            class="tab-pane fade show active"
-                            id="bankaramatch"
-                            role="tabpanel"
-                            aria-labelledby="bankaramatch-tab"
-                        >
+                        <div class="tab-pane fade show active" id="bankaramatch" role="tabpanel" aria-labelledby="bankaramatch-tab">
                             <div class="tab-content" id="bankaramatchTabControl">
                                 <div id="bankara-chapter"></div>
                             </div>
@@ -618,10 +610,7 @@
                 ]
 
                 const get_image_url = url => {
-                    const default_url = `${url
-                        .replace("Work/UI/Icon/Manual/", "")
-                        .replace("sourceimages/", "")
-                        .replace(".tga", ".png")}`
+                    const default_url = `${url.replace("Work/UI/Icon/Manual/", "").replace("sourceimages/", "").replace(".tga", ".png")}`
                     const lang_url = `${url
                         .replace("Work/UI/Icon/Manual/", "")
                         .replace("sourceimages/", "")
@@ -725,9 +714,7 @@
                 }
 
                 function translate_menu() {
-                    $("#bankaramatch-tab").text(
-                        localize("CommonMsg/Manual/ManualBankaraMatch", "BankaraMatch_Button01")
-                    )
+                    $("#bankaramatch-tab").text(localize("CommonMsg/Manual/ManualBankaraMatch", "BankaraMatch_Button01"))
                     $("#minigame-tab").text(localize("CommonMsg/MatchMode", "MiniGame"))
                     $("#regularmatch-tab").text(localize("CommonMsg/MatchMode", "Regular"))
                     $("#coop-tab").text(localize("CommonMsg/MatchMode", "Coop"))
@@ -740,7 +727,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
                         last = ver
                     })
@@ -796,101 +788,72 @@
                         $.getJSON(prefix + "data/parameter/" + version + "/manual/valid_manual.json", res => {
                             valid_entries = res
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_BankaraMatch.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_BankaraMatch.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("bankara", data_dict)
                                 }
                             )
 
-                            $.getJSON(
-                                prefix + "data/parameter/" + version + "/manual/UIManual_Coop.spl__UIManualData.json",
-                                data_dict => {
-                                    standard_format("coop", data_dict)
-                                    const msgPath = get_msg_path(data_dict.Mstxt)
-                                    data_dict.SalmonPageList.forEach(entry => {
-                                        const img = get_image_url(entry.SelectImage)
-                                        let elem = $(`#coop-chapter-1`)
-                                        elem.append(
-                                            `<div id="coop-chapter-${
-                                                entry.Key
-                                            }" class="individual-chapter"><div class="header"><h2>${get_image_tag(
-                                                img,
-                                                localize(msgPath, entry.Page[0].TitleLabel),
-                                                'width="64"'
-                                            )} ${strip_title(
-                                                localize(msgPath, entry.Page[0].TitleLabel)
-                                            )}</h2></div></div>`
-                                        )
-                                        entry.Page.forEach(page => {
-                                            appendContent($(`#coop-chapter-${entry.Key}`), msgPath, page)
-                                        })
+                            $.getJSON(prefix + "data/parameter/" + version + "/manual/UIManual_Coop.spl__UIManualData.json", data_dict => {
+                                standard_format("coop", data_dict)
+                                const msgPath = get_msg_path(data_dict.Mstxt)
+                                data_dict.SalmonPageList.forEach(entry => {
+                                    const img = get_image_url(entry.SelectImage)
+                                    let elem = $(`#coop-chapter-1`)
+                                    elem.append(
+                                        `<div id="coop-chapter-${
+                                            entry.Key
+                                        }" class="individual-chapter"><div class="header"><h2>${get_image_tag(
+                                            img,
+                                            localize(msgPath, entry.Page[0].TitleLabel),
+                                            'width="64"'
+                                        )} ${strip_title(localize(msgPath, entry.Page[0].TitleLabel))}</h2></div></div>`
+                                    )
+                                    entry.Page.forEach(page => {
+                                        appendContent($(`#coop-chapter-${entry.Key}`), msgPath, page)
                                     })
-                                }
-                            )
+                                })
+                            })
 
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_Festival.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_Festival.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("fest", data_dict)
                                 }
                             )
 
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_EventMatch.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_EventMatch.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("league", data_dict)
                                 }
                             )
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_MiniGame.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_MiniGame.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("minigame", data_dict)
                                 }
                             )
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_PlzAmiiboMySet.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_PlzAmiiboMySet.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("amiibomyset", data_dict)
                                 }
                             )
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_PlzAmiiboPhoto.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_PlzAmiiboPhoto.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("amiibophoto", data_dict)
                                 }
                             )
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_PlzMiiverse.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_PlzMiiverse.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("miiverse", data_dict)
                                 }
                             )
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_RegularMatch.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_RegularMatch.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("regularmatch", data_dict)
                                 }
@@ -914,10 +877,7 @@
                                 }
                             )
                             $.getJSON(
-                                prefix +
-                                    "data/parameter/" +
-                                    version +
-                                    "/manual/UIManual_CoopTeamContest.spl__UIManualData.json",
+                                prefix + "data/parameter/" + version + "/manual/UIManual_CoopTeamContest.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("contest", data_dict)
                                 }

@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -111,8 +108,7 @@
                     return `<img src="${img}" alt="${alt}" ${extra} loading="lazy">`
                 }
 
-                const format_img = (base_url, value, width) =>
-                    get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
+                const format_img = (base_url, value, width) => get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
 
                 const get_gear_html = (value, type) => {
                     image_name = value.replace("Work/Gyml/", "").replace(".spl__GearInfo.gyml", "")
@@ -150,14 +146,8 @@
                             ".spl__BynameSubjectInfo.gyml",
                             ""
                         )
-                        const s1 = localize("CommonMsg/Byname/BynameSubject", byname_subject + "_0").replace(
-                            /\[group.*\]/,
-                            ""
-                        )
-                        const s2 = localize("CommonMsg/Byname/BynameSubject", byname_subject + "_1").replace(
-                            /\[group.*\]/,
-                            ""
-                        )
+                        const s1 = localize("CommonMsg/Byname/BynameSubject", byname_subject + "_0").replace(/\[group.*\]/, "")
+                        const s2 = localize("CommonMsg/Byname/BynameSubject", byname_subject + "_1").replace(/\[group.*\]/, "")
                         const subj = `${s1}${s2 === undefined || s2.length === 0 ? "" : " | " + s2}`
                         return `<center>${format_img(prefix + "images/catalog/", "IconNameplate_00")}<br />${localize(
                             "CommonMsg/Byname/BynameAdjective",
@@ -175,22 +165,13 @@
                                 return "<p><center>Default</center></p>"
                             case "Exp100":
                                 img = format_img(prefix + "images/food/", "IconShopFoodRankL", 64)
-                                return `<p><center>${img}<br />${localize(
-                                    "CommonMsg/Lobby/LobbyFoodName",
-                                    "BattleExp_Up_02"
-                                )}</center></p>`
+                                return `<p><center>${img}<br />${localize("CommonMsg/Lobby/LobbyFoodName", "BattleExp_Up_02")}</center></p>`
                             case "Exp50":
                                 img = format_img(prefix + "images/food/", "IconShopFoodRank", 64)
-                                return `<p><center>${img}<br />${localize(
-                                    "CommonMsg/Lobby/LobbyFoodName",
-                                    "BattleExp_Up_01"
-                                )}</center></p>`
+                                return `<p><center>${img}<br />${localize("CommonMsg/Lobby/LobbyFoodName", "BattleExp_Up_01")}</center></p>`
                             case "ExpParty":
                                 img = format_img(prefix + "images/food/", "IconShopParty_01", 64)
-                                return `<p><center>${img}<br />${localize(
-                                    "CommonMsg/Lobby/LobbyFoodName",
-                                    "PartyExp_Up"
-                                )}</center></p>`
+                                return `<p><center>${img}<br />${localize("CommonMsg/Lobby/LobbyFoodName", "PartyExp_Up")}</center></p>`
                             case "GearPower":
                                 img = format_img(prefix + "images/food/", "GearPowerTicketBase", 64)
                                 return `<p><center>${img}<br />Gear Ticket</center></p>`
@@ -208,10 +189,7 @@
                                 )}</center></p>`
                             case "MoneyParty":
                                 img = format_img(prefix + "images/food/", "IconShopParty_00", 64)
-                                return `<p><center>${img}<br />${localize(
-                                    "CommonMsg/Lobby/LobbyFoodName",
-                                    "PartyMoney_Up"
-                                )}</center></p>`
+                                return `<p><center>${img}<br />${localize("CommonMsg/Lobby/LobbyFoodName", "PartyMoney_Up")}</center></p>`
                         }
                     } else if (value.Type === "GearPack") {
                         const head = get_head_gear(value.HeadInfo)
@@ -229,34 +207,19 @@
                     } else if (value.Type === "MiniGameCardPackFresh") {
                         return `<center>${format_img(prefix + "images/catalog/", "IconCardPack_01")}</center>`
                     } else if (value.Type === "LockerSticker") {
-                        image_name = value.LockerGoodsStickerInfo.replace("Work/Gyml/", "").replace(
-                            ".spl__LockerGoodsStickerInfo.gyml",
-                            ""
-                        )
-                        return `<center>${format_img(
-                            prefix + "images/zakka/",
-                            image_name
-                        )}<br />Locker Sticker</center>`
+                        image_name = value.LockerGoodsStickerInfo.replace("Work/Gyml/", "").replace(".spl__LockerGoodsStickerInfo.gyml", "")
+                        return `<center>${format_img(prefix + "images/zakka/", image_name)}<br />Locker Sticker</center>`
                     } else if (value.Type === "LockerFigure") {
-                        image_name = value.LockerGoodsFigureInfo.replace("Work/Gyml/", "").replace(
-                            ".spl__LockerGoodsFigureInfo.gyml",
-                            ""
-                        )
+                        image_name = value.LockerGoodsFigureInfo.replace("Work/Gyml/", "").replace(".spl__LockerGoodsFigureInfo.gyml", "")
                         return `<center>${format_img(prefix + "images/zakka/", image_name)}<br />Locker Figure</center>`
                     } else if (value.Type === "RandomFoodTicket") {
                         return "<center>Random Food Ticket</center>"
                     } else if (value.Type === "RandomDrinkTicket") {
                         return "<center>Random Drink Ticket</center>"
                     } else if (value.Type === "RandomNamePlateBg") {
-                        return `<center>${format_img(
-                            prefix + "images/catalog/",
-                            "IconNameplate_02"
-                        )}<br />Random Nameplate</center>`
+                        return `<center>${format_img(prefix + "images/catalog/", "IconNameplate_02")}<br />Random Nameplate</center>`
                     } else if (value.Type === "RandomByname") {
-                        return `<center>${format_img(
-                            prefix + "images/catalog/",
-                            "IconNameplate_03"
-                        )}<br />Random Title</center>`
+                        return `<center>${format_img(prefix + "images/catalog/", "IconNameplate_03")}<br />Random Title</center>`
                     } else if (value.Type === "MysteryBoxA") {
                         return `<center>${format_img(prefix + "images/catalog/", "IconCatalogBox_00")}</center>`
                     } else if (value.Type === "MysteryBoxB") {
@@ -274,7 +237,12 @@
                         if (ver === "099") {
                             $("#version").append(new Option("Testfire", ver))
                         } else {
-                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                            $("#version").append(
+                                new Option(
+                                    ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                    ver
+                                )
+                            )
                         }
                         last = ver
                     })

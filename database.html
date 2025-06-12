@@ -11,10 +11,7 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -127,12 +124,7 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="modeTabControl">
-                        <div
-                            class="tab-pane fade show active"
-                            id="weapons"
-                            role="tabpanel"
-                            aria-labelledby="weapons-tab"
-                        >
+                        <div class="tab-pane fade show active" id="weapons" role="tabpanel" aria-labelledby="weapons-tab">
                             <div class="table-responsive">
                                 <table
                                     class="table table-striped table-hover"
@@ -145,90 +137,29 @@
                                 >
                                     <thead>
                                         <tr>
-                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
-                                                Internal ID
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="NameClean"
-                                                data-formatter="imgFormatter"
-                                                data-sortable="false"
-                                            >
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                            <th scope="col" data-field="NameClean" data-formatter="imgFormatter" data-sortable="false">
                                                 Image
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="InternalName"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
+                                            <th scope="col" data-field="InternalName" data-sortable="true" data-visible="false">
                                                 Internal Name
                                             </th>
                                             <th scope="col" data-field="Name" data-sortable="true">Name</th>
-                                            <th
-                                                scope="col"
-                                                data-field="Sub"
-                                                data-formatter="subFormatter"
-                                                data-sortable="true"
-                                            >
-                                                Sub
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Special"
-                                                data-formatter="specialFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Sub" data-formatter="subFormatter" data-sortable="true">Sub</th>
+                                            <th scope="col" data-field="Special" data-formatter="specialFormatter" data-sortable="true">
                                                 Special
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="RewardLvl2"
-                                                data-formatter="zakkaFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="RewardLvl2" data-formatter="zakkaFormatter" data-sortable="true">
                                                 Reward Lvl 2
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="RewardLvl3"
-                                                data-formatter="zakkaFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="RewardLvl3" data-formatter="zakkaFormatter" data-sortable="true">
                                                 Reward Lvl 3
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="RewardLvl4"
-                                                data-formatter="badgeFormatter"
-                                                data-sortable="true"
-                                            >
-                                                Reward Lvl 4
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="RewardLvl5"
-                                                data-formatter="badgeFormatter"
-                                                data-sortable="true"
-                                            >
-                                                Reward Lvl 5
-                                            </th>
-                                            <th scope="col" data-field="Range" data-sortable="true">
-                                                Matchmaking Range
-                                            </th>
+                                            <th scope="col" data-field="Range" data-sortable="true">Matchmaking Range</th>
                                             <th scope="col" data-field="Season" data-sortable="true">Season</th>
-                                            <th scope="col" data-field="ShopUnlockRank" data-sortable="true">
-                                                Unlock Level
-                                            </th>
-                                            <th scope="col" data-field="SpecialPoint" data-sortable="true">
-                                                Special Points
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="UIParam"
-                                                data-formatter="UIParamFormatter"
-                                                data-sortable="false"
-                                            >
+                                            <th scope="col" data-field="ShopUnlockRank" data-sortable="true">Unlock Level</th>
+                                            <th scope="col" data-field="SpecialPoint" data-sortable="true">Special Points</th>
+                                            <th scope="col" data-field="UIParam" data-formatter="UIParamFormatter" data-sortable="false">
                                                 Parameters
                                             </th>
                                         </tr>
@@ -249,21 +180,12 @@
                                 >
                                     <thead>
                                         <tr>
-                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
-                                                Internal ID
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="NameClean"
-                                                data-formatter="subimgFormatter"
-                                                data-sortable="false"
-                                            >
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                            <th scope="col" data-field="NameClean" data-formatter="subimgFormatter" data-sortable="false">
                                                 Image
                                             </th>
                                             <th scope="col" data-field="Name" data-sortable="true">Name</th>
-                                            <th scope="col" data-field="InkSaverType" data-sortable="true">
-                                                Ink Saver Type
-                                            </th>
+                                            <th scope="col" data-field="InkSaverType" data-sortable="true">Ink Saver Type</th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -282,44 +204,20 @@
                                 >
                                     <thead>
                                         <tr>
-                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
-                                                Internal ID
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="NameClean"
-                                                data-formatter="gearimgFormatter"
-                                                data-sortable="false"
-                                            >
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                            <th scope="col" data-field="NameClean" data-formatter="gearimgFormatter" data-sortable="false">
                                                 Image
                                             </th>
                                             <th scope="col" data-field="Name" data-sortable="true">Name</th>
-                                            <th
-                                                scope="col"
-                                                data-field="Brand"
-                                                data-formatter="brandFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Brand" data-formatter="brandFormatter" data-sortable="true">
                                                 Brand
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Skill0"
-                                                data-formatter="skillFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Skill0" data-formatter="skillFormatter" data-sortable="true">
                                                 Main Ability
                                             </th>
                                             <th scope="col" data-field="Price" data-sortable="true">Price</th>
                                             <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
-                                            <th
-                                                scope="col"
-                                                data-field="HowToGet"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
-                                                How To Get
-                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true" data-visible="false">How To Get</th>
                                             <th
                                                 scope="col"
                                                 data-field="UrokoPrice"
@@ -329,14 +227,7 @@
                                             >
                                                 Uroko Price
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Season"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
-                                                Season
-                                            </th>
+                                            <th scope="col" data-field="Season" data-sortable="true" data-visible="false">Season</th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -355,44 +246,20 @@
                                 >
                                     <thead>
                                         <tr>
-                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
-                                                Internal ID
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="NameClean"
-                                                data-formatter="gearimgFormatter"
-                                                data-sortable="false"
-                                            >
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                            <th scope="col" data-field="NameClean" data-formatter="gearimgFormatter" data-sortable="false">
                                                 Image
                                             </th>
                                             <th scope="col" data-field="Name" data-sortable="true">Name</th>
-                                            <th
-                                                scope="col"
-                                                data-field="Brand"
-                                                data-formatter="brandFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Brand" data-formatter="brandFormatter" data-sortable="true">
                                                 Brand
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Skill0"
-                                                data-formatter="skillFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Skill0" data-formatter="skillFormatter" data-sortable="true">
                                                 Main Ability
                                             </th>
                                             <th scope="col" data-field="Price" data-sortable="true">Price</th>
                                             <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
-                                            <th
-                                                scope="col"
-                                                data-field="HowToGet"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
-                                                How To Get
-                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true" data-visible="false">How To Get</th>
                                             <th
                                                 scope="col"
                                                 data-field="UrokoPrice"
@@ -402,14 +269,7 @@
                                             >
                                                 Uroko Price
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Season"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
-                                                Season
-                                            </th>
+                                            <th scope="col" data-field="Season" data-sortable="true" data-visible="false">Season</th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -428,44 +288,20 @@
                                 >
                                     <thead>
                                         <tr>
-                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
-                                                Internal ID
-                                            </th>
-                                            <th
-                                                scope="col"
-                                                data-field="NameClean"
-                                                data-formatter="gearimgFormatter"
-                                                data-sortable="false"
-                                            >
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                            <th scope="col" data-field="NameClean" data-formatter="gearimgFormatter" data-sortable="false">
                                                 Image
                                             </th>
                                             <th scope="col" data-field="Name" data-sortable="true">Name</th>
-                                            <th
-                                                scope="col"
-                                                data-field="Brand"
-                                                data-formatter="brandFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Brand" data-formatter="brandFormatter" data-sortable="true">
                                                 Brand
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Skill0"
-                                                data-formatter="skillFormatter"
-                                                data-sortable="true"
-                                            >
+                                            <th scope="col" data-field="Skill0" data-formatter="skillFormatter" data-sortable="true">
                                                 Main Ability
                                             </th>
                                             <th scope="col" data-field="Price" data-sortable="true">Price</th>
                                             <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
-                                            <th
-                                                scope="col"
-                                                data-field="HowToGet"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
-                                                How To Get
-                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true" data-visible="false">How To Get</th>
                                             <th
                                                 scope="col"
                                                 data-field="UrokoPrice"
@@ -475,14 +311,7 @@
                                             >
                                                 Uroko Price
                                             </th>
-                                            <th
-                                                scope="col"
-                                                data-field="Season"
-                                                data-sortable="true"
-                                                data-visible="false"
-                                            >
-                                                Season
-                                            </th>
+                                            <th scope="col" data-field="Season" data-sortable="true" data-visible="false">Season</th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -520,11 +349,9 @@
                 return `<img src="${img}" alt="${alt}" ${extra} loading="lazy">`
             }
 
-            const format_img = (base_url, value, width) =>
-                get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
+            const format_img = (base_url, value, width) => get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
 
-            var imgFormatter = value =>
-                `<center>${format_img(prefix + "images/weapon_flat/Path_Wst_", value, 96)}</center>`
+            var imgFormatter = value => `<center>${format_img(prefix + "images/weapon_flat/Path_Wst_", value, 96)}</center>`
 
             var gearimgFormatter = value => `<center>${format_img(prefix + "images/gear/", value, 96)}</center>`
 
@@ -559,18 +386,15 @@
                     .replace(".spl__LockerGoodsStickerInfo", "")
             }
 
-            var badgeFormatter = value =>
-                `<center>${format_img(prefix + "images/badge/", getFilenameOfReward(value), 96)}</center>`
+            var badgeFormatter = value => `<center>${format_img(prefix + "images/badge/", getFilenameOfReward(value), 96)}</center>`
 
-            var zakkaFormatter = value =>
-                `<center>${format_img(prefix + "images/zakka/", getFilenameOfReward(value), 96)}</center>`
+            var zakkaFormatter = value => `<center>${format_img(prefix + "images/zakka/", getFilenameOfReward(value), 96)}</center>`
 
             var UIParamFormatter = value => {
-                return `<b>${localize("CommonMsg/Weapon/WeaponParamName", value[0]["Type"])}: </b> ${
-                    value[0]["Value"]
-                }<br /><b>${localize("CommonMsg/Weapon/WeaponParamName", value[1]["Type"])}: </b> ${
-                    value[1]["Value"]
-                }<br /><b>${localize("CommonMsg/Weapon/WeaponParamName", value[2]["Type"])}: </b> ${
+                return `<b>${localize("CommonMsg/Weapon/WeaponParamName", value[0]["Type"])}: </b> ${value[0]["Value"]}<br /><b>${localize(
+                    "CommonMsg/Weapon/WeaponParamName",
+                    value[1]["Type"]
+                )}: </b> ${value[1]["Value"]}<br /><b>${localize("CommonMsg/Weapon/WeaponParamName", value[2]["Type"])}: </b> ${
                     value[2]["Value"]
                 }<br />`
             }
@@ -692,7 +516,12 @@
                     if (ver === "099") {
                         $("#version").append(new Option("Testfire", ver))
                     } else {
-                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        $("#version").append(
+                            new Option(
+                                ver.length === 3 ? ver[0] + "." + ver[1] + "." + ver[2] : ver[0] + ver[1] + "." + ver[2] + "." + ver[3],
+                                ver
+                            )
+                        )
                     }
                     last = ver
                 })
@@ -779,14 +608,11 @@
             }
 
             function get_parameter(SpecActor) {
-                $.getJSON(
-                    prefix + "data/parameter/" + version + "/weapon/" + SpecActor + ".game__GameParameterTable.json",
-                    data => {
-                        const formatter = new JSONFormatter(data)
-                        console.log($(`#detail-view-${"SpecActor"}`))
-                        $(`#detail-view-${"SpecActor"}`).append(formatter.render())
-                    }
-                )
+                $.getJSON(prefix + "data/parameter/" + version + "/weapon/" + SpecActor + ".game__GameParameterTable.json", data => {
+                    const formatter = new JSONFormatter(data)
+                    console.log($(`#detail-view-${"SpecActor"}`))
+                    $(`#detail-view-${"SpecActor"}`).append(formatter.render())
+                })
             }
 
             const get_name = val => val.split(".")[0].substring(10)
@@ -817,9 +643,7 @@
                             Season: weapon["Season"],
                             ShopUnlockRank: weapon["ShopUnlockRank"],
                             UIParam: weapon["UIParam"],
-                            SpecActor: weapon["SpecActor"]
-                                .replace("Work/Actor/", "")
-                                .replace(".engine__actor__ActorParam.gyml", ""),
+                            SpecActor: weapon["SpecActor"].replace("Work/Actor/", "").replace(".engine__actor__ActorParam.gyml", ""),
                         }
                         data.push(row)
                     }
