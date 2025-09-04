@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Man schwärmt für Schwapper",
     "EventMatch_WeaponLimited_Spinner_Manual": "Tritt mit deinem liebsten Splatling-Set an und bestehe im großen\nAufeinandertreffen der Trommelfeuer-Titanen!\n\n・ Teilnahme nur mit einer Waffe der [color=0001]Splatling[color=ffff]-Klasse!\n・ Haupt- und Zusatzeffekte sind aktiv!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Hier glühen die Splatling-Läufe!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Trommelfeuer-Feier"
+    "EventMatch_WeaponLimited_Spinner_Title": "Trommelfeuer-Feier",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Ein Event-Kampf für X-Kampf-Spieler der [color=0001]Tentatek-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschließlich Spieler, die es in der\nlaufenden Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste für\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht möglich.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Ein besonderer Event-Kampf\nexklusiv für Auserwählte!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Elite-Event (Tentatek-Gruppe)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Ein Event-Kampf für X-Kampf-Spieler der [color=0001]Kalamati-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschließlich Spieler, die es in der\nlaufenden Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste für\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht möglich.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Ein besonderer Event-Kampf\nexklusiv für Auserwählte!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Elite-Event (Kalamati-Gruppe)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Ein Event-Kampf für X-Kampf-Spieler der [color=0001]Tentatek-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschließlich Spieler, die es in der\nvergangenen Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste für\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht möglich.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Ein besonderer Event-Kampf\nexklusiv für Auserwählte!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Elite-Event (Tentatek-Gruppe)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Ein Event-Kampf für X-Kampf-Spieler der [color=0001]Kalamati-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschließlich Spieler, die es in der\nvergangenen Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste für\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht möglich.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Ein besonderer Event-Kampf\nexklusiv für Auserwählte!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Elite-Event (Kalamati-Gruppe)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Was ist ein\nSplatfest?",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "Musikwunsch stornieren?",
     "Msg_LeagueInvalidWeapon": "Leider kannst du mit der zurzeit verwendeten\nWaffe nicht an diesem Event-Kampf teilnehmen.\nMöchtest du die Waffe wechseln?",
     "Msg_LeagueNoWeapon": "Du hast keine Waffe, mit der du\nan diesem Event-Kampf teilnehmen kannst.\nSchau im Kalmarsenal vorbei und schnapp dir\neine passende Waffe, um mitzumachen!",
+    "Msg_LeaguePlayoffIneligible": "Die Bedingungen zur Teilnahme\nan diesem Event-Kampf\nsind leider nicht erfüllt.",
     "Msg_LeagueWeaponInvalidOnReady": "Leider kannst du mit der zurzeit verwendeten\nWaffe nicht an diesem Event-Kampf teilnehmen.\nIm [group=0003 type=0005 params=00 00 80 3f 00 00 00 00]Ausrüstungsmenü kannst du\neine passende Waffe anlegen!",
     "Msg_LockerMatchmakeEdit": "Der Spind kann nicht angepasst werden,\nwährend die Spielersuche läuft.",
     "Msg_LockerResetConfirm": "Möchtest du wirklich alles aus deinem Spind\nsowie die Aufkleber an der Tür wegpacken?",

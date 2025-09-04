@@ -6637,7 +6637,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Garde des seaux",
     "EventMatch_WeaponLimited_Spinner_Manual": "Sors ton meilleur badigeonneur et fais en sorte que ton équipe\nsoit la seule debout après la tempête!\n\n・ Seuls les [color=0001]badigeonneurs[color=ffff] sont autorisés!\n・ Les bonus principaux ainsi que les bonus additionnels sont actifs.",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Déploie une puissance de feu maximale\ndans cette bataille de badigeonneurs!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Le badigeonneur à l'honneur"
+    "EventMatch_WeaponLimited_Spinner_Title": "Le badigeonneur à l'honneur",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Ce match épreuve concerne les joueurs de matchs X appartenant à\nla [color=0001]Division Tentatek[color=ffff]. Seuls ceux qui se sont hissés parmi les [color=0001]mille [color=ffff]premières\nplaces du classement de matchs X lors de la saison actuelle et dans\nle cadre du mode de ce match épreuve sont autorisés à participer.\n\nIl n'est pas possible de participer en équipe ou en duo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Un match épreuve pas comme les autres...\nStrictement réservé à la crème de la crème!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Rixe des As (Division Tentatek)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Ce match épreuve concerne les joueurs de matchs X appartenant à\nla [color=0001]Division Pionic[color=ffff]. Seuls ceux qui se sont hissés parmi les [color=0001]mille [color=ffff]premières\nplaces du classement de matchs X lors de la saison actuelle et dans\nle cadre du mode de ce match épreuve sont autorisés à participer.\n\nIl n'est pas possible de participer en tant équipe ou en duo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Un match épreuve pas comme les autres...\nStrictement réservé à la crème de la crème!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Rixe des As (Division Pionic)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Ce match épreuve concerne les joueurs de matchs X appartenant à\nla [color=0001]Division Tentatek[color=ffff]. Seuls ceux qui se sont hissés parmi les [color=0001]mille[color=ffff] premières\nplaces du classement de matchs X lors de la saison précédente et dans\nle cadre du mode de ce match épreuve sont autorisés à participer.\n\nIl n'est pas possible de participer en équipe ou en duo.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Un match épreuve pas comme les autres...\nStrictement réservé à la crème de la crème!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Rixe des As (Division Tentatek)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Ce match épreuve concerne les joueurs de matchs X appartenant à\nla [color=0001]Division Pionic[color=ffff]. Seuls ceux qui se sont hissés parmi les [color=0001]mille [color=ffff]premières\nplaces du classement de matchs X lors de la saison précédente et dans\nle cadre du mode de ce match épreuve sont autorisés à participer.\n\nIl n'est pas possible de participer en équipe ou en duo.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Un match épreuve pas comme les autres...\nStrictement réservé à la crème de la crème!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Rixe des As (Division Pionic)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "L'esprit\ndu festival",

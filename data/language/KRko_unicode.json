@@ -6637,7 +6637,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "최강 슬로셔 결정전",
     "EventMatch_WeaponLimited_Spinner_Manual": "무기 한정 배틀! 최강의 스피너 유저를 노려라!\n\n・ [color=0001]스피너[color=ffff]만 사용할 수 있다!\n・ 기본 기어 파워와 추가 기어 파워는 유효하다!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "무기 한정 배틀! 최강의 스피너 유저를 노려라!",
-    "EventMatch_WeaponLimited_Spinner_Title": "최강 스피너 결정전"
+    "EventMatch_WeaponLimited_Spinner_Title": "최강 스피너 결정전",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "X 매치에서 [color=0001]그룹・아로메[color=ffff]에 참가하고 있는 플레이어 전용 이벤트 매치입니다.\n이번 시즌의 X 랭킹에서 이 이벤트 매치에 지정된 룰의\n상위 [color=0001]1000위 이내[color=ffff]에 입상한 플레이어만 참가할 수 있습니다.\n\n또한, 페어 및 팀으로 참가할 수는 없습니다.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "선택받은 이들만 참가할 수 있는 특별한 이벤트 매치!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "선발 이벤트 매치 (그룹・아로메)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "X 매치에서 [color=0001]그룹・라이즈[color=ffff]에 참가하고 있는 플레이어 전용 이벤트 매치입니다.\n이번 시즌의 X 랭킹에서 이 이벤트 매치에 지정된 룰의\n상위 [color=0001]1000위 이내[color=ffff]에 입상한 플레이어만 참가할 수 있습니다.\n\n또한, 페어 및 팀으로 참가할 수는 없습니다.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "선택받은 이들만 참가할 수 있는 특별한 이벤트 매치!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "선발 이벤트 매치 (그룹・라이즈)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "X 매치에서 [color=0001]그룹・아로메[color=ffff]에 참가하고 있는 플레이어 전용 이벤트 매치입니다.\n직전 시즌의 X 랭킹에서 이 이벤트 매치에 지정된 룰의\n상위 [color=0001]1000위 이내[color=ffff]에 입상한 플레이어만 참가할 수 있습니다.\n\n또한, 페어 및 팀으로 참가할 수는 없습니다.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "선택받은 이들만 참가할 수 있는 특별한 이벤트 매치!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "선발 이벤트 매치 (그룹・아로메)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "X 매치에서 [color=0001]그룹・라이즈[color=ffff]에 참가하고 있는 플레이어 전용 이벤트 매치입니다.\n직전 시즌의 X 랭킹에서 이 이벤트 매치에 지정된 룰의\n상위 [color=0001]1000위 이내[color=ffff]에 입상한 플레이어만 참가할 수 있습니다.\n\n또한, 페어 및 팀으로 참가할 수는 없습니다.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "선택받은 이들만 참가할 수 있는 특별한 이벤트 매치!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "선발 이벤트 매치 (그룹・라이즈)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "페스티벌의 수칙",

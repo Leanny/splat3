@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "El reinado del Derramatic",
     "EventMatch_WeaponLimited_Spinner_Manual": "¿Quién resultará ser más fuerte empleando garabateadores y nada más?\n\n・ ¡Solo se pueden usar [color=0001]garabateadores [color=ffff]como armas!\n・ ¡Se pueden usar potenciadores principales y secundarios!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "¡Lucha con la fuerza de los garabateadores!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Batalla de garabateadores"
+    "EventMatch_WeaponLimited_Spinner_Title": "Batalla de garabateadores",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Este combate especial es solo para jugadores de la [color=0001]División Tentáctica[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "¡Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Combate especial pro (Tentáctica)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Este combate especial es solo para jugadores de la [color=0001]División Pulpioka[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "¡Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Combate especial pro (Pulpioka)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Este combate especial es solo para jugadores de la [color=0001]División Tentáctica[color=ffff]\nde los combates X que, en la temporada anterior, lograron\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "¡Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Combate especial pro (Tentáctica)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Este combate especial es solo para jugadores de la [color=0001]División Pulpioka[color=ffff]\nde los combates X que, en la temporada anterior, lograron\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "¡Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Combate especial pro (Pulpioka)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Normas\ndel festival",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "¿Quieres cancelar la petición de esta canción?",
     "Msg_LeagueInvalidWeapon": "No puedes participar en este combate especial\ncon el arma que estás usando actualmente.\n¿Quieres cambiarla por otra?",
     "Msg_LeagueNoWeapon": "No tienes ningún arma válida para participar\nen el combate especial. ¡Visita la armería para\nconseguir una!",
+    "Msg_LeaguePlayoffIneligible": "No cumples con las condiciones para poder\nparticipar en este combate especial.",
     "Msg_LeagueWeaponInvalidOnReady": "No puedes participar en este combate especial\ncon el arma que estás usando actualmente.\nPuedes cambiarla en la pantalla de [group=0003 type=0005 params=00 00 80 3f 00 00 00 00] Equipar.",
     "Msg_LockerMatchmakeEdit": "No puedes modificar tu casillero mientras\nse buscan jugadores.",
     "Msg_LockerResetConfirm": "¿Seguro que quieres quitar todo lo que hay en tu\ncasillero, hasta las calcomanías de la puerta?",

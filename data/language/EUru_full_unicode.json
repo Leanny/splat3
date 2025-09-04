@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Ведроганы решают!",
     "EventMatch_WeaponLimited_Spinner_Manual": "Хватай свои лучшие комплекты с брызгометом и посмотрим, кто\nвыйдет победителем!\n\n・ Можно использовать только разные разновидности [color=0001]брызгометов[color=ffff]!\n・ Будут доступны как основные, так и дополнительные свойства.",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Брызгометы тут метают брызги вовсю!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Феерия брызг"
+    "EventMatch_WeaponLimited_Spinner_Title": "Феерия брызг",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Бой-событие для участников боев X из [color=0001]группы «Щуччи»[color=ffff].\nПредназначен исключительно для [color=0001]1000[color=ffff] лучших игроков\nтекущего сезона, достигших разряда X в указанном\nдля этого боя-события режиме.\n\nНевозможно участвовать парами или в командах.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Особое мероприятие для избранных!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Элитный бой-событие (Щуччи)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Бой-событие для участников боев X из [color=0001]группы «Рыбок»[color=ffff].\nПредназначен исключительно для [color=0001]1000[color=ffff] лучших игроков\nтекущего сезона, достигших разряда X в указанном\nдля этого боя-события режиме.\n\nНевозможно участвовать парами или в командах.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Особое мероприятие для избранных!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Элитный бой-событие (Рыбок)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Бой-событие для участников боев X из [color=0001]группы «Щуччи»[color=ffff].\nПредназначен исключительно для [color=0001]1000[color=ffff] лучших игроков\nпредыдущего сезона, достигших разряда X в указанном\nдля этого боя-события режиме.\n\nНевозможно участвовать парами или в командах.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Особое мероприятие для избранных!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Элитный бой-событие (Щуччи)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Бой-событие для участников боев X из [color=0001]группы «Рыбок»[color=ffff].\nПредназначен исключительно для [color=0001]1000[color=ffff] лучших игроков\nпредыдущего сезона, достигших разряда X в указанном\nдля этого боя-события режиме.\n\nНевозможно участвовать парами или в командах.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Особое мероприятие для избранных!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Элитный бой-событие (Рыбок)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "О Сплатфесте",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "Отменить заявку?",
     "Msg_LeagueInvalidWeapon": "Извини, с оружием, которое ты сейчас\nиспользуешь, нельзя участвовать в этом\nбою-событии. Сменить оружие?",
     "Msg_LeagueNoWeapon": "У тебя нет оружия, которое можно применить\nв этом бою-событии. Если хочешь участвовать,\nто иди в «Меч и Хвост» за оружием!",
+    "Msg_LeaguePlayoffIneligible": "Условия для участия в этом\nбою-событии еще не выполнены.",
     "Msg_LeagueWeaponInvalidOnReady": "Извини, с оружием, которое ты сейчас\nиспользуешь, нельзя участвовать в этом\nбою-событии. Оружие можно сменить\nв меню [group=0003 type=0005 params=00 00 80 3f 00 00 00 00] «Снаряжение».",
     "Msg_LockerMatchmakeEdit": "Во время поиска игроков невозможно\nредактировать шкафчик.",
     "Msg_LockerResetConfirm": "Действительно убрать все из шкафчика\nи отклеить все наклейки с дверцы?",

@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "El reinado del Derramatic",
     "EventMatch_WeaponLimited_Spinner_Manual": "\u00bfQui\u00e9n resultar\u00e1 ser m\u00e1s fuerte empleando garabateadores y nada m\u00e1s?\n\n\u30fb \u00a1Solo se pueden usar [color=0001]garabateadores [color=ffff]como armas!\n\u30fb \u00a1Se pueden usar potenciadores principales y secundarios!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "\u00a1Lucha con la fuerza de los garabateadores!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Batalla de garabateadores"
+    "EventMatch_WeaponLimited_Spinner_Title": "Batalla de garabateadores",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Este combate especial es solo para jugadores de la [color=0001]Divisi\u00f3n Tent\u00e1ctica[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "\u00a1Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Combate especial pro (Tent\u00e1ctica)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Este combate especial es solo para jugadores de la [color=0001]Divisi\u00f3n Pulpioka[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "\u00a1Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Combate especial pro (Pulpioka)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Este combate especial es solo para jugadores de la [color=0001]Divisi\u00f3n Tent\u00e1ctica[color=ffff]\nde los combates X que, en la temporada anterior, lograron\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "\u00a1Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Combate especial pro (Tent\u00e1ctica)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Este combate especial es solo para jugadores de la [color=0001]Divisi\u00f3n Pulpioka[color=ffff]\nde los combates X que, en la temporada anterior, lograron\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "\u00a1Un combate especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Combate especial pro (Pulpioka)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Normas\ndel festival",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "\u00bfQuieres cancelar la petici\u00f3n de esta canci\u00f3n?",
     "Msg_LeagueInvalidWeapon": "No puedes participar en este combate especial\ncon el arma que est\u00e1s usando actualmente.\n\u00bfQuieres cambiarla por otra?",
     "Msg_LeagueNoWeapon": "No tienes ning\u00fan arma v\u00e1lida para participar\nen el combate especial. \u00a1Visita la armer\u00eda para\nconseguir una!",
+    "Msg_LeaguePlayoffIneligible": "No cumples con las condiciones para poder\nparticipar en este combate especial.",
     "Msg_LeagueWeaponInvalidOnReady": "No puedes participar en este combate especial\ncon el arma que est\u00e1s usando actualmente.\nPuedes cambiarla en la pantalla de [group=0003 type=0005 params=00 00 80 3f 00 00 00 00] Equipar.",
     "Msg_LockerMatchmakeEdit": "No puedes modificar tu casillero mientras\nse buscan jugadores.",
     "Msg_LockerResetConfirm": "\u00bfSeguro que quieres quitar todo lo que hay en tu\ncasillero, hasta las calcoman\u00edas de la puerta?",

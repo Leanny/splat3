@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Supreme Sloshers",
     "EventMatch_WeaponLimited_Spinner_Manual": "Bring the heat with your best splatling loadout, and see who's\nleft standing.\n\n\u30fb Players can only choose different varieties of [color=0001]splatlings[color=ffff]!\n\u30fb Both primary and secondary abilities will be enabled.",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Muster as much firepower as you can\nin this battle of the splatlings!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Barrel of Splats"
+    "EventMatch_WeaponLimited_Spinner_Title": "Barrel of Splats",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "This Challenge is for players in the [color=0001]Tentatek Division[color=ffff] of X Battles. Only players\nranked within the top [color=0001]1,000[color=ffff] X Rankings in the current season for the mode\nspecified by this Challenge can participate.\n\nIt is not possible to enter as a pair or as a team.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "A special Challenge available only to\nthe chosen!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Elite Challenge (Tentatek)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "This Challenge is for players in the [color=0001]Takoroka Division[color=ffff] of X Battles. Only\nplayers ranked within the top [color=0001]1,000[color=ffff] X Rankings in the current season for\nthe mode specified by this Challenge can participate.\n\nIt is not possible to enter as a pair or as a team.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "A special Challenge available only to\nthe chosen!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Elite Challenge (Takoroka)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "This Challenge is for players in the [color=0001]Tentatek Division[color=ffff] of X Battles. Only players\nranked within the top [color=0001]1,000[color=ffff] X Rankings in the previous season for the mode\nspecified by this Challenge can participate.\n\nIt is not possible to enter as a pair or as a team.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "A special Challenge available only to\nthe chosen!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Elite Challenge (Tentatek)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "This Challenge is for players in the [color=0001]Takoroka Division[color=ffff] of X Battles. Only\nplayers ranked within the top [color=0001]1,000[color=ffff] X Rankings in the previous season for\nthe mode specified by this Challenge can participate.\n\nIt is not possible to enter as a pair or as a team.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "A special Challenge available only to\nthe chosen!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Elite Challenge (Takoroka)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Splatfest Info",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "Cancel song request?",
     "Msg_LeagueInvalidWeapon": "Sorry\u2014you can't participate in this Challenge\nwith the weapon you currently have equipped.\nChange your weapon?",
     "Msg_LeagueNoWeapon": "You don't have any weapons that can be used\nin this Challenge. Head to Ammo Knights to get\none if you want to participate!",
+    "Msg_LeaguePlayoffIneligible": "You have not met the conditions to be eligible\nfor this Challenge.",
     "Msg_LeagueWeaponInvalidOnReady": "Sorry\u2014you can't participate in this Challenge\nwith the weapon you currently have equipped.\nYou can change your weapon using the\n[group=0003 type=0005 params=00 00 80 3f 00 00 00 00]Equip menu.",
     "Msg_LockerMatchmakeEdit": "You can't organize your locker while\nmatchmaking.",
     "Msg_LockerResetConfirm": "Are you sure you want to put everything that's\ncurrently in your locker away and remove any\nstickers from the door?",

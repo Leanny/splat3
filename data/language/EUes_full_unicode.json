@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "El reinado del Derramatic",
     "EventMatch_WeaponLimited_Spinner_Manual": "¿Quién resultará ser más fuerte empleando tintralladoras y nada más?\n\n・ ¡Solo pueden usarse [color=0001]tintralladoras[color=ffff] como armas!\n・ ¡Pueden usarse potenciadores principales y secundarios!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "¡Lucha con la fuerza de las tintralladoras!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Encontronazo de tintralladoras"
+    "EventMatch_WeaponLimited_Spinner_Title": "Encontronazo de tintralladoras",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Este combate evento es solo para jugadores de la [color=0001]División Arome[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "¡Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Combate evento pro (División Arome)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Este combate evento es solo para jugadores de la [color=0001]División Sepioca[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "¡Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Combate evento pro (División Sepioca)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Este combate evento es solo para jugadores de la [color=0001]División Arome[color=ffff]\nde los combates X que, en la temporada anterior, lograran\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "¡Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Combate evento pro (División Arome)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Este combate evento es solo para jugadores de la [color=0001]División Sepioca[color=ffff]\nde los combates X que, en la temporada anterior, lograran\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "¡Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Combate evento pro (División Sepioca)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Normas\ndel festival",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "¿Quieres cancelar la petición de esta canción?",
     "Msg_LeagueInvalidWeapon": "No puedes participar en este combate evento\ncon el arma que estás usando actualmente.\n¿Quieres cambiarla por otra?",
     "Msg_LeagueNoWeapon": "No tienes ningún arma válida para participar\nen el combate evento. ¡Pásate por la armería\npara hacerte con una!",
+    "Msg_LeaguePlayoffIneligible": "No cumples con las condiciones para poder\nparticipar en este evento.",
     "Msg_LeagueWeaponInvalidOnReady": "No puedes participar en este combate evento\ncon el arma que estás usando actualmente.\nPuedes cambiarla con la opción [group=0003 type=0005 params=00 00 80 3f 00 00 00 00] Personalizar.",
     "Msg_LockerMatchmakeEdit": "No puedes modificar tu taquilla mientras\nestás participando en un emparejamiento.",
     "Msg_LockerResetConfirm": "¿Seguro que quieres quitar todo lo que hay en\ntu taquilla, incluidas las pegatinas de la puerta?",

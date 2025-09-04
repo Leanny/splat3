@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Morsermanie",
     "EventMatch_WeaponLimited_Spinner_Manual": "Kies je lievelings-spetling en probeer je staande te houden in de\ninktstorm die uit gaat barsten!\n\n・ Spelers kunnen alleen [color=0001]spetlingen[color=ffff] gebruiken!\n・ Zowel de hoofdeffecten als de extra effecten van uitrusting worden\n  gebruikt!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Vecht het uit met de krachtige spetlingen!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Furieuze vuurkracht"
+    "EventMatch_WeaponLimited_Spinner_Title": "Furieuze vuurkracht",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Tentatek-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het huidige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Elite-event (Tentatek-competitie)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Takoroka-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het huidige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Elite-event (Takoroka-competitie)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Tentatek-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het vorige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Elite-event (Tentatek-competitie)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Takoroka-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het vorige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Elite-event (Takoroka-competitie)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Splatfest-info",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "Wil je het verzoeknummer annuleren?",
     "Msg_LeagueInvalidWeapon": "Je kunt met je huidige wapen helaas niet aan\ndit eventgevecht meedoen. Wil je van wapen\nwisselen?",
     "Msg_LeagueNoWeapon": "Geen van de wapens die je hebt, zijn toegelaten\nin dit eventgevecht. Haal in Armada een\ngeschikt wapen als je mee wilt doen!",
+    "Msg_LeaguePlayoffIneligible": "Je voldoet niet aan de voorwaarden\nom mee te doen aan dit eventgevecht.",
     "Msg_LeagueWeaponInvalidOnReady": "Je kunt met je huidige wapen helaas niet aan\ndit eventgevecht meedoen. Je kunt van wapen\nwisselen in het [group=0003 type=0005 params=00 00 80 3f 00 00 00 00] uitrustingsscherm.",
     "Msg_LockerMatchmakeEdit": "Je kunt je kluisje niet vormgeven terwijl er naar\nspelers wordt gezocht.",
     "Msg_LockerResetConfirm": "Weet je zeker dat je je kluisje wilt leegruimen\nen alle stickers van de deur wilt halen?",

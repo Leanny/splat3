@@ -6637,7 +6637,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Secchiostri supremi",
     "EventMatch_WeaponLimited_Spinner_Manual": "Gettati nella mischia con il tuo miglior set che include lo splatling\ne scopri chi sarà l'ultimo a rimanere in piedi!\n\n・ I giocatori possono scegliere solo tra diversi tipi di [color=0001]splatling[color=ffff].\n・ Saranno attivate sia le abilità originali che quelle extra.",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Battaglia all'ultimo splatling!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Splatta con lo splatling"
+    "EventMatch_WeaponLimited_Spinner_Title": "Splatta con lo splatling",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Questa partita evento è destinata ai giocatori del [color=0001]gruppo Arome[color=ffff]\ndelle partite X. Possono partecipare solo i giocatori entro le\nprime [color=0001]1000 [color=ffff]posizioni della classifica X della stagione corrente\nper la modalità specificata da questa partita evento.\n\nNon è possibile partecipare a coppie o in squadra.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Una partita evento esclusiva,\naperta solo ai molluschi prescelti!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Partita evento speciale (Arome)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Questa partita evento è destinata ai giocatori del [color=0001]gruppo Sepia[color=ffff]\ndelle partite X. Possono partecipare solo i giocatori entro le\nprime [color=0001]1000 [color=ffff]posizioni della classifica X della stagione corrente\nper la modalità specificata da questa partita evento.\n\nNon è possibile partecipare a coppie o in squadra.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Una partita evento esclusiva,\naperta solo ai molluschi prescelti!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Partita evento speciale (Sepia)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Questa partita evento è destinata ai giocatori del [color=0001]gruppo Arome[color=ffff]\ndelle partite X. Possono partecipare solo i giocatori entro le\nprime [color=0001]1000 [color=ffff]posizioni della classifica X della stagione precedente\nper la modalità specificata da questa partita evento.\n\nNon è possibile partecipare a coppie o in squadra.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Una partita evento esclusiva,\naperta solo ai molluschi prescelti!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Partita evento speciale (Arome)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Questa partita evento è destinata ai giocatori del [color=0001]gruppo Sepia[color=ffff]\ndelle partite X. Possono partecipare solo i giocatori entro le\nprime [color=0001]1000 [color=ffff]posizioni della classifica X della stagione precedente\nper la modalità specificata da questa partita evento.\n\nNon è possibile partecipare a coppie o in squadra.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Una partita evento esclusiva,\naperta solo ai molluschi prescelti!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Partita evento speciale (Sepia)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Info festival",

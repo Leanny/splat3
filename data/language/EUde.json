@@ -6637,7 +6637,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Man schw\u00e4rmt f\u00fcr Schwapper",
     "EventMatch_WeaponLimited_Spinner_Manual": "Tritt mit deinem liebsten Splatling-Set an und bestehe im gro\u00dfen\nAufeinandertreffen der Trommelfeuer-Titanen!\n\n\u30fb Teilnahme nur mit einer Waffe der [color=0001]Splatling[color=ffff]-Klasse!\n\u30fb Haupt- und Zusatzeffekte sind aktiv!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Hier gl\u00fchen die Splatling-L\u00e4ufe!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Trommelfeuer-Feier"
+    "EventMatch_WeaponLimited_Spinner_Title": "Trommelfeuer-Feier",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Ein Event-Kampf f\u00fcr X-Kampf-Spieler der [color=0001]Tentatek-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschlie\u00dflich Spieler, die es in der\nlaufenden Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste f\u00fcr\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht m\u00f6glich.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Ein besonderer Event-Kampf\nexklusiv f\u00fcr Auserw\u00e4hlte!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Elite-Event (Tentatek-Gruppe)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Ein Event-Kampf f\u00fcr X-Kampf-Spieler der [color=0001]Kalamati-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschlie\u00dflich Spieler, die es in der\nlaufenden Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste f\u00fcr\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht m\u00f6glich.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Ein besonderer Event-Kampf\nexklusiv f\u00fcr Auserw\u00e4hlte!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Elite-Event (Kalamati-Gruppe)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Ein Event-Kampf f\u00fcr X-Kampf-Spieler der [color=0001]Tentatek-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschlie\u00dflich Spieler, die es in der\nvergangenen Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste f\u00fcr\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht m\u00f6glich.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Ein besonderer Event-Kampf\nexklusiv f\u00fcr Auserw\u00e4hlte!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Elite-Event (Tentatek-Gruppe)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Ein Event-Kampf f\u00fcr X-Kampf-Spieler der [color=0001]Kalamati-Gruppe[color=ffff].\nTeilnahmeberechtigt sind ausschlie\u00dflich Spieler, die es in der\nvergangenen Saison unter die [color=0001]Top 1000[color=ffff] der X-Rangliste f\u00fcr\ndie hier festgelegte Kampfart geschafft haben.\n\nDie Teilnahme als Duo oder Team ist nicht m\u00f6glich.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Ein besonderer Event-Kampf\nexklusiv f\u00fcr Auserw\u00e4hlte!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Elite-Event (Kalamati-Gruppe)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Was ist ein\nSplatfest?",

@@ -6637,7 +6637,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Morsermanie",
     "EventMatch_WeaponLimited_Spinner_Manual": "Kies je lievelings-spetling en probeer je staande te houden in de\ninktstorm die uit gaat barsten!\n\n\u30fb Spelers kunnen alleen [color=0001]spetlingen[color=ffff] gebruiken!\n\u30fb Zowel de hoofdeffecten als de extra effecten van uitrusting worden\n  gebruikt!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "Vecht het uit met de krachtige spetlingen!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Furieuze vuurkracht"
+    "EventMatch_WeaponLimited_Spinner_Title": "Furieuze vuurkracht",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Tentatek-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het huidige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Elite-event (Tentatek-competitie)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Takoroka-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het huidige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Elite-event (Takoroka-competitie)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Tentatek-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het vorige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Elite-event (Tentatek-competitie)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Dit eventgevecht is voor spelers van X-gevechten in de [color=0001]Takoroka-competitie[color=ffff].\nAlleen spelers in de [color=0001]top 1000[color=ffff] van de X-ranglijst van het vorige seizoen voor\nde relevante spelstand voor dit eventgevecht, kunnen meedoen.\n\nHet is niet mogelijk om mee te doen als duo of als team.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Een speciaal eventgevecht voor\nuitzonderlijke strijders!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Elite-event (Takoroka-competitie)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Splatfest-info",

@@ -6637,7 +6637,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "El reinado del Derramatic",
     "EventMatch_WeaponLimited_Spinner_Manual": "\u00bfQui\u00e9n resultar\u00e1 ser m\u00e1s fuerte empleando tintralladoras y nada m\u00e1s?\n\n\u30fb \u00a1Solo pueden usarse [color=0001]tintralladoras[color=ffff] como armas!\n\u30fb \u00a1Pueden usarse potenciadores principales y secundarios!",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "\u00a1Lucha con la fuerza de las tintralladoras!",
-    "EventMatch_WeaponLimited_Spinner_Title": "Encontronazo de tintralladoras"
+    "EventMatch_WeaponLimited_Spinner_Title": "Encontronazo de tintralladoras",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Este combate evento es solo para jugadores de la [color=0001]Divisi\u00f3n Arome[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "\u00a1Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Combate evento pro (Divisi\u00f3n Arome)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Este combate evento es solo para jugadores de la [color=0001]Divisi\u00f3n Sepioca[color=ffff]\nde los combates X que, en la temporada actual, hayan logrado\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "\u00a1Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Combate evento pro (Divisi\u00f3n Sepioca)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Este combate evento es solo para jugadores de la [color=0001]Divisi\u00f3n Arome[color=ffff]\nde los combates X que, en la temporada anterior, lograran\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "\u00a1Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Combate evento pro (Divisi\u00f3n Arome)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Este combate evento es solo para jugadores de la [color=0001]Divisi\u00f3n Sepioca[color=ffff]\nde los combates X que, en la temporada anterior, lograran\nclasificarse entre los [color=0001]1000 mejores[color=ffff] del rango X para el estilo\nde combate establecido en el evento.\n\nNo es posible participar en pareja o como equipo.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "\u00a1Un evento especial solo disponible\npara combatientes selectos!",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Combate evento pro (Divisi\u00f3n Sepioca)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "Normas\ndel festival",

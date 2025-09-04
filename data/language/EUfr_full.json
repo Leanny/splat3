@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "Garde des seaux",
     "EventMatch_WeaponLimited_Spinner_Manual": "Sors ton meilleur badigeonneur et fais en sorte que ton \u00e9quipe\nsoit la seule debout apr\u00e8s la temp\u00eate !\n\n\u30fb Seuls les [color=0001]badigeonneurs[color=ffff] sont autoris\u00e9s !\n\u30fb Les bonus principaux ainsi que les bonus additionnels sont actifs.",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "D\u00e9ploie une puissance de feu maximale\ndans cette bataille de badigeonneurs !",
-    "EventMatch_WeaponLimited_Spinner_Title": "Le Badigeonneur \u00e0 l'honneur"
+    "EventMatch_WeaponLimited_Spinner_Title": "Le Badigeonneur \u00e0 l'honneur",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Ce match Challenge est ouvert aux joueurs de matchs X appartenant \u00e0\nla [color=0001]Division OculR[color=ffff]. Seuls ceux qui se sont hiss\u00e9s parmi les [color=0001]mille [color=ffff]premi\u00e8res\nplaces du classement de matchs X lors de la saison actuelle et dans\nle cadre du mode de ce match Challenge sont autoris\u00e9s \u00e0 participer.\n\nIl n'est pas possible de participer en \u00e9quipe ou en duo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "Un match Challenge pas comme les autres...\nStrictement r\u00e9serv\u00e9 \u00e0 la cr\u00e8me de la cr\u00e8me !",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "Clash des As (Division OculR)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Ce match Challenge est ouvert aux joueurs de matchs X appartenant \u00e0\nla [color=0001]Division Cubic[color=ffff]. Seuls ceux qui se sont hiss\u00e9s parmi les [color=0001]mille [color=ffff]premi\u00e8res\nplaces du classement de matchs X lors de la saison actuelle et dans\nle cadre du mode de ce match Challenge sont autoris\u00e9s \u00e0 participer.\n\nIl n'est pas possible de participer en \u00e9quipe ou en duo.",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "Un match Challenge pas comme les autres...\nStrictement r\u00e9serv\u00e9 \u00e0 la cr\u00e8me de la cr\u00e8me !",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "Clash des As (Division Cubic)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Ce match Challenge est ouvert aux joueurs de matchs X appartenant \u00e0\nla [color=0001]Division OculR[color=ffff]. Seuls ceux qui se sont hiss\u00e9s parmi les [color=0001]mille[color=ffff] premi\u00e8res\nplaces du classement de matchs X lors de la saison pr\u00e9c\u00e9dente et dans\nle cadre du mode de ce match Challenge sont autoris\u00e9s \u00e0 participer.\n\nIl n'est pas possible de participer en \u00e9quipe ou en duo.",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "Un match Challenge pas comme les autres...\nStrictement r\u00e9serv\u00e9 \u00e0 la cr\u00e8me de la cr\u00e8me !",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "Clash des As (Division OculR)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Ce match Challenge est ouvert aux joueurs de matchs X appartenant \u00e0\nla [color=0001]Division Cubic[color=ffff]. Seuls ceux qui se sont hiss\u00e9s parmi les [color=0001]mille [color=ffff]premi\u00e8res\nplaces du classement de matchs X lors de la saison pr\u00e9c\u00e9dente et dans\nle cadre du mode de ce match Challenge sont autoris\u00e9s \u00e0 participer.\n\nIl n'est pas possible de participer en \u00e9quipe ou en duo.",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "Un match Challenge pas comme les autres...\nStrictement r\u00e9serv\u00e9 \u00e0 la cr\u00e8me de la cr\u00e8me !",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "Clash des As (Division Cubic)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "L'esprit\ndu festival",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "Annuler la demande ?",
     "Msg_LeagueInvalidWeapon": "Tu ne peux pas participer \u00e0 un match Challenge\navec l'arme actuellement \u00e9quip\u00e9e. Veux-tu\nen s\u00e9lectionner une autre ?",
     "Msg_LeagueNoWeapon": "Tu ne poss\u00e8des aucune arme autoris\u00e9e dans ce\nmatch Challenge. Si tu souhaites y participer,\ntu dois d'abord te rendre \u00e0 la Mar\u00e9e arm\u00e9e\npour en acheter une.",
+    "Msg_LeaguePlayoffIneligible": "Tu ne remplis pas les conditions n\u00e9cessaires\npour participer \u00e0 ce match Challenge.",
     "Msg_LeagueWeaponInvalidOnReady": "Tu ne peux pas participer \u00e0 un match Challenge\navec l'arme actuellement \u00e9quip\u00e9e. Tu peux\nen changer via le menu de personnalisation [group=0003 type=0005 params=00 00 80 3f 00 00 00 00].",
     "Msg_LockerMatchmakeEdit": "Tu ne peux pas modifier ton casier lorsqu'un\nmatch est en cours de pr\u00e9paration.",
     "Msg_LockerResetConfirm": "Veux-tu vraiment vider ton casier et retirer\ntous les autocollants ?",

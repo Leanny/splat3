@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.html text eol=lf diff=html
+*.css  text eol=lf diff=css
+*.js   text eol=lf diff=javascript
+*.json text eol=lf diff=json
+*.py   text eol=lf diff=python
+*.png binary

@@ -6817,7 +6817,19 @@
     "EventMatch_WeaponLimited_Slosher_Title": "最強スロッシャー決定戦",
     "EventMatch_WeaponLimited_Spinner_Manual": "ブキ限定バトル！ 最強のスピナー使いを目指せ！\n\n・ 使えるブキは[color=0001]スピナー[color=ffff]だけ！\n・ 基本ギアパワーと追加ギアパワーは有効だ！",
     "EventMatch_WeaponLimited_Spinner_Subtitle": "ブキ限定バトル！ 最強のスピナー使いを目指せ！",
-    "EventMatch_WeaponLimited_Spinner_Title": "最強スピナー決定戦"
+    "EventMatch_WeaponLimited_Spinner_Title": "最強スピナー決定戦",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Manual": "Xマッチで[color=0001]グループ・アロメ[color=ffff]に参加しているプレイヤー向けのイベントマッチです。\n今シーズンのXランキングで、このイベントマッチで指定されたルールの\n上位[color=0001]１０００位まで[color=ffff]に入賞しているプレイヤーだけが参加できます。\n\nなお、ペアやチームで参加することはできません。",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Subtitle": "選ばれし者だけが参加できる特別なイベントマッチ！",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupAtlantic_Title": "センバツ・イベントマッチ (グループ・アロメ)",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Manual": "Xマッチで[color=0001]グループ・ヤコ[color=ffff]に参加しているプレイヤー向けのイベントマッチです。\n今シーズンのXランキングで、このイベントマッチで指定されたルールの\n上位[color=0001]１０００位まで[color=ffff]に入賞しているプレイヤーだけが参加できます。\n\nなお、ペアやチームで参加することはできません。",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Subtitle": "選ばれし者だけが参加できる特別なイベントマッチ！",
+    "EventMatch_XMatchPlayOff_EndOfSeason_GroupPacific_Title": "センバツ・イベントマッチ (グループ・ヤコ)",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Manual": "Xマッチで[color=0001]グループ・アロメ[color=ffff]に参加しているプレイヤー向けのイベントマッチです。\n直前のシーズンのXランキングで、このイベントマッチで指定されたルールの\n上位[color=0001]１０００位まで[color=ffff]に入賞したプレイヤーだけが参加できます。\n\nなお、ペアやチームで参加することはできません。",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Subtitle": "選ばれし者だけが参加できる特別なイベントマッチ！",
+    "EventMatch_XMatchPlayOff_GroupAtlantic_Title": "センバツ・イベントマッチ (グループ・アロメ)",
+    "EventMatch_XMatchPlayOff_GroupPacific_Manual": "Xマッチで[color=0001]グループ・ヤコ[color=ffff]に参加しているプレイヤー向けのイベントマッチです。\n直前のシーズンのXランキングで、このイベントマッチで指定されたルールの\n上位[color=0001]１０００位まで[color=ffff]に入賞したプレイヤーだけが参加できます。\n\nなお、ペアやチームで参加することはできません。",
+    "EventMatch_XMatchPlayOff_GroupPacific_Subtitle": "選ばれし者だけが参加できる特別なイベントマッチ！",
+    "EventMatch_XMatchPlayOff_GroupPacific_Title": "センバツ・イベントマッチ (グループ・ヤコ)"
   },
   "CommonMsg/Manual/ManualFes": {
     "Fes_Button01": "フェスの心得",
@@ -11488,6 +11500,7 @@
     "Msg_Jukebox_StopConfirm": "曲のリクエストを取り消しますか？",
     "Msg_LeagueInvalidWeapon": "そうび中のブキでは イベントマッチに参加できません\nブキを変えますか？",
     "Msg_LeagueNoWeapon": "イベントマッチに参加できるブキがありません\nブキ屋で手に入れましょう！",
+    "Msg_LeaguePlayoffIneligible": "参加条件を満たしていないため\nこのイベントマッチには参加できません",
     "Msg_LeagueWeaponInvalidOnReady": "そうび中のブキでは イベントマッチに参加できません\n[group=0003 type=0005 params=00 00 80 3f 00 00 00 00]カスタマイズで ブキを変えてください",
     "Msg_LockerMatchmakeEdit": "マッチメイク中のため 編集できません",
     "Msg_LockerResetConfirm": "ロッカーの中身と ドアにはったステッカーを\n全部しまいますか？",
