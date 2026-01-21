@@ -245,6 +245,16 @@
                                     )
                                 )
                             }
+
+                            if (item.Type == "Coop" && item.__RowId.includes("_Coop")) {
+                                weapon_data[item.Id] = item
+                                $("#special-select").append(
+                                    new Option(
+                                        localize("CommonMsg/Weapon/WeaponName_Special", item.__RowId) + " (SR)",
+                                        item.SpecActor.replace("Work/Actor/", "").replace(".engine__actor__ActorParam.gyml", "")
+                                    )
+                                )
+                            }
                         })
                     })
                 }
