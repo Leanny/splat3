@@ -1,0 +1,28 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponManeuverGallon.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForPlayer": 0.25,
+      "InitRadiusForPlayer": 0.25
+    },
+    "DamageLapOverParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 700,
+      "ValueMin": 600
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 450,
+      "ValueMin": 300
+    },
+    "SideStepParam": {
+      "$type": "spl__PlayerSideStepParam",
+      "InkConsume": 0.08
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponManeuverParam",
+      "InkConsume": 0.014
+    }
+  }
+}

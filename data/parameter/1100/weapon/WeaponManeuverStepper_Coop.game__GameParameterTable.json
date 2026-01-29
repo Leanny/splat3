@@ -1,0 +1,28 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponManeuverStepper.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "CollisionLapOverParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForPlayer": 0.25,
+      "InitRadiusForPlayer": 0.25
+    },
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForPlayer": 0.2,
+      "InitRadiusForPlayer": 0.2
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 300,
+      "ValueMin": 250
+    },
+    "SideStepParam": {
+      "$type": "spl__PlayerSideStepParam",
+      "InkConsume": 0.03
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponManeuverParam",
+      "InkConsume": 0.008
+    }
+  }
+}
