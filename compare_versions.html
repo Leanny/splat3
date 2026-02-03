@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Splatoon 3 Version Differences</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            :root {
+                --bg-base: #0e0f11;
+                --bg-surface: #161820;
+                --bg-elevated: #1e2028;
+                --bg-card: #232633;
+
+                --accent-add: #3ddc84;
+                --accent-rm: #ff5a5a;
+                --accent-edit: #f5c542;
+                --accent-arr: #5bb5f5;
+
+                --text-primary: #eef0f4;
+                --text-secondary: #8a8d96;
+
+                --radius: 10px;
+                --radius-sm: 6px;
+            }
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: "DM Sans", sans-serif;
+                background: var(--bg-base);
+                color: var(--text-primary);
+                min-height: 100vh;
+                line-height: 1.5;
+            }
+
+            /* noise texture */
+            body::before {
+                content: "";
+                position: fixed;
+                inset: 0;
+                background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* --- sticky header --- */
+            .site-header {
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                background: rgba(14, 15, 17, 0.82);
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+                padding: 24px 0 18px;
+            }
+            .header-inner {
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 0 24px;
+            }
+            .site-header h1 {
+                font-family: "Bebas Neue", sans-serif;
+                font-size: clamp(1.8rem, 4vw, 2.8rem);
+                letter-spacing: 0.02em;
+                color: var(--text-primary);
+                margin-bottom: 4px;
+            }
+            .site-header h1 span {
+                color: var(--accent-add);
+            }
+
+            .intro-text {
+                color: var(--text-secondary);
+                font-size: 0.92rem;
+                max-width: 560px;
+                margin-bottom: 18px;
+            }
+
+            /* --- version row --- */
+            .version-row {
+                display: flex;
+                align-items: flex-end;
+                gap: 12px;
+                flex-wrap: wrap;
+            }
+            .version-row .field {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+            .version-row label {
+                font-size: 0.75rem;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-secondary);
+                font-weight: 500;
+            }
+            .version-row select {
+                appearance: none;
+                background: var(--bg-elevated);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                color: var(--text-primary);
+                padding: 8px 36px 8px 14px;
+                border-radius: var(--radius-sm);
+                font-family: inherit;
+                font-size: 0.9rem;
+                cursor: pointer;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238a8d96' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-position: right 12px center;
+                transition: border-color 0.2s;
+                min-width: 180px;
+            }
+            .version-row select:focus {
+                outline: none;
+                border-color: var(--accent-add);
+            }
+            .version-row select option {
+                background: var(--bg-elevated);
+            }
+
+            .btn-compare {
+                background: var(--accent-add);
+                color: #0e0f11;
+                border: none;
+                padding: 8px 24px;
+                border-radius: var(--radius-sm);
+                font-family: inherit;
+                font-weight: 600;
+                font-size: 0.9rem;
+                cursor: pointer;
+                transition:
+                    transform 0.15s,
+                    box-shadow 0.2s;
+                white-space: nowrap;
+            }
+            .btn-compare:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 4px 14px rgba(61, 220, 132, 0.35);
+            }
+            .btn-compare:active {
+                transform: translateY(0);
+            }
+
+            .vs-badge {
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 1rem;
+                color: var(--text-secondary);
+                padding-bottom: 6px;
+            }
+
+            /* swap note that appears when versions get reordered */
+            .swap-note {
+                font-size: 0.77rem;
+                color: var(--accent-edit);
+                margin-top: 8px;
+                min-height: 1.1em;
+                font-style: italic;
+            }
+
+            /* --- main content --- */
+            main {
+                position: relative;
+                z-index: 1;
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 32px 24px 64px;
+            }
+
+            /* --- summary bar --- */
+            .summary-bar {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+                margin-bottom: 28px;
+            }
+            .summary-chip {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                background: var(--bg-surface);
+                border: 1px solid rgba(255, 255, 255, 0.07);
+                border-radius: 20px;
+                padding: 6px 14px;
+                font-size: 0.82rem;
+                cursor: pointer;
+                user-select: none;
+                transition:
+                    border-color 0.2s,
+                    opacity 0.2s;
+                opacity: 0.55;
+            }
+            .summary-chip.active {
+                opacity: 1;
+            }
+            .summary-chip .dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+            .summary-chip .count {
+                font-weight: 600;
+                margin-left: 2px;
+            }
+
+            .summary-chip[data-cat="added"] .dot {
+                background: var(--accent-add);
+            }
+            .summary-chip[data-cat="removed"] .dot {
+                background: var(--accent-rm);
+            }
+            .summary-chip[data-cat="edited"] .dot {
+                background: var(--accent-edit);
+            }
+            .summary-chip[data-cat="array"] .dot {
+                background: var(--accent-arr);
+            }
+
+            .summary-chip[data-cat="added"].active {
+                border-color: var(--accent-add);
+            }
+            .summary-chip[data-cat="removed"].active {
+                border-color: var(--accent-rm);
+            }
+            .summary-chip[data-cat="edited"].active {
+                border-color: var(--accent-edit);
+            }
+            .summary-chip[data-cat="array"].active {
+                border-color: var(--accent-arr);
+            }
+
+            /* --- file card --- */
+            .file-card {
+                background: var(--bg-surface);
+                border: 1px solid rgba(255, 255, 255, 0.06);
+                border-radius: var(--radius);
+                margin-bottom: 8px;
+                overflow: hidden;
+                transition: border-color 0.2s;
+            }
+            .file-card:hover {
+                border-color: rgba(255, 255, 255, 0.13);
+            }
+
+            .file-card-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 11px 16px;
+                cursor: pointer;
+                user-select: none;
+                gap: 12px;
+            }
+            .file-card-header .left {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                min-width: 0;
+            }
+            .file-card-header .arrow {
+                width: 18px;
+                height: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--text-secondary);
+                transition: transform 0.25s ease;
+                flex-shrink: 0;
+            }
+            .file-card.open .file-card-header .arrow {
+                transform: rotate(90deg);
+            }
+
+            .file-card-header .fname {
+                font-size: 0.9rem;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .badge-row {
+                display: flex;
+                gap: 5px;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+            }
+            .mini-badge {
+                font-size: 0.68rem;
+                font-weight: 600;
+                padding: 2px 7px;
+                border-radius: 4px;
+            }
+            .mini-badge.added {
+                background: rgba(61, 220, 132, 0.12);
+                color: var(--accent-add);
+            }
+            .mini-badge.removed {
+                background: rgba(255, 90, 90, 0.12);
+                color: var(--accent-rm);
+            }
+            .mini-badge.edited {
+                background: rgba(245, 197, 66, 0.12);
+                color: var(--accent-edit);
+            }
+            .mini-badge.array {
+                background: rgba(91, 181, 245, 0.12);
+                color: var(--accent-arr);
+            }
+
+            /* --- file card body (collapsible) --- */
+            .file-card-body {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            .file-card.open .file-card-body {
+                max-height: 999999px;
+            }
+
+            .file-card-body-inner {
+                border-top: 1px solid rgba(255, 255, 255, 0.06);
+                padding: 14px 16px;
+            }
+
+            /* --- entry sub-section inside a card --- */
+            .entry-section {
+                margin-bottom: 18px;
+            }
+            .entry-section:last-child {
+                margin-bottom: 0;
+            }
+            .entry-label {
+                font-size: 0.75rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                color: var(--text-secondary);
+                margin-bottom: 6px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .entry-label .entry-badges {
+                display: flex;
+                gap: 4px;
+            }
+
+            /* --- unified JSON diff block --- */
+            .json-diff {
+                background: var(--bg-card);
+                border-radius: var(--radius-sm);
+                overflow-x: auto;
+                font-family: "SF Mono", "Consolas", "Fira Code", monospace;
+                font-size: 0.79rem;
+                line-height: 1.7;
+            }
+            .json-diff .line {
+                display: flex;
+                white-space: pre;
+                min-width: max-content;
+            }
+            /* gutter: line-number column */
+            .json-diff .gutter {
+                width: 38px;
+                flex-shrink: 0;
+                text-align: right;
+                padding-right: 10px;
+                color: var(--text-secondary);
+                opacity: 0.45;
+                user-select: none;
+                font-size: 0.72rem;
+            }
+            /* the actual code text */
+            .json-diff .code {
+                padding-right: 16px;
+                padding-left: 4px;
+                flex: 1;
+            }
+
+            /* neutral / context line */
+            .json-diff .line.ctx .code {
+                color: var(--text-secondary);
+            }
+
+            /* added line */
+            .json-diff .line.add {
+                background: rgba(61, 220, 132, 0.08);
+            }
+            .json-diff .line.add .gutter {
+                color: var(--accent-add);
+                opacity: 0.7;
+            }
+            .json-diff .line.add .code {
+                color: var(--accent-add);
+            }
+            .json-diff .line.add .prefix {
+                color: var(--accent-add);
+                opacity: 0.8;
+                padding: 0 6px;
+            }
+
+            /* removed line */
+            .json-diff .line.rm {
+                background: rgba(255, 90, 90, 0.08);
+            }
+            .json-diff .line.rm .gutter {
+                color: var(--accent-rm);
+                opacity: 0.7;
+            }
+            .json-diff .line.rm .code {
+                color: var(--accent-rm);
+            }
+            .json-diff .line.rm .prefix {
+                color: var(--accent-rm);
+                opacity: 0.8;
+                padding: 0 6px;
+            }
+
+            /* context prefix (space) */
+            .json-diff .line.ctx .prefix {
+                padding: 0 6px;
+                color: transparent;
+            }
+
+            /* --- "new file" / "removed file" full-json display --- */
+            .full-file-json {
+                background: var(--bg-card);
+                border-radius: var(--radius-sm);
+                overflow-x: auto;
+                font-family: "SF Mono", "Consolas", "Fira Code", monospace;
+                font-size: 0.79rem;
+                line-height: 1.7;
+                padding: 10px 14px;
+            }
+            .full-file-json.added {
+                color: var(--accent-add);
+                background: rgba(61, 220, 132, 0.06);
+            }
+            .full-file-json.removed {
+                color: var(--accent-rm);
+                background: rgba(255, 90, 90, 0.06);
+            }
+
+            /* --- empty state --- */
+            .empty-state {
+                text-align: center;
+                padding: 80px 24px;
+                color: var(--text-secondary);
+            }
+            .empty-state .icon {
+                font-size: 2.4rem;
+                margin-bottom: 12px;
+                opacity: 0.4;
+            }
+            .empty-state p {
+                font-size: 0.92rem;
+            }
+
+            /* --- loading overlay --- */
+            #loading {
+                display: none;
+                position: fixed;
+                inset: 0;
+                background: rgba(14, 15, 17, 0.85);
+                z-index: 200;
+                align-items: center;
+                justify-content: center;
+                gap: 14px;
+            }
+            #loading.show {
+                display: flex;
+            }
+            .spinner {
+                width: 36px;
+                height: 36px;
+                border: 3px solid rgba(255, 255, 255, 0.1);
+                border-top-color: var(--accent-add);
+                border-radius: 50%;
+                animation: spin 0.6s linear infinite;
+            }
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            #loading span {
+                color: var(--text-secondary);
+                font-size: 0.9rem;
+            }
+
+            /* --- scrollbar --- */
+            ::-webkit-scrollbar {
+                width: 6px;
+            }
+            ::-webkit-scrollbar-track {
+                background: transparent;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: rgba(255, 255, 255, 0.12);
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- --- Header --- -->
+        <header class="site-header">
+            <div class="header-inner">
+                <h1>Splatoon 3 Version Differences</h1>
+                <p class="intro-text">Select two versions to compare changes between versions.</p>
+                <div class="version-row">
+                    <div class="field">
+                        <label>Base Version</label>
+                        <select id="version1"></select>
+                    </div>
+                    <div class="vs-badge">→</div>
+                    <div class="field">
+                        <label>Updated Version</label>
+                        <select id="version2"></select>
+                    </div>
+                    <button class="btn-compare" onclick="compareVersions()">Compare</button>
+                </div>
+                <div class="swap-note" id="swap-note"></div>
+            </div>
+        </header>
+
+        <!-- --- Main --- -->
+        <main id="main-content">
+            <!-- content injected by JS -->
+        </main>
+
+        <!-- --- Loading --- -->
+        <div id="loading">
+            <div class="spinner"></div>
+            <span>Comparing versions…</span>
+        </div>
+
+        <!-- --- Scripts --- -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/deep-diff/1.0.2/deep-diff.min.js"></script>
+        <script>
+            ;(function () {
+                // --- version list (populated once, reused) ---
+                let versionList = [] // ordered list of version strings
+
+                // --- populate dropdowns ---
+                fetch("filelist.json")
+                    .then(r => r.json())
+                    .then(filelist => {
+                        versionList = Object.keys(filelist)
+                        ;["version1", "version2"].forEach((id, i) => {
+                            const sel = document.getElementById(id)
+                            versionList.forEach((v, idx) => {
+                                const opt = document.createElement("option")
+                                opt.value = v
+                                opt.textContent = v
+                                if (i === 0 && idx === versionList.length - 2) opt.selected = true
+                                if (i === 1 && idx === versionList.length - 1) opt.selected = true
+                                sel.appendChild(opt)
+                            })
+                        })
+                    })
+
+                // --- helpers ---
+                function arrayToObject(arr, key) {
+                    return arr.reduce((o, item) => {
+                        o[item[key]] = item
+                        return o
+                    }, {})
+                }
+
+                function normalise(data) {
+                    if (!Array.isArray(data)) return data
+                    if (data.every(x => typeof x === "object" && x !== null && "Id" in x)) return arrayToObject(data, "Id")
+                    if (data.every(x => typeof x === "object" && x !== null && "__RowId" in x)) return arrayToObject(data, "__RowId")
+                    return data
+                }
+
+                // compare two version strings by their index in versionList
+                // returns negative if a < b, 0 if equal, positive if a > b
+                function compareVersionIndex(a, b) {
+                    return versionList.indexOf(a) - versionList.indexOf(b)
+                }
+
+                // --- HTML-escape so we can safely embed in <pre> ---
+                function esc(str) {
+                    return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+                }
+
+                // --- unified line-by-line diff of two pretty-printed JSON strings ---
+                // Returns an array of { type: 'ctx'|'add'|'rm', text: string }
+                function diffLines(oldLines, newLines) {
+                    // simple LCS-based diff
+                    const m = oldLines.length,
+                        n = newLines.length
+
+                    // For very large arrays cap LCS to avoid browser freeze; fall back to naive.
+                    if (m * n > 800000) {
+                        return naiveDiff(oldLines, newLines)
+                    }
+
+                    // build LCS table
+                    const dp = Array.from({ length: m + 1 }, () => new Uint16Array(n + 1))
+                    for (let i = 1; i <= m; i++)
+                        for (let j = 1; j <= n; j++)
+                            dp[i][j] = oldLines[i - 1] === newLines[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1])
+
+                    // backtrack
+                    const result = []
+                    let i = m,
+                        j = n
+                    while (i > 0 || j > 0) {
+                        if (i > 0 && j > 0 && oldLines[i - 1] === newLines[j - 1]) {
+                            result.push({ type: "ctx", text: oldLines[i - 1] })
+                            i--
+                            j--
+                        } else if (j > 0 && (i === 0 || dp[i][j - 1] >= dp[i - 1][j])) {
+                            result.push({ type: "add", text: newLines[j - 1] })
+                            j--
+                        } else {
+                            result.push({ type: "rm", text: oldLines[i - 1] })
+                            i--
+                        }
+                    }
+                    return result.reverse()
+                }
+
+                // fallback for huge objects: just mark everything removed then added
+                function naiveDiff(oldLines, newLines) {
+                    return [...oldLines.map(t => ({ type: "rm", text: t })), ...newLines.map(t => ({ type: "add", text: t }))]
+                }
+
+                // --- render a unified diff block into HTML ---
+                function renderDiffBlock(oldObj, newObj) {
+                    const oldLines = JSON.stringify(oldObj, null, 2).split("\n")
+                    const newLines = JSON.stringify(newObj, null, 2).split("\n")
+                    const diff = diffLines(oldLines, newLines)
+
+                    let lineNum = 0
+                    let html = '<div class="json-diff">'
+                    diff.forEach(({ type, text }) => {
+                        lineNum++
+                        const prefix = type === "add" ? "+" : type === "rm" ? "−" : " "
+                        html += `<div class="line ${type}">
+                <span class="gutter">${lineNum}</span>
+                <span class="prefix">${prefix}</span>
+                <span class="code">${esc(text)}</span>
+            </div>`
+                    })
+                    html += "</div>"
+                    return html
+                }
+
+                // render a single full JSON (for brand-new or fully-removed files)
+                function renderFullJson(obj, cls) {
+                    return `<div class="full-file-json ${cls}">${esc(JSON.stringify(obj, null, 2))}</div>`
+                }
+
+                // --- main compare ---
+                window.compareVersions = async function () {
+                    document.getElementById("loading").classList.add("show")
+
+                    let v1 = document.getElementById("version1").value
+                    let v2 = document.getElementById("version2").value
+                    const swapNote = document.getElementById("swap-note")
+
+                    // enforce older → newer ordering
+                    if (compareVersionIndex(v1, v2) > 0) {
+                        ;[v1, v2] = [v2, v1]
+                        document.getElementById("version1").value = v1
+                        document.getElementById("version2").value = v2
+                        swapNote.textContent = "Versions were swapped to keep the older version on the left."
+                    } else {
+                        swapNote.textContent = ""
+                    }
+
+                    const main = document.getElementById("main-content")
+
+                    const fileList = await fetch("filelist.json").then(r => r.json())
+                    const fileGroups = {
+                        mush: "https://leanny.github.io/splat3/data/mush",
+                        parameter: "https://leanny.github.io/splat3/data/parameter",
+                    }
+
+                    // per-file storage:
+                    // {
+                    //   newFile: bool,
+                    //   removedFile: bool,
+                    //   newFileData: obj|null,
+                    //   removedFileData: obj|null,
+                    //   entries: { [topKey]: { old: obj|null, new: obj|null } }
+                    //   counts: { added, removed, edited, array }
+                    // }
+                    const files = {}
+
+                    for (const [group, basePath] of Object.entries(fileGroups)) {
+                        const files1 = fileList[v1]?.[group] || []
+                        const files2 = fileList[v2]?.[group] || []
+                        const allFiles = [...new Set([...files1, ...files2])]
+
+                        for (const file of allFiles) {
+                            const url1 = group === "parameter" ? `${basePath}/${v1}/weapon/${file}` : `${basePath}/${v1}/${file}`
+                            const url2 = group === "parameter" ? `${basePath}/${v2}/weapon/${file}` : `${basePath}/${v2}/${file}`
+
+                            try {
+                                let [data1, data2] = await Promise.all([
+                                    fetch(url1).then(r => (r.ok ? r.json() : null)),
+                                    fetch(url2).then(r => (r.ok ? r.json() : null)),
+                                ])
+
+                                if (!data1 && !data2) continue
+
+                                if (!files[file])
+                                    files[file] = {
+                                        newFile: false,
+                                        removedFile: false,
+                                        newFileData: null,
+                                        removedFileData: null,
+                                        entries: {},
+                                        counts: { added: 0, removed: 0, edited: 0, array: 0 },
+                                    }
+
+                                if (!data1) {
+                                    files[file].newFile = true
+                                    files[file].newFileData = data2
+                                    files[file].counts.added++
+                                    continue
+                                }
+                                if (!data2) {
+                                    files[file].removedFile = true
+                                    files[file].removedFileData = data1
+                                    files[file].counts.removed++
+                                    continue
+                                }
+
+                                data1 = normalise(data1)
+                                data2 = normalise(data2)
+
+                                // run DeepDiff to get the list of diffs AND to figure out which top-level keys changed
+                                const diffs = DeepDiff.diff(data1, data2) || []
+
+                                diffs.forEach(d => {
+                                    if (!d.path || d.path.length === 0) return
+                                    const topKey = String(d.path[0])
+
+                                    if (!files[file].entries[topKey]) {
+                                        files[file].entries[topKey] = {
+                                            old: data1[topKey] !== undefined ? data1[topKey] : null,
+                                            new: data2[topKey] !== undefined ? data2[topKey] : null,
+                                        }
+                                    }
+
+                                    // tally counts
+                                    switch (d.kind) {
+                                        case "N":
+                                            files[file].counts.added++
+                                            break
+                                        case "D":
+                                            files[file].counts.removed++
+                                            break
+                                        case "E":
+                                            files[file].counts.edited++
+                                            break
+                                        case "A":
+                                            files[file].counts.array++
+                                            break
+                                    }
+                                })
+                            } catch (e) {
+                                console.error(`Error comparing ${file}`, e)
+                            }
+                        }
+                    }
+
+                    renderResults(files)
+                    document.getElementById("loading").classList.remove("show")
+                }
+
+                // --- render all results ---
+                function renderResults(files) {
+                    const main = document.getElementById("main-content")
+
+                    // aggregate counts for summary bar
+                    const totals = { added: 0, removed: 0, edited: 0, array: 0 }
+                    Object.values(files).forEach(f => {
+                        totals.added += f.counts.added
+                        totals.removed += f.counts.removed
+                        totals.edited += f.counts.edited
+                        totals.array += f.counts.array
+                    })
+                    const totalChanges = totals.added + totals.removed + totals.edited + totals.array
+
+                    if (!totalChanges) {
+                        main.innerHTML = `<div class="empty-state"><p>No differences found between these two versions.</p></div>`
+                        return
+                    }
+
+                    // summary chips
+                    const chipsHtml = ["added", "removed", "edited", "array"]
+                        .map(cat => {
+                            const labels = { added: "Added", removed: "Removed", edited: "Edited", array: "Array Changed" }
+                            return `<div class="summary-chip active" data-cat="${cat}">
+                <span class="dot"></span>
+                <span>${labels[cat]}</span>
+                <span class="count">${totals[cat]}</span>
+            </div>`
+                        })
+                        .join("")
+
+                    // file cards
+                    const cardsHtml = Object.entries(files)
+                        .map(([fname, f]) => {
+                            const hasChanges = f.newFile || f.removedFile || Object.keys(f.entries).length > 0
+                            if (!hasChanges) return ""
+
+                            // badge row
+                            const badges = []
+                            if (f.counts.added) badges.push(`<span class="mini-badge added">+${f.counts.added}</span>`)
+                            if (f.counts.removed) badges.push(`<span class="mini-badge removed">−${f.counts.removed}</span>`)
+                            if (f.counts.edited) badges.push(`<span class="mini-badge edited">~${f.counts.edited}</span>`)
+                            if (f.counts.array) badges.push(`<span class="mini-badge array">≋${f.counts.array}</span>`)
+
+                            // body content
+                            let bodyHtml = ""
+
+                            if (f.newFile && f.newFileData) {
+                                bodyHtml += `<div class="entry-section">
+                    <div class="entry-label"><span class="mini-badge added">New File</span></div>
+                    ${renderFullJson(f.newFileData, "added")}
+                </div>`
+                            }
+                            if (f.removedFile && f.removedFileData) {
+                                bodyHtml += `<div class="entry-section">
+                    <div class="entry-label"><span class="mini-badge removed">Removed File</span></div>
+                    ${renderFullJson(f.removedFileData, "removed")}
+                </div>`
+                            }
+
+                            // per-entry diffs
+                            Object.entries(f.entries).forEach(([key, entry]) => {
+                                const oldVal = entry.old
+                                const newVal = entry.new
+
+                                let entryBadges = ""
+                                if (oldVal === null) entryBadges = '<span class="mini-badge added">added</span>'
+                                else if (newVal === null) entryBadges = '<span class="mini-badge removed">removed</span>'
+                                else entryBadges = '<span class="mini-badge edited">changed</span>'
+
+                                if (oldVal === null) {
+                                    // entirely new top-level key
+                                    bodyHtml += `<div class="entry-section">
+                        <div class="entry-label">${esc(key)} <span class="entry-badges">${entryBadges}</span></div>
+                        ${renderFullJson(newVal, "added")}
+                    </div>`
+                                } else if (newVal === null) {
+                                    // entirely removed top-level key
+                                    bodyHtml += `<div class="entry-section">
+                        <div class="entry-label">${esc(key)} <span class="entry-badges">${entryBadges}</span></div>
+                        ${renderFullJson(oldVal, "removed")}
+                    </div>`
+                                } else {
+                                    // both exist — show unified diff
+                                    bodyHtml += `<div class="entry-section">
+                        <div class="entry-label">${esc(key)} <span class="entry-badges">${entryBadges}</span></div>
+                        ${renderDiffBlock(oldVal, newVal)}
+                    </div>`
+                                }
+                            })
+
+                            return `<div class="file-card" data-file="${fname}">
+                <div class="file-card-header" onclick="toggleCard(this)">
+                    <div class="left">
+                        <span class="arrow">▶</span>
+                        <span class="fname">${esc(fname)}</span>
+                    </div>
+                    <div class="badge-row">${badges.join("")}</div>
+                </div>
+                <div class="file-card-body">
+                    <div class="file-card-body-inner">${bodyHtml}</div>
+                </div>
+            </div>`
+                        })
+                        .join("")
+
+                    main.innerHTML = `<div class="summary-bar">${chipsHtml}</div>${cardsHtml}`
+                }
+
+                // --- toggle card open/close ---
+                window.toggleCard = function (header) {
+                    const card = header.closest(".file-card")
+                    card.classList.toggle("open")
+                }
+
+                // --- toggle summary chip (hides/shows file cards that have that type) ---
+                window.toggleChip = function (chip) {
+                    chip.classList.toggle("active")
+                    const cat = chip.dataset.cat
+                    const active = chip.classList.contains("active")
+
+                    // for each file card check if it has any visible badge type remaining;
+                    // if not, hide the whole card
+                    document.querySelectorAll(".file-card").forEach(card => {
+                        const badges = card.querySelectorAll(".mini-badge")
+                        // check which categories are present AND currently active
+                        const chipStates = {}
+                        document.querySelectorAll(".summary-chip").forEach(c => {
+                            chipStates[c.dataset.cat] = c.classList.contains("active")
+                        })
+
+                        let hasVisible = false
+                        badges.forEach(b => {
+                            // map badge class to cat key
+                            ;["added", "removed", "edited", "array"].forEach(k => {
+                                if (b.classList.contains(k) && chipStates[k]) hasVisible = true
+                            })
+                        })
+                        card.style.display = hasVisible ? "" : "none"
+                    })
+                }
+            })()
+        </script>
+    </body>
+</html>
