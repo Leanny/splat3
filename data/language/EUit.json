@@ -1227,7 +1227,8 @@
     "3302": "produttiv[group=00c9 type=0005 params=02 00 6f 00 02 00 61 00 00 00 00 00]",
     "3303": "del Gambertour",
     "3304": "malleabile",
-    "3305": "commovente"
+    "3305": "commovente",
+    "3400": "delle Isole Spirhalite"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Utente di marker",
@@ -3302,7 +3303,9 @@
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Resilienza",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Finale",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Macchinista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Macchinista"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "Cannoniere",
@@ -4703,7 +4706,6 @@
     "SakeArtillery": "Cannoniere",
     "SakeArtilleryCannon": "cannone",
     "SakeBigBoss": "Salmonarca",
-    "SakeBigBossGauge": "salmometro",
     "SakeDolphin": "Tuffone",
     "SakeFlyBagman": "Razziatore",
     "SakeJaw": "Mascello",
@@ -6554,7 +6556,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "Quale record di energia evento stabilirai questo mese?\n\n\u30fb Nelle [color=0001]mischie mollusche[color=ffff] saranno attivate solo le abilit\u00e0 originali.\n  Le abilit\u00e0 extra non avranno alcun effetto!\n\u30fb Nelle [color=0001]modalit\u00e0[color=ffff] [color=0001]Partita anarchica[color=ffff] non ci sar\u00e0 alcun limite sulle abilit\u00e0\n  dell'equipaggiamento!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Mira al record di energia evento!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Partita evento mensile",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Partita evento\nmensile",
     "EventMatch_Nawabari_Manual00": "Le squadre hanno 3 minuti per inchiostrare pi\u00f9 terreno degli avversari!",
     "EventMatch_Nawabari_Manual01": "Le squadre hanno 3 minuti per coprire il [color=0001]terreno[color=ffff]\nd'inchiostro. Vince la squadra che ha coperto\npi\u00f9 [color=0001]territorio [color=ffff]allo scadere del tempo. Colora\na pi\u00f9 non posso per aiutare la tua squadra!",
     "EventMatch_Nawabari_Manual02": "Pi\u00f9 terreno inchiostri, pi\u00f9 ottieni punti e\nl'[color=0001]indicatore dell'arma speciale[color=ffff] si riempie. Quando\n\u00e8 pieno, premi [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] per attivare l'[color=0001]arma speciale[color=ffff]!\n\nOcchio, per\u00f2! L'indicatore si svuota un po'\nse ti splattano. Ricorda di scatenarne la furia\ne potrai ribaltare le sorti della battaglia!",
@@ -6564,7 +6565,6 @@
     "EventMatch_NewSeasonCup_Manual": "Competi in una situazione di assoluta imparzialit\u00e0: tutti proveranno\nun nuovo scenario insieme!\n\n\u30fb Sviluppa strategie e tattiche specifiche dello scenario in tempo reale.\n\u30fb Nelle [color=0001]mischie mollusche[color=ffff] saranno attivate solo le abilit\u00e0 originali.\n  Le abilit\u00e0 extra non avranno alcun effetto!\n\u30fb Nelle [color=0001]modalit\u00e0[color=ffff] [color=0001]Partita anarchica[color=ffff] non ci sar\u00e0 alcun limite sulle abilit\u00e0\n  dell'equipaggiamento!",
     "EventMatch_NewSeasonCup_Subtitle": "Un nuovo scenario per una nuova stagione!",
     "EventMatch_NewSeasonCup_Title": "Primo evento della nuova stagione",
-    "EventMatch_NewSeasonCup_Title_2L": "Primo evento\ndella nuova stagione",
     "EventMatch_PairCup_Manual": "L'affiatamento \u00e8 fondamentale in queste rapide battaglie 2 vs 2!\n\n\u30fb Testa nuove strategie e porta la tua squadra a dominare la mappa!\n\u30fb L'attesa per tornare in battaglia \u00e8 ridotta!\n\u30fb Puoi partecipare [color=0001]in una squadra da 2[color=ffff] o [color=0001]in solitaria[color=ffff].\n\u30fb Saranno attivate sia le abilit\u00e0 originali che quelle extra!",
     "EventMatch_PairCup_Subtitle": "Scopri di cosa sei capace in coppia!",
     "EventMatch_PairCup_Title": "Coppie a duello",
@@ -12608,9 +12608,6 @@
     "L_Guide_00-T_Info_00": "Indietro",
     "T_Msg_00": "Seleziona uno scenario per la ricognizione."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "Risultato del catalogo",
     "100": "[group=0002 type=0001 params=00 0c] - [group=0002 type=0001 params=01 0c]",
@@ -12638,21 +12635,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "Rischio aumentato!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "\u00d7[group=0002 type=0000 params=00 03 00 00]",
-    "100": "\u00d7[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1\u00ba",
-    "L_ScoreB_00-T_Standings_00": "2\u00ba",
-    "L_ScoreC_00-T_Standings_00": "3\u00ba",
-    "L_ScoreD_00-T_Standings_00": "Media perfetta",
-    "L_ScoreE_00-T_Standings_00": "Migliore in solitaria",
-    "T_Title_00": "Sfida tra colleghi"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Pos.: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Premio Media perfetta",
-    "100": "Record energia evento: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "Partita\namichevole",

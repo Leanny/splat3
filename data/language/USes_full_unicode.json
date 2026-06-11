@@ -1227,7 +1227,8 @@
     "3302": "optimizad[group=00c9 type=0005 params=02 00 6f 00 02 00 61 00 00 00 00 00]",
     "3303": "en la ruta de Adolfrito",
     "3304": "moldeable",
-    "3305": "conmovedor[group=00c9 type=0005 params=00 00 02 00 61 00 00 00 00 00]"
+    "3305": "conmovedor[group=00c9 type=0005 params=00 00 02 00 61 00 00 00 00 00]",
+    "3400": "Islas Espiralita"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Chico con marcador grueso",
@@ -3302,7 +3303,9 @@
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Resistencia",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Gran final",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Mecanista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Mecanista"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "Artilleroide",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "No es posible participar en esta división\ndesde tu región."
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "el botón ZL"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "Brinco feliz",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "Artilleroide",
     "SakeArtilleryCannon": "lanzador",
     "SakeBigBoss": "gran jefe salmónido",
-    "SakeBigBossGauge": "salmómetro",
     "SakeDolphin": "Chapotero",
     "SakeFlyBagman": "Hurtón",
     "SakeJaw": "Megalodoncio",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "¿Hasta dónde llegará tu límite de fuerza especial durante este mes?\n\n・ En los [color=0001]combates territoriales[color=ffff] valen solo los potenciadores principales.\n  ¡Los secundarios no tienen efecto!\n・ ¡En los [color=0001]combates caóticos[color=ffff], no hay limitación de potenciadores!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "¡Alcanza la máxima fuerza especial!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Desafío del mes",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Desafío\ndel mes",
     "EventMatch_Nawabari_Manual00": "¡Cada equipo tiene tres minutos para entintar más superficie que sus rivales!",
     "EventMatch_Nawabari_Manual01": "Cada equipo tiene tres minutos para cubrir el\n[color=0001]terreno [color=ffff]con tinta. Gana el equipo que haya\nentintado más [color=0001]territorio [color=ffff]al acabarse el tiempo.\n¡Cubre de tinta tanto territorio como puedas\npara darle la victoria a tu equipo!",
     "EventMatch_Nawabari_Manual02": "Conforme entintes territorio, tu [color=0001]medidor especial[color=ffff]\nse irá rellenando. Cuando alcance el máximo,\noprime [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] para activar el [color=0001]arma especial[color=ffff].\n\nPero ojo: tu medidor especial se reducirá si\nte revientan. ¡Utiliza el arma especial en el\nmomento oportuno para aprovechar su potencia!",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "Con el inicio de una nueva temporada, ¡todos conocerán juntos un\nnuevo escenario!\n\n・ Desarrolla nuevas estrategias para el escenario en tiempo real.\n・ En los [color=0001]combates territoriales[color=ffff] valen solo los potenciadores principales.\n  ¡Los secundarios no tienen efecto!\n・ ¡En los [color=0001]combates caóticos[color=ffff], no hay limitación de potenciadores!",
     "EventMatch_NewSeasonCup_Subtitle": "¡Nueva temporada, nuevo escenario!",
     "EventMatch_NewSeasonCup_Title": "Reto inaugural de temporada",
-    "EventMatch_NewSeasonCup_Title_2L": "Reto inaugural\nde temporada",
     "EventMatch_PairCup_Manual": "¡El compañerismo es un factor clave en estas peleas de dos contra dos!\n\n・ ¡Para lograr la victoria, hay que probar nuevas tácticas!\n・ Se puede participar como [color=0001]pareja[color=ffff] o de forma [color=0001]individual[color=ffff].\n・ ¡El tiempo de regeneración se acorta!\n・ ¡Se pueden usar potenciadores principales y secundarios!",
     "EventMatch_PairCup_Subtitle": "¡Un dúo se enfrenta a otro par de rivales!",
     "EventMatch_PairCup_Title": "Duelo de parejas",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Elegir otra",
     "BtnL_ConfirmFestRegion_AltLang": "Elegir otra",
-    "BtnL_ConfirmFestRegion_EveFirst": "Cambiar",
     "BtnL_ConfirmFestRegion_First": "Cambiar",
     "BtnL_ConfirmFestRegion_Reboot": "Elegir otro",
     "BtnR_ConfirmFestRegion": "Aceptar",
     "BtnR_ConfirmFestRegion_AltLang": "Aceptar",
-    "BtnR_ConfirmFestRegion_EveFirst": "Aceptar",
     "BtnR_ConfirmFestRegion_First": "Aceptar",
     "BtnR_ConfirmFestRegion_Reboot": "Aceptar",
     "Msg_ConfirmFestRegion": "¿Quieres participar en los festivales de esta región?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "No hay texto en español (Latinoamérica) disponible\npara los festivales celebrados en esta región:\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nEn su lugar, el texto se mostrará en\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]. ¿Quieres continuar?",
-    "Msg_ConfirmFestRegion_EveFirst": "¿Quieres participar en el festival de esta región?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nEsta opción es para el evento Splatfest World\nPremiere y no se podrá cambiar luego.",
     "Msg_ConfirmFestRegion_First": "¿Quieres participar en los festivales de esta región?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n(Si te unes a un festival, tendrás que esperar cierto\nperiodo de tiempo para volver a cambiar de región).",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "Jugarás con el mismo equipamiento, ajustes\nde cámara y las demás opciones que tenías\nen tu última partida en línea con una\nconsola Nintendo Switch diferente.",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "¿Quieres combatir con este equipamiento?",
     "Msg_ConfirmLeagueInvalid": "No puedes participar en el combate especial con\ntu equipamiento actual. Deberás modificarlo.",
     "Msg_LeagueInvalidWhileMatching": "No puedes participar en el combate especial con\ntu equipamiento actual."
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "No se está celebrando ningún festival.",
-    "Msg_OutOfService": "El evento Splatoon 3: Splatfest World Premiere\nya concluyó.\n\n¡Hasta la próxima!"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "No",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "¡Qué emoción! ¡En este momento se está\ncelebrando un [color=0001]festival[color=ffff]![page break]Si te interesa, ve al [color=0001]hervidor de combate[color=ffff]\ny selecciona [color=0001]Combate temático [size=75%](informal)[size=100%][color=ffff].[page break]Irás a un [color=0001]combate territorial[color=ffff], ¡donde tu equipo\ntendrá 3 minutos para entintar el territorio!",
     "FirstEnter_04": "Bueno, menos hablar y más entintar. ¡Vamos!",
     "FirstEnter_FestVote_00": "¡Oh, hay un [color=0001]festival [color=ffff]en marcha ahora mismo![page break]Eso significa que para poder unirte a la fiesta\ntendrás que [color=0001]elegir un equipo[color=ffff].[page break]¡Ve al [color=0001]kiosco del festival [color=ffff]para hacer tu elección!",
-    "Msg_Eve00": "Ojo: al participar en este festival, no obtendrás\nninguna experiencia ni dinero ni supermoluscos.\n\nTampoco se transferirán los datos de guardado\ndel festival a la versión completa de Splatoon 3.",
     "Msg_Legal00": "Cuando juegues en línea, se aplicarán las directrices\nde la comunidad de Nintendo, que se encuentran en\nnuestro sitio web. Juega de manera respetuosa\nhacia los demás usuarios.\n\nAl jugar en línea, el nombre que elegiste y tus datos\nde jugador podrían verse públicamente."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "Primero, ¡los resultados del prefestival!\nEl equipo con más [color=0001]caracolas [color=ffff]fue...",
     "007": "¡Uff! ¡Qué éxito!",
     "008": "Ahora vamos a ver cuál equipo obtuvo\n[color=0001]más votos[color=ffff]. Un aplauso para...",
-    "008_Eve": "¡Veamos primero cuál equipo recibió\nmás [color=0001]votos[color=ffff]!",
     "009": "Zas... Zas... [group=0004 type=0005 params=](¿Quiééén? Vamos...)[/group=0004 type=0005]",
     "010": "¡No puede ser!",
     "011": "¿Zas? ¡Zas! [group=0004 type=0005 params=](¿Qué viene ahora?\n¡Dilo ya!)[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "Atrás",
     "T_Msg_00": "Elige el escenario que quieres explorar."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "Envío especial:",
     "T_SubName_00": "Arma prestada:",
     "T_WpnName_02": "¡Lanzahuevecillos!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1.º",
-    "L_ScoreB_00-T_Standings_00": "2.º",
-    "L_ScoreC_00-T_Standings_00": "3.º",
-    "L_ScoreD_00-T_Standings_00": "Puesto medio",
-    "L_ScoreE_00-T_Standings_00": "Premio individual",
-    "T_Title_00": "Recolección extra"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00].º",
-    "001": "Premio por puesto medio",
-    "100": "Máxima fuerza especial: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "¡Adelante, prueba tu suerte\nen el [color=0001]premiotrón[color=ffff]!\n\nLa primera vez de cada día te costará\n[color=0001]5000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]. Luego serán [color=0001]30 000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]\npor cada intento.",

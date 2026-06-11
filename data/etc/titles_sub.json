@@ -156,7 +156,7 @@
     "0238_0": "\u7206\u70b8\u5934",
     "0239_0": "\u7eb5\u5377\u53d1",
     "0240_0": "\u6e10\u5c42\u5bf8\u5934",
-    "0241_0": "\u7537\u6027\u957f\u53d1",
+    "0241_0": "\u4e2d\u957f\u53d1",
     "0242_0": "\u98de\u673a\u5934",
     "0243_0": "\u659c\u5218\u6d77",
     "0300_0": "\u5c0f\u62df\u7c89\u4e1d",
@@ -982,6 +982,7 @@
     "1167_0": "\u8d85\u80fd\u529b\u8005",
     "1168_0": "\u5de8\u64d8",
     "1169_0": "\u6587\u8c6a",
+    "1171_0": "\u5b88\u62a4\u8005",
     "1172_0": "\u5de8\u989a",
     "2002_0": "\u56de\u5fc6",
     "2003_0": "\u9020\u578b\u5e08",
@@ -1055,7 +1056,8 @@
     "3302_0": "\u5929\u5987\u7f57",
     "3303_0": "\u652f\u63f4\u8005",
     "3304_0": "\u56bc\u52b2",
-    "3305_0": "\u7ed3\u5c40"
+    "3305_0": "\u7ed3\u5c40",
+    "3400_0": "\u673a\u68b0\u5e08"
   },
   "EUde": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Disperser",
@@ -2553,6 +2555,8 @@
     "1168_1": "[group=00c9 type=0000 params=02 ff ff 00]Vermittlerin",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]Literaturkenner",
     "1169_1": "[group=00c9 type=0000 params=02 ff ff 00]Literaturkennerin",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]Verteidiger",
+    "1171_1": "[group=00c9 type=0000 params=02 ff ff 00]Verteidigerin",
     "1172_0": "[group=00c9 type=0000 params=03 ff ff 00]Kataklysmaul",
     "2002_0": "[group=00c9 type=0000 params=01 ff ff 00]R\u00fcckblick",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]Stylist",
@@ -2646,7 +2650,9 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]Ranklotzer",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]Ranklotzerin",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Z\u00e4higkeit",
-    "3305_0": "[group=00c9 type=0000 params=03 ff ff 00]Finale"
+    "3305_0": "[group=00c9 type=0000 params=03 ff ff 00]Finale",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Mechaniker",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Mechanikerin"
   },
   "EUen": {
     "0000_0": "Sploosh-o-matic User",
@@ -3628,6 +3634,7 @@
     "1167_0": "Psychic",
     "1168_0": "Arbiter",
     "1169_0": "Litterateur",
+    "1171_0": "Defender",
     "1172_0": "Megalodontia",
     "2002_0": "Recollection",
     "2003_0": "Stylist",
@@ -3701,7 +3708,8 @@
     "3302_0": "Tempura",
     "3303_0": "Booster",
     "3304_0": "Resilience",
-    "3305_0": "Finale"
+    "3305_0": "Finale",
+    "3400_0": "Mechanic"
   },
   "EUes": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Chico con Marcador",
@@ -5339,6 +5347,7 @@
     "1168_1": "[group=00c9 type=0000 params=02 ff ff 00]Matriarca",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]Literato",
     "1169_1": "[group=00c9 type=0000 params=02 ff ff 00]Literata",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]Basti\u00f3n defensivo",
     "1172_0": "[group=00c9 type=0000 params=01 ff ff 00]Megalodoncio",
     "2002_0": "[group=00c9 type=0000 params=01 ff ff 00]Recuerdo",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]Marcaestilos",
@@ -5438,7 +5447,9 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]Benefactor",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]Benefactora",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Entereza",
-    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Colof\u00f3n"
+    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Colof\u00f3n",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Mecanista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Mecanista"
   },
   "EUfr": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Adepte du Marqueur lourd",
@@ -6988,6 +6999,8 @@
     "1168_1": "[group=00c9 type=0000 params=02 ff ff 00]Notable",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]Docteur en litt\u00e9rature",
     "1169_1": "[group=00c9 type=0000 params=02 ff ff 00]Docteure en litt\u00e9rature",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]D\u00e9fenseur",
+    "1171_1": "[group=00c9 type=0000 params=02 ff ff 00]D\u00e9fenseuse",
     "1172_0": "[group=00c9 type=0000 params=01 ff ff 00]Salmodon",
     "2002_0": "[group=00c9 type=0000 params=02 ff ff 00]R\u00e9miniscence",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]Styliste",
@@ -7089,7 +7102,9 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]Partisan",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]Partisane",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]T\u00e9nacit\u00e9",
-    "3305_0": "[group=00c9 type=0000 params=02 ff ff 00]Fin"
+    "3305_0": "[group=00c9 type=0000 params=02 ff ff 00]Fin",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]M\u00e9cano",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]M\u00e9cano"
   },
   "EUit": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Utente di marker",
@@ -8692,6 +8707,8 @@
     "1168_1": "[group=00c9 type=0000 params=02 ff ff 00]Giudice",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]Letterato",
     "1169_1": "[group=00c9 type=0000 params=02 ff ff 00]Letterata",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]Difensore",
+    "1171_1": "[group=00c9 type=0000 params=02 ff ff 00]Difenditrice",
     "1172_0": "[group=00c9 type=0000 params=01 ff ff 00]Mascello",
     "2002_0": "[group=00c9 type=0000 params=02 ff ff 00]Memoria",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]Tipo di classe",
@@ -8792,7 +8809,9 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]Simpatizzante",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]Simpatizzante",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Resilienza",
-    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Finale"
+    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Finale",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Macchinista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Macchinista"
   },
   "EUnl": {
     "0000_0": "[group=00c9 type=0000 params=04 ff ff 00]Spettertuit-fan",
@@ -9927,6 +9946,8 @@
     "1167_0": "[group=00c9 type=0000 params=04 ff ff 00]helderziende",
     "1168_0": "[group=00c9 type=0000 params=04 ff ff 00]toonzetter",
     "1169_0": "[group=00c9 type=0000 params=04 ff ff 00]letterkundige",
+    "1171_0": "verdediger",
+    "1171_1": "verdedigster",
     "1172_0": "[group=00c9 type=0000 params=04 ff ff 00]Beugelbakkes",
     "2002_0": "[group=00c9 type=0000 params=03 ff ff 00]aandenken",
     "2003_0": "[group=00c9 type=0000 params=04 ff ff 00]stylist",
@@ -10009,7 +10030,8 @@
     "3303_0": "[group=00c9 type=0000 params=04 ff ff 00]weldoener",
     "3303_1": "[group=00c9 type=0000 params=04 ff ff 00]weldoenster",
     "3304_0": "[group=00c9 type=0000 params=04 ff ff 00]weerstand",
-    "3305_0": "[group=00c9 type=0000 params=04 ff ff 00]finale"
+    "3305_0": "[group=00c9 type=0000 params=04 ff ff 00]finale",
+    "3400_0": "[group=00c9 type=0000 params=04 ff ff 00]techneut"
   },
   "EUru": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0431\u043e\u0435\u0446 \u0441 \u043f\u043b\u044e\u0445\u043e\u0442\u0440\u043e\u043d\u043e\u043c",
@@ -11315,6 +11337,8 @@
     "1167_0": "[group=00c9 type=0000 params=01 ff ff 00]\u044d\u043a\u0441\u0442\u0440\u0430\u0441\u0435\u043d\u0441",
     "1168_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0430\u0440\u0431\u0438\u0442\u0440",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]\u043f\u0443\u0431\u043b\u0438\u0446\u0438\u0441\u0442",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0437\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u043a",
+    "1171_1": "[group=00c9 type=0000 params=02 ff ff 00]\u0437\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u0446\u0430",
     "1172_0": "[group=00c9 type=0000 params=01 ff ff 00]\u043c\u0435\u0433\u0430\u043b\u043e\u0434\u0435\u043d\u0442",
     "2002_0": "[group=00c9 type=0000 params=02 ff ff 00]\u043d\u043e\u0441\u0442\u0430\u043b\u044c\u0433\u0438\u044f",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0441\u0442\u0438\u043b\u0438\u0441\u0442",
@@ -11405,7 +11429,8 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0441\u0438\u043c\u043f\u0430\u0442\u0438\u0437\u0430\u043d\u0442",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]\u0441\u0438\u043c\u043f\u0430\u0442\u0438\u0437\u0430\u043d\u0442\u043a\u0430",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]\u0443\u043f\u0440\u0443\u0433\u043e\u0441\u0442\u044c",
-    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0444\u0438\u043d\u0430\u043b"
+    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]\u0444\u0438\u043d\u0430\u043b",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]\u043c\u0435\u0445\u0430\u043d\u0438\u043a"
   },
   "JPja": {
     "0000_0": "\u30dc\u30fc\u30eb\u30c9\u30de\u30fc\u30ab\u30fc\u4f7f\u3044",
@@ -12386,6 +12411,7 @@
     "1167_0": "\u8d85\u80fd\u529b\u8005",
     "1168_0": "\u91cd\u93ae",
     "1169_0": "\u6587\u8c6a",
+    "1171_0": "\u624b",
     "1172_0": "\u30b8\u30e7\u30fc",
     "2002_0": "\u51fa",
     "2003_0": "\u30b9\u30bf\u30a4\u30ea\u30b9\u30c8",
@@ -12459,7 +12485,8 @@
     "3302_0": "\u5929\u3077\u3089",
     "3303_0": "\u652f\u63f4\u8005",
     "3304_0": "\u6b6f\u3054\u305f\u3048",
-    "3305_0": "\u30a8\u30f3\u30c7\u30a3\u30f3\u30b0"
+    "3305_0": "\u30a8\u30f3\u30c7\u30a3\u30f3\u30b0",
+    "3400_0": "\u30e1\u30ab\u30cb\u30c3\u30af"
   },
   "KRko": {
     "0000_0": "\ubcfc\ub4dc \ub9c8\ucee4 \uc720\uc800",
@@ -13440,6 +13467,7 @@
     "1167_0": "\ucd08\ub2a5\ub825\uc790",
     "1168_0": "\uc911\uc9c4",
     "1169_0": "\ubb38\ud638",
+    "1171_0": "\uc218\ud638\uc790",
     "1172_0": "\uc8e0",
     "2002_0": "\ucd94\uc5b5",
     "2003_0": "\uc2a4\ud0c0\uc77c\ub9ac\uc2a4\ud2b8",
@@ -13513,7 +13541,8 @@
     "3302_0": "\ud280\uae40",
     "3303_0": "\uc9c0\uc6d0\uc790",
     "3304_0": "\uc2dd\uac10",
-    "3305_0": "\uc5d4\ub529"
+    "3305_0": "\uc5d4\ub529",
+    "3400_0": "\uba54\uce74\ub2c9"
   },
   "TWzh": {
     "0000_0": "\u5ee3\u57df\u6a19\u8a18\u69cd\u64cd\u4f5c\u8005",
@@ -13672,7 +13701,7 @@
     "0238_0": "\u7206\u70b8\u982d",
     "0239_0": "\u7e31\u6372\u9aee",
     "0240_0": "\u6f38\u5c64\u5bf8\u982d",
-    "0241_0": "\u7537\u6027\u9577\u9aee",
+    "0241_0": "\u4e2d\u9577\u9aee",
     "0242_0": "\u98db\u6a5f\u982d",
     "0243_0": "\u659c\u700f\u6d77",
     "0300_0": "\u5c0f\u64ec\u7c89\u7d72",
@@ -14498,6 +14527,7 @@
     "1167_0": "\u8d85\u80fd\u529b\u8005",
     "1168_0": "\u91cd\u93ae",
     "1169_0": "\u6587\u8c6a",
+    "1171_0": "\u5b88\u8b77\u8005",
     "1172_0": "\u5de8\u984e",
     "2002_0": "\u56de\u61b6",
     "2003_0": "\u9020\u578b\u5e2b",
@@ -14571,7 +14601,8 @@
     "3302_0": "\u5929\u5a66\u7f85",
     "3303_0": "\u652f\u63f4\u8005",
     "3304_0": "\u56bc\u52c1",
-    "3305_0": "\u7d50\u5c40"
+    "3305_0": "\u7d50\u5c40",
+    "3400_0": "\u6a5f\u68b0\u5e2b"
   },
   "USen": {
     "0000_0": "Sploosh-o-matic User",
@@ -15553,6 +15584,7 @@
     "1167_0": "Psychic",
     "1168_0": "Arbiter",
     "1169_0": "Litterateur",
+    "1171_0": "Defender",
     "1172_0": "Megalodontia",
     "2002_0": "Recollection",
     "2003_0": "Stylist",
@@ -15626,7 +15658,8 @@
     "3302_0": "Tempura",
     "3303_0": "Booster",
     "3304_0": "Resilience",
-    "3305_0": "Finale"
+    "3305_0": "Finale",
+    "3400_0": "Mechanic"
   },
   "USes": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Chico con marcador grueso",
@@ -17257,6 +17290,7 @@
     "1168_1": "[group=00c9 type=0000 params=02 ff ff 00]Matriarca",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]Literato",
     "1169_1": "[group=00c9 type=0000 params=02 ff ff 00]Literata",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]Basti\u00f3n defensivo",
     "1172_0": "[group=00c9 type=0000 params=01 ff ff 00]Megalodoncio",
     "2002_0": "[group=00c9 type=0000 params=01 ff ff 00]Recuerdo",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]Modista",
@@ -17353,7 +17387,9 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]Benefactor",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]Benefactora",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Resistencia",
-    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Gran final"
+    "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Gran final",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Mecanista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Mecanista"
   },
   "USfr": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Adepte du Marqueur lourd",
@@ -18902,6 +18938,8 @@
     "1168_1": "[group=00c9 type=0000 params=02 ff ff 00]Notable",
     "1169_0": "[group=00c9 type=0000 params=01 ff ff 00]Docteur en litt\u00e9rature",
     "1169_1": "[group=00c9 type=0000 params=02 ff ff 00]Docteure en litt\u00e9rature",
+    "1171_0": "[group=00c9 type=0000 params=01 ff ff 00]D\u00e9fenseur",
+    "1171_1": "[group=00c9 type=0000 params=02 ff ff 00]D\u00e9fenseuse",
     "1172_0": "[group=00c9 type=0000 params=01 ff ff 00]Salmodon",
     "2002_0": "[group=00c9 type=0000 params=02 ff ff 00]R\u00e9miniscence",
     "2003_0": "[group=00c9 type=0000 params=01 ff ff 00]Styliste",
@@ -19002,6 +19040,8 @@
     "3303_0": "[group=00c9 type=0000 params=01 ff ff 00]Partisan",
     "3303_1": "[group=00c9 type=0000 params=02 ff ff 00]Partisane",
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]T\u00e9nacit\u00e9",
-    "3305_0": "[group=00c9 type=0000 params=02 ff ff 00]Fin"
+    "3305_0": "[group=00c9 type=0000 params=02 ff ff 00]Fin",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]M\u00e9cano",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]M\u00e9cano"
   }
 }

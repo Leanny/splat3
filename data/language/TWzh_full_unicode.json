@@ -1227,7 +1227,8 @@
     "3302": "爽脆的",
     "3303": "遊龍的",
     "3304": "軟嫩的",
-    "3305": "感動的"
+    "3305": "感動的",
+    "3400": "渦潮群島的"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "廣域標記槍操作者",
@@ -3302,7 +3303,9 @@
     "3304_0": "嚼勁",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "結局",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "機械師",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "鐵球魚",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "您的居住地區\n無法參加該組別。"
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "ZL鍵"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "快樂6",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "鐵球魚",
     "SakeArtilleryCannon": "發射台",
     "SakeBigBoss": "頭目鮭魚",
-    "SakeBigBossGauge": "頭目槽",
     "SakeDolphin": "潛水魚",
     "SakeFlyBagman": "拾蛋魚",
     "SakeJaw": "巨顎",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "每月一次的挑戰對戰！讓活動戰力邁向極限！\n\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "每月一次的挑戰對戰！讓活動戰力邁向極限！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "月一‧活動比賽",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "月一‧活動比賽",
     "EventMatch_Nawabari_Manual00": "隊伍必須在3分鐘內持續對地面塗墨，占地面積較多才能獲勝！",
     "EventMatch_Nawabari_Manual01": "在占地對戰中，隊伍必須在3分鐘內持續對[color=0001]地面[color=ffff]塗墨，\n[color=0001]占地面積[color=ffff]較多才能獲勝！\n持續對地面塗墨，\n拓展隊伍的占地面積並拿下勝利吧！",
     "EventMatch_Nawabari_Manual02": "[color=0001]特殊武器蓄力槽[color=ffff]會隨著對地面塗墨而增加喔！\n在蓄力槽全滿後，\n按下[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]即可發動[color=0001]特殊武器[color=ffff]！\n\n陣亡將會導致特殊武器蓄力槽減少，\n看準時機並有效地使用特殊武器吧！",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "新賽季開幕！攻略新場地！\n\n‧以新場地作為對戰的舞台！\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_NewSeasonCup_Subtitle": "新賽季開幕！攻略新場地！",
     "EventMatch_NewSeasonCup_Title": "新賽季開幕紀念盃",
-    "EventMatch_NewSeasonCup_Title_2L": "新賽季開幕紀念盃",
     "EventMatch_PairCup_Manual": "展現搭檔間的默契！2對2的小規模對戰！\n\n‧2對2的小規模對戰！\n‧可以[color=0001]2人組隊[color=ffff]或是[color=0001]1人[color=ffff]獨自參加！\n‧復活時間將會縮短！\n‧基本裝備能力與追加裝備能力皆可發揮作用！",
     "EventMatch_PairCup_Subtitle": "展現搭檔間的默契！2對2的小規模對戰！",
     "EventMatch_PairCup_Title": "最強搭檔爭奪戰",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "重新選擇",
     "BtnL_ConfirmFestRegion_AltLang": "重新選擇",
-    "BtnL_ConfirmFestRegion_EveFirst": "更改",
     "BtnL_ConfirmFestRegion_First": "更改",
     "BtnL_ConfirmFestRegion_Reboot": "重新選擇",
     "BtnR_ConfirmFestRegion": "OK！",
     "BtnR_ConfirmFestRegion_AltLang": "OK！",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK！",
     "BtnR_ConfirmFestRegion_First": "OK！",
     "BtnR_ConfirmFestRegion_Reboot": "OK！",
     "Msg_ConfirmFestRegion": "確定要參加此地區的祭典嗎？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "此為[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]舉行的祭典\n並未對應繁體中文，\n祭典舉行期間，部分內容將會以[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]顯示。\n是否仍確定要選擇此地區？",
-    "Msg_ConfirmFestRegion_EveFirst": "確定要參加此地區的祭典嗎？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※在前夜祭中，\n　一旦決定地區就無法再次更改。",
     "Msg_ConfirmFestRegion_First": "確定要參加此地區的祭典嗎？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※決定後仍可更改，\n　但是在參加祭典之後將會暫時無法更改。",
     "Msg_ConfirmFestRegion_Reboot": "此為[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]舉行的祭典\n並未對應繁體中文。\n祭典舉行期間，必須重新啟動軟體，\n將遊戲內容切換為以[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]顯示。\n是否仍確定要選擇此地區？",
     "Msg_DeviceIdChanged": "裝備與鏡頭選項等內容\n已變更為最後一次使用其他主機線上遊玩時的狀態。",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "確定要使用這套裝備嗎？",
     "Msg_ConfirmLeagueInvalid": "無法以目前的裝備參加活動比賽，\n請更換裝備以便參加。",
     "Msg_LeagueInvalidWhileMatching": "無法以目前的裝備參加活動比賽。"
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "目前尚未舉行祭典。",
-    "Msg_OutOfService": "《斯普拉遁 3 前夜祭版》的\n遊玩期限已經結束。\n\n請關閉軟體。"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "不要",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "目前正在舉行[color=0001]祭典[color=ffff]！[page break]事不宜遲，馬上進入那個[color=0001]對戰壺[color=ffff]，\n然後選擇[color=0001]祭典比賽[size=75%]（開放）[size=100%][color=ffff]試試看吧！[page break]你可以在祭典比賽中參加[color=0001]占地對戰[color=ffff]喔！\n隊伍必須在3分鐘內持續塗墨，占地面積較多才能獲勝！",
     "FirstEnter_04": "俗話說「熟能生巧」！這一點也沒錯！",
     "FirstEnter_FestVote_00": "目前正在舉行[color=0001]祭典[color=ffff]！[page break]如果想要在祭典舉行期間參加對戰，\n就必須先完成[color=0001]投票[color=ffff]選擇想要加入的隊伍喔！[page break]先回到廣場並前往[color=0001]祭典投票所[color=ffff]吧！",
-    "Msg_Eve00": "在前夜祭中\n將無法獲得經驗值、金錢以及超級蠑螺。\n\n此外，\n儲存資料不會繼承至《斯普拉遁 3》完整版。",
     "Msg_Legal00": "線上遊玩時將會受\nNintendo Account使用條款的規範。\n請務必遵守使用條款，\n於遊玩時尊重其他的用戶。\n\n在參加線上遊玩後，您的玩家名稱與玩家資料\n有可能會在遊戲中或網站上公開。"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "先來公布準備祭的結果吧，\n在準備祭中獲得最多[color=0001]法螺[color=ffff]的是……",
     "007": "嗯，原來是這樣啊！",
     "008": "接著是[color=0001]得票率[color=ffff]對決，\n看是哪個隊伍獲得最多人票選！",
-    "008_Eve": "首先是[color=0001]得票率[color=ffff]對決，\n看是哪個隊伍獲得最多人票選！",
     "009": "魟！[group=0004 type=0005 params=]（我可不會輸喔～！）[/group=0004 type=0005]",
     "010": "哦，居然是這種結果呢！",
     "011": "魟！？[group=0004 type=0005 params=]（然後呢！？）[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "返回",
     "T_Msg_00": "請選擇散步場地"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "特別派發！！",
     "T_SubName_00": "打工專用",
     "T_WpnName_02": "鮭魚卵大炮！"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "排正中間獎",
-    "L_ScoreE_00-T_Standings_00": "單排最佳表現獎",
-    "T_Title_00": "團隊打工競賽"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "第[group=0002 type=0000 params=00 01 00 00]名",
-    "001": "排正中間獎",
-    "100": "最高活動戰力：[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "在這裡可以進行必定有獎的[color=0001]抽獎[color=ffff]。\n\n每天的第1次費用為[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff]，\n從第2次開始費用為[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000[color=ffff]。",

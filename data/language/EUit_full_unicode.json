@@ -1227,7 +1227,8 @@
     "3302": "produttiv[group=00c9 type=0005 params=02 00 6f 00 02 00 61 00 00 00 00 00]",
     "3303": "del Gambertour",
     "3304": "malleabile",
-    "3305": "commovente"
+    "3305": "commovente",
+    "3400": "delle Isole Spirhalite"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Utente di marker",
@@ -3302,7 +3303,9 @@
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Resilienza",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Finale",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Macchinista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Macchinista"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "Cannoniere",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "Non puoi unirti a questa\nsezione dalla tua regione."
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "pulsante ZL"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "Carica a molla",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "Cannoniere",
     "SakeArtilleryCannon": "cannone",
     "SakeBigBoss": "Salmonarca",
-    "SakeBigBossGauge": "salmometro",
     "SakeDolphin": "Tuffone",
     "SakeFlyBagman": "Razziatore",
     "SakeJaw": "Mascello",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "Quale record di energia evento stabilirai questo mese?\n\n・ Nelle [color=0001]mischie mollusche[color=ffff] saranno attivate solo le abilità originali.\n  Le abilità extra non avranno alcun effetto!\n・ Nelle [color=0001]modalità[color=ffff] [color=0001]Partita anarchica[color=ffff] non ci sarà alcun limite sulle abilità\n  dell'equipaggiamento!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Mira al record di energia evento!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Partita evento mensile",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Partita evento\nmensile",
     "EventMatch_Nawabari_Manual00": "Le squadre hanno 3 minuti per inchiostrare più terreno degli avversari!",
     "EventMatch_Nawabari_Manual01": "Le squadre hanno 3 minuti per coprire il [color=0001]terreno[color=ffff]\nd'inchiostro. Vince la squadra che ha coperto\npiù [color=0001]territorio [color=ffff]allo scadere del tempo. Colora\na più non posso per aiutare la tua squadra!",
     "EventMatch_Nawabari_Manual02": "Più terreno inchiostri, più ottieni punti e\nl'[color=0001]indicatore dell'arma speciale[color=ffff] si riempie. Quando\nè pieno, premi [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] per attivare l'[color=0001]arma speciale[color=ffff]!\n\nOcchio, però! L'indicatore si svuota un po'\nse ti splattano. Ricorda di scatenarne la furia\ne potrai ribaltare le sorti della battaglia!",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "Competi in una situazione di assoluta imparzialità: tutti proveranno\nun nuovo scenario insieme!\n\n・ Sviluppa strategie e tattiche specifiche dello scenario in tempo reale.\n・ Nelle [color=0001]mischie mollusche[color=ffff] saranno attivate solo le abilità originali.\n  Le abilità extra non avranno alcun effetto!\n・ Nelle [color=0001]modalità[color=ffff] [color=0001]Partita anarchica[color=ffff] non ci sarà alcun limite sulle abilità\n  dell'equipaggiamento!",
     "EventMatch_NewSeasonCup_Subtitle": "Un nuovo scenario per una nuova stagione!",
     "EventMatch_NewSeasonCup_Title": "Primo evento della nuova stagione",
-    "EventMatch_NewSeasonCup_Title_2L": "Primo evento\ndella nuova stagione",
     "EventMatch_PairCup_Manual": "L'affiatamento è fondamentale in queste rapide battaglie 2 vs 2!\n\n・ Testa nuove strategie e porta la tua squadra a dominare la mappa!\n・ L'attesa per tornare in battaglia è ridotta!\n・ Puoi partecipare [color=0001]in una squadra da 2[color=ffff] o [color=0001]in solitaria[color=ffff].\n・ Saranno attivate sia le abilità originali che quelle extra!",
     "EventMatch_PairCup_Subtitle": "Scopri di cosa sei capace in coppia!",
     "EventMatch_PairCup_Title": "Coppie a duello",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Cambia",
     "BtnL_ConfirmFestRegion_AltLang": "Scegli di nuovo",
-    "BtnL_ConfirmFestRegion_EveFirst": "Cambia",
     "BtnL_ConfirmFestRegion_First": "Cambia",
     "BtnL_ConfirmFestRegion_Reboot": "Scegli di nuovo",
     "BtnR_ConfirmFestRegion": "OK",
     "BtnR_ConfirmFestRegion_AltLang": "OK",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK",
     "BtnR_ConfirmFestRegion_First": "OK",
     "BtnR_ConfirmFestRegion_Reboot": "OK",
     "Msg_ConfirmFestRegion": "Vuoi partecipare ai festival in questa regione?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "L'italiano non è supportato per i festival della regione\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nDurante il festival, alcuni testi verranno visualizzati\nin [color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]. Vuoi continuare?",
-    "Msg_ConfirmFestRegion_EveFirst": "Vuoi partecipare al festival in questa regione?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nQuesta impostazione riguarda unicamente\nla Splatfest World Premiere e non può essere\ncambiata in un secondo momento.",
     "Msg_ConfirmFestRegion_First": "Vuoi partecipare ai festival in questa regione?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nNota: puoi cambiare questa impostazione in un secondo\nmomento, ma se partecipi a un festival, non potrai farlo\nper un certo periodo di tempo.",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "Il tuo equipaggiamento, le opzioni della\ntelecamera e altre impostazioni ora\ncorrispondono a quelle dell'ultima volta\nin cui hai giocato online su una diversa\nconsole Nintendo Switch.",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "Vuoi combattere con questo equipaggiamento?",
     "Msg_ConfirmLeagueInvalid": "Non puoi partecipare a questa partita\nevento con l'equipaggiamento corrente.\nPer partecipare, cambia l'equipaggiamento.",
     "Msg_LeagueInvalidWhileMatching": "Non puoi partecipare a questa partita\nevento con l'equipaggiamento corrente."
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "Attualmente non è in corso nessun festival.",
-    "Msg_OutOfService": "La Splatoon 3: Splatfest World Premiere\nè finita.\n\nAlla prossima!"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "No",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "Che emozione! C'è un [color=0001]festival [color=ffff]in corso![page break]Se vuoi partecipare, vai al [color=0001]bollibattaglie [color=ffff]e\nseleziona [color=0001]Partita tematica [size=75%](Aperta)[size=100%][color=ffff].[page break]Inizierà una [color=0001]mischia mollusca[color=ffff]: la tua squadra\nha 3 minuti per colorare più terreno di tutti!",
     "FirstEnter_04": "Meno chiacchiere, più inchiostro. Iniziamo!",
     "FirstEnter_FestVote_00": "Oooh, c'è un [color=0001]festival [color=ffff]in corso![page break]Significa che devi [color=0001]votare [color=ffff]prima di poterti\ngodere il divertimento.[page break]Torna in piazza e usa il [color=0001]terminal di voto[color=ffff]\nper fare la tua scelta.",
-    "Msg_Eve00": "Ricorda che partecipando a questo festival non\nriceverai denaro, esperienza né super molluschi.\n\nInoltre, non potrai trasferire in Splatoon 3 i dati\ndi salvataggio di questo festival.",
     "Msg_Legal00": "Le linee guida relative alla community di Nintendo\nsi applicano al gioco online e si trovano sul\nnostro sito Internet. Assicurati di assumere un\natteggiamento rispettoso verso gli altri utenti.\n\nQuando giochi online, il tuo nickname e i tuoi\ndati giocatore potrebbero essere resi pubblici."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "Prima, i risultati dell'anteprima del festival!\nLa squadra con più [color=0001]conchiglie [color=ffff]è...",
     "007": "Wow! Hanno spaccato!",
     "008": "Poi... la squadra che ha ottenuto [color=0001]più voti[color=ffff].\nFate un bell'applauso per...",
-    "008_Eve": "Prima vediamo quale squadra\nha ottenuto più [color=0001]voti [color=ffff]in totale!",
     "009": "Man... Man... [group=0004 type=0005 params=][color=0000](Dai, dai...)[color=ffff][/group=0004 type=0005]",
     "010": "Non ci credo!",
     "011": "Man? Man! [group=0004 type=0005 params=][color=0000](E poi? Su, vai avanti!)[color=ffff][/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "Indietro",
     "T_Msg_00": "Seleziona uno scenario per la ricognizione."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "Consegna speciale!",
     "T_SubName_00": "Solo per gli impiegati!",
     "T_WpnName_02": "Un cannuovo!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1º",
-    "L_ScoreB_00-T_Standings_00": "2º",
-    "L_ScoreC_00-T_Standings_00": "3º",
-    "L_ScoreD_00-T_Standings_00": "Media perfetta",
-    "L_ScoreE_00-T_Standings_00": "Migliore in solitaria",
-    "T_Title_00": "Sfida tra colleghi"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Pos.: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Premio Media perfetta",
-    "100": "Record energia evento: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "Avvicinati e tenta la fortuna\nal [color=0001]Premi-o-matic[color=ffff]!\n\nLa prima giocata ti costerà [color=0001]5000 [color=ffff][group=0003 type=0027 params=00 00 40 40 00 00 00 00].\nPer ogni giocata successiva dovrai invece\npresentarti con [color=0001]30.000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]!",

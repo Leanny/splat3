@@ -1227,7 +1227,8 @@
     "3302": "サクサクの",
     "3303": "ロブイチの",
     "3304": "プリプリの",
-    "3305": "[ruby=\"かんどう\"]感動[/ruby]の"
+    "3305": "[ruby=\"かんどう\"]感動[/ruby]の",
+    "3400": "ウズシオ[ruby=\"しょとう\"]諸島[/ruby]の"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "ボールドマーカー[ruby=\"つか\"]使[/ruby]い",
@@ -3302,7 +3303,9 @@
     "3304_0": "[ruby=\"は\"]歯[/ruby]ごたえ",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "エンディング",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "メカニック",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "テッキュウ",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "お住まいの地域から\nそのグループに参加することはできません"
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "ZLボタン"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "ハッピー６",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "テッキュウ",
     "SakeArtilleryCannon": "発射台",
     "SakeBigBoss": "オカシラシャケ",
-    "SakeBigBossGauge": "オカシラゲージ",
     "SakeDolphin": "ダイバー",
     "SakeFlyBagman": "タマヒロイ",
     "SakeJaw": "ジョー",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "月に一度のチャレンジバトル！ イベントパワーの限界を目指せ！\n\n・ [color=0001]ナワバリバトル[color=ffff]のときは、基本ギアパワーのみ有効だ！ 追加ギアパワーは効果がないぞ！\n・ [color=0001]バンカラマッチのルール[color=ffff]のときは、ギアパワーに制限はないぞ！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "月に一度のチャレンジバトル！ イベントパワーの限界を目指せ！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "ツキイチ・イベントマッチ",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "ツキイチ・\nイベントマッチ",
     "EventMatch_Nawabari_Manual00": "３分間地面を塗りまくって、ナワバリが多いチームの勝ち！",
     "EventMatch_Nawabari_Manual01": "ナワバリバトルは、３分間[color=0001]地面[color=ffff]を塗りまくって、\n[color=0001]ナワバリ[color=ffff]が多いチームの勝ちだ！\n地面を塗りまくり、チームのナワバリを広げて\n勝利を目指そう！",
     "EventMatch_Nawabari_Manual02": "地面を塗れば塗るほど、[color=0001]スペシャルゲージ[color=ffff]が増えるぞ。\n満タンになったら、[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]を押しこんで\n[color=0001]スペシャルウェポン[color=ffff]発動だ！\n\nスペシャルゲージは、やられると減ってしまう。\nタイミングをみて、効果的にスペシャルウェポンを\n使おう！",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "新シーズン開幕！ 新しいステージを攻略せよ！\n\n・ 戦いの舞台は新しいステージだ！\n・ [color=0001]ナワバリバトル[color=ffff]のときは、基本ギアパワーのみ有効だ！ 追加ギアパワーは効果がないぞ！\n・ [color=0001]バンカラマッチのルール[color=ffff]のときは、ギアパワーに制限はないぞ！",
     "EventMatch_NewSeasonCup_Subtitle": "新シーズン開幕！ 新しいステージを攻略せよ！",
     "EventMatch_NewSeasonCup_Title": "新シーズン開幕記念カップ",
-    "EventMatch_NewSeasonCup_Title_2L": "新シーズン\n開幕記念カップ",
     "EventMatch_PairCup_Manual": "ふたりの相性を見せつけろ！ ２対２の少人数バトル！\n\n・ ２人対２人の少人数バトルだ！\n・ [color=0001]２人のチーム[color=ffff]か[color=0001]１人[color=ffff]で参加できるぞ！\n・ 復活時間が短くなるぞ！\n・ 基本ギアパワーと追加ギアパワーは有効だ！",
     "EventMatch_PairCup_Subtitle": "ふたりの相性を見せつけろ！ ２対２の少人数バトル！",
     "EventMatch_PairCup_Title": "最強ペア決定戦",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "選び直す",
     "BtnL_ConfirmFestRegion_AltLang": "選び直す",
-    "BtnL_ConfirmFestRegion_EveFirst": "変更する",
     "BtnL_ConfirmFestRegion_First": "変更する",
     "BtnL_ConfirmFestRegion_Reboot": "選び直す",
     "BtnR_ConfirmFestRegion": "OK！",
     "BtnR_ConfirmFestRegion_AltLang": "OK！",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK！",
     "BtnR_ConfirmFestRegion_First": "OK！",
     "BtnR_ConfirmFestRegion_Reboot": "OK！",
     "Msg_ConfirmFestRegion": "この地域のフェスでよろしいですか？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、一部の表示が[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]になります\nそれでもよろしいですか？",
-    "Msg_ConfirmFestRegion_EveFirst": "この地域のフェスでよろしいですか？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※前夜祭では、一度決定した地域を\nあとから変更することはできません",
     "Msg_ConfirmFestRegion_First": "この地域のフェスでよろしいですか？\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※あとから変更できますが、フェスに参加すると\nしばらくの間は変更できなくなります",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "そうびやカメラオプションなどを、別のSwitch本体から\n最後にオンラインで遊んだ時と同じ状態にしました",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "このそうびで よろしいですか？",
     "Msg_ConfirmLeagueInvalid": "このそうびでは イベントマッチに参加できません\n参加するには そうびを変えてください",
     "Msg_LeagueInvalidWhileMatching": "このそうびでは イベントマッチに参加できません"
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "フェスは現在開催されていません",
-    "Msg_OutOfService": "「スプラトゥーン3 前夜祭版」の\nプレイ期間は終了しました\n\nソフトを終了してください"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "やめとく",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "今は[color=0001]フェス[color=ffff]が開催されている！[page break]さっそく、あそこにある[color=0001]バトルポット[color=ffff]に入って\n[color=0001]フェスマッチ[size=75%]（オープン）[size=100%][color=ffff]を選んでみよう！[page break]フェスマッチでは [color=0001]ナワバリバトル[color=ffff]に参加できるぞ\n３分間地面を塗りまくって、ナワバリが多いチームの勝ち！",
     "FirstEnter_04": "習うより慣れろだ！ これマジ！",
     "FirstEnter_FestVote_00": "今は[color=0001]フェス[color=ffff]が開催されている！[page break]フェス中にバトルに参加するには、\nまず所属したいチームに[color=0001]投票[color=ffff]する必要があるぞ[page break]いったん広場にもどって [color=0001]フェス投票所[color=ffff]へ向かってくれ！",
-    "Msg_Eve00": "前夜祭では、ケイケン値やおカネ、\nスーパーサザエは手に入りません\n\nまた、製品版『スプラトゥーン3』への\nセーブデータの引き継ぎは 行われません",
     "Msg_Legal00": "オンラインプレイには、\nニンテンドーアカウント利用規約が適用されます\n利用規約にしたがって、他のユーザーへの\n思いやりのあるプレイを心がけてください\n\nオンラインプレイに参加すると、ゲーム内やウェブサイト上で\nプレイヤー名やプレイヤーデータが公開されることがあります"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "まずは ヨビ祭の結果を おさらいしとこか\nヨビ祭で[color=0001]ホラガイ[color=ffff]を多く手に入れたんは…",
     "007": "ウム、そうじゃったな！",
     "008": "次に どのチームが多く投票されたか\n[color=0001]得票率[color=ffff]の勝負！",
-    "008_Eve": "まずは どのチームが多く投票されたか\n[color=0001]得票率[color=ffff]の勝負！",
     "009": "エイ！[group=0004 type=0005 params=]（負けないぞ～！）[/group=0004 type=0005]",
     "010": "ほう、こうなっておったのか！",
     "011": "エイー？！[group=0004 type=0005 params=]（そしてそしてー？！）[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "もどる",
     "T_Msg_00": "さんぽするステージを選んでください"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "特別支給！！",
     "T_SubName_00": "バイト専用",
     "T_WpnName_02": "イクラキャノン！"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "１位",
-    "L_ScoreB_00-T_Standings_00": "２位",
-    "L_ScoreC_00-T_Standings_00": "３位",
-    "L_ScoreD_00-T_Standings_00": "ぴったりまんなか賞",
-    "L_ScoreE_00-T_Standings_00": "ソロトップ賞",
-    "T_Title_00": "バイトチームコンテスト"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00]位",
-    "001": "ぴったりまんなか賞",
-    "100": "最高イベントパワー ： [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "ここでは、ハズレなしの [color=0001]くじ引き[color=ffff]ができます\n\n毎日 最初の１回は [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000 [color=ffff]で、\n２回目からは [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000 [color=ffff]で引くことができます",

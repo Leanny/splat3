@@ -1227,7 +1227,8 @@
     "3302": "爽脆的",
     "3303": "遊龍的",
     "3304": "軟嫩的",
-    "3305": "感動的"
+    "3305": "感動的",
+    "3400": "渦潮群島的"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "廣域標記槍操作者",
@@ -3302,7 +3303,9 @@
     "3304_0": "嚼勁",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "結局",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "機械師",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "鐵球魚",
@@ -4703,7 +4706,6 @@
     "SakeArtillery": "鐵球魚",
     "SakeArtilleryCannon": "發射台",
     "SakeBigBoss": "頭目鮭魚",
-    "SakeBigBossGauge": "頭目槽",
     "SakeDolphin": "潛水魚",
     "SakeFlyBagman": "拾蛋魚",
     "SakeJaw": "巨顎",
@@ -6554,7 +6556,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "每月一次的挑戰對戰！讓活動戰力邁向極限！\n\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "每月一次的挑戰對戰！讓活動戰力邁向極限！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "月一‧活動比賽",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "月一‧活動比賽",
     "EventMatch_Nawabari_Manual00": "隊伍必須在3分鐘內持續對地面塗墨，占地面積較多才能獲勝！",
     "EventMatch_Nawabari_Manual01": "在占地對戰中，隊伍必須在3分鐘內持續對[color=0001]地面[color=ffff]塗墨，\n[color=0001]占地面積[color=ffff]較多才能獲勝！\n持續對地面塗墨，\n拓展隊伍的占地面積並拿下勝利吧！",
     "EventMatch_Nawabari_Manual02": "[color=0001]特殊武器蓄力槽[color=ffff]會隨著對地面塗墨而增加喔！\n在蓄力槽全滿後，\n按下[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]即可發動[color=0001]特殊武器[color=ffff]！\n\n陣亡將會導致特殊武器蓄力槽減少，\n看準時機並有效地使用特殊武器吧！",
@@ -6564,7 +6565,6 @@
     "EventMatch_NewSeasonCup_Manual": "新賽季開幕！攻略新場地！\n\n‧以新場地作為對戰的舞台！\n‧進行[color=0001]占地對戰[color=ffff]時，僅限基本裝備能力可發揮作用！追加裝備能力一律失效！\n‧採用[color=0001]蠻頹比賽規則[color=ffff]時，裝備能力不受限制！",
     "EventMatch_NewSeasonCup_Subtitle": "新賽季開幕！攻略新場地！",
     "EventMatch_NewSeasonCup_Title": "新賽季開幕紀念盃",
-    "EventMatch_NewSeasonCup_Title_2L": "新賽季開幕紀念盃",
     "EventMatch_PairCup_Manual": "展現搭檔間的默契！2對2的小規模對戰！\n\n‧2對2的小規模對戰！\n‧可以[color=0001]2人組隊[color=ffff]或是[color=0001]1人[color=ffff]獨自參加！\n‧復活時間將會縮短！\n‧基本裝備能力與追加裝備能力皆可發揮作用！",
     "EventMatch_PairCup_Subtitle": "展現搭檔間的默契！2對2的小規模對戰！",
     "EventMatch_PairCup_Title": "最強搭檔爭奪戰",
@@ -12608,9 +12608,6 @@
     "L_Guide_00-T_Info_00": "返回",
     "T_Msg_00": "請選擇散步場地"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "目錄記錄",
     "100": "[group=0002 type=0001 params=00 0c]  ～  [group=0002 type=0001 params=01 0c]",
@@ -12638,21 +12635,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]％",
     "T_Danger_00": "危險度提升！！"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "排正中間獎",
-    "L_ScoreE_00-T_Standings_00": "單排最佳表現獎",
-    "T_Title_00": "團隊打工競賽"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "第[group=0002 type=0000 params=00 01 00 00]名",
-    "001": "排正中間獎",
-    "100": "最高活動戰力：[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "一般\n比賽",

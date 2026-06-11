@@ -1,0 +1,2613 @@
+[
+  {
+    "__RowId": "SdodrStageParent"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_BallKing"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "周遊ボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "BalllKing_10F",
+    "MinimalNameHash": 2906400451,
+    "Reward": 500,
+    "SelectionId": -1,
+    "StageType": "IntermediateBoss",
+    "__RowId": "Sdodr_BallKing_10F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_BallKing"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "周遊ボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "BalllKing_20F",
+    "MinimalNameHash": 1862620757,
+    "Reward": 1000,
+    "SelectionId": -1,
+    "StageType": "IntermediateBoss",
+    "__RowId": "Sdodr_BallKing_20F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_BarrierKingIida"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "コントロールルーム",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "BarrierKingSdodrIida",
+    "MinimalNameHash": 1561374540,
+    "Reward": 300,
+    "SelectionId": -1,
+    "StageType": "TowerBoss",
+    "__RowId": "Sdodr_BarrierKingSdodrIida"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_BarrierKingOdako"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "コントロールルーム",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "BarrierKingSdodrOdako",
+    "MinimalNameHash": 3171967934,
+    "Reward": 1500,
+    "SelectionId": -1,
+    "StageType": "TowerBoss",
+    "__RowId": "Sdodr_BarrierKingSdodrOdako"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_BarrierKingOdakoEx"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "コントロールルーム",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "BarrierKingSdodrOdakoEx",
+    "MinimalNameHash": 537729257,
+    "Reward": 1500,
+    "SelectionId": -1,
+    "StageType": "TowerBoss",
+    "__RowId": "Sdodr_BarrierKingSdodrOdakoEX"
+  },
+  {
+    "__RowId": "Sdodr_City"
+  },
+  {
+    "__RowId": "Sdodr_Elevator"
+  },
+  {
+    "__RowId": "Sdodr_Entrance"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Shop",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "自販機コーナー",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "Sdodr_FloorShop",
+    "MinimalNameHash": 2258008510,
+    "Reward": 0,
+    "SelectionId": -1,
+    "StageType": "Shop",
+    "__RowId": "Sdodr_FloorShop"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_RivalKing"
+      },
+      "IsRivalKing": true,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ミラーボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "RivalKing_10F",
+    "MinimalNameHash": 1295302415,
+    "Reward": 500,
+    "SelectionId": -1,
+    "StageType": "IntermediateBoss",
+    "__RowId": "Sdodr_RivalKing_10F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_RivalKing"
+      },
+      "IsRivalKing": true,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ミラーボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "RivalKing_20F",
+    "MinimalNameHash": 119759198,
+    "Reward": 1000,
+    "SelectionId": -1,
+    "StageType": "IntermediateBoss",
+    "__RowId": "Sdodr_RivalKing_20F"
+  },
+  {
+    "__RowId": "Sdodr_StaffRoll"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_BarrierKingOdako"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ストーリーボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "BarrierKingSdodrOdako_story",
+    "MinimalNameHash": 3101152188,
+    "Reward": 0,
+    "SelectionId": -1,
+    "StageType": "StoryBoss",
+    "__RowId": "Sdodr_StoryBoss"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_TowerKing"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "中央ボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "TowerKing_10F",
+    "MinimalNameHash": 2147770646,
+    "Reward": 500,
+    "SelectionId": -1,
+    "StageType": "IntermediateBoss",
+    "__RowId": "Sdodr_TowerKing_10F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": "MainMission_TowerKing"
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "Boss",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "中央ボス",
+    "Difficulty": "Undefined",
+    "MapNameLabel": "TowerKing_20F",
+    "MinimalNameHash": 351986344,
+    "Reward": 1000,
+    "SelectionId": -1,
+    "StageType": "IntermediateBoss",
+    "__RowId": "Sdodr_TowerKing_20F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "大きく 下って 大きく 上る 立体的なフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "airLift_lift",
+    "MinimalNameHash": 4239640671,
+    "Reward": 500,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_airLift_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "大量に いるけど みんなちがって みんないいフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "allStar_spawner",
+    "MinimalNameHash": 1423753842,
+    "Reward": 800,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_allStar_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "永遠に 飛びはねて むかえうつフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "ancientTomb_area",
+    "MinimalNameHash": 180498705,
+    "Reward": 375,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_ancientTomb_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "むかえうつ すりばちのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "antHell_area",
+    "MinimalNameHash": 3371979979,
+    "Reward": 205,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_antHell_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "すりばちのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "antHell_ball",
+    "MinimalNameHash": 195704939,
+    "Reward": 25,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_antHell_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "すりばちのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "antHell_chase",
+    "MinimalNameHash": 350754522,
+    "Reward": 115,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_antHell_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "すりばちのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "antHell_lift",
+    "MinimalNameHash": 89847034,
+    "Reward": 40,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_antHell_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "動きまわる すりばちのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "antHell_spawner",
+    "MinimalNameHash": 1738723933,
+    "Reward": 230,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_antHell_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "すりばちのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "antHell_spawner_2",
+    "MinimalNameHash": 3431660545,
+    "Reward": 100,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_antHell_spawner_2"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "始まりのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "Sdodr_beginning_1F",
+    "MinimalNameHash": 3071920677,
+    "Reward": 10,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_1F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "塗りが大事のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "Sdodr_beginning_2F",
+    "MinimalNameHash": 2390852090,
+    "Reward": 60,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_2F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "スペシャルで大逆転のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "Sdodr_beginning_3F",
+    "MinimalNameHash": 2196698611,
+    "Reward": 120,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_3F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "エリアに滑空のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "Sdodr_beginning_4F",
+    "MinimalNameHash": 1504341572,
+    "Reward": 20,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_4F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "高くジャンプのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "Sdodr_beginning_5F",
+    "MinimalNameHash": 2500304034,
+    "Reward": 80,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_5F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "エリアがふたつのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "Sdodr_beginning_6F",
+    "MinimalNameHash": 900480255,
+    "Reward": 80,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_6F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "チェイスのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "Sdodr_beginning_7F",
+    "MinimalNameHash": 1716206849,
+    "Reward": 90,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_7F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "跳ね返るスケルトーンのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "Sdodr_beginning_8F",
+    "MinimalNameHash": 3529467663,
+    "Reward": 130,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_8F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ボール転がしのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "Sdodr_beginning_9F",
+    "MinimalNameHash": 2954673099,
+    "Reward": 30,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_beginning_9F"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "せわしなく かこまれる 洞くつのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "bigPyramid_area",
+    "MinimalNameHash": 111905724,
+    "Reward": 270,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bigPyramid_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "かこまれる 洞くつのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "bigPyramid_ball",
+    "MinimalNameHash": 4264518493,
+    "Reward": 80,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bigPyramid_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "追いかけて 追いかけられて ねらわれる 洞あなのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "bigPyramid_chase",
+    "MinimalNameHash": 2931683194,
+    "Reward": 470,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bigPyramid_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "くじけずに ぐるぐる めぐる 洞あなのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "bigPyramid_lift",
+    "MinimalNameHash": 3803144677,
+    "Reward": 490,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bigPyramid_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "真ん中に そびえる 洞くつのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "bigPyramid_spawner",
+    "MinimalNameHash": 793856253,
+    "Reward": 285,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bigPyramid_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "のぼるフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "bigSlope_ball",
+    "MinimalNameHash": 4034775720,
+    "Reward": 140,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bigSlope_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ひたすら 投げこまれる きゅうくつなフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "bombers_area",
+    "MinimalNameHash": 2183160773,
+    "Reward": 345,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bombers_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "わらわらと 連れ歩くフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "bombs_spawner",
+    "MinimalNameHash": 1844032883,
+    "Reward": 235,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bombs_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "永遠に 激しく 押しよせる 2つ橋のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "bridges_area",
+    "MinimalNameHash": 772203303,
+    "Reward": 485,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bridges_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ねらわれる 2つ橋のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "bridges_ball",
+    "MinimalNameHash": 262226231,
+    "Reward": 255,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bridges_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "逃げまどう 2つ橋のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "bridges_chase",
+    "MinimalNameHash": 1789678818,
+    "Reward": 250,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bridges_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "四六時中 おしよせて ねらわれる 2つ橋のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "bridges_lift",
+    "MinimalNameHash": 3724410403,
+    "Reward": 480,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bridges_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "大量に 転がり続ける 2つ橋のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "bridges_spawner",
+    "MinimalNameHash": 3005271593,
+    "Reward": 275,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_bridges_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "どこにいても とにかく 狙われ続ける ぐるっと回るフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "centralSniper_lift",
+    "MinimalNameHash": 1884638068,
+    "Reward": 550,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_centralSniper_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "奥から 激しく 押しよせる 一本道の 登山フロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "climbing_spawner",
+    "MinimalNameHash": 2600663739,
+    "Reward": 720,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_climbing_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛んで 加速して 動き回るフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "dash_spawner",
+    "MinimalNameHash": 4285634119,
+    "Reward": 520,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_dash_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ゼツボウ的に 四六時中 おしよせる トリデのフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "fortress_area",
+    "MinimalNameHash": 2380763885,
+    "Reward": 570,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_fortress_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "トリデのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "fortress_ball",
+    "MinimalNameHash": 1295994150,
+    "Reward": 45,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_fortress_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "逃げまどう トリデのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "fortress_chase",
+    "MinimalNameHash": 2713457869,
+    "Reward": 145,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_fortress_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "おしよせる トリデのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "fortress_lift",
+    "MinimalNameHash": 2231274185,
+    "Reward": 150,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_fortress_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "四方八方 はさまれる トリデのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "fortress_spawner",
+    "MinimalNameHash": 1536067799,
+    "Reward": 355,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_fortress_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "打ちっぱなしフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "golf_ball",
+    "MinimalNameHash": 564675250,
+    "Reward": 30,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_golf_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "追い詰めるフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "grindRail_chase",
+    "MinimalNameHash": 714345324,
+    "Reward": 35,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_grindRail_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "とにかく 行き来する 2つ山のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "hills_area",
+    "MinimalNameHash": 4143447056,
+    "Reward": 370,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_hills_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ねらう 2つ山のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "hills_ball",
+    "MinimalNameHash": 1837739160,
+    "Reward": 140,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_hills_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "2つ山のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "hills_chase",
+    "MinimalNameHash": 3721626135,
+    "Reward": 45,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_hills_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛びはねる 2つ山のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "hills_lift",
+    "MinimalNameHash": 921004276,
+    "Reward": 160,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_hills_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ソウゼツに 飛びはねる 2つ山のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "hills_spawner",
+    "MinimalNameHash": 2970010645,
+    "Reward": 365,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_hills_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "くじけずに せわしなく 行き来する 大きな 8の字のフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "infinity_area",
+    "MinimalNameHash": 2777154425,
+    "Reward": 780,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_infinity_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ホップ ステップ ジャンピングフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "jumpjump_spawner",
+    "MinimalNameHash": 3073179443,
+    "Reward": 505,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_jumpjump_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "激しく 押しよせる 立体交差のフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "koguchi_area",
+    "MinimalNameHash": 2245457579,
+    "Reward": 760,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_koguchi_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "はねる 立体交差のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "koguchi_ball",
+    "MinimalNameHash": 3542099744,
+    "Reward": 85,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_koguchi_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "見失っても くじけない 立体交差のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "koguchi_chase",
+    "MinimalNameHash": 3333355166,
+    "Reward": 280,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_koguchi_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "上ったり 下ったりする 立体交差のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "koguchi_lift",
+    "MinimalNameHash": 2759134017,
+    "Reward": 475,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_koguchi_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "はねて ねらわれて かこまれる 立体交差のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "koguchi_spawner",
+    "MinimalNameHash": 4285858030,
+    "Reward": 465,
+    "SelectionId": 3,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_koguchi_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "かなり 追いかけられる デコボコ床のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "lunarSurface_area",
+    "MinimalNameHash": 2204913046,
+    "Reward": 360,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_lunarSurface_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "デコボコ床のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "lunarSurface_ball",
+    "MinimalNameHash": 1475149271,
+    "Reward": 135,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_lunarSurface_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛びはねる デコボコ床のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "lunarSurface_chase",
+    "MinimalNameHash": 3460393467,
+    "Reward": 165,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_lunarSurface_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "四六時中 ねらわれる デコボコ床のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "lunarSurface_lift",
+    "MinimalNameHash": 2129367491,
+    "Reward": 350,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_lunarSurface_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "こんなに のびる デコボコ床のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "lunarSurface_spawner",
+    "MinimalNameHash": 756747659,
+    "Reward": 340,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_lunarSurface_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "原っぱのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "meadow_area",
+    "MinimalNameHash": 2341912804,
+    "Reward": 120,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_meadow_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "原っぱのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "meadow_ball",
+    "MinimalNameHash": 1907887731,
+    "Reward": 35,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_meadow_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "かけ回る 原っぱのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "meadow_chase",
+    "MinimalNameHash": 715661682,
+    "Reward": 220,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_meadow_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "原っぱのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "meadow_lift",
+    "MinimalNameHash": 4268385131,
+    "Reward": 30,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_meadow_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "押しよせる 原っぱのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "meadow_spawner",
+    "MinimalNameHash": 4210721877,
+    "Reward": 210,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_meadow_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "原っぱのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "meadow_spawner_2",
+    "MinimalNameHash": 3852749047,
+    "Reward": 40,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_meadow_spawner_2"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "なぎたおすフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "oneRoad_ball",
+    "MinimalNameHash": 2820824815,
+    "Reward": 45,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_oneRoad_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "大量に 押しよせても あきらめずに 上下するフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "propellerRising_spawner",
+    "MinimalNameHash": 1664475469,
+    "Reward": 590,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_propellerRising_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "かこまれる 上下床のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "rising_area",
+    "MinimalNameHash": 577726106,
+    "Reward": 240,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_rising_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "上下床のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "rising_ball",
+    "MinimalNameHash": 3905253595,
+    "Reward": 45,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_rising_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "上下床のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "rising_chase",
+    "MinimalNameHash": 1276264823,
+    "Reward": 100,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_rising_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "上下床のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "rising_lift",
+    "MinimalNameHash": 795209315,
+    "Reward": 135,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_rising_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "永遠に ねらわれる 上下床のフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "rising_spawner",
+    "MinimalNameHash": 4120517918,
+    "Reward": 540,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_rising_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "上下床のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "rising_spawner_2",
+    "MinimalNameHash": 2602097405,
+    "Reward": 30,
+    "SelectionId": 2,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_rising_spawner_2"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "どうにかして 壊したいフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "shellsDash_spawner",
+    "MinimalNameHash": 287309771,
+    "Reward": 195,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_shellsDash_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "とにかく転がすフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "shellsParty_ball",
+    "MinimalNameHash": 1987121692,
+    "Reward": 40,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_shellsParty_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "反射するフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "shells_area",
+    "MinimalNameHash": 3290079088,
+    "Reward": 145,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_shells_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ピラミッドのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "smallPyramid_area",
+    "MinimalNameHash": 2855623722,
+    "Reward": 120,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_smallPyramid_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ピラミッドのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "smallPyramid_ball",
+    "MinimalNameHash": 802672929,
+    "Reward": 25,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_smallPyramid_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "追いかけられる ピラミッドのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "smallPyramid_chase",
+    "MinimalNameHash": 918607079,
+    "Reward": 200,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_smallPyramid_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ピラミッドのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "smallPyramid_lift",
+    "MinimalNameHash": 3047224535,
+    "Reward": 125,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_smallPyramid_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛びはねる ピラミッドのフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "smallPyramid_spawner",
+    "MinimalNameHash": 2393798621,
+    "Reward": 225,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_smallPyramid_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ピラミッドのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "smallPyramid_spawner_2",
+    "MinimalNameHash": 330843351,
+    "Reward": 110,
+    "SelectionId": 4,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_smallPyramid_spawner_2"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "とめどなく 押しよせても あきらめずに のばすフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "snakeBlocks_area",
+    "MinimalNameHash": 4159065830,
+    "Reward": 510,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_snakeBlocks_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "あっちいったり こっちいったり するフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "spiderweb_area",
+    "MinimalNameHash": 760667401,
+    "Reward": 500,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_spiderweb_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "激しく まわるフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "spongeHidding_chase",
+    "MinimalNameHash": 3337265038,
+    "Reward": 130,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_spongeHidding_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "見上げるフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "stones_lift",
+    "MinimalNameHash": 1469284579,
+    "Reward": 45,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_stones_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛び込み台のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "tower_area",
+    "MinimalNameHash": 248055508,
+    "Reward": 125,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_tower_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛び込み台のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "tower_ball",
+    "MinimalNameHash": 1419539512,
+    "Reward": 25,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_tower_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛び降りる 飛び込み台のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "tower_chase",
+    "MinimalNameHash": 29219865,
+    "Reward": 215,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_tower_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛び込み台のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "tower_lift",
+    "MinimalNameHash": 3600551429,
+    "Reward": 130,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_tower_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛び込み台のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "tower_spawner",
+    "MinimalNameHash": 2184805256,
+    "Reward": 105,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_tower_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛び込み台のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "tower_spawner_2",
+    "MinimalNameHash": 1943145555,
+    "Reward": 35,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_tower_spawner_2"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "向こうから 四六時中 せまりくる 大きな谷のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "valley_area",
+    "MinimalNameHash": 820967844,
+    "Reward": 515,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_valley_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "油断せずに 転がす 大きな谷のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "valley_ball",
+    "MinimalNameHash": 2209585681,
+    "Reward": 265,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_valley_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "大量に 飛んでくる 立体交差のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "valley_chase",
+    "MinimalNameHash": 1771621198,
+    "Reward": 260,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_valley_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "油断すると 四方から 常に 追いかけられる 大きな谷のフロア",
+    "Difficulty": "VeryHard",
+    "MapNameLabel": "valley_lift",
+    "MinimalNameHash": 3082345357,
+    "Reward": 740,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_valley_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ねらわれても 激しく はねる 大きな谷のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "valley_spawner",
+    "MinimalNameHash": 1313149070,
+    "Reward": 495,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_valley_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "たくさん はじけるフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "wideArea_area",
+    "MinimalNameHash": 3148191921,
+    "Reward": 90,
+    "SelectionId": -1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_wideArea_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "はさまれる 折り返しのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "windingRoad_area",
+    "MinimalNameHash": 2284474570,
+    "Reward": 185,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_windingRoad_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "折り返しのフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "windingRoad_ball",
+    "MinimalNameHash": 1039244885,
+    "Reward": 55,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_windingRoad_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "飛びおりる 折り返しのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "windingRoad_chase",
+    "MinimalNameHash": 879697574,
+    "Reward": 180,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_windingRoad_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ねらわれる 折り返しのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "windingRoad_lift",
+    "MinimalNameHash": 214570977,
+    "Reward": 170,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_windingRoad_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "おしよせる 折り返しのフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "windingRoad_spawner",
+    "MinimalNameHash": 1762354349,
+    "Reward": 190,
+    "SelectionId": 5,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_windingRoad_spawner"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryArea",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "激しく おしよせる バッテン坂のフロア",
+    "Difficulty": "Hard",
+    "MapNameLabel": "x_area",
+    "MinimalNameHash": 325653415,
+    "Reward": 380,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_x_area"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryBall",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "ねらわれる バッテン坂のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "x_ball",
+    "MinimalNameHash": 2909671926,
+    "Reward": 175,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_x_ball"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllTargetEnemies",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "バッテン坂のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "x_chase",
+    "MinimalNameHash": 1292656710,
+    "Reward": 35,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_x_chase"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "VictoryLift",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "はさまれる バッテン坂のフロア",
+    "Difficulty": "Normal",
+    "MapNameLabel": "x_lift",
+    "MinimalNameHash": 2148286645,
+    "Reward": 155,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_x_lift"
+  },
+  {
+    "ChallengeParam": {
+      "BossParam": {
+        "MainChallangeLabel": ""
+      },
+      "IsRivalKing": false,
+      "KillAllSpawnersParam": {},
+      "KillAllTargetEnemiesParam": {},
+      "Type": "KillAllSpawners",
+      "VictoryAreaParam": {},
+      "VictoryBallParam": {},
+      "VictoryLiftParam": {}
+    },
+    "DevMapName": "バッテン坂のフロア",
+    "Difficulty": "Easy",
+    "MapNameLabel": "x_spawner",
+    "MinimalNameHash": 1981145612,
+    "Reward": 50,
+    "SelectionId": 1,
+    "StageType": "Normal",
+    "__RowId": "Sdodr_x_spawner"
+  }
+]

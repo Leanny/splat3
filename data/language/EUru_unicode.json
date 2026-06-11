@@ -1227,7 +1227,8 @@
     "3302": "налаженн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]",
     "3303": "активн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00] в Закрас-туре",
     "3304": "вязк[group=00c9 type=0005 params=04 00 38 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]",
-    "3305": "эмоциональн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]"
+    "3305": "эмоциональн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]",
+    "3400": "спирасольно-островн[group=00c9 type=0005 params=04 00 3e 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]боец с плюхотроном",
@@ -3302,7 +3303,9 @@
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]упругость",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]финал",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]механик",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "ядровик",
@@ -4703,7 +4706,6 @@
     "SakeArtillery": "ядровик",
     "SakeArtilleryCannon": "ядромет",
     "SakeBigBoss": "Самонид-король",
-    "SakeBigBossGauge": "Король-шкала",
     "SakeDolphin": "хулахлюп",
     "SakeFlyBagman": "умыкумжа",
     "SakeJaw": "мегалодент",
@@ -6554,7 +6556,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "Сколько силы события тебе... по силам в этом месяце?\n\n・ В [color=0001]боях за район [color=ffff]активируются только основные, но не дополнительные\n[color=0001]   [color=ffff]свойства снаряжения.\n・ В [color=0001]стихийных боях [color=ffff]нет ограничений для свойств снаряжения!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Соберись и бейся за топ-силу события!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Бой-событие месяца",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Бой-событие\nмесяца",
     "EventMatch_Nawabari_Manual00": "У команд есть три минуты, чтобы закрасить как можно больше территории!",
     "EventMatch_Nawabari_Manual01": "У команд есть три минуты, чтобы закрасить\nкак можно больше [color=0001]территории[color=ffff]. Побеждает\nкоманда, которой удастся закрасить [color=0001]больше[color=ffff].\nКрась, крась, и противнику не поможет\nдаже карась!",
     "EventMatch_Nawabari_Manual02": "Когда ты заливаешь все вокруг краской,\nзаполняется шкала заряда [color=0001]особого\nоружия[color=ffff]. Как только она заполнится\nполностью, нажми [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00], чтобы\nприменить [color=0001]особое оружие[color=ffff]!\n\nНо берегись! Если тебя плюхнут, шкала\nчастично опустеет. Не забывай пользоваться\nособым оружием, оно может перевернуть\nход боя!",
@@ -6564,7 +6565,6 @@
     "EventMatch_NewSeasonCup_Manual": "Все начинают бой на равных и одновременно знакомятся с новой ареной!\n\n・ Исследуй арену и придумывай стратегии на лету!\n・ В [color=0001]боях за район [color=ffff]активируются только основные, но не дополнительные\n[color=0001]   [color=ffff]свойства снаряжения.\n・ В [color=0001]стихийных боях [color=ffff]нет ограничений для свойств снаряжения!",
     "EventMatch_NewSeasonCup_Subtitle": "С новым сезоном! С новой ареной!",
     "EventMatch_NewSeasonCup_Title": "Бой-открытие нового сезона ",
-    "EventMatch_NewSeasonCup_Title_2L": "Бой-открытие\nнового сезона",
     "EventMatch_PairCup_Manual": "В боях 2 против 2 самое главное — обоим поймать одну волну!\n\n・ Разработайте новые стратегии и закрашивайте карту!\n・ Время возврата в игру сократится!\n・ В этом режиме можно участвовать как в[color=0001] команде из двух игроков[color=ffff],\n[color=0001]   [color=ffff]так и [color=0001]одному игроку[color=ffff].\n・ Будут доступны как основные, так и дополнительные свойства!",
     "EventMatch_PairCup_Subtitle": "Стойкая двойка сокрушит противников!",
     "EventMatch_PairCup_Title": "Дуэль дуэтов",
@@ -12608,9 +12608,6 @@
     "L_Guide_00-T_Info_00": "Назад",
     "T_Msg_00": "Выбери арену для разведки."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "Запись в каталоге",
     "100": "[group=0002 type=0001 params=00 0c] – [group=0002 type=0001 params=01 0c]",
@@ -12638,21 +12635,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "Стало сложнее!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "x[group=0002 type=0000 params=00 03 00 00]",
-    "100": "x[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1.",
-    "L_ScoreB_00-T_Standings_00": "2.",
-    "L_ScoreC_00-T_Standings_00": "3.",
-    "L_ScoreD_00-T_Standings_00": "Середнячок",
-    "L_ScoreE_00-T_Standings_00": "Ас сольного икросбора",
-    "T_Title_00": "Икорный овертайм"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Место: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "За середнячок",
-    "100": "Топ-сила события: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "Бой\nсалаг",

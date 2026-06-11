@@ -1227,7 +1227,8 @@
     "3302": "Streamlined",
     "3303": "Wandercrust",
     "3304": "Tender",
-    "3305": "Moving"
+    "3305": "Moving",
+    "3400": "Spirhalite Islands"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "Sploosh-o-matic User",
@@ -3302,7 +3303,9 @@
     "3304_0": "Resilience",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "Finale",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "Mechanic",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "Big Shot",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "You cannot join that division from your region."
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "the ZL Button"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "Spring-Loaded",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "Big Shot",
     "SakeArtilleryCannon": "Big Shot launcher",
     "SakeBigBoss": "King Salmonid",
-    "SakeBigBossGauge": "Salmometer",
     "SakeDolphin": "Flipper-Flopper",
     "SakeFlyBagman": "Snatcher",
     "SakeJaw": "Megalodontia",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "How high can you get your Challenge Power this month?\n\n・ Only primary gear abilities will be enabled in [color=0001]Turf War[color=ffff] battles.\n  Secondary gear abilities will have no effect!\n・ There will be no limits on gear abilities in [color=0001]Anarchy Battle modes[color=ffff]!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Aim for the highest Challenge Power!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Monthly Challenge",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Monthly\nChallenge",
     "EventMatch_Nawabari_Manual00": "Teams have three minutes to try to ink more ground than their opponents!",
     "EventMatch_Nawabari_Manual01": "Teams have three minutes to cover the [color=0001]ground[color=ffff]\nwith ink, and the team with the most [color=0001]turf [color=ffff]inked\nwhen time runs out wins. Get inking, and try to\nclaim as much turf as possible for your team!",
     "EventMatch_Nawabari_Manual02": "The more turf you ink, the more your [color=0001]special\ngauge[color=ffff] will fill. When it's completely full,\npress [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] to unleash your [color=0001]special[color=ffff]!\n\nBut watch out! Your special gauge drops if you\nget splatted. Remember to unleash its fury, and\nyou could turn the tide of battle!",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "Compete on a perfectly level playing field—everyone will be trying out\na new stage together!\n\n・ Develop stage-specific strategies and tactics in real time.\n・ Only primary gear abilities will be enabled in [color=0001]Turf War[color=ffff] battles.\n  Secondary gear abilities will have no effect!\n・ There will be no limits on gear abilities in [color=0001]Anarchy Battle modes[color=ffff]!",
     "EventMatch_NewSeasonCup_Subtitle": "Celebrate the new season on a new stage!",
     "EventMatch_NewSeasonCup_Title": "New Season Challenge",
-    "EventMatch_NewSeasonCup_Title_2L": "New Season\nChallenge",
     "EventMatch_PairCup_Manual": "Team chemistry is the name of the game in fast-paced two vs. two battles!\n\n・ Explore new strategies as you try to become the top team on the map!\n・ Respawn time will be shortened!\n・ You can participate as a[color=0001] team of 2[color=ffff] or [color=0001]solo[color=ffff].\n・ Both primary and secondary abilities will be enabled!",
     "EventMatch_PairCup_Subtitle": "See what you can do as a duo!",
     "EventMatch_PairCup_Title": "Duel of Dynamic Duos",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Pick Again",
     "BtnL_ConfirmFestRegion_AltLang": "Choose Again",
-    "BtnL_ConfirmFestRegion_EveFirst": "Change",
     "BtnL_ConfirmFestRegion_First": "Change",
     "BtnL_ConfirmFestRegion_Reboot": "Choose Again",
     "BtnR_ConfirmFestRegion": "OK",
     "BtnR_ConfirmFestRegion_AltLang": "OK!",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK!",
     "BtnR_ConfirmFestRegion_First": "OK",
     "BtnR_ConfirmFestRegion_Reboot": "OK!",
     "Msg_ConfirmFestRegion": "Play in this region's Splatfests?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "The English language is not supported for Splatfests\nin [color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nDuring the Splatfest, some text will be displayed\nin [color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]. Is this OK?",
-    "Msg_ConfirmFestRegion_EveFirst": "Play in this region's Splatfest?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nThis setting is for the Splatfest World Premiere\nonly and cannot be changed later.",
     "Msg_ConfirmFestRegion_First": "Play in this region's Splatfests?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nNote: You can change this later, but if you participate\nin a Splatfest, you will be unable to change the\nsetting for a period of time.",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "Your gear, camera options, and other\nsettings now match what they were the\nlast time you played online on a different\nNintendo Switch console.",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "Are you cool with this gear?",
     "Msg_ConfirmLeagueInvalid": "You can't join this Challenge while equipped\nwith your current gear. Please change your\ngear in order to participate.",
     "Msg_LeagueInvalidWhileMatching": "You can't join this Challenge while equipped\nwith your current gear."
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "No Splatfest in session right now.",
-    "Msg_OutOfService": "The Splatoon 3: Splatfest World Premiere\nis complete.\n\nSee you around!"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "Nah",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "Well, this is exciting. There's a [color=0001]Splatfest [color=ffff]going\non right now![page break]You can head right over to the [color=0001]battle pot [color=ffff]and\nselect [color=0001]Splatfest Battle [size=75%](Open)[size=100%] [color=ffff]if you want to join.[page break]That'll launch you into a [color=0001]Turf War[color=ffff], where your\nteam has three minutes to ink the most turf!",
     "FirstEnter_04": "Eh, less chat, more splat. Let's get started!",
     "FirstEnter_FestVote_00": "Ooo, there's a [color=0001]Splatfest [color=ffff]going on right now![page break]That means you'll need to [color=0001]pick a side[color=ffff] before\nyou can join in the fun.[page break]Just pop outside and check out the\n[color=0001]Splatfest Pledge Box [color=ffff]to make your choice!",
-    "Msg_Eve00": "Just a heads-up: you won't get cash, experience,\nor Super Sea Snails for playing in this Splatfest.\n\nAlso, save data from this Splatfest won't carry\nover to the full version of Splatoon 3.",
     "Msg_Legal00": "Nintendo's Community Guidelines apply to\nonline play and can be found on our website.\nPlease be considerate to your fellow players.\n\nWhen you play online, your nickname\nand player data may be made public."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "First up, Splatfest Sneak Peek results!\nThe team with the most [color=0001]conch shells [color=ffff]was...",
     "007": "Wow! They crushed it!",
     "008": "Next up...which team got the [color=0001]most votes[color=ffff]!\nGet on the bandwagon for...",
-    "008_Eve": "First, let's see which team got the\nmost [color=0001]votes [color=ffff]overall!",
     "009": "Ay...ay... [group=0004 type=0005 params=](C'mon, c'mon...)[/group=0004 type=0005]",
     "010": "No way!",
     "011": "Ay? Ay! [group=0004 type=0005 params=](What's next? Tell meee!)[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "Back",
     "T_Msg_00": "Select a stage for recon."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "Special supply drop!",
     "T_SubName_00": "You've been loaned the",
     "T_WpnName_02": "An egg cannon!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "x[group=0002 type=0000 params=00 03 00 00]",
-    "100": "x[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "Average Roe",
-    "L_ScoreE_00-T_Standings_00": "Top Individual Contributor",
-    "T_Title_00": "Eggstra Work"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Place: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Average Roe Award",
-    "100": "Highest Challenge Power: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "Step right up, and try your luck at the\n[color=0001]Shell-Out Machine[color=ffff]!\n\nThe first play will cost you [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5,000[color=ffff].\nAnd it's a cool [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30,000 [color=ffff]for each\nplay after that!",

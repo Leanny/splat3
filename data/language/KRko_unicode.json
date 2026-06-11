@@ -1227,7 +1227,8 @@
     "3302": "바삭바삭한",
     "3303": "롭케이션의",
     "3304": "탄력 있는",
-    "3305": "감동의"
+    "3305": "감동의",
+    "3400": "소금돌이 제도의"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "볼드 마커 유저",
@@ -3302,7 +3303,9 @@
     "3304_0": "식감",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "엔딩",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "메카닉",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "철 구슬",
@@ -4703,7 +4706,6 @@
     "SakeArtillery": "철 구슬",
     "SakeArtilleryCannon": "발사대",
     "SakeBigBoss": "두목연어",
-    "SakeBigBossGauge": "두목 게이지",
     "SakeDolphin": "다이버",
     "SakeFlyBagman": "알주어",
     "SakeJaw": "죠",
@@ -6554,7 +6556,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "월간 챌린지 배틀! 이벤트 파워의 한계를 노려라!\n\n・ [color=0001]영역 배틀의 룰[color=ffff]일 경우에는 기본 기어 파워만 유효하다! 추가 기어 파워는 무효하다!\n・ [color=0001]카오폴리스 매치의 룰[color=ffff]일 경우에는 기어 파워에 제한은 없다!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "월간 챌린지 배틀! 이벤트 파워의 한계를 노려라!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "월간 이벤트 매치",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "월간 이벤트 매치",
     "EventMatch_Nawabari_Manual00": "3분간 땅을 칠해서 더 많은 영역을 확보한 팀의 승리!",
     "EventMatch_Nawabari_Manual01": "영역 배틀은 3분간 [color=0001]땅[color=ffff]을 칠해서\n더 많은 [color=0001]영역[color=ffff]을 확보한 팀이 승리하는 배틀이다!\n땅을 칠하고 또 칠해 팀의 영역을 넓혀서\n승리를 노리자!",
     "EventMatch_Nawabari_Manual02": "땅을 칠하면 칠할수록 [color=0001]스페셜 게이지[color=ffff]가 늘어난다.\n가득 차면 [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]을 눌러서\n[color=0001]스페셜 웨펀[color=ffff]을 발동할 수 있지!\n\n스페셜 게이지는 당하면 줄어든다.\n타이밍을 노려서 효과적으로 스페셜 웨펀을 사용하자!",
@@ -6564,7 +6565,6 @@
     "EventMatch_NewSeasonCup_Manual": "뉴 시즌 개막! 새로운 스테이지를 공략하라!\n\n・ 배틀의 무대는 새로운 스테이지다!\n・ [color=0001]영역 배틀의 룰[color=ffff]일 경우에는 기본 기어 파워만 유효하다! 추가 기어 파워는 무효하다!\n・ [color=0001]카오폴리스 매치의 룰[color=ffff]일 경우에는 기어 파워에 제한은 없다!",
     "EventMatch_NewSeasonCup_Subtitle": "뉴 시즌 개막! 새로운 스테이지를 공략하라!",
     "EventMatch_NewSeasonCup_Title": "뉴 시즌 개막 기념 컵",
-    "EventMatch_NewSeasonCup_Title_2L": "뉴 시즌 개막 기념 컵",
     "EventMatch_PairCup_Manual": "둘의 상성을 과시하라! 2 대 2 소수 인원 배틀!\n\n・ 2 대 2의 소수 인원이 펼치는 배틀이다!\n・ [color=0001]둘이서 [color=ffff]또는 [color=0001]혼자서 [color=ffff]참가할 수 있다!\n・ 부활 시간이 단축된다!\n・ 기본 기어 파워와 추가 기어 파워는 유효하다!",
     "EventMatch_PairCup_Subtitle": "둘의 상성을 과시하라! 2 대 2 소수 인원 배틀!",
     "EventMatch_PairCup_Title": "최강 페어 결정전",
@@ -12608,9 +12608,6 @@
     "L_Guide_00-T_Info_00": "뒤로",
     "T_Msg_00": "산책할 스테이지를 선택해 주십시오"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "카탈로그 기록",
     "100": "[group=0002 type=0001 params=00 0c]  ～  [group=0002 type=0001 params=01 0c]",
@@ -12638,21 +12635,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "위험도 업!!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1위",
-    "L_ScoreB_00-T_Standings_00": "2위",
-    "L_ScoreC_00-T_Standings_00": "3위",
-    "L_ScoreD_00-T_Standings_00": "딱 한가운데 상",
-    "L_ScoreE_00-T_Standings_00": "솔로 톱 상",
-    "T_Title_00": "아르바이트 팀 콘테스트"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00]위",
-    "001": "딱 한가운데 상",
-    "100": "최고 이벤트 파워: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "레귤러\n매치",

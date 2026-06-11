@@ -1227,7 +1227,8 @@
     "3302": "바삭바삭한",
     "3303": "롭케이션의",
     "3304": "탄력 있는",
-    "3305": "감동의"
+    "3305": "감동의",
+    "3400": "소금돌이 제도의"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "볼드 마커 유저",
@@ -3302,7 +3303,9 @@
     "3304_0": "식감",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "엔딩",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "메카닉",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "철 구슬",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "거주 중인 지역에서는\n해당 그룹에 참가할 수 없습니다"
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "ZL 버튼"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "해피 6",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "철 구슬",
     "SakeArtilleryCannon": "발사대",
     "SakeBigBoss": "두목연어",
-    "SakeBigBossGauge": "두목 게이지",
     "SakeDolphin": "다이버",
     "SakeFlyBagman": "알주어",
     "SakeJaw": "죠",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "월간 챌린지 배틀! 이벤트 파워의 한계를 노려라!\n\n・ [color=0001]영역 배틀의 룰[color=ffff]일 경우에는 기본 기어 파워만 유효하다! 추가 기어 파워는 무효하다!\n・ [color=0001]카오폴리스 매치의 룰[color=ffff]일 경우에는 기어 파워에 제한은 없다!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "월간 챌린지 배틀! 이벤트 파워의 한계를 노려라!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "월간 이벤트 매치",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "월간 이벤트 매치",
     "EventMatch_Nawabari_Manual00": "3분간 땅을 칠해서 더 많은 영역을 확보한 팀의 승리!",
     "EventMatch_Nawabari_Manual01": "영역 배틀은 3분간 [color=0001]땅[color=ffff]을 칠해서\n더 많은 [color=0001]영역[color=ffff]을 확보한 팀이 승리하는 배틀이다!\n땅을 칠하고 또 칠해 팀의 영역을 넓혀서\n승리를 노리자!",
     "EventMatch_Nawabari_Manual02": "땅을 칠하면 칠할수록 [color=0001]스페셜 게이지[color=ffff]가 늘어난다.\n가득 차면 [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]을 눌러서\n[color=0001]스페셜 웨펀[color=ffff]을 발동할 수 있지!\n\n스페셜 게이지는 당하면 줄어든다.\n타이밍을 노려서 효과적으로 스페셜 웨펀을 사용하자!",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "뉴 시즌 개막! 새로운 스테이지를 공략하라!\n\n・ 배틀의 무대는 새로운 스테이지다!\n・ [color=0001]영역 배틀의 룰[color=ffff]일 경우에는 기본 기어 파워만 유효하다! 추가 기어 파워는 무효하다!\n・ [color=0001]카오폴리스 매치의 룰[color=ffff]일 경우에는 기어 파워에 제한은 없다!",
     "EventMatch_NewSeasonCup_Subtitle": "뉴 시즌 개막! 새로운 스테이지를 공략하라!",
     "EventMatch_NewSeasonCup_Title": "뉴 시즌 개막 기념 컵",
-    "EventMatch_NewSeasonCup_Title_2L": "뉴 시즌 개막 기념 컵",
     "EventMatch_PairCup_Manual": "둘의 상성을 과시하라! 2 대 2 소수 인원 배틀!\n\n・ 2 대 2의 소수 인원이 펼치는 배틀이다!\n・ [color=0001]둘이서 [color=ffff]또는 [color=0001]혼자서 [color=ffff]참가할 수 있다!\n・ 부활 시간이 단축된다!\n・ 기본 기어 파워와 추가 기어 파워는 유효하다!",
     "EventMatch_PairCup_Subtitle": "둘의 상성을 과시하라! 2 대 2 소수 인원 배틀!",
     "EventMatch_PairCup_Title": "최강 페어 결정전",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "다시 선택하기",
     "BtnL_ConfirmFestRegion_AltLang": "다시 선택하기",
-    "BtnL_ConfirmFestRegion_EveFirst": "변경하기",
     "BtnL_ConfirmFestRegion_First": "변경하기",
     "BtnL_ConfirmFestRegion_Reboot": "다시 선택하기",
     "BtnR_ConfirmFestRegion": "OK!",
     "BtnR_ConfirmFestRegion_AltLang": "OK!",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK!",
     "BtnR_ConfirmFestRegion_First": "OK!",
     "BtnR_ConfirmFestRegion_Reboot": "OK!",
     "Msg_ConfirmFestRegion": "이 지역의 페스티벌로 괜찮겠습니까?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]의 페스티벌은\n한국어에 대응하지 않습니다\n페스티벌 개최 중에는 일부 표시가 [color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff][group=00c9 type=0008 params=04 00 3c c7 5c b8 02 00 5c b8] 나옵니다\n그래도 괜찮겠습니까?",
-    "Msg_ConfirmFestRegion_EveFirst": "이 지역의 페스티벌로 괜찮겠습니까?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※전야제에서는 한번 결정한 지역을\n나중에 다시 변경할 수 없습니다",
     "Msg_ConfirmFestRegion_First": "이 지역의 페스티벌로 괜찮겠습니까?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n※나중에 다시 변경할 수 있지만 페스티벌에 참가하면\n잠시 동안 변경할 수 없게 됩니다",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]의 페스티벌은\n한국어에 대응하지 않습니다\n페스티벌 개최 중에는 소프트웨어를 재기동하여 게임 내 표시를\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff][group=00c9 type=0008 params=04 00 3c c7 5c b8 02 00 5c b8] 전환해야 합니다\n그래도 괜찮겠습니까?",
     "Msg_DeviceIdChanged": "장비와 카메라 옵션 등을 다른 Nintendo Switch 본체에서\n마지막으로 온라인 플레이했을 때와 똑같이 설정했습니다",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "이 장비로 괜찮겠습니까?",
     "Msg_ConfirmLeagueInvalid": "이 장비로는 이벤트 매치에 참가할 수 없습니다\n참가하기 위해서는 장비를 변경해 주십시오",
     "Msg_LeagueInvalidWhileMatching": "이 장비로는 이벤트 매치에 참가할 수 없습니다"
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "현재는 페스티벌 개최 기간이 아닙니다",
-    "Msg_OutOfService": "「스플래툰 3 전야제」의\n플레이 기간이 종료되었습니다\n\n소프트웨어를 종료해 주십시오"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "그만두기",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "지금은 [color=0001]페스티벌[color=ffff] 개최 중이다![page break]그럼 바로 저쪽에 있는 [color=0001]배틀 포트[color=ffff]에 들어가서\n[color=0001]페스티벌 매치[size=75%](오픈)[size=100%][color=ffff]를 선택해 보자![page break]페스티벌 매치에서는 [color=0001]영역 배틀[color=ffff]에 참가할 수 있다\n3분간 땅을 칠해서 더 많은 영역을 확보한 팀이 승리하지!",
     "FirstEnter_04": "백문이 불여일견! 실전 또 실전이다!",
     "FirstEnter_FestVote_00": "지금은 [color=0001]페스티벌[color=ffff] 개최 중이다![page break]페스티벌 중에 배틀에 참가하고 싶다면\n먼저 소속할 팀에 [color=0001]투표[color=ffff]를 해야 한다[page break]일단 광장으로 돌아가서 [color=0001]페스티벌 투표소[color=ffff]로 가 봐!",
-    "Msg_Eve00": "전야제에서는 경험치 및 돈,\n슈퍼 소라를 획득할 수 없습니다\n\n또한, 저장 데이터는\n제품판 『스플래툰 3』로 계승되지 않습니다",
     "Msg_Legal00": "온라인 플레이에는\n닌텐도 어카운트 이용 약관이 적용됩니다\n이용 약관에 따라 다른 유저를\n배려하는 플레이를 하도록 유의해 주십시오\n\n온라인 플레이에 참가하면 게임 내 또는 웹 사이트상에\n플레이어명과 플레이어 데이터가 공개될 수 있습니다"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "먼저 사전 페스티벌 결과를 복습하고 넘어가까\n사전 페스티벌에서 [color=0001]소라고둥[color=ffff]을 많이 획득한 것은…",
     "007": "음, 그러했지!",
     "008": "다음으로 어느 팀이 많은 표를 받았는지\n[color=0001]득표율[color=ffff] 승부!",
-    "008_Eve": "먼저 어느 팀이 많은 표를 받았는지\n[color=0001]득표율[color=ffff] 승부!",
     "009": "만타![group=0004 type=0005 params=](안 질 거야～!)[/group=0004 type=0005]",
     "010": "오호, 이렇게 되었구나!",
     "011": "만타～?![group=0004 type=0005 params=](그리고 그리고～?!)[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "뒤로",
     "T_Msg_00": "산책할 스테이지를 선택해 주십시오"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "특별 지급!!",
     "T_SubName_00": "아르바이트 전용",
     "T_WpnName_02": "연어알 캐넌!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1위",
-    "L_ScoreB_00-T_Standings_00": "2위",
-    "L_ScoreC_00-T_Standings_00": "3위",
-    "L_ScoreD_00-T_Standings_00": "딱 한가운데 상",
-    "L_ScoreE_00-T_Standings_00": "솔로 톱 상",
-    "T_Title_00": "아르바이트 팀 콘테스트"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00]위",
-    "001": "딱 한가운데 상",
-    "100": "최고 이벤트 파워: [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "이곳에서는 꽝 없는 [color=0001]뽑기[color=ffff]를 할 수 있습니다\n\n매일 첫 1번은 [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5,000[color=ffff]로\n2번째부터는 [group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30,000[color=ffff]로 뽑을 수 있습니다",

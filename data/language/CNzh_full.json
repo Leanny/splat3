@@ -1227,7 +1227,8 @@
     "3302": "\u723d\u8106\u7684",
     "3303": "\u6e38\u9f99\u7684",
     "3304": "\u8f6f\u5ae9\u7684",
-    "3305": "\u611f\u52a8\u7684"
+    "3305": "\u611f\u52a8\u7684",
+    "3400": "\u6da1\u6f6e\u7fa4\u5c9b\u7684"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "\u5e7f\u57df\u6807\u8bb0\u67aa\u64cd\u4f5c\u8005",
@@ -3302,7 +3303,9 @@
     "3304_0": "\u56bc\u52b2",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "\u7ed3\u5c40",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "\u673a\u68b0\u5e08",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "\u94c1\u7403\u9c7c",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "\u60a8\u6240\u5c45\u4f4f\u7684\u5730\u533a\n\u65e0\u6cd5\u53c2\u52a0\u8be5\u7ec4\u522b\u3002"
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "\u2015\u2015\u2015\u2015\n\u25a0\u624b\u9806 / Procedures\n1.\n2.\n3.\n\n\u25a0\u7d50\u679c / Result\n\n\u25a0\u8a66\u884c\u56de\u6570 / Number of attempts\nX/X\n\n\u25a0\u5099\u8003 / Remarks\n\n\u2015\u2015\u2015\u2015",
-    "Man_ZL_msg": "ZL\u952e"
+    "BugReportContent": "\u2015\u2015\u2015\u2015\n\u25a0\u624b\u9806 / Procedures\n1.\n2.\n3.\n\n\u25a0\u7d50\u679c / Result\n\n\u25a0\u8a66\u884c\u56de\u6570 / Number of attempts\nX/X\n\n\u25a0\u5099\u8003 / Remarks\n\n\u2015\u2015\u2015\u2015"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "\u5feb\u4e506",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "\u94c1\u7403\u9c7c",
     "SakeArtilleryCannon": "\u53d1\u5c04\u53f0",
     "SakeBigBoss": "\u5934\u76ee\u9c91\u9c7c",
-    "SakeBigBossGauge": "\u5934\u76ee\u69fd",
     "SakeDolphin": "\u6f5c\u6c34\u9c7c",
     "SakeFlyBagman": "\u62fe\u86cb\u9c7c",
     "SakeJaw": "\u5de8\u989a",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "\u6bcf\u6708\u4e00\u6b21\u7684\u6311\u6218\u5bf9\u6218\uff01\u76ee\u6807\u662f\u8fbe\u5230\u6d3b\u52a8\u6218\u529b\u7684\u6781\u9650\uff01\n\n\u00b7\u8fdb\u884c[color=0001]\u5360\u5730\u5bf9\u6218[color=ffff]\u65f6\uff0c\u53ea\u6709\u57fa\u672c\u88c5\u5907\u80fd\u529b\u4f1a\u751f\u6548\uff01\u8ffd\u52a0\u88c5\u5907\u80fd\u529b\u4e0d\u4f1a\u6709\u6548\u679c\u54e6\uff01\n\u00b7\u91c7\u7528[color=0001]\u86ee\u9893\u6bd4\u8d5b\u7684\u89c4\u5219[color=ffff]\u65f6\uff0c\u88c5\u5907\u80fd\u529b\u4e0d\u4f1a\u53d7\u5230\u9650\u5236\u54e6\uff01",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "\u6bcf\u6708\u4e00\u6b21\u7684\u6311\u6218\u5bf9\u6218\uff01\u76ee\u6807\u662f\u8fbe\u5230\u6d3b\u52a8\u6218\u529b\u7684\u6781\u9650\uff01",
     "EventMatch_MonthlyLeagueMatchReal_Title": "\u6708\u4e00\u00b7\u6d3b\u52a8\u6bd4\u8d5b",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "\u6708\u4e00\u00b7\u6d3b\u52a8\u6bd4\u8d5b",
     "EventMatch_Nawabari_Manual00": "\u57283\u5206\u949f\u5185\u6301\u7eed\u5bf9\u5730\u9762\u6d82\u58a8\uff0c\u5360\u5730\u9762\u79ef\u66f4\u591a\u7684\u961f\u4f0d\u5373\u53ef\u83b7\u80dc\uff01",
     "EventMatch_Nawabari_Manual01": "\u5728\u5360\u5730\u5bf9\u6218\u4e2d\uff0c\u4f60\u9700\u8981\u57283\u5206\u949f\u5185\u6301\u7eed\u5bf9[color=0001]\u5730\u9762[color=ffff]\u6d82\u58a8\uff0c\n[color=0001]\u5360\u5730\u9762\u79ef[color=ffff]\u66f4\u591a\u7684\u961f\u4f0d\u5373\u53ef\u83b7\u80dc\uff01\n\u6301\u7eed\u5bf9\u5730\u9762\u6d82\u58a8\u6765\u6269\u5927\u961f\u4f0d\u7684\u5360\u5730\u9762\u79ef\uff0c\n\u4ee5\u6b64\u83b7\u5f97\u80dc\u5229\u5427\uff01",
     "EventMatch_Nawabari_Manual02": "[color=0001]\u7279\u6b8a\u6b66\u5668\u84c4\u529b\u69fd[color=ffff]\u4f1a\u968f\u7740\u5bf9\u5730\u9762\u6d82\u58a8\u800c\u589e\u52a0\u54e6\u3002\n\u84c4\u529b\u69fd\u5168\u6ee1\u540e\uff0c\n\u6309\u4e0b[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]\u5373\u53ef\u53d1\u52a8[color=0001]\u7279\u6b8a\u6b66\u5668[color=ffff]\uff01\n\n\u9635\u4ea1\u4f1a\u5bfc\u81f4\u7279\u6b8a\u6b66\u5668\u84c4\u529b\u69fd\u51cf\u5c11\uff0c\n\u770b\u51c6\u65f6\u673a\u6709\u6548\u5730\u4f7f\u7528\u7279\u6b8a\u6b66\u5668\u5427\uff01",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "\u65b0\u8d5b\u5b63\u5f00\u5e55\uff01\u653b\u7565\u65b0\u573a\u5730\uff01\n\n\u00b7\u5bf9\u6218\u7684\u821e\u53f0\u4e3a\u65b0\u573a\u5730\uff01\n\u00b7\u8fdb\u884c[color=0001]\u5360\u5730\u5bf9\u6218[color=ffff]\u65f6\uff0c\u53ea\u6709\u57fa\u672c\u88c5\u5907\u80fd\u529b\u4f1a\u751f\u6548\uff01\u8ffd\u52a0\u88c5\u5907\u80fd\u529b\u4e0d\u4f1a\u6709\u6548\u679c\u54e6\uff01\n\u00b7\u91c7\u7528[color=0001]\u86ee\u9893\u6bd4\u8d5b\u7684\u89c4\u5219[color=ffff]\u65f6\uff0c\u88c5\u5907\u80fd\u529b\u4e0d\u4f1a\u53d7\u5230\u9650\u5236\u54e6\uff01",
     "EventMatch_NewSeasonCup_Subtitle": "\u65b0\u8d5b\u5b63\u5f00\u5e55\uff01\u653b\u7565\u65b0\u573a\u5730\uff01",
     "EventMatch_NewSeasonCup_Title": "\u65b0\u8d5b\u5b63\u5f00\u5e55\u7eaa\u5ff5\u676f",
-    "EventMatch_NewSeasonCup_Title_2L": "\u65b0\u8d5b\u5b63\u5f00\u5e55\u7eaa\u5ff5\u676f",
     "EventMatch_PairCup_Manual": "\u5c55\u73b0\u4e24\u4eba\u7684\u9ed8\u5951\uff012\u5bf92\u7684\u5c0f\u89c4\u6a21\u5bf9\u6218\uff01\n\n\u00b7\u4e3a2\u5bf92\u7684\u5c0f\u89c4\u6a21\u5bf9\u6218\uff01\n\u00b7\u80fd\u4ee5[color=0001]2\u4eba\u961f\u4f0d[color=ffff]\u6216[color=0001]\u72ec\u81ea1\u4eba[color=ffff]\u53c2\u52a0\u54e6\uff01\n\u00b7\u590d\u6d3b\u65f6\u95f4\u5c06\u4f1a\u7f29\u77ed\u54e6\uff01\n\u00b7\u57fa\u672c\u88c5\u5907\u80fd\u529b\u548c\u8ffd\u52a0\u88c5\u5907\u80fd\u529b\u90fd\u4f1a\u751f\u6548\uff01",
     "EventMatch_PairCup_Subtitle": "\u5c55\u73b0\u4e24\u4eba\u7684\u9ed8\u5951\uff012\u5bf92\u7684\u5c0f\u89c4\u6a21\u5bf9\u6218\uff01",
     "EventMatch_PairCup_Title": "\u6700\u5f3a\u642d\u6863\u4e89\u593a\u6218",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "\u91cd\u65b0\u9009\u62e9",
     "BtnL_ConfirmFestRegion_AltLang": "\u91cd\u65b0\u9009\u62e9",
-    "BtnL_ConfirmFestRegion_EveFirst": "\u66f4\u6539",
     "BtnL_ConfirmFestRegion_First": "\u66f4\u6539",
     "BtnL_ConfirmFestRegion_Reboot": "\u91cd\u65b0\u9009\u62e9",
     "BtnR_ConfirmFestRegion": "OK\uff01",
     "BtnR_ConfirmFestRegion_AltLang": "OK\uff01",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK\uff01",
     "BtnR_ConfirmFestRegion_First": "OK\uff01",
     "BtnR_ConfirmFestRegion_Reboot": "OK\uff01",
     "Msg_ConfirmFestRegion": "\u786e\u5b9a\u8981\u53c2\u52a0\u6b64\u5730\u533a\u7684\u796d\u5178\u5417\uff1f\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "\u9762\u5411[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\u4e3e\u884c\u7684\u796d\u5178\n\u5e76\u672a\u5bf9\u5e94\u7b80\u4f53\u4e2d\u6587\u3002\n\u4e3e\u884c\u796d\u5178\u671f\u95f4\uff0c\u90e8\u5206\u5185\u5bb9\u5c06\u4f1a\u4ee5[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]\u663e\u793a\uff0c\n\u662f\u5426\u4ecd\u8981\u9009\u62e9\u6b64\u5730\u533a\uff1f",
-    "Msg_ConfirmFestRegion_EveFirst": "\u786e\u5b9a\u8981\u53c2\u52a0\u6b64\u5730\u533a\u7684\u796d\u5178\u5417\uff1f\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n\u203b\u5728\u524d\u591c\u796d\u671f\u95f4\n\u3000\u3000\u65e0\u6cd5\u66f4\u6539\u5df2\u51b3\u5b9a\u53c2\u52a0\u7684\u5730\u533a\u3002",
     "Msg_ConfirmFestRegion_First": "\u786e\u5b9a\u8981\u53c2\u52a0\u6b64\u5730\u533a\u7684\u796d\u5178\u5417\uff1f\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\n\u203b\u51b3\u5b9a\u540e\u4ecd\u53ef\u66f4\u6539\uff0c\n\u3000\u3000\u4f46\u662f\u53c2\u52a0\u796d\u5178\u540e\u5c06\u6682\u65f6\u65e0\u6cd5\u66f4\u6539\u3002",
     "Msg_ConfirmFestRegion_Reboot": "\u9762\u5411[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\u4e3e\u884c\u7684\u796d\u5178\n\u5e76\u672a\u5bf9\u5e94\u7b80\u4f53\u4e2d\u6587\u3002\n\u4e3e\u884c\u796d\u5178\u671f\u95f4\uff0c\u5fc5\u987b\u91cd\u65b0\u542f\u52a8\u8f6f\u4ef6\uff0c\n\u5c06\u6e38\u620f\u5185\u5bb9\u5207\u6362\u4e3a\u4ee5[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]\u663e\u793a\u3002\n\u662f\u5426\u4ecd\u8981\u9009\u62e9\u6b64\u5730\u533a\uff1f",
     "Msg_DeviceIdChanged": "\u88c5\u5907\u4e0e\u955c\u5934\u9009\u9879\u7b49\u5185\u5bb9\u5df2\u66f4\u6539\u4e3a\n\u6700\u540e\u4e00\u6b21\u4f7f\u7528\u5176\u4ed6Switch\u4e3b\u673a\u8fdb\u884c\u7ebf\u4e0a\u6e38\u620f\u65f6\u7684\u72b6\u6001\u3002",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "\u786e\u5b9a\u8981\u4f7f\u7528\u6b64\u88c5\u5907\u5417\uff1f",
     "Msg_ConfirmLeagueInvalid": "\u65e0\u6cd5\u4f7f\u7528\u76ee\u524d\u7684\u88c5\u5907\u53c2\u52a0\u6d3b\u52a8\u6bd4\u8d5b\u3002\n\u82e5\u60f3\u53c2\u52a0\uff0c\u8bf7\u5148\u66f4\u6362\u88c5\u5907\u3002",
     "Msg_LeagueInvalidWhileMatching": "\u65e0\u6cd5\u4f7f\u7528\u8be5\u88c5\u5907\u53c2\u52a0\u6d3b\u52a8\u6bd4\u8d5b\u3002"
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "\u76ee\u524d\u5c1a\u672a\u4e3e\u884c\u796d\u5178\u3002",
-    "Msg_OutOfService": "\u300a\u65af\u666e\u62c9\u9041 3 \u524d\u591c\u796d\u7248\u300b\u7684\n\u6e38\u73a9\u671f\u9650\u5df2\u7ed3\u675f\u3002\n\n\u8bf7\u5173\u95ed\u8f6f\u4ef6\u3002"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "\u53d6\u6d88",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "\u76ee\u524d\u6b63\u5728\u4e3e\u884c[color=0001]\u796d\u5178[color=ffff]\uff01[page break]\u4e8b\u4e0d\u5b9c\u8fdf\uff0c\u8d76\u5feb\u8fdb\u5165\u90a3\u8fb9\u7684[color=0001]\u5bf9\u6218\u58f6[color=ffff]\uff0c\n\u9009\u62e9[color=0001]\u796d\u5178\u6bd4\u8d5b[size=75%]\uff08\u5f00\u653e\uff09[size=100%][color=ffff]\u8bd5\u8bd5\u5427\uff01[page break]\u4f60\u53ef\u4ee5\u53c2\u52a0\u796d\u5178\u6bd4\u8d5b\u4e2d\u7684[color=0001]\u5360\u5730\u5bf9\u6218[color=ffff]\u54e6\u3002\n\u57283\u5206\u949f\u5185\u6301\u7eed\u5bf9\u5730\u9762\u6d82\u58a8\uff0c\u5360\u5730\u9762\u79ef\u66f4\u591a\u7684\u961f\u4f0d\u5373\u53ef\u83b7\u80dc\uff01",
     "FirstEnter_04": "\u4fd7\u8bdd\u8bf4\u201c\u719f\u80fd\u751f\u5de7\u201d\uff01\u8fd9\u662f\u771f\u7406\uff01",
     "FirstEnter_FestVote_00": "\u76ee\u524d\u6b63\u5728\u4e3e\u884c[color=0001]\u796d\u5178[color=ffff]\uff01[page break]\u5982\u679c\u60f3\u5728\u796d\u5178\u671f\u95f4\u53c2\u52a0\u5bf9\u6218\uff0c\n\u5c31\u5fc5\u987b\u4e8b\u5148\u5b8c\u6210[color=0001]\u6295\u7968[color=ffff]\u6765\u9009\u62e9\u8981\u52a0\u5165\u7684\u961f\u4f0d\u54e6\u3002[page break]\u5148\u56de\u5230\u5e7f\u573a\u5e76\u524d\u5f80[color=0001]\u796d\u5178\u6295\u7968\u6240[color=ffff]\u5427\uff01",
-    "Msg_Eve00": "\u5728\u524d\u591c\u796d\u671f\u95f4\n\u65e0\u6cd5\u83b7\u5f97\u7ecf\u9a8c\u503c\u3001\u91d1\u94b1\u4ee5\u53ca\u8d85\u7ea7\u877e\u87ba\u3002\n\n\u53e6\u5916\uff0c\u4fdd\u5b58\u6570\u636e\n\u5c06\u4e0d\u4f1a\u7ee7\u627f\u81f3\u300a\u65af\u666e\u62c9\u9041 3\u300b\u6b63\u5f0f\u7248\u3002",
     "Msg_Legal00": "\u8fdb\u884c\u7ebf\u4e0a\u6e38\u73a9\u65f6\u5c06\u4f1a\n\u53d7Nintendo Account\u4f7f\u7528\u6761\u6b3e\u7684\u89c4\u8303\u3002\n\u8bf7\u52a1\u5fc5\u9075\u5b88\u4f7f\u7528\u6761\u6b3e\uff0c\n\u5e76\u4e8e\u6e38\u73a9\u65f6\u5c0a\u91cd\u5176\u4ed6\u7528\u6237\u3002\n\n\u53c2\u52a0\u7ebf\u4e0a\u6e38\u73a9\u540e\uff0c\u60a8\u7684\u73a9\u5bb6\u540d\u79f0\u4e0e\u73a9\u5bb6\u6570\u636e\n\u5c06\u6709\u53ef\u80fd\u4f1a\u5728\u6e38\u620f\u5185\u6216\u7f51\u7ad9\u4e0a\u516c\u5f00\u3002"
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "\u5148\u8ba9\u6211\u4eec\u770b\u770b\u51c6\u5907\u796d\u7684\u7ed3\u679c\u5427\u3002\n\u5728\u51c6\u5907\u796d\u4e2d\u83b7\u5f97[color=0001]\u6cd5\u87ba[color=ffff]\u6700\u591a\u7684\u662f\u2026\u2026",
     "007": "\u55ef\uff0c\u662f\u8fd9\u6837\u554a\uff01",
     "008": "\u63a5\u4e0b\u6765\u662f[color=0001]\u5f97\u7968\u7387[color=ffff]\u5bf9\u51b3\uff01\n\u5230\u5e95\u662f\u54ea\u4e2a\u961f\u4f0d\u83b7\u5f97\u7684\u7968\u6700\u591a\u5462\uff1f",
-    "008_Eve": "\u9996\u5148\u662f[color=0001]\u5f97\u7968\u7387[color=ffff]\u5bf9\u51b3\uff01\n\u770b\u770b\u54ea\u4e00\u4e2a\u961f\u4f0d\u83b7\u5f97\u7684\u6295\u7968\u6700\u591a\uff01",
     "009": "\u9cbc\uff01[group=0004 type=0005 params=]\uff08\u6211\u53ef\u4e0d\u4f1a\u8f93\u54e6\uff5e\uff01\uff09[/group=0004 type=0005]",
     "010": "\u54e6\uff5e\u5c45\u7136\u662f\u8fd9\u79cd\u7ed3\u679c\u554a\uff01",
     "011": "\u9cbc\u2014\u2014\uff1f\uff01[group=0004 type=0005 params=]\uff08\u7136\u540e\u5462\u2014\u2014\uff1f\uff01\uff09[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "\u8fd4\u56de",
     "T_Msg_00": "\u8bf7\u9009\u62e9\u8981\u524d\u5f80\u6563\u6b65\u7684\u573a\u5730"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "ver."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "\u7279\u522b\u53d1\u653e\uff01\uff01",
     "T_SubName_00": "\u6253\u5de5\u4e13\u7528",
     "T_WpnName_02": "\u9c91\u9c7c\u5375\u5927\u70ae\uff01"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "\u00d7[group=0002 type=0000 params=00 03 00 00]",
-    "100": "\u00d7[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1st",
-    "L_ScoreB_00-T_Standings_00": "2nd",
-    "L_ScoreC_00-T_Standings_00": "3rd",
-    "L_ScoreD_00-T_Standings_00": "\u6392\u6b63\u4e2d\u95f4\u5956",
-    "L_ScoreE_00-T_Standings_00": "\u5355\u6392\u6700\u4f73\u8868\u73b0\u5956",
-    "T_Title_00": "\u56e2\u961f\u6253\u5de5\u7ade\u8d5b"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "\u7b2c[group=0002 type=0000 params=00 01 00 00]\u540d",
-    "001": "\u6392\u6b63\u4e2d\u95f4\u5956",
-    "100": "\u6700\u9ad8\u6d3b\u52a8\u6218\u529b\uff1a[group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "\u5728\u8fd9\u91cc\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c\u5fc5\u5b9a\u4e2d\u5956\u7684[color=0001]\u62bd\u5956[color=ffff]\u3002\n\n\u6bcf\u5929\u7b2c1\u6b21\u62bd\u5956\u8d39\u7528\u4e3a[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]5000[color=ffff]\uff0c\n\u4ece\u7b2c2\u6b21\u5f00\u59cb\u8d39\u7528\u5219\u4e3a[group=0003 type=0027 params=00 00 40 40 00 00 00 00][color=0001]30000[color=ffff]\u3002",

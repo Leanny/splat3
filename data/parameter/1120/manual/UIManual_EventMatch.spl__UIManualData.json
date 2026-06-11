@@ -1,0 +1,333 @@
+{
+  "ChapterSelectBtnNum": 7,
+  "ChapterSelectList": [
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_EventMatch_00.tga",
+      "TitleLabel": "EventMatch_Button01"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_EventMatch_01.tga",
+      "TitleLabel": "EventMatch_Button02"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_EventMatch_02.tga",
+      "TitleLabel": "EventMatch_Button03"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_03.tga",
+      "TitleLabel": "EventMatch_Button04"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_04.tga",
+      "TitleLabel": "EventMatch_Button05"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_05.tga",
+      "TitleLabel": "EventMatch_Button06"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_06.tga",
+      "TitleLabel": "EventMatch_Button07"
+    }
+  ],
+  "IsUseChapterSelect": true,
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualEventMatch.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "EventMatch_Usually_Manual",
+      "Image": "",
+      "LayoutType": "EventSpecial00",
+      "TitleLabel": "EventMatch_Usually_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Manual00",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_01.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "EventMatch_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Manual01",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_03.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Manual02",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_04.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Manual03",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_05.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Manual04",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_06.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Manual05",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_07.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Nawabari_Manual00",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_03.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "EventMatch_Nawabari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Nawabari_Manual01",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_43.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Nawabari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Nawabari_Manual02",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_15.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Nawabari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Nawabari_Manual03",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_16.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Nawabari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Nawabari_Manual04",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_17.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Nawabari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiarea_Manual00",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_04.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "EventMatch_Gachiarea_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiarea_Manual01",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_19.tga",
+      "LayoutType": "HeadingAndImageM",
+      "TitleLabel": "EventMatch_Gachiarea_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiarea_Manual02",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_20.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiarea_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiarea_Manual03",
+      "Chapter": 3,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "EventMatch_Gachiarea_Manual03_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiarea_Manual04",
+      "Chapter": 3,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "EventMatch_Gachiarea_Manual03_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual00",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_05.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "EventMatch_Gachiyagura_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual01",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_21.tga",
+      "LayoutType": "HeadingAndImageM",
+      "TitleLabel": "EventMatch_Gachiyagura_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual02",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_22.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiyagura_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual03",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_23.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiyagura_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual04",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_24.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiyagura_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual05",
+      "Chapter": 4,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "EventMatch_Gachiyagura_Manual04_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiyagura_Manual06",
+      "Chapter": 4,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "EventMatch_Gachiyagura_Manual04_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual00",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_06.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "EventMatch_Gachihoko_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual01",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_25.tga",
+      "LayoutType": "HeadingAndImageM",
+      "TitleLabel": "EventMatch_Gachihoko_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual02",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_26.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachihoko_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual03",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_27.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachihoko_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual04",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_28.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachihoko_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual05",
+      "Chapter": 5,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "EventMatch_Gachihoko_Manual05_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachihoko_Manual06",
+      "Chapter": 5,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "EventMatch_Gachihoko_Manual05_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual00",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_07.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual01",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_29.tga",
+      "LayoutType": "HeadingAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual02",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_29.tga",
+      "LayoutType": "HeadingAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual03",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_30.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual04",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_31.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual05",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_32.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual06",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_33.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual07",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_34.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual08",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_35.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual09",
+      "Chapter": 6,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_36.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "EventMatch_Gachiasari_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual10",
+      "Chapter": 6,
+      "TitleLabel": "EventMatch_Gachiasari_Manual10_Title"
+    },
+    {
+      "BodyLabel": "EventMatch_Gachiasari_Manual11",
+      "Chapter": 6,
+      "TitleLabel": "EventMatch_Gachiasari_Manual10_Title"
+    }
+  ]
+}

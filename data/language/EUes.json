@@ -1227,7 +1227,8 @@
     "3302": "optimizad[group=00c9 type=0005 params=02 00 6f 00 02 00 61 00 00 00 00 00]",
     "3303": "de Ruta Adolfrito",
     "3304": "moldeable",
-    "3305": "conmovedor[group=00c9 type=0005 params=00 00 02 00 61 00 00 00 00 00]"
+    "3305": "conmovedor[group=00c9 type=0005 params=00 00 02 00 61 00 00 00 00 00]",
+    "3400": "Islas Espiralita"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]Chico con Marcador",
@@ -3302,7 +3303,9 @@
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]Entereza",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]Colof\u00f3n",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]Mecanista",
+    "3400_1": "[group=00c9 type=0000 params=02 ff ff 00]Mecanista"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "Artilleroide",
@@ -4703,7 +4706,6 @@
     "SakeArtillery": "Artilleroide",
     "SakeArtilleryCannon": "lanzador",
     "SakeBigBoss": "gran jefe salm\u00f3nido",
-    "SakeBigBossGauge": "salm\u00f3metro",
     "SakeDolphin": "Chapotero",
     "SakeFlyBagman": "Rastrer\u00f3n",
     "SakeJaw": "Megalodoncio",
@@ -6554,7 +6556,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "\u00bfHasta d\u00f3nde llegar\u00e1 tu l\u00edmite de energ\u00eda evento durante este mes?\n\n\u30fb En los [color=0001]combates territoriales[color=ffff] valen solo los potenciadores principales.\n\u3000 \u00a1Los secundarios no tienen efecto!\n\u30fb \u00a1En el [color=0001]estilo de combate ca\u00f3tico[color=ffff], no hay limitaci\u00f3n de potenciadores!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "\u00a1A por la m\u00e1xima energ\u00eda evento del mes!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Evento mensual",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Evento\nmensual",
     "EventMatch_Nawabari_Manual00": "\u00a1Cada equipo tiene tres minutos para entintar m\u00e1s superficie que sus rivales!",
     "EventMatch_Nawabari_Manual01": "Cada equipo tiene tres minutos para cubrir las\n[color=0001]superficies [color=ffff]con tinta. Gana el equipo que haya\nentintado m\u00e1s [color=0001]territorio [color=ffff]al acabarse tiempo.\n\u00a1Cubre de tinta tanto territorio como puedas\npara darle la victoria a tu equipo!",
     "EventMatch_Nawabari_Manual02": "Cuanto m\u00e1s territorio entintes, m\u00e1s se rellenar\u00e1\ntu [color=0001]medidor especial[color=ffff]. Cuando est\u00e9 lleno, \u00a1pulsa\n[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00] para disparar tu [color=0001]arma especial[color=ffff]!\n\n\u00a1Recuerda desatar toda su furia para\ndesequilibrar el combate! Pero cuidado, porque\nel medidor disminuir\u00e1 si te alcanzan con tinta. ",
@@ -6564,7 +6565,6 @@
     "EventMatch_NewSeasonCup_Manual": "Con el inicio de una nueva temporada, \u00a1toca combatir en lugares diferentes!\n\n\u30fb \u00a1Todo nuevo escenario requiere estrategias renovadas!\n\u30fb En los [color=0001]combates territoriales[color=ffff] valen solo los potenciadores principales.\n\u3000 \u00a1Los secundarios no tienen efecto!\n\u30fb \u00a1En el [color=0001]estilo de combate ca\u00f3tico[color=ffff], no hay limitaci\u00f3n de potenciadores!",
     "EventMatch_NewSeasonCup_Subtitle": "\u00a1Inicio de temporada con nuevo escenario!",
     "EventMatch_NewSeasonCup_Title": "Reto inaugural de temporada",
-    "EventMatch_NewSeasonCup_Title_2L": "Reto inaugural\nde temporada",
     "EventMatch_PairCup_Manual": "\u00a1El compa\u00f1erismo es un factor clave en estas peleas de dos contra dos!\n\n\u30fb \u00a1Para llegar a ser los mejores, hay que probar nuevas t\u00e1cticas!\n\u30fb Se puede participar como [color=0001]pareja[color=ffff] o [color=0001]en solitario[color=ffff].\n\u30fb \u00a1El tiempo de reaparici\u00f3n se acorta!\n\u30fb \u00a1Pueden usarse potenciadores principales y secundarios!",
     "EventMatch_PairCup_Subtitle": "\u00a1Un d\u00fao se enfrenta a otro par de rivales!",
     "EventMatch_PairCup_Title": "Duelo de parejas",
@@ -12608,9 +12608,6 @@
     "L_Guide_00-T_Info_00": "Atr\u00e1s",
     "T_Msg_00": "Elige el escenario que quieres explorar."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "Informaci\u00f3n del cat\u00e1logo",
     "100": "[group=0002 type=0001 params=00 0c] - [group=0002 type=0001 params=01 0c]",
@@ -12638,21 +12635,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00] %",
     "T_Danger_00": "\u00a1M\u00e1s nivel de riesgo!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "\u00d7[group=0002 type=0000 params=00 03 00 00]",
-    "100": "\u00d7[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1.\u00ba",
-    "L_ScoreB_00-T_Standings_00": "2.\u00ba",
-    "L_ScoreC_00-T_Standings_00": "3.\u00ba",
-    "L_ScoreD_00-T_Standings_00": "Puesto medio",
-    "L_ScoreE_00-T_Standings_00": "Premio individual",
-    "T_Title_00": "Alianza alev\u00ednica"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Puesto: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "Premio por puesto medio",
-    "100": "M\u00e1xima energ\u00eda evento: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "Combate\namistoso",

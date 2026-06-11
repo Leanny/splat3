@@ -1227,7 +1227,8 @@
     "3302": "サクサクの",
     "3303": "ロブイチの",
     "3304": "プリプリの",
-    "3305": "[ruby=\"かんどう\"]感動[/ruby]の"
+    "3305": "[ruby=\"かんどう\"]感動[/ruby]の",
+    "3400": "ウズシオ[ruby=\"しょとう\"]諸島[/ruby]の"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "ボールドマーカー[ruby=\"つか\"]使[/ruby]い",
@@ -3302,7 +3303,9 @@
     "3304_0": "[ruby=\"は\"]歯[/ruby]ごたえ",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "エンディング",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "メカニック",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "テッキュウ",
@@ -4703,7 +4706,6 @@
     "SakeArtillery": "テッキュウ",
     "SakeArtilleryCannon": "発射台",
     "SakeBigBoss": "オカシラシャケ",
-    "SakeBigBossGauge": "オカシラゲージ",
     "SakeDolphin": "ダイバー",
     "SakeFlyBagman": "タマヒロイ",
     "SakeJaw": "ジョー",
@@ -6554,7 +6556,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "月に一度のチャレンジバトル！ イベントパワーの限界を目指せ！\n\n・ [color=0001]ナワバリバトル[color=ffff]のときは、基本ギアパワーのみ有効だ！ 追加ギアパワーは効果がないぞ！\n・ [color=0001]バンカラマッチのルール[color=ffff]のときは、ギアパワーに制限はないぞ！",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "月に一度のチャレンジバトル！ イベントパワーの限界を目指せ！",
     "EventMatch_MonthlyLeagueMatchReal_Title": "ツキイチ・イベントマッチ",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "ツキイチ・\nイベントマッチ",
     "EventMatch_Nawabari_Manual00": "３分間地面を塗りまくって、ナワバリが多いチームの勝ち！",
     "EventMatch_Nawabari_Manual01": "ナワバリバトルは、３分間[color=0001]地面[color=ffff]を塗りまくって、\n[color=0001]ナワバリ[color=ffff]が多いチームの勝ちだ！\n地面を塗りまくり、チームのナワバリを広げて\n勝利を目指そう！",
     "EventMatch_Nawabari_Manual02": "地面を塗れば塗るほど、[color=0001]スペシャルゲージ[color=ffff]が増えるぞ。\n満タンになったら、[group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00]を押しこんで\n[color=0001]スペシャルウェポン[color=ffff]発動だ！\n\nスペシャルゲージは、やられると減ってしまう。\nタイミングをみて、効果的にスペシャルウェポンを\n使おう！",
@@ -6564,7 +6565,6 @@
     "EventMatch_NewSeasonCup_Manual": "新シーズン開幕！ 新しいステージを攻略せよ！\n\n・ 戦いの舞台は新しいステージだ！\n・ [color=0001]ナワバリバトル[color=ffff]のときは、基本ギアパワーのみ有効だ！ 追加ギアパワーは効果がないぞ！\n・ [color=0001]バンカラマッチのルール[color=ffff]のときは、ギアパワーに制限はないぞ！",
     "EventMatch_NewSeasonCup_Subtitle": "新シーズン開幕！ 新しいステージを攻略せよ！",
     "EventMatch_NewSeasonCup_Title": "新シーズン開幕記念カップ",
-    "EventMatch_NewSeasonCup_Title_2L": "新シーズン\n開幕記念カップ",
     "EventMatch_PairCup_Manual": "ふたりの相性を見せつけろ！ ２対２の少人数バトル！\n\n・ ２人対２人の少人数バトルだ！\n・ [color=0001]２人のチーム[color=ffff]か[color=0001]１人[color=ffff]で参加できるぞ！\n・ 復活時間が短くなるぞ！\n・ 基本ギアパワーと追加ギアパワーは有効だ！",
     "EventMatch_PairCup_Subtitle": "ふたりの相性を見せつけろ！ ２対２の少人数バトル！",
     "EventMatch_PairCup_Title": "最強ペア決定戦",
@@ -12608,9 +12608,6 @@
     "L_Guide_00-T_Info_00": "もどる",
     "T_Msg_00": "さんぽするステージを選んでください"
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_WindowCatalog_00": {
     "000": "カタログの記録",
     "100": "[group=0002 type=0001 params=00 0c]  ～  [group=0002 type=0001 params=01 0c]",
@@ -12638,21 +12635,6 @@
   "LayoutMsg/Coop_DangerLevel_00": {
     "000": "[group=0002 type=0000 params=00 03 02 00]%",
     "T_Danger_00": "キケン度アップ！！"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "×[group=0002 type=0000 params=00 03 00 00]",
-    "100": "×[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "１位",
-    "L_ScoreB_00-T_Standings_00": "２位",
-    "L_ScoreC_00-T_Standings_00": "３位",
-    "L_ScoreD_00-T_Standings_00": "ぴったりまんなか賞",
-    "L_ScoreE_00-T_Standings_00": "ソロトップ賞",
-    "T_Title_00": "バイトチームコンテスト"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "[group=0002 type=0000 params=00 01 00 00]位",
-    "001": "ぴったりまんなか賞",
-    "100": "最高イベントパワー ： [group=0002 type=0000 params=00 04 00 00].[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_MenuMode_00": {
     "000": "レギュラー\nマッチ",

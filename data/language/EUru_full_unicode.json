@@ -1227,7 +1227,8 @@
     "3302": "налаженн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]",
     "3303": "активн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00] в Закрас-туре",
     "3304": "вязк[group=00c9 type=0005 params=04 00 38 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]",
-    "3305": "эмоциональн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]"
+    "3305": "эмоциональн[group=00c9 type=0005 params=04 00 4b 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]",
+    "3400": "спирасольно-островн[group=00c9 type=0005 params=04 00 3e 04 39 04 04 00 30 04 4f 04 04 00 3e 04 35 04 00 00]"
   },
   "CommonMsg/Byname/BynameSubject": {
     "0000_0": "[group=00c9 type=0000 params=01 ff ff 00]боец с плюхотроном",
@@ -3302,7 +3303,9 @@
     "3304_0": "[group=00c9 type=0000 params=02 ff ff 00]упругость",
     "3304_1": "[group=0001 type=0002 params=]",
     "3305_0": "[group=00c9 type=0000 params=01 ff ff 00]финал",
-    "3305_1": "[group=0001 type=0002 params=]"
+    "3305_1": "[group=0001 type=0002 params=]",
+    "3400_0": "[group=00c9 type=0000 params=01 ff ff 00]механик",
+    "3400_1": "[group=0001 type=0002 params=]"
   },
   "CommonMsg/Coop/CoopEnemy": {
     "SakeArtillery": "ядровик",
@@ -3425,8 +3428,7 @@
     "Msg_XRegion_Restricted_Error": "Невозможно присоединиться\nк этой группе из твоего региона."
   },
   "CommonMsg/Dev": {
-    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――",
-    "Man_ZL_msg": "Кнопка ZL"
+    "BugReportContent": "――――\n■手順 / Procedures\n1.\n2.\n3.\n\n■結果 / Result\n\n■試行回数 / Number of attempts\nX/X\n\n■備考 / Remarks\n\n――――"
   },
   "CommonMsg/EmoteName": {
     "BigJump00": "Поп-пружина",
@@ -4873,7 +4875,6 @@
     "SakeArtillery": "ядровик",
     "SakeArtilleryCannon": "ядромет",
     "SakeBigBoss": "Самонид-король",
-    "SakeBigBossGauge": "Король-шкала",
     "SakeDolphin": "хулахлюп",
     "SakeFlyBagman": "умыкумжа",
     "SakeJaw": "мегалодент",
@@ -6734,7 +6735,6 @@
     "EventMatch_MonthlyLeagueMatchReal_Manual": "Сколько силы события тебе... по силам в этом месяце?\n\n・ В [color=0001]боях за район [color=ffff]активируются только основные, но не дополнительные\n[color=0001]   [color=ffff]свойства снаряжения.\n・ В [color=0001]стихийных боях [color=ffff]нет ограничений для свойств снаряжения!",
     "EventMatch_MonthlyLeagueMatchReal_Subtitle": "Соберись и бейся за топ-силу события!",
     "EventMatch_MonthlyLeagueMatchReal_Title": "Бой-событие месяца",
-    "EventMatch_MonthlyLeagueMatchReal_Title_2L": "Бой-событие\nмесяца",
     "EventMatch_Nawabari_Manual00": "У команд есть три минуты, чтобы закрасить как можно больше территории!",
     "EventMatch_Nawabari_Manual01": "У команд есть три минуты, чтобы закрасить\nкак можно больше [color=0001]территории[color=ffff]. Побеждает\nкоманда, которой удастся закрасить [color=0001]больше[color=ffff].\nКрась, крась, и противнику не поможет\nдаже карась!",
     "EventMatch_Nawabari_Manual02": "Когда ты заливаешь все вокруг краской,\nзаполняется шкала заряда [color=0001]особого\nоружия[color=ffff]. Как только она заполнится\nполностью, нажми [group=0003 type=0008 params=1f 85 2b 3f 00 00 00 00], чтобы\nприменить [color=0001]особое оружие[color=ffff]!\n\nНо берегись! Если тебя плюхнут, шкала\nчастично опустеет. Не забывай пользоваться\nособым оружием, оно может перевернуть\nход боя!",
@@ -6744,7 +6744,6 @@
     "EventMatch_NewSeasonCup_Manual": "Все начинают бой на равных и одновременно знакомятся с новой ареной!\n\n・ Исследуй арену и придумывай стратегии на лету!\n・ В [color=0001]боях за район [color=ffff]активируются только основные, но не дополнительные\n[color=0001]   [color=ffff]свойства снаряжения.\n・ В [color=0001]стихийных боях [color=ffff]нет ограничений для свойств снаряжения!",
     "EventMatch_NewSeasonCup_Subtitle": "С новым сезоном! С новой ареной!",
     "EventMatch_NewSeasonCup_Title": "Бой-открытие нового сезона ",
-    "EventMatch_NewSeasonCup_Title_2L": "Бой-открытие\nнового сезона",
     "EventMatch_PairCup_Manual": "В боях 2 против 2 самое главное — обоим поймать одну волну!\n\n・ Разработайте новые стратегии и закрашивайте карту!\n・ Время возврата в игру сократится!\n・ В этом режиме можно участвовать как в[color=0001] команде из двух игроков[color=ffff],\n[color=0001]   [color=ffff]так и [color=0001]одному игроку[color=ffff].\n・ Будут доступны как основные, так и дополнительные свойства!",
     "EventMatch_PairCup_Subtitle": "Стойкая двойка сокрушит противников!",
     "EventMatch_PairCup_Title": "Дуэль дуэтов",
@@ -11339,17 +11338,14 @@
   "CommonMsg/SystemWindow/SystemMsg_CloudSave": {
     "BtnL_ConfirmFestRegion": "Выбрать\nзаново",
     "BtnL_ConfirmFestRegion_AltLang": "Выбрать\nзаново",
-    "BtnL_ConfirmFestRegion_EveFirst": "Изменить!",
     "BtnL_ConfirmFestRegion_First": "Изменить",
     "BtnL_ConfirmFestRegion_Reboot": "Выбрать\nзаново",
     "BtnR_ConfirmFestRegion": "OK",
     "BtnR_ConfirmFestRegion_AltLang": "OK!",
-    "BtnR_ConfirmFestRegion_EveFirst": "OK!",
     "BtnR_ConfirmFestRegion_First": "OK",
     "BtnR_ConfirmFestRegion_Reboot": "OK!",
     "Msg_ConfirmFestRegion": "Участвовать в Сплатфестах этого региона?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]",
     "Msg_ConfirmFestRegion_AltLang": "Поддержка русского языка не предусмотрена для\nСплатфестов, проходящих в следующем регионе:\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff].\nВо время Сплатфеста текст будет отображаться\nна следующем языке: [color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]. Тебе OK?",
-    "Msg_ConfirmFestRegion_EveFirst": "Участвовать в Сплатфесте этого региона?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nЭта настройка только для мероприятия\n«Splatoon 3: Сплатфест — мировая премьера».\nЕе невозможно изменить позже.",
     "Msg_ConfirmFestRegion_First": "Участвовать в Сплатфестах этого региона?\n\n[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]\n\nПримечание. Эту настройку можно изменить\nпозже, но при участии в Сплатфесте ты не\nсможешь изменить ее некоторое время.",
     "Msg_ConfirmFestRegion_Reboot": "[color=0001][group=0004 type=0011 params=00 00 00 00][color=ffff]向けのフェスは、\n日本語に対応していません\nフェスの開催中は、ソフトを再起動してゲーム内の表示を\n[color=0001][group=0004 type=0012 params=00 00 00 00][color=ffff]に切り替える必要があります\nそれでもよろしいですか？",
     "Msg_DeviceIdChanged": "Твое снаряжение, настройки камеры и другие\nнастройки соответствуют настройкам\nна момент твоей последней игры онлайн\nна другой консоли Nintendo Switch.",
@@ -11372,10 +11368,6 @@
     "Msg_Confirm": "Участвовать в бою с этим снаряжением?",
     "Msg_ConfirmLeagueInvalid": "Со снаряжением, которое ты сейчас\nиспользуешь, нельзя участвовать\nв бою-событии. Сначала смени\nснаряжение!",
     "Msg_LeagueInvalidWhileMatching": "Со снаряжением, которое ты сейчас используешь,\nнельзя участвовать в бою-событии."
-  },
-  "CommonMsg/SystemWindow/SystemMsg_Eve": {
-    "Msg_NotBeingHeld": "Сейчас нет Сплатфеста.",
-    "Msg_OutOfService": "«Splatoon 3: Splatfest World Premiere»\n(«Splatoon 3: Сплатфест — мировая\nпремьера»): Сплатфест завершен.\n\nДо скорой встречи!"
   },
   "CommonMsg/SystemWindow/SystemMsg_Lobby": {
     "BtnL_Channel_ConnectConfrim": "Не-а!",
@@ -14289,7 +14281,6 @@
     "FirstEnter_03_Fest": "Хорошие новости! Прямо сейчас проходит\n[color=0001]Сплатфест[color=ffff]![page break]Если хочешь присоединиться, подойди\nк [color=0001]бой-котлу[color=ffff] и выбери [color=0001]Сплатфест-бой [size=75%](открытый)[size=100%][color=ffff].[page break]Сразу примешь участие в [color=0001]бою за район[color=ffff], где[color=0001] [color=ffff]нужно\nзакрасить вражескую территорию за три минуты!",
     "FirstEnter_04": "Меньше слов, больше волн! Начинаем!",
     "FirstEnter_FestVote_00": "Прямо сейчас проходит [color=0001]Сплатфест[color=ffff]![page break]Прежде чем участвовать, тебе нужно\n[color=0001]выбрать сторону[color=ffff].[page break]Чтобы сделать выбор, вернись на площадь\nи подойди к [color=0001]терминалу для голосования[color=ffff]!",
-    "Msg_Eve00": "Внимание! На этом Сплатфесте нельзя\nполучить ни опыта, ни денег, ни круть-улиток!\n\nА данные сохранения этого Сплатфеста нельзя\nперенести в полную версию Splatoon 3.",
     "Msg_Legal00": "Для игры онлайн действуют правила поведения\nв сообществе Nintendo, с которыми можно\nознакомиться на нашем веб-сайте. Во время игры\nотносись с уважением к остальным игрокам.\n\nКогда ты играешь онлайн, твой ник и данные\nигрока могут быть видны другим."
   },
   "EventFlowMsg/LobbyVersus_FirstLocker": {
@@ -15551,7 +15542,6 @@
     "006": "Объявляем результаты Сплатфест-разминки!\nБольше всех [color=0001]раковин[color=ffff] собрала команда...",
     "007": "Ух ты! Вот это я понимаю!",
     "008": "А [color=0001]больше всех голосов [color=ffff]получила\nкоманда...",
-    "008_Eve": "Итак, посмотрим для начала, какая\nкоманда получила больше [color=0001]голосов[color=ffff]!",
     "009": "Ик-ик... [group=0004 type=0005 params=](Ну же, кто, кто же?!)[/group=0004 type=0005]",
     "010": "Не может быть!",
     "011": "Ик? Ик! [group=0004 type=0005 params=](Что же дальше? Говори!)[/group=0004 type=0005]",
@@ -17653,9 +17643,6 @@
     "L_Guide_00-T_Info_00": "Назад",
     "T_Msg_00": "Выбери арену для разведки."
   },
-  "LayoutMsg/Cmn_TestXMenu_00": {
-    "T_Text_00": "Shop"
-  },
   "LayoutMsg/Cmn_Version_00": {
     "L_Version_00-T_VersionTitle_00": "Верс."
   },
@@ -17960,21 +17947,6 @@
     "T_Change_02": "Особая помощь!",
     "T_SubName_00": "Держи оружие!",
     "T_WpnName_02": "Икринковая пушка!"
-  },
-  "LayoutMsg/Dev_CommendContest_00": {
-    "000": "x[group=0002 type=0000 params=00 03 00 00]",
-    "100": "x[group=0002 type=0000 params=00 04 00 00]",
-    "L_ScoreA_00-T_Standings_00": "1.",
-    "L_ScoreB_00-T_Standings_00": "2.",
-    "L_ScoreC_00-T_Standings_00": "3.",
-    "L_ScoreD_00-T_Standings_00": "Середнячок",
-    "L_ScoreE_00-T_Standings_00": "Ас сольного икросбора",
-    "T_Title_00": "Икорный овертайм"
-  },
-  "LayoutMsg/Dev_CommendEvent_00": {
-    "000": "Место: [group=0002 type=0000 params=00 01 00 00]",
-    "001": "За середнячок",
-    "100": "Топ-сила события: [group=0002 type=0000 params=00 04 00 00],[group=0002 type=0000 params=01 01 00 00]"
   },
   "LayoutMsg/Lobby_Capsule_00": {
     "000": "Испытай удачу в [color=0001]капсульном автомате[color=ffff]!\n\nПервая попытка стоит [color=0001]5000 [color=ffff][group=0003 type=0027 params=00 00 40 40 00 00 00 00],\nа последующие — [color=0001]30 000[color=ffff] [group=0003 type=0027 params=00 00 40 40 00 00 00 00]!",
