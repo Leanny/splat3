@@ -1,0 +1,210 @@
+[
+  {
+    "DisplayOrder": 24,
+    "Id": 24,
+    "IsDisplayInStageList": true,
+    "Season": 8,
+    "TclSceneName": "",
+    "__RowId": "Vss_AutoWalk00"
+  },
+  {
+    "DisplayOrder": 13,
+    "Id": 7,
+    "IsDisplayInStageList": true,
+    "Season": 2,
+    "TclSceneName": "",
+    "__RowId": "Vss_BigSlope00"
+  },
+  {
+    "DisplayOrder": 12,
+    "Id": 16,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "",
+    "__RowId": "Vss_Carousel"
+  },
+  {
+    "DisplayOrder": 26,
+    "Id": 26,
+    "IsDisplayInStageList": true,
+    "Season": -1,
+    "TclSceneName": "",
+    "__RowId": "Vss_Crank02"
+  },
+  {
+    "DisplayOrder": 21,
+    "Id": 21,
+    "IsDisplayInStageList": true,
+    "Season": 6,
+    "TclSceneName": "",
+    "__RowId": "Vss_Cross00"
+  },
+  {
+    "DisplayOrder": 2,
+    "Id": 2,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "",
+    "__RowId": "Vss_District00"
+  },
+  {
+    "DisplayOrder": 15,
+    "Id": 5,
+    "IsDisplayInStageList": true,
+    "Season": 3,
+    "TclSceneName": "",
+    "__RowId": "Vss_Factory00"
+  },
+  {
+    "DisplayOrder": 8,
+    "Id": 12,
+    "IsDisplayInStageList": true,
+    "Season": 1,
+    "TclSceneName": "",
+    "__RowId": "Vss_Hiagari04"
+  },
+  {
+    "DisplayOrder": 14,
+    "Id": 9,
+    "IsDisplayInStageList": true,
+    "Season": 2,
+    "TclSceneName": "",
+    "__RowId": "Vss_Jyoheki03"
+  },
+  {
+    "DisplayOrder": 6,
+    "Id": 10,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "Vss_Kaisou03",
+    "__RowId": "Vss_Kaisou04"
+  },
+  {
+    "DisplayOrder": 11,
+    "Id": 15,
+    "IsDisplayInStageList": true,
+    "Season": 1,
+    "TclSceneName": "",
+    "__RowId": "Vss_Line03"
+  },
+  {
+    "DisplayOrder": 25,
+    "Id": 25,
+    "IsDisplayInStageList": false,
+    "Season": -1,
+    "TclSceneName": "",
+    "__RowId": "Vss_Manbou00"
+  },
+  {
+    "DisplayOrder": 10,
+    "Id": 14,
+    "IsDisplayInStageList": true,
+    "Season": 1,
+    "TclSceneName": "",
+    "__RowId": "Vss_Nagasaki03"
+  },
+  {
+    "DisplayOrder": 16,
+    "Id": 18,
+    "IsDisplayInStageList": true,
+    "Season": 3,
+    "TclSceneName": "",
+    "__RowId": "Vss_Pillar03"
+  },
+  {
+    "DisplayOrder": 7,
+    "Id": 11,
+    "IsDisplayInStageList": true,
+    "Season": 1,
+    "TclSceneName": "",
+    "__RowId": "Vss_Pivot03"
+  },
+  {
+    "DisplayOrder": 23,
+    "Id": 23,
+    "IsDisplayInStageList": true,
+    "Season": 7,
+    "TclSceneName": "",
+    "__RowId": "Vss_Propeller00"
+  },
+  {
+    "DisplayOrder": 22,
+    "Id": 22,
+    "IsDisplayInStageList": true,
+    "Season": 6,
+    "TclSceneName": "",
+    "__RowId": "Vss_Ruins03"
+  },
+  {
+    "DisplayOrder": 5,
+    "Id": 6,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "Vss_Scrap00",
+    "__RowId": "Vss_Scrap01"
+  },
+  {
+    "DisplayOrder": 17,
+    "Id": 8,
+    "IsDisplayInStageList": true,
+    "Season": 4,
+    "TclSceneName": "Vss_Section00",
+    "__RowId": "Vss_Section01"
+  },
+  {
+    "DisplayOrder": 19,
+    "Id": 19,
+    "IsDisplayInStageList": true,
+    "Season": 5,
+    "TclSceneName": "",
+    "__RowId": "Vss_Spider00"
+  },
+  {
+    "DisplayOrder": 4,
+    "Id": 4,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "Vss_Temple00",
+    "__RowId": "Vss_Temple01"
+  },
+  {
+    "DisplayOrder": 20,
+    "Id": 20,
+    "IsDisplayInStageList": true,
+    "Season": 5,
+    "TclSceneName": "",
+    "__RowId": "Vss_Twist00"
+  },
+  {
+    "DisplayOrder": 9,
+    "Id": 13,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "",
+    "__RowId": "Vss_Upland03"
+  },
+  {
+    "DisplayOrder": 18,
+    "Id": 17,
+    "IsDisplayInStageList": true,
+    "Season": 4,
+    "TclSceneName": "",
+    "__RowId": "Vss_Wave03"
+  },
+  {
+    "DisplayOrder": 3,
+    "Id": 3,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "",
+    "__RowId": "Vss_Yagara"
+  },
+  {
+    "DisplayOrder": 1,
+    "Id": 1,
+    "IsDisplayInStageList": true,
+    "Season": 0,
+    "TclSceneName": "",
+    "__RowId": "Vss_Yunohana"
+  }
+]

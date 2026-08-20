@@ -1,0 +1,109 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSaberLite.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BulletSaberHorizontalParam": {
+      "$type": "spl__BulletSaberParam",
+      "CollisionParam": {
+        "ParamArray": [
+          {
+            "ChangeFrameForPlayer": 0,
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          {
+            "EndRadiusForField": 0.3,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.3,
+            "InitRadiusForPlayer": 0.3
+          },
+          {
+            "ChangeFrameForPlayer": 0,
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          }
+        ]
+      },
+      "DamageParam": {
+        "HitDamage": 500
+      }
+    },
+    "BulletSaberSlashHorizontalParam": {
+      "$type": "spl__BulletSaberSlashParam",
+      "DamageParam": {
+        "DamageValue": 350
+      }
+    },
+    "BulletSaberSlashVerticalParam": {
+      "$type": "spl__BulletSaberSlashParam",
+      "DamageParam": {
+        "DamageValue": 1750
+      }
+    },
+    "BulletSaberVerticalParam": {
+      "$type": "spl__BulletSaberParam",
+      "CollisionParam": {
+        "ParamArray": [
+          {
+            "EndRadiusForField": 0.3,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.3,
+            "InitRadiusForPlayer": 0.3
+          },
+          {
+            "EndRadiusForField": 0.35,
+            "EndRadiusForPlayer": 0.35,
+            "InitRadiusForField": 0.35,
+            "InitRadiusForPlayer": 0.35
+          },
+          {
+            "EndRadiusForField": 0.45,
+            "EndRadiusForPlayer": 0.45,
+            "InitRadiusForField": 0.45,
+            "InitRadiusForPlayer": 0.45
+          },
+          {
+            "EndRadiusForField": 0.5,
+            "EndRadiusForPlayer": 0.5,
+            "InitRadiusForField": 0.5,
+            "InitRadiusForPlayer": 0.5
+          },
+          {
+            "EndRadiusForField": 0.45,
+            "EndRadiusForPlayer": 0.45,
+            "InitRadiusForField": 0.45,
+            "InitRadiusForPlayer": 0.45
+          },
+          {
+            "EndRadiusForField": 0.35,
+            "EndRadiusForPlayer": 0.35,
+            "InitRadiusForField": 0.35,
+            "InitRadiusForPlayer": 0.35
+          },
+          {
+            "EndRadiusForField": 0.3,
+            "EndRadiusForPlayer": 0.3,
+            "InitRadiusForField": 0.3,
+            "InitRadiusForPlayer": 0.3
+          }
+        ]
+      },
+      "DamageParam": {
+        "HitDamage": 1500
+      }
+    },
+    "spl__WeaponSaberParam": {
+      "$type": "spl__WeaponSaberParam",
+      "ChargeParam": {
+        "InkConsumeFullCharge": 0.035,
+        "InkConsumeMinCharge": 0.02
+      },
+      "SwingParam": {
+        "InkConsume": 0.02
+      }
+    }
+  }
+}

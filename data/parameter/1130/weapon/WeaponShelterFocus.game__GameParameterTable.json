@@ -1,0 +1,195 @@
+{
+  "GameParameters": {
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponSpeedType": "Mid"
+    },
+    "spl__BulletShelterCanopyParam": {
+      "$type": "spl__BulletShelterCanopyParam",
+      "CanopyAttackedDamageRate": 0.6,
+      "CanopyCureHPPerFrame": 5,
+      "CanopyDamage": 200,
+      "CanopyFrame": 170,
+      "CanopyGravity": 0.75,
+      "CanopyHP": 1500,
+      "CanopyHitOtherCanopyDamage": 1000,
+      "CanopyHitOtherCanopyVolume": 1,
+      "CanopyHitShieldAttackDamage": 750,
+      "CanopyInitSpeed": 9.0,
+      "CanopyMoveKnockBackSideStepRate": 1.0,
+      "CanopyNakedFrame": 130,
+      "CanopyPaintRadius": 2.0,
+      "CanopySpeedAirAddScaleXZ": 0.72,
+      "CanopySpeedGroundAddScale": 0.48,
+      "FootSplashPaintRadius": 1.0,
+      "FootSplashShapeCastOffset": 0.4,
+      "FootSplashSpanFrame": 4,
+      "FootSplashWaitFrame": 20
+    },
+    "spl__BulletShelterShotgunParam": {
+      "$type": "spl__BulletShelterShotgunParam",
+      "DamageEffectiveTotalMax": 900,
+      "GroupParams": [
+        {
+          "CollisionParam": {
+            "EndRadiusForField": 0.2,
+            "EndRadiusForPlayer": 0.26,
+            "InitRadiusForField": 0.2,
+            "InitRadiusForPlayer": 0.26
+          },
+          "DamageParam": {
+            "ValueMax": 150,
+            "ValueMin": 100
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 0.0,
+          "HorizontalOffset": 0.0,
+          "InitVelRandom": 0.0,
+          "MoveParam": {
+            "GoStraightStateEndMaxSpeed": 2.0,
+            "GoStraightToBrakeStateFrame": 3,
+            "SpawnSpeed": 3.0
+          },
+          "PaintParam": {
+            "WidthHalfFar": 1.3,
+            "WidthHalfMiddle": 1.3,
+            "WidthHalfNear": 1.6
+          },
+          "TotalNum": 1,
+          "VerticalDegree": 0.0,
+          "VerticalOffset": 0.0
+        },
+        {
+          "AddDegree": 0.0,
+          "CollisionParam": {
+            "EndRadiusForField": 0.1,
+            "EndRadiusForPlayer": 0.16,
+            "InitRadiusForField": 0.1,
+            "InitRadiusForPlayer": 0.16
+          },
+          "DamageParam": {
+            "ValueMax": 150,
+            "ValueMin": 100
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 3.0,
+          "HorizontalOffset": 0.1,
+          "InitVelRandom": 0.4,
+          "MoveParam": {
+            "GoStraightStateEndMaxSpeed": 2.0,
+            "GoStraightToBrakeStateFrame": 3,
+            "SpawnSpeed": 3.0
+          },
+          "PaintParam": {
+            "WidthHalfFar": 1.3,
+            "WidthHalfMiddle": 1.3,
+            "WidthHalfNear": 1.3
+          },
+          "TotalNum": 6,
+          "VerticalDegree": 1.5,
+          "VerticalOffset": 0.1
+        },
+        {
+          "AddDegree": 0.0,
+          "CollisionParam": {
+            "EndRadiusForField": 0.1,
+            "EndRadiusForPlayer": 0.16,
+            "InitRadiusForField": 0.1,
+            "InitRadiusForPlayer": 0.16
+          },
+          "DamageParam": {
+            "ValueMax": 150,
+            "ValueMin": 100
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 2.0,
+          "HorizontalOffset": 0.05,
+          "MoveParam": {
+            "GoStraightStateEndMaxSpeed": 2.0,
+            "GoStraightToBrakeStateFrame": 3,
+            "SpawnSpeed": 3.0
+          },
+          "PaintParam": {
+            "WidthHalfFar": 1.3,
+            "WidthHalfMiddle": 1.3,
+            "WidthHalfNear": 1.3
+          },
+          "TotalNum": 4,
+          "VerticalDegree": 1.5,
+          "VerticalOffset": 0.05
+        }
+      ],
+      "ShotgunWallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 40,
+        "FallPeriodFirstFrameMin": 20,
+        "FallPeriodFirstTargetSpeed": 0.06,
+        "FallPeriodLastFrameMax": 35,
+        "FallPeriodLastFrameMin": 15
+      },
+      "SplashParam": {
+        "CreateSplashLength": 3.3,
+        "CreateSplashNum": 6,
+        "RandomSpawnVelXMax": 0.025,
+        "RandomSpawnVelZMax": 0.02,
+        "RandomSpawnVelZMin": 0.01,
+        "SplashPaintDepthScaleFullActive": 2.4,
+        "SplashPaintDepthScaleOneActive": 4.8,
+        "SplashPaintWidthFullActive": 2.0,
+        "SplashPaintWidthOneActive": 0.7
+      },
+      "SplashWallDropCollisionParam": {
+        "PaintRadiusFall": 0.65,
+        "PaintRadiusGround": 0.6,
+        "PaintRadiusShock": 1.3
+      },
+      "SplashWallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 15,
+        "FallPeriodFirstTargetSpeed": 0.03,
+        "FallPeriodLastFrameMax": 25,
+        "FallPeriodLastFrameMin": 10,
+        "FallPeriodSecondFrame": 5,
+        "FallPeriodSecondTargetSpeed": 0.08
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "ZRate": 2.0
+    },
+    "spl__WeaponShelterCanopyParam": {
+      "$type": "spl__WeaponShelterCanopyParam",
+      "CanopyChargeFrame": 10,
+      "CanopyDirXZ_DiffDeg_H": 30.0,
+      "CanopyDirXZ_DiffDeg_L": 1.0,
+      "CanopyDirXZ_RotDegBias": 0.5,
+      "CanopyDirXZ_RotDeg_H": 2.0,
+      "CanopyDirXZ_RotDeg_L": 1.0,
+      "CanopyNakedFrame": 130,
+      "CanopyOpenEndBias": 0.7,
+      "CanopyOpenEndOffset": 0.0,
+      "CanopyOpenFrame": 10,
+      "CanopyOpenStartOffset": -0.6,
+      "CanopyShotFrame": 20,
+      "InkConsumeUmbrella": 0.15,
+      "IsCanopyShot": true,
+      "IsRecoverCanopyByKill": false
+    },
+    "spl__WeaponShelterShotgunParam": {
+      "$type": "spl__WeaponShelterShotgunParam",
+      "InkConsume": 0.06,
+      "InkRecoverStop": 50,
+      "InkRecoverStopCanopy": 55,
+      "InkRecoverStopCharge": 20,
+      "JumpGndCharge": 0.065,
+      "MoveSpeed": 0.058,
+      "MoveSpeedCharge": 0.05,
+      "PostDelayFrame_Main": 25,
+      "PostDelayFrame_MoveLmt": 25,
+      "PostNoShotReqFrame": 20,
+      "RepeatFrame": 0,
+      "ShotGuideFrame": 8
+    }
+  }
+}
