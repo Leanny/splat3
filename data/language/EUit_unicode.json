@@ -3374,7 +3374,8 @@
     "COP018": "Salopette argento",
     "COP019": "Salopette oro",
     "COP020": "Salopette iridescente",
-    "COP021": "Salopette robusta"
+    "COP021": "Salopette robusta",
+    "COP022": "Salopette recluta"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Soglioland",
@@ -3567,6 +3568,7 @@
     "COP019": "Salopette oro",
     "COP020": "Salopette iridescente",
     "COP021": "Salopette robusta",
+    "COP022": "Salopette recluta",
     "COP100": "Polo da lavoro",
     "COP101": "Giubbotto salvavita",
     "COP102": "Giacca benzinaio",
@@ -3992,6 +3994,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Casco da minatore",
     "COP101": "Maschera antipolvere",
     "COP102": "Maschera da saldatore",

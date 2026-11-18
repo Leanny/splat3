@@ -3374,7 +3374,8 @@
     "COP018": "Mono de trabajo plateado",
     "COP019": "Mono de trabajo dorado",
     "COP020": "Mono de trabajo prisma",
-    "COP021": "Mono de trabajo resistente"
+    "COP021": "Mono de trabajo resistente",
+    "COP022": "Mono de trabajo novato"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Pirañalandia",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "Tu equipo no ha reunido suficientes miembros\ndentro del plazo. Se decreta vuestra derrota.",
     "Msg_VsHammerOtherTeamDisqualified_Error": "El equipo rival no ha reunido suficientes miembros\ndentro del plazo. Queda descalificado y se os\notorga la victoria.",
     "Msg_Wrong_Password_Error": "La clave es incorrecta.\nNo puedes unirte al combate.",
+    "Msg_XMatchPowerRestrictionClient_Error": "Con la energía X que tienes disponible, no puedes\nformar equipo con los miembros de esta sala\nen combates X. Para más información, consulta\nel sitio web de Splatoon 3.",
+    "Msg_XMatchPowerRestrictionHost_Error": "Tu amigo no ha podido unirse. Con la energía X\nque tienes disponible, no puedes formar equipo\ncon este amigo en combates X. Para más\ninformación, consulta el sitio web de Splatoon 3.",
+    "Msg_XMatchRankingRestrictionClient_Error": "Con la clasificación del rango X actual, no puedes\nformar equipo con los miembros de esta sala\nen combates X. Para más información, consulta\nel sitio web de Splatoon 3.",
+    "Msg_XMatchRankingRestrictionHost_Error": "Tu amigo no ha podido unirse. Con la clasificación\ndel rango X actual, no puedes formar equipo\ncon este amigo en combates X. Para más\ninformación, consulta el sitio web de Splatoon 3.",
     "Msg_XRegion_Restricted_Error": "No es posible participar en esta división\ndesde tu región."
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "Mono de trabajo dorado",
     "COP020": "Mono de trabajo prisma",
     "COP021": "Mono de trabajo resistente",
+    "COP022": "Mono de trabajo novato",
     "COP100": "Polo corporativo",
     "COP101": "Chaleco de seguridad",
     "COP102": "Chaqueta gasolinera",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Casco con luz",
     "COP101": "Mascarilla antipolvo 2.5",
     "COP102": "Máscara de soldar",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "¡Sala de lucha\ncarterritorial creada!",
     "CreateRoom_Private": "¡Sala de combate\nprivado creada!",
     "CreateRoom_Regular": "¡Sala de combate\namistoso creada!",
+    "CreateRoom_XMatch": "¡Sala de combate X\ncreada!",
     "FestRankUp": "¡Nuevo rango festivo!",
     "IkasuNum": "«¡Qué nivel!» ×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "¡Sala de combate\ncaótico [size=75%](informal)[size=100%] visitada!",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "¡Sala de lucha\ncarterritorial visitada!",
     "JoinRoom_Private": "¡Sala de combate\nprivado visitada!",
     "JoinRoom_Regular": "¡Sala de combate\namistoso visitada!",
+    "JoinRoom_XMatch": "¡Sala de combate X\nvisitada!",
     "JoinableHammer": "¿Quieres entrar en la sala de gestión\nde torneos? [group=0002 type=0001 params=00 00]",
     "JoinableHammerCoop": "¿Quieres entrar en la sala de gestión\nde torneos? [group=0002 type=0001 params=00 00]",
     "JoinableTrigger": "¿Quieres entrar en esta sala creada\npor [group=0002 type=0001 params=00 00] mediante SplatNet 3?",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "¡Buscando jugadores\npara lucha carterritorial!",
     "Recruit_Private": "¡Buscando jugadores\npara combate privado!",
     "Recruit_Regular": "¡Buscando jugadores\npara combate amistoso!",
+    "Recruit_XMatch": "¡Buscando jugadores\npara combate X!",
     "StartSolo_Bankara": "¡Inicio en combate\ncaótico [size=75%](formal)[size=100%]!",
     "StartSolo_BankaraOpen": "¡Inicio en combate\ncaótico [size=75%](informal)[size=100%]!",
     "StartSolo_Coop": "¡Inicio en trabajos\nde Salmon Run!",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "Espera unos instantes...",
     "Msg_Unlocked": "Aún no has desbloqueado este modo.",
     "Msg_WeaponDuplication": "No puedes elegir la misma arma\nque usa otro miembro del equipo.",
-    "Msg_WeaponMayDiffer": "Al participar en alianza alevínica como equipo\nde dos jugadores, puede suceder que se os\nadjudique un arma diferente a la seleccionada."
+    "Msg_WeaponMayDiffer": "Al participar en alianza alevínica como equipo\nde dos jugadores, puede suceder que se os\nadjudique un arma diferente a la seleccionada.",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "No puedes crear una sala porque aún no se\nha completado el cálculo de tu energía X.",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "No puedes unirte porque aún no se ha\ncompletado el cálculo de tu energía X.",
+    "Msg_XMatchJoinRoom_RegionRestriction": "No puedes unirte a este jugador porque no estás\nen su misma división de combate X (Sepioca/Arome)."
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "Mejor no...",
@@ -16936,6 +16949,7 @@
     "230": "Personalizado",
     "300": "Tarea de torneo",
     "400": "Esperando...\n[group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CstBtn_02-T_Info_00": "Elegir arma",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "Cancelar",
@@ -17717,6 +17731,7 @@
     "032": "En cálculo... ([group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00])",
     "040": "Energía formal por arma",
     "L_BackBtn_00-T_Info_00": "Atrás",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CustomizeBtn_00-T_Info_00": "Personalizar",
     "L_FestItemAll_00-T_Max_00": "Máx.",
     "L_GuideCancel_00-T_Info_00": "Cancelar",
@@ -18253,6 +18268,7 @@
     "011": "¿Quieres crear una sala de [color=0001]Big Run[color=ffff]?",
     "012": "¿Quieres crear una sala de [color=0001]alianza alevínica[color=ffff]?",
     "013": "¿Quieres crear una sala de [color=0001]combate evento[color=ffff]?",
+    "014": "¿Quieres crear una sala de [color=0001]combate X[color=ffff]?",
     "020": "No",
     "030": "Sí",
     "031": "Sí",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "Esperando a [group=0002 type=0001 params=00 0a]...",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_PlayerName_00-T_Message_00": "...",
     "L_PlayerName_00-T_Wait_00": "Buscando..."
   },
@@ -18535,6 +18552,7 @@
     "109": "Combate evento",
     "110": "Salmon Run",
     "111": "Trabajo privado",
+    "112": "Combate X",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "Alias: [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "Confirmar alias",

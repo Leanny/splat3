@@ -3374,7 +3374,8 @@
     "COP018": "Silber-Arbeitsklamotten",
     "COP019": "Gold-Arbeitsklamotten",
     "COP020": "Schiller-Arbeitsklamotten",
-    "COP021": "Schwerstarbeitsklamotten"
+    "COP021": "Schwerstarbeitsklamotten",
+    "COP022": "Junior-Arbeitsklamotten"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Flunder-Funpark",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "Das eigene Team wurde\nnicht rechtzeitig versammelt.\nEine Niederlage wird verbucht.",
     "Msg_VsHammerOtherTeamDisqualified_Error": "Das gegnerische Team wurde\nnicht rechtzeitig versammelt.\nAutomatischer Sieg wird verbucht.",
     "Msg_Wrong_Password_Error": "Der eingegebene Code ist nicht korrekt.\nBeitreten nicht möglich.",
+    "Msg_XMatchPowerRestrictionClient_Error": "Aufgrund deiner aktuellen X-Power\nkannst du derzeit nicht mit Mitgliedern\nin diesem Raum in X-Kämpfen antreten.\nWeitere Infos findest du auf\nder offiziellen Website.",
+    "Msg_XMatchPowerRestrictionHost_Error": "Beitritt deines Freundes fehlgeschlagen.\nAufgrund deiner aktuellen X-Power könnt\nihr derzeit nicht gemeinsam in X-Kämpfen\nantreten. Weitere Infos findest du\nauf der offiziellen Website.",
+    "Msg_XMatchRankingRestrictionClient_Error": "Gemäß der aktuellen X-Rangliste\nkannst du derzeit nicht mit Mitgliedern\nin diesem Raum in X-Kämpfen antreten.\nWeitere Infos findest du auf\nder offiziellen Website.",
+    "Msg_XMatchRankingRestrictionHost_Error": "Beitritt deines Freundes fehlgeschlagen.\nGemäß der aktuellen X-Rangliste könnt ihr\nderzeit nicht gemeinsam in X-Kämpfen\nantreten. Weitere Infos findest du\nauf der offiziellen Website.",
     "Msg_XRegion_Restricted_Error": "Dieser Gruppe kannst du\nvon deiner Region aus nicht beitreten."
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "Gold-Arbeitsklamotten",
     "COP020": "Schiller-Arbeitsklamotten",
     "COP021": "Schwerstarbeitsklamotten",
+    "COP022": "Junior-Arbeitsklamotten",
     "COP100": "Kurier-Polohemd",
     "COP101": "Rettungsweste",
     "COP102": "Tankwart-Jacke",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Grubenhelm",
     "COP101": "Feinstaubmaske 2.5",
     "COP102": "Schweißermaske",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "Ich habe einen Raum für\nRevierdecks erstellt!",
     "CreateRoom_Private": "Ich habe einen Raum für einen\nprivaten Kampf erstellt!",
     "CreateRoom_Regular": "Ich habe einen Raum für einen\nStandardkampf erstellt!",
+    "CreateRoom_XMatch": "Ich habe einen Raum für einen\nX-Kampf erstellt!",
     "FestRankUp": "Ich habe einen neuen\nSplatfest-Titel!",
     "IkasuNum": "Spritzig! ×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "Ich bin einem Raum für einen\nAnarchie-Kampf (Offen) beigetreten!",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "Ich bin einem Raum für\nRevierdecks beigetreten!",
     "JoinRoom_Private": "Ich bin einem Raum für einen\nprivaten Kampf beigetreten!",
     "JoinRoom_Regular": "Ich bin einem Raum für einen\nStandardkampf beigetreten!",
+    "JoinRoom_XMatch": "Ich bin einem Raum für einen\nX-Kampf beigetreten!",
     "JoinableHammer": "Über den Turnier-Manager erstellten\n[group=0002 type=0001 params=00 00] beitreten?",
     "JoinableHammerCoop": "[group=0002 type=0001 params=00 00]\nTurnier-Manager-Raum beitreten!",
     "JoinableTrigger": "Über SplatNet 3 erstelltem Raum\nvon [group=0002 type=0001 params=00 00] beitreten?",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "Ich suche nach Spielern für\nRevierdecks!",
     "Recruit_Private": "Ich suche nach Spielern für\neinen privaten Kampf!",
     "Recruit_Regular": "Ich suche nach Spielern für\neinen Standardkampf!",
+    "Recruit_XMatch": "Ich suche nach Spielern für\neinen X-Kampf!",
     "StartSolo_Bankara": "Ich starte einen\nAnarchie-Kampf [size=75%](Serie)[size=100%]!",
     "StartSolo_BankaraOpen": "Ich starte einen\nAnarchie-Kampf [size=75%](Offen)[size=100%]!",
     "StartSolo_Coop": "Ich fange eine Schicht\nSalmon Run an!",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "Bitte warten...",
     "Msg_Unlocked": "Du hast diesen Modus noch nicht freigeschaltet.",
     "Msg_WeaponDuplication": "Du kannst leider nicht dieselbe Waffe\nwie ein Teamkollege wählen.",
-    "Msg_WeaponMayDiffer": "Nimmt ein Zweierteam am Team-Wettkampf teil,\nwerden den Spielern möglicherweise andere\nWaffen zugeteilt, als diese gewählt haben."
+    "Msg_WeaponMayDiffer": "Nimmt ein Zweierteam am Team-Wettkampf teil,\nwerden den Spielern möglicherweise andere\nWaffen zugeteilt, als diese gewählt haben.",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "Du kannst keinen Raum erstellen,\nda deine X-Power-Berechnung\nnoch nicht abgeschlossen ist.",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "Du kannst nicht beitreten,\nda deine X-Power-Berechnung\nnoch nicht abgeschlossen ist.",
+    "Msg_XMatchJoinRoom_RegionRestriction": "Du kannst mit diesem Spieler\ndem Kampf nicht beitreten, da ihr\nnicht derselben X-Kampf-Gruppe\n(Kalamati/Tentatek) angehört."
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "Nee",
@@ -16936,6 +16949,7 @@
     "230": "Eigene Auswahl",
     "300": "Turnier-Szenario",
     "400": "Warte...\n[group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00] Spieler",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CstBtn_02-T_Info_00": "Waffe wählen",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "Abbrechen",
@@ -17717,6 +17731,7 @@
     "032": "Noch offen... [group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
     "040": "Serien-Waffen-Power",
     "L_BackBtn_00-T_Info_00": "Schließen",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CustomizeBtn_00-T_Info_00": "Anpassen",
     "L_FestItemAll_00-T_Max_00": "MAX.",
     "L_GuideCancel_00-T_Info_00": "Abbrechen",
@@ -18253,6 +18268,7 @@
     "011": "Raum für [color=0001]Big Run[color=ffff] erstellen?",
     "012": "Raum für [color=0001]Team-Wettkampf[color=ffff] erstellen?",
     "013": "Raum für [color=0001]Event-Kampf[color=ffff] erstellen?",
+    "014": "Raum für [color=0001]X-Kampf[color=ffff] erstellen?",
     "020": "Abbrechen",
     "030": "Ja",
     "031": "Ja",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "Auf [group=0002 type=0001 params=00 0a] wird gewartet...",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_PlayerName_00-T_Message_00": "...",
     "L_PlayerName_00-T_Wait_00": "Suchvorgang..."
   },
@@ -18535,6 +18552,7 @@
     "109": "Event-Kampf",
     "110": "Salmon Run",
     "111": "Private Schicht",
+    "112": "X-Kampf",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "Aliasname: [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "Aliasnamen festlegen",

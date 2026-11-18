@@ -3374,7 +3374,8 @@
     "COP018": "バイトツナギ シルバー",
     "COP019": "バイトツナギ ゴールド",
     "COP020": "バイトツナギ プリズム",
-    "COP021": "バイトツナギ ブロッカー"
+    "COP021": "バイトツナギ ブロッカー",
+    "COP022": "バイトツナギ わかば"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "スメーシーワールド",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "時間内にチームメンバーがそろわなかったため、\n負けになりました",
     "Msg_VsHammerOtherTeamDisqualified_Error": "時間内に相手チームのメンバーがそろわなかったため、\n不戦勝になりました",
     "Msg_Wrong_Password_Error": "パスワードが間違っているため\n合流できません",
+    "Msg_XMatchPowerRestrictionClient_Error": "現在のXパワーでは、この部屋のメンバーと\nXマッチでチームを組むことができません\nくわしくは スプラトゥーン3の公式サイトをご覧ください",
+    "Msg_XMatchPowerRestrictionHost_Error": "フレンドが合流に失敗しました\n現在のXパワーでは、このフレンドと\nXマッチでチームを組むことができません\nくわしくは スプラトゥーン3の公式サイトをご覧ください",
+    "Msg_XMatchRankingRestrictionClient_Error": "現在のXランキングの順位では、この部屋のメンバーと\nXマッチでチームを組むことができません\nくわしくは スプラトゥーン3の公式サイトをご覧ください",
+    "Msg_XMatchRankingRestrictionHost_Error": "フレンドが合流に失敗しました\n現在のXランキングの順位では、このフレンドと\nXマッチでチームを組むことができません\nくわしくは スプラトゥーン3の公式サイトをご覧ください",
     "Msg_XRegion_Restricted_Error": "お住まいの地域から\nそのグループに参加することはできません"
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "バイトツナギ ゴールド",
     "COP020": "バイトツナギ プリズム",
     "COP021": "バイトツナギ ブロッカー",
+    "COP022": "バイトツナギ わかば",
     "COP100": "イカテンくんポロ",
     "COP101": "アンカーベスト",
     "COP102": "フューエルブルゾン",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "ヘッドライトヘルム",
     "COP101": "ダストブロッカー 2.5",
     "COP102": "アイアンマスカレイド",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "ナワバトラーの部屋を作った！",
     "CreateRoom_Private": "プライベートマッチの部屋を作った！",
     "CreateRoom_Regular": "レギュラーマッチの部屋を作った！",
+    "CreateRoom_XMatch": "Xマッチの部屋を作った！",
     "FestRankUp": "フェスランクが上がった！",
     "IkasuNum": "イカす！ ×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "バンカラマッチ[size=75%]（オープン）[size=100%]の部屋に合流した！",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "ナワバトラーの部屋に合流した！",
     "JoinRoom_Private": "プライベートマッチの部屋に合流した！",
     "JoinRoom_Regular": "レギュラーマッチの部屋に合流した！",
+    "JoinRoom_XMatch": "Xマッチの部屋に合流した！",
     "JoinableHammer": "[group=0002 type=0001 params=00 00]\nタイカイサポートの部屋に合流しよう！",
     "JoinableHammerCoop": "[group=0002 type=0001 params=00 00]\nタイカイサポートの部屋に合流しよう！",
     "JoinableTrigger": "[group=0002 type=0001 params=00 00]\nがイカリング３で作った部屋に合流しよう！",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "ナワバトラーのメンバー募集中！",
     "Recruit_Private": "プライベートマッチのメンバー募集中！",
     "Recruit_Regular": "レギュラーマッチのメンバー募集中！",
+    "Recruit_XMatch": "Xマッチのメンバー募集中！",
     "StartSolo_Bankara": "バンカラマッチ[size=75%]（チャレンジ）[size=100%]を開始！",
     "StartSolo_BankaraOpen": "バンカラマッチ[size=75%]（オープン）[size=100%]を開始！",
     "StartSolo_Coop": "バイトを開始！",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "しばらくお待ちください…",
     "Msg_Unlocked": "このモードは まだ解放されていません",
     "Msg_WeaponDuplication": "他のチームメンバーと同じブキを\n選ぶことはできません",
-    "Msg_WeaponMayDiffer": "２人でバイトチームコンテストに参加する場合、\n選んだブキとは異なるブキが支給されることがあります"
+    "Msg_WeaponMayDiffer": "２人でバイトチームコンテストに参加する場合、\n選んだブキとは異なるブキが支給されることがあります",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "Xパワーの計測が完了していないため\n部屋を作ることができません",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "Xパワーの計測が完了していないため\n合流できません",
+    "Msg_XMatchJoinRoom_RegionRestriction": "Xマッチのグループ（ヤコ/アロメ）が異なるため\nこのプレイヤーには合流できません"
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "やめとく",
@@ -16936,6 +16949,7 @@
     "230": "カスタム",
     "300": "大会イベント用バイトシナリオ",
     "400": "メンバーを待っています\n[group=0002 type=0000 params=00 01 00 00] / [group=0002 type=0000 params=01 01 00 00]",
+    "L_Chat_00-T_Info_00": "ゲームチャット",
     "L_CstBtn_02-T_Info_00": "ブキを選ぶ",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "キャンセル",
@@ -17717,6 +17731,7 @@
     "032": "計測中… [group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
     "040": "ブキチャレパワー",
     "L_BackBtn_00-T_Info_00": "とじる",
+    "L_Chat_00-T_Info_00": "ゲームチャット",
     "L_CustomizeBtn_00-T_Info_00": "カスタマイズ",
     "L_FestItemAll_00-T_Max_00": "MAX",
     "L_GuideCancel_00-T_Info_00": "キャンセル",
@@ -18253,6 +18268,7 @@
     "011": "[color=0001]ビッグラン[color=ffff]の部屋を作りますか？",
     "012": "[color=0001]バイトチームコンテスト[color=ffff]の部屋を作りますか？",
     "013": "[color=0001]イベントマッチ[color=ffff]の部屋を作りますか？",
+    "014": "[color=0001]Xマッチ[color=ffff]の部屋を作りますか？",
     "020": "やめとく",
     "030": "つくる！",
     "031": "合流する！",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "[group=0002 type=0001 params=00 0a] を待っています…",
+    "L_Chat_00-T_Info_00": "ゲームチャット",
     "L_PlayerName_00-T_Message_00": "・・・",
     "L_PlayerName_00-T_Wait_00": "募集中…"
   },
@@ -18535,6 +18552,7 @@
     "109": "イベントマッチ",
     "110": "SALMON RUN",
     "111": "プライベートバイト",
+    "112": "Xマッチ",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "別名： [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "別名設定",

@@ -3374,7 +3374,8 @@
     "COP018": "실버 작업복",
     "COP019": "골드 작업복",
     "COP020": "프리즘 작업복",
-    "COP021": "블로커 작업복"
+    "COP021": "블로커 작업복",
+    "COP022": "새싹 작업복"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "초밥 월드",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "제한 시간 내에 팀 멤버가 모이지 않아\n패배 처리되었습니다",
     "Msg_VsHammerOtherTeamDisqualified_Error": "제한 시간 내에 상대 팀의 멤버가 모이지 않아\n부전승 처리되었습니다",
     "Msg_Wrong_Password_Error": "비밀번호가 일치하지 않으므로\n합류할 수 없습니다",
+    "Msg_XMatchPowerRestrictionClient_Error": "현재의 X 파워로는 이 방의 멤버와\nX 매치에서 팀을 이룰 수 없습니다\n자세한 내용은 스플래툰 3의 공식 사이트를 확인해 주십시오",
+    "Msg_XMatchPowerRestrictionHost_Error": "친구가 합류에 실패했습니다\n현재의 X 파워로는 이 친구와\nX 매치에서 팀을 이룰 수 없습니다\n자세한 내용은 스플래툰 3의 공식 사이트를 확인해 주십시오",
+    "Msg_XMatchRankingRestrictionClient_Error": "현재의 X 랭킹 순위로는 이 방의 멤버와\nX 매치에서 팀을 이룰 수 없습니다\n자세한 내용은 스플래툰 3의 공식 사이트를 확인해 주십시오",
+    "Msg_XMatchRankingRestrictionHost_Error": "친구가 합류에 실패했습니다\n현재의 X 랭킹 순위로는 이 친구와\nX 매치에서 팀을 이룰 수 없습니다\n자세한 내용은 스플래툰 3의 공식 사이트를 확인해 주십시오",
     "Msg_XRegion_Restricted_Error": "거주 중인 지역에서는\n해당 그룹에 참가할 수 없습니다"
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "골드 작업복",
     "COP020": "프리즘 작업복",
     "COP021": "블로커 작업복",
+    "COP022": "새싹 작업복",
     "COP100": "오징어 보이 폴로셔츠",
     "COP101": "앵커 베스트",
     "COP102": "퓨얼 블루종",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "헤드라이트 헬멧",
     "COP101": "더스트 블로커 2.5",
     "COP102": "용접 마스크",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "영역 배틀러 방을 만들었다!",
     "CreateRoom_Private": "프라이빗 매치 방을 만들었다!",
     "CreateRoom_Regular": "레귤러 매치 방을 만들었다!",
+    "CreateRoom_XMatch": "X 매치 방을 만들었다!",
     "FestRankUp": "페스티벌 레벨이 올랐다!",
     "IkasuNum": "어메이징!×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "카오폴리스 매치[size=75%](오픈)[size=100%] 방에 합류했다!",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "영역 배틀러 방에 합류했다!",
     "JoinRoom_Private": "프라이빗 매치 방에 합류했다!",
     "JoinRoom_Regular": "레귤러 매치 방에 합류했다!",
+    "JoinRoom_XMatch": "X 매치 방에 합류했다!",
     "JoinableHammer": "[group=0002 type=0001 params=00 00]\n대회 서포트 방에 합류하자!",
     "JoinableHammerCoop": "[group=0002 type=0001 params=00 00]\n대회 서포트 방에 합류하자!",
     "JoinableTrigger": "[group=0002 type=0001 params=00 00][group=00c9 type=0007 params=02 00 74 c7 02 00 00 ac]\n오징어넷 3에서 만든 방에 합류하자!",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "영역 배틀러 멤버 모집 중!",
     "Recruit_Private": "프라이빗 매치 멤버 모집 중!",
     "Recruit_Regular": "레귤러 매치 멤버 모집 중!",
+    "Recruit_XMatch": "X 매치 멤버 모집 중!",
     "StartSolo_Bankara": "카오폴리스 매치[size=75%](챌린지)[size=100%] 시작!",
     "StartSolo_BankaraOpen": "카오폴리스 매치[size=75%](오픈)[size=100%] 시작!",
     "StartSolo_Coop": "아르바이트 시작!",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "잠시만 기다려 주십시오…",
     "Msg_Unlocked": "이 모드는 아직 개방되지 않았습니다",
     "Msg_WeaponDuplication": "다른 멤버와 같은 무기는\n선택할 수 없습니다",
-    "Msg_WeaponMayDiffer": "둘이서 아르바이트 팀 콘테스트에 참가할 경우,\n선택한 무기와는 다른 무기가 지급될 수 있습니다"
+    "Msg_WeaponMayDiffer": "둘이서 아르바이트 팀 콘테스트에 참가할 경우,\n선택한 무기와는 다른 무기가 지급될 수 있습니다",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "X 파워의 계측이 완료되지 않았으므로\n방을 만들 수 없습니다",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "X 파워의 계측이 완료되지 않았으므로\n합류할 수 없습니다",
+    "Msg_XMatchJoinRoom_RegionRestriction": "X 매치의 그룹(라이즈/아로메)이 다르므로\n이 플레이어에게는 합류할 수 없습니다"
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "그만두기",
@@ -16936,6 +16949,7 @@
     "230": "커스텀",
     "300": "대회 이벤트용 아르바이트 시나리오",
     "400": "멤버를 기다리고 있습니다\n[group=0002 type=0000 params=00 01 00 00] / [group=0002 type=0000 params=01 01 00 00]",
+    "L_Chat_00-T_Info_00": "게임챗",
     "L_CstBtn_02-T_Info_00": "무기 선택하기",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "취소",
@@ -17717,6 +17731,7 @@
     "032": "계측 중… [group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
     "040": "무기 챌린지 파워",
     "L_BackBtn_00-T_Info_00": "닫기",
+    "L_Chat_00-T_Info_00": "게임챗",
     "L_CustomizeBtn_00-T_Info_00": "커스터마이즈",
     "L_FestItemAll_00-T_Max_00": "MAX",
     "L_GuideCancel_00-T_Info_00": "취소",
@@ -18253,6 +18268,7 @@
     "011": "[color=0001]빅 런 [color=ffff]방을 만들겠습니까?",
     "012": "[color=0001]아르바이트 팀 콘테스트 [color=ffff]방을 만들겠습니까?",
     "013": "[color=0001]이벤트 매치 [color=ffff]방을 만들겠습니까?",
+    "014": "[color=0001]X 매치[color=ffff] 방을 만들겠습니까?",
     "020": "그만두기",
     "030": "만들기",
     "031": "합류하기",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "[group=0002 type=0001 params=00 0a][group=00c9 type=0007 params=02 00 44 c7 02 00 7c b9] 기다리고 있습니다…",
+    "L_Chat_00-T_Info_00": "게임챗",
     "L_PlayerName_00-T_Message_00": "・・・",
     "L_PlayerName_00-T_Wait_00": "모집 중…"
   },
@@ -18535,6 +18552,7 @@
     "109": "이벤트 매치",
     "110": "SALMON RUN",
     "111": "프라이빗 아르바이트",
+    "112": "X 매치",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "가명: [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "가명 설정",

@@ -1,0 +1,19 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterShort.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForPlayer": 0.25,
+      "InitRadiusForPlayer": 0.25
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 450,
+      "ValueMin": 300
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.008
+    }
+  }
+}

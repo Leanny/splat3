@@ -1,0 +1,1244 @@
+[
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.95,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.4980392,
+        "G": 0.5882353,
+        "R": 0.3803922
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type01",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Auto_A.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.5215687,
+        "G": 0.5803922,
+        "R": 0.3686275
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type01",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Auto_B.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.5647059,
+        "G": 0.5882353,
+        "R": 0.3568628
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type01",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Auto_C.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.9375,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.9058824,
+        "G": 0.509804,
+        "R": 0.0
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type01",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/ColorSupport_1_Primary.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.9375,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 1.0,
+        "R": 0.4823529
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type06",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/ColorSupport_1_Secondary.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.9375,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.454902,
+        "R": 0.3058824
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type00",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/ColorSupport_2_Primary.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.9375,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.8156863,
+        "R": 1.0
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type06",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/ColorSupport_2_Secondary.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.5882353,
+        "G": 0.4470588,
+        "R": 0.5215687
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type02",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.435
+    },
+    "__RowId": "Work/Gyml/Continuity_A.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.6392157,
+        "G": 0.4627451,
+        "R": 0.5882353
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type02",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.435
+    },
+    "__RowId": "Work/Gyml/Continuity_B.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.5803922,
+        "G": 0.4156863,
+        "R": 0.4745098
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type02",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.435
+    },
+    "__RowId": "Work/Gyml/Continuity_C.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.9375,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.4627451,
+        "G": 0.4666667,
+        "R": 0.5372549
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type00",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Default.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": true,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.875,
+      "HueOffsetDetailDark": -0.375,
+      "HueOffsetDetailEnable": true,
+      "InkRimIntensity": 1.25,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.4235294,
+        "G": 0.4196078,
+        "R": 0.6
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type05",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.632
+    },
+    "__RowId": "Work/Gyml/Fire_A.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": true,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.875,
+      "HueOffsetDetailDark": -0.375,
+      "HueOffsetDetailEnable": true,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.4431373,
+        "G": 0.4196078,
+        "R": 0.6
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type05",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.632
+    },
+    "__RowId": "Work/Gyml/Fire_B.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": true,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.875,
+      "HueOffsetDetailDark": -0.375,
+      "HueOffsetDetailEnable": true,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.4235294,
+        "G": 0.4313726,
+        "R": 0.6509804
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type05",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.632
+    },
+    "__RowId": "Work/Gyml/Fire_C.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.9179688,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2980392,
+        "G": 0.6,
+        "R": 0.5490196
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type04",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 0.649
+    },
+    "__RowId": "Work/Gyml/Luck_A.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2980392,
+        "G": 0.6,
+        "R": 0.5843138
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type04",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 0.649
+    },
+    "__RowId": "Work/Gyml/Luck_B.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.3098039,
+        "G": 0.6196079,
+        "R": 0.5372549
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type04",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 0.649
+    },
+    "__RowId": "Work/Gyml/Luck_C.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.6117647,
+        "G": 0.4862745,
+        "R": 0.4196078
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type03",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.435
+    },
+    "__RowId": "Work/Gyml/Move_A.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.6901961,
+        "G": 0.509804,
+        "R": 0.4745098
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type03",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.435
+    },
+    "__RowId": "Work/Gyml/Move_B.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.6784314,
+        "G": 0.4745098,
+        "R": 0.4862745
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type03",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": true,
+      "MicroLameIntensityGain": 1.435
+    },
+    "__RowId": "Work/Gyml/Move_C.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.3411765,
+        "G": 0.4666667,
+        "R": 0.6117647
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type06",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Range_A.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.3529412,
+        "G": 0.454902,
+        "R": 0.6
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type06",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Range_B.spl__Exam01Info.gyml"
+  },
+  {
+    "EnemyColor": {
+      "HueOffset": 0.0,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.1607843,
+        "G": 0.1607843,
+        "R": 0.1607843
+      }
+    },
+    "FriendColor": {
+      "HueOffset": -0.05,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 1.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.3529412,
+        "G": 0.427451,
+        "R": 0.5803922
+      }
+    },
+    "NeutralColor": {
+      "HueOffset": -0.07,
+      "HueOffsetDetailBright": 0.0,
+      "HueOffsetDetailDark": 0.0,
+      "HueOffsetDetailEnable": false,
+      "InkRimIntensity": 0.0,
+      "MapInkBrightnessOffset": 0.0,
+      "TeamColor": {
+        "A": 1.0,
+        "B": 0.2039216,
+        "G": 0.8039216,
+        "R": 0.8039216
+      }
+    },
+    "SecondaryTextureType": "Type06",
+    "Setting": {
+      "EnableInkRimIntensity": true,
+      "EnableMapInkBrightnessOffset": false,
+      "HueOffsetEnable": false,
+      "IsSetUIColor": false,
+      "IsUseMicroLameIntensityGain": false,
+      "MicroLameIntensityGain": 1.0
+    },
+    "__RowId": "Work/Gyml/Range_C.spl__Exam01Info.gyml"
+  }
+]

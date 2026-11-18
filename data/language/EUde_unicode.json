@@ -3374,7 +3374,8 @@
     "COP018": "Silber-Arbeitsklamotten",
     "COP019": "Gold-Arbeitsklamotten",
     "COP020": "Schiller-Arbeitsklamotten",
-    "COP021": "Schwerstarbeitsklamotten"
+    "COP021": "Schwerstarbeitsklamotten",
+    "COP022": "Junior-Arbeitsklamotten"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Flunder-Funpark",
@@ -3567,6 +3568,7 @@
     "COP019": "Gold-Arbeitsklamotten",
     "COP020": "Schiller-Arbeitsklamotten",
     "COP021": "Schwerstarbeitsklamotten",
+    "COP022": "Junior-Arbeitsklamotten",
     "COP100": "Kurier-Polohemd",
     "COP101": "Rettungsweste",
     "COP102": "Tankwart-Jacke",
@@ -3992,6 +3994,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Grubenhelm",
     "COP101": "Feinstaubmaske 2.5",
     "COP102": "Schweißermaske",

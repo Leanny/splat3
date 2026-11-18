@@ -1,0 +1,167 @@
+[
+  {
+    "__RowId": "BulletBeacon"
+  },
+  {
+    "__RowId": "BulletBombRobot"
+  },
+  {
+    "__RowId": "BulletBombTorpedo"
+  },
+  {
+    "__RowId": "BulletShelterCanopyBase"
+  },
+  {
+    "__RowId": "BulletShelterCanopyBase_Cstm"
+  },
+  {
+    "__RowId": "BulletShelterCanopyBase_O"
+  },
+  {
+    "__RowId": "BulletShelterCanopyCompact"
+  },
+  {
+    "__RowId": "BulletShelterCanopyCompact_Cstm"
+  },
+  {
+    "__RowId": "BulletShelterCanopyCompact_Cstm2"
+  },
+  {
+    "__RowId": "BulletShelterCanopyFocus"
+  },
+  {
+    "__RowId": "BulletShelterCanopyFocus_Cstm"
+  },
+  {
+    "__RowId": "BulletShelterCanopySdodr"
+  },
+  {
+    "__RowId": "BulletShelterCanopyWide"
+  },
+  {
+    "__RowId": "BulletShelterCanopyWideCoop"
+  },
+  {
+    "__RowId": "BulletShelterCanopyWideMission"
+  },
+  {
+    "__RowId": "BulletShelterCanopyWide_Cstm"
+  },
+  {
+    "__RowId": "BulletShelterCanopyWide_Cstm2"
+  },
+  {
+    "__RowId": "BulletShield"
+  },
+  {
+    "__RowId": "BulletShieldSdodr"
+  },
+  {
+    "__RowId": "BulletSpBlowerInhale"
+  },
+  {
+    "__RowId": "BulletSpChimneyGenerator"
+  },
+  {
+    "__RowId": "BulletSpEnergyStandFridge"
+  },
+  {
+    "__RowId": "BulletSpFireworkIce"
+  },
+  {
+    "__RowId": "BulletSpFireworkPipe"
+  },
+  {
+    "__RowId": "BulletSpGreatBarrier"
+  },
+  {
+    "__RowId": "BulletSpInkStormGenerator"
+  },
+  {
+    "__RowId": "BulletSpMicroLaserBit"
+  },
+  {
+    "__RowId": "BulletSpMicroLaserBitSdodr"
+  },
+  {
+    "__RowId": "BulletSpNiceBallCoop"
+  },
+  {
+    "__RowId": "BulletSpPogo"
+  },
+  {
+    "__RowId": "BulletSpPogoCoop"
+  },
+  {
+    "__RowId": "BulletSpPogoLeft"
+  },
+  {
+    "__RowId": "BulletSpPogoLeftCoop"
+  },
+  {
+    "__RowId": "BulletSpPogoLeftRivalKing"
+  },
+  {
+    "__RowId": "BulletSpPogoLeftSdodr"
+  },
+  {
+    "__RowId": "BulletSpPogoRight"
+  },
+  {
+    "__RowId": "BulletSpPogoRightCoop"
+  },
+  {
+    "__RowId": "BulletSpPogoRightRivalKing"
+  },
+  {
+    "__RowId": "BulletSpPogoRightSdodr"
+  },
+  {
+    "__RowId": "BulletSpPogoRivalKing"
+  },
+  {
+    "__RowId": "BulletSpPogoSdodr"
+  },
+  {
+    "__RowId": "BulletSpShockSonarGenerator"
+  },
+  {
+    "__RowId": "BulletSpShockSonarGeneratorSdodr"
+  },
+  {
+    "__RowId": "BulletSpTripleTornadoDevice"
+  },
+  {
+    "__RowId": "BulletSpTripleTornadoDeviceSdodr"
+  },
+  {
+    "__RowId": "BulletSpTripleTornadoMother"
+  },
+  {
+    "__RowId": "BulletSprinkler"
+  },
+  {
+    "__RowId": "BulletSprinklerSdodr"
+  },
+  {
+    "__RowId": "BulletTrap"
+  },
+  {
+    "__RowId": "CoopSakeArtilleryGun"
+  },
+  {
+    "__RowId": "CoopSakeShipGoldenIkuraBox"
+  },
+  {
+    "__RowId": "CoopSakeShipRock"
+  },
+  {
+    "__RowId": "CoopSakerocketBullet"
+  },
+  {
+    "__RowId": "CoopSpawnBox"
+  },
+  {
+    "__RowId": "Obj_BeaconGimmick"
+  }
+]

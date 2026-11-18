@@ -1,0 +1,4370 @@
+[
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "いいペースだな、ハチ！",
+      "Label": "Hint_Cage_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そういえばハチ、前にも言ったケド\nケージは (LS)を倒すとスピードアップするヨ",
+        "Label": "Hint_Cage_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "のんびり乗っていくのもアリですが、\nいそぐときは ビュ～ンと飛ばしちゃいましょ～♪",
+        "Label": "Hint_Cage_02",
+        "TalkerASCommandType": "TalkElvGood"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_Cage.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "このチョーシで行くぞ、ハチ！",
+      "Label": "Hint_CollectionEnm_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさん、スケルトーンとの戦いで収集したデータは\n【スケルトーンずかん】に記録していますよ",
+        "Label": "Hint_CollectionEnm_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "弱点なんかもメモしてたりするカラ、\nときどき（－）でチェックするとイイ",
+        "Label": "Hint_CollectionEnm_02",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_CollectionEnm.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "ウン、今のトコロ順調ダナ\nこの調子で カラーチップを集めながら進モウ",
+      "Label": "Hint_CollectionInElv_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そうだハチ、手に入れたカラーチップの情報は\nカラーチップコレクションにまとめていルヨ",
+        "Label": "Hint_CollectionInElv_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "エレベーターに乗っている間はで\nカラーチップコレクションを見ることができますよ♪",
+        "Label": "Hint_CollectionInElv_02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "へぇー 何が書いてあんだろな？\nときどきチェックしてみようぜ、ハチ！",
+        "Label": "Hint_CollectionInElv_03",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_CollectionInElv.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、このチョーシで行きましょう！",
+      "Label": "Hint_CompleteEnm_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ところでハチ、スケルトーンずかんのデータは\n相手を倒した数に応じて増えていくヨ",
+        "Label": "Hint_CompleteEnm_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "すべてのデータを集められたら\nスケルトーン博士になれちゃいそうですね～♪",
+        "Label": "Hint_CompleteEnm_02",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "それって うれしいノカ…？",
+        "Label": "Hint_CompleteEnm_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "べつに ハカセにはならなくていーけど、\nなんかイイコトあったりしねーかな？",
+        "Label": "Hint_CompleteEnm_04",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_CompleteEnm.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "今回も いい感じでしたね～♪",
+      "Label": "Hint_CompleteTip_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なぁイイダ！ カラーチップコレクション見たら\nチップが線でつながってたんだけどさー、アレなに？",
+        "Label": "Hint_CompleteTip_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "エッ？ う～ん、つながっているのは まったく同じ色の\nカラーチップみたいですが、それ以上のことは…",
+        "Label": "Hint_CompleteTip_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、カラーチップを集めていけば わかるんじゃないカ？\nもしかしたら 何かイイコトあるかもナ",
+        "Label": "Hint_CompleteTip_03",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_CompleteTip.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "あっそうそう、クリアほうしゅうは\n難しいフロアほど多くもらえるんですよ～",
+      "Label": "Hint_Difficulty_02",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "パ～っと使っちゃって ネリコインが足りなくなったら、\nあえて難しいフロアにチャレンジしてみるのもアリです♪",
+        "Label": "Hint_Difficulty_03",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そういえば、ドコカのジイサンが エラそうに\n「クロウスルホド メシ オイシクナル」とか よく言ってタナ",
+        "Label": "Hint_Difficulty_05",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あははっ なつかしい～！\nそのあと絶対 「ギギ…」って、ワサビを取り出して～…",
+        "Label": "Hint_Difficulty_06",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なんだそりゃ、タコにも変わったジジィがいんのなー\nハチも知ってるヤツか？",
+        "Label": "Hint_Difficulty_07",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_Difficulty.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "いいぞー ハチ！\nこっからもサポートは アタシにまかしとけ！",
+      "Label": "Hint_Drone_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そうそう、センパイの…ドローンの性能をアップするには\nハッキングが必要不可欠なんです\nたとえば、センパイを強化するためのカラーチップが\n塔で出てくるように設定することもできますし…",
+        "Label": "Hint_Drone_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイの行動スロットを追加して、同時にセットしておける\nサポート行動の数を増やすこともできるんですよ～",
+        "Label": "Hint_Drone_02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "マジ？！ いーじゃん、それ！",
+        "Label": "Hint_Drone_03",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ドローンの設定は 他にもいろいろありますので、\n見てみたくなったら 塔の外でワタシに言ってくださいね♪",
+        "Label": "Hint_Drone_04",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_Drone.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ハチ、おつかれ！\nこの感じでいけば シンジュをガッポリもらえるかもなー",
+      "Label": "Hint_FleaMarket_00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そういえば、塔の外にあやしげな店があったネ\nシンジュと引きかえに いろいろ売ってるようだったケド",
+        "Label": "Hint_FleaMarket_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "あの店、オキモノとかギアとか買えるっぽいぞ！\nシンジュが余ったら 行ってみっか！",
+        "Label": "Hint_FleaMarket_02",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "アレッ？ ワタシ、そんな住人ネリバースに\n配置してましたっけ…？",
+        "Label": "Hint_FleaMarket_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_FleaMarket.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "っしゃ、まだまだ気をぬくなよ ハチ！",
+      "Label": "Hint_HackingRetry_00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさん、もし塔を上るとちゅうで失敗してしまっても\nそこまでの記録は残してあります\n過去にやられたフロアから【リトライ】したいときは\n塔の外で ワタシに言ってくださいね",
+        "Label": "Hint_HackingRetry_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なら思いっきり攻めてこーぜ！\n当たってくだけろだ！",
+        "Label": "Hint_HackingRetry_02",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、くだけないに越したことはないケドネ",
+        "Label": "Hint_HackingRetry_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_HackingRetry.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "そうだハチさん、どうせなら一度にたくさん シンジュが欲しい…\nなんて思ったことはありませんか？",
+      "Label": "Hint_JemHardMode_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そんなときは、「ハイリスクハイリターン」の\nハッキングがオススメですよ♪",
+        "Label": "Hint_JemHardMode_01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "なんと、塔を最後までクリアしたときに入手できるシンジュの数を\n増やすことができちゃうんです！",
+        "Label": "Hint_JemHardMode_02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "その代わり とちゅうで塔を追い出された場合は\n１個もシンジュがもらえなくなってしまうのですが…",
+        "Label": "Hint_JemHardMode_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "つまり、最後までクリアできれば シンジュを多めにゲットできるけど\n失敗したら１個ももらえねーのか",
+        "Label": "Hint_JemHardMode_04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "その通りです！ まさに「ハイリスク・ハイリターン」！！\nもし興味があれば、塔を出たあとワタシにご用命ください♪",
+        "Label": "Hint_JemHardMode_05",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "なんかノリが通販みたいダヨ…",
+        "Label": "Hint_JemHardMode_06",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "そーいや最近 よく通販番組見てんな…",
+        "Label": "Hint_JemHardMode_07",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_JemHardMode.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ッシャー！ どんどんいくぞー！",
+      "Label": "Hint_LookPalette_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "さーて、次もらえるカラーチップは何だ？\nメッチャ強いやつ来ねーかなー",
+        "Label": "Hint_LookPalette_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "何枚も集めることで 真価をハッキするカラーチップもあるヨ\n持ってるのと同じヤツを 追加で取るのもアリってワケ",
+        "Label": "Hint_LookPalette_02",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "いま持ってるカラーチップを確認したくなったら\n(X)でパレットをチェックしてくださいね♪",
+        "Label": "Hint_LookPalette_03",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_LookPalette.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "おかえり、ハチ\n次も そのチョーシでたのむヨ",
+      "Label": "Hint_RechooseStage_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そういえばハチさん、フロアのお題やカラーチップが\nイマイチだと感じたことはありませんか？",
+        "Label": "Hint_RechooseStage_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そんなときは (Ｙ)で【フロアリセット】！ ネリコインを使って\nフロアの中身を ３つともリセットできちゃいますよ",
+        "Label": "Hint_RechooseStage_02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "フロアリセットを使うには 事前にハッキングが必要なので、\nハッキングがまだでしたら 塔の外でワタシに言ってくださいね♪",
+        "Label": "Hint_RechooseStage_03",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_RechooseStage.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "いいカンジだな、ハチ！",
+      "Label": "Hint_SelectTip_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そういえばハチさん、塔で支給されるカラーチップは\nパレットによって【出やすい系統】が決まっているんです",
+        "Label": "Hint_SelectTip_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "いま使ってるパレットで どの系統のカラーチップが出やすいかは\n(X)でチェックできますよ♪",
+        "Label": "Hint_SelectTip_02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "どのカラーチップを取るか迷ったら、とりあえず\n出やすい系統のヤツを選ぶのもアリかもナ",
+        "Label": "Hint_SelectTip_03",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Hint_SelectTip.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "みなさん、この先キビシイ戦いになるかもしれませんが\nどうかよろしくお願いします",
+      "Label": "Phase2_00F_First00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "いっちょ やってやるか！",
+        "Label": "Phase2_00F_First01",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、こうなったら最後まで付き合うヨ",
+        "Label": "Phase2_00F_First02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "あ、パレットは空っぽの状態からスタートなんだな",
+        "Label": "Phase2_00F_First03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "前の塔で手に入れたカラーチップは シンジュに変わったからネ\n強化したコトも すべてリセットされていルヨ",
+        "Label": "Phase2_00F_First04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさん、ライフの数も 前より少なくなっています\nライフをすべて失うと 塔から追い出されてしまいますので\nできるだけミスしないように 気をつけていきましょう！",
+        "Label": "Phase2_00F_First05",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_00F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "あきらめずに何度でも行きましょう！",
+      "Label": "Phase2_00F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ッシャー！ 待ってろよ、オーダ！",
+        "Label": "Phase2_00F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvAngr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_00F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "よーし、やってやるか！",
+      "Label": "Phase2_00F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ムリしないくらいが ちょうどイイヨ",
+        "Label": "Phase2_00F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_00F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "さて、今回はドコまで行けるカナ",
+      "Label": "Phase2_00F_Rnd02_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "今度こそオーダを止めなくちゃ…！ ガンバりましょう！",
+        "Label": "Phase2_00F_Rnd02_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_00F_Rnd02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヨッシ！ まずは５Ｆ突破だー！",
+      "Label": "Phase2_05F_First00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "クリアしたときに シンジュがもらえましたね",
+        "Label": "Phase2_05F_First01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "５Ｆをクリアしていれば、もし塔の外に追い出されてしまっても\n次チャレンジするとき 最初に５００ネリコインがもらえますよ\nさらに、５Ｆで必ず自販機コーナーが出るようになるんです",
+        "Label": "Phase2_05F_First02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "自販機コーナーか！ ひと息つけそーじゃん！",
+        "Label": "Phase2_05F_First03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ナルホド、できれば毎回５Ｆは突破しておきたいところダネ",
+        "Label": "Phase2_05F_First04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "まっ このままオーダをブッ飛ばしちまえば関係ねーけどな！\nなぁ、ハチ！",
+        "Label": "Phase2_05F_First05",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_05F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "…次のフロアだケド、明らかにこれまでと様子がチガウ\nなんだかイヤな感じがするヨ",
+      "Label": "Phase2_09F_First00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "もしワタシの設計が この塔に反映されているなら、\n次の１０Ｆでは いわゆるボスが出現するはずです",
+        "Label": "Phase2_09F_First01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "強ぇー敵がいるってコトか…\n無理はすんなよ、ハチ！",
+        "Label": "Phase2_09F_First02",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_09F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "おつかれさまでした！\nいい感じに１０Ｆまで来られましたね～♪",
+      "Label": "Phase2_09F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "次は 強ぇーヤツと戦うフロアだな？\nッシャ、気合い入れてくゾ！",
+        "Label": "Phase2_09F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvAngr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_09F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヨユーだったな、ハチ！",
+      "Label": "Phase2_09F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "次は１０Ｆか… キケンな相手が待っているハズダ\nムチャなコトをするナヨ",
+        "Label": "Phase2_09F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_09F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "ココまでは順調ダネ",
+      "Label": "Phase2_09F_Rnd02_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "次のフロアは ボスとの戦いです\n相手の動きを見ながら シンチョウにいきましょう！",
+        "Label": "Phase2_09F_Rnd02_01",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_09F_Rnd02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ふー、なんとかなったな ハチ！\nなんだったんだアレ？",
+      "Label": "Phase2_10F_First00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "他のスケルトーンとは比べモノにならない強敵だったナ\nヤツが落としたのは ロッカーのカギか？",
+        "Label": "Phase2_10F_First01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "なるほど… 各パレットで特定のフロアを初めてクリアすると\nフウインされていたカギが出現するようですね",
+        "Label": "Phase2_10F_First02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "それ、他のパレットでも１０Ｆをクリアすれば\nまたカギが手に入るってことか？",
+        "Label": "Phase2_10F_First03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "はい、その通りです\nこのパレットでも まだカギを手に入れられそうですね",
+        "Label": "Phase2_10F_First04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、そっちは先へ進めば そのうち見つかるダロ",
+        "Label": "Phase2_10F_First05",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_10F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、この先には さらに多くのスケルトーンがいるようです\n気をつけてくださいね",
+      "Label": "Phase2_10F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "セイゼイ油断しないコトダ",
+        "Label": "Phase2_10F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "敵さんの出方が変わろうが、やるコトは変わんねーよ\nだろ？ ハチ！",
+        "Label": "Phase2_10F_Rnd00_02",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_10F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "まずは１０Ｆ突破ですね～！",
+      "Label": "Phase2_10F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "フウ…とりあえず ひと区切りダナ",
+        "Label": "Phase2_10F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "つっても まだまだこっからだ！\nテンションアゲてくぞ、ハチ！",
+        "Label": "Phase2_10F_Rnd01_02",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_10F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "よしよし、ここまでいい感じだよなー！",
+      "Label": "Phase2_10F_Rnd02_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "この調子なら きっと最上階まで行けますよ～♪",
+        "Label": "Phase2_10F_Rnd02_01",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "この先、スケルトーンたちは 警カイを強めるダロウ\nあまり相手を甘く見ないコトダネ",
+        "Label": "Phase2_10F_Rnd02_02",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_10F_Rnd02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "これで塔の半分を突破できたみたいダ\nヤレヤレ、まったくやっかいな塔ダナ",
+      "Label": "Phase2_15F_First00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ハチ、つかれてねーか？\n次のフロアへ行く前に ちょっと休んどけよ",
+        "Label": "Phase2_15F_First01",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ご負担をおかけして本当にすみません、\nワタシがオーダに乗っ取られたりしなければ…",
+        "Label": "Phase2_15F_First02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "何言ってんだよ！ イイダはなんも悪くねーじゃん！",
+        "Label": "Phase2_15F_First03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "でも、ワタシが心のどこかで 何も変わらない静かな世界を\n望んでしまっていたのは本当なんです\nきっとオーダは そんなワタシの心の弱さにつけこんで…",
+        "Label": "Phase2_15F_First04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "変わるのがコワイなんて、べつにフツーの感情ダロ\n…ボクだって そんなふうに思うコトはあるしネ",
+        "Label": "Phase2_15F_First05",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ミズタ…",
+        "Label": "Phase2_15F_First06",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "アタシにはそーゆーの よくわかんないけどさ…\nイイダがまちがったコトしてないってのは確かだし、\nだれにも謝る必要なんかねーんだ",
+        "Label": "Phase2_15F_First07",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "だから景気悪そーな顔すんなって！\nアタシとハチでオーダを止めてやるから、まかせとけ！",
+        "Label": "Phase2_15F_First08",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイ…ハチさん…",
+        "Label": "Phase2_15F_First09",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "いえ、おふたりだけには まかせません！\nワタシも精いっぱい 力をつくします！！",
+        "Label": "Phase2_15F_First10",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ああ、その意気ダ",
+        "Label": "Phase2_15F_First11",
+        "TalkerASCommandType": "TalkElvPoint"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_15F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、おそらく次のフロアにはボスが出現します\nここは シンチョウにシンチョウを重ねて…",
+      "Label": "Phase2_19F_First00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "イイダ 心配しすぎ！\nアタシもいるし、ハチならダイジョーブだって！",
+        "Label": "Phase2_19F_First01",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "セ、センパイ…",
+        "Label": "Phase2_19F_First02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "おせっかいなトコは ムカシと変わらないネ",
+        "Label": "Phase2_19F_First03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "カワイイにカッコいいを重ねるヒメセンパイ…！\n尊すぎます～～っ！！",
+        "Label": "Phase2_19F_First04",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ムカシとちがうトコもあるみたいダネ",
+        "Label": "Phase2_19F_First05",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_19F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "次は２０Ｆか、ヤベーのが出てきそーだな",
+      "Label": "Phase2_19F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイとハチさんなら きっとダイジョウブです！\nでも…無理はしないでくださいね",
+        "Label": "Phase2_19F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvGood"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_19F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "よかった…なんとか突破できましたね！",
+      "Label": "Phase2_19F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ケド、次の相手は おそらくかなりの強敵ダ\n気をつけたほうがイイ",
+        "Label": "Phase2_19F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_19F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "次はボスのフロアか…\nキビシイ戦いになるかもしれないナ",
+      "Label": "Phase2_19F_Rnd02_00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "どんなヤツが相手でも やるっきゃねーんだろ？\n行くぞ、ハチ！",
+        "Label": "Phase2_19F_Rnd02_01",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_19F_Rnd02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "やったな、ハチ！\nこのフロアでも ロッカーのカギゲットだ！",
+      "Label": "Phase2_20F_First00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "にしてもオーダのやつ、あんなヤバイのよこしやがって…",
+        "Label": "Phase2_20F_First01",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ネリバースを「色のない秩序の世界」にするために\nジャマはさせない、ということですね",
+        "Label": "Phase2_20F_First02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "だれも自分の意思を持たない世界か…\nココへ来る前にいた場所が まさにそんなカンジだっタ",
+        "Label": "Phase2_20F_First03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ミズタ、もしかしてアナタは深海メトロに…？",
+        "Label": "Phase2_20F_First04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "深海メトロって、ハチがいたトコじゃん！",
+        "Label": "Phase2_20F_First05",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ボクは 深海メトロで何者かに意思をうばわれ、\nDJとして 音楽をかける作業をさせられていたンダ",
+        "Label": "Phase2_20F_First06",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "といっても アソコでの記憶はほとんどないんだケド、\nそういえばダレカの声を聞いたヨウナ…？",
+        "Label": "Phase2_20F_First07",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "マアとにかく、あんな世界は二度とゴメンダヨ",
+        "Label": "Phase2_20F_First08",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "アナタが そんな目にあっていたなんて…",
+        "Label": "Phase2_20F_First09",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "じつは、ネリバースはもともと深海メトロで「消毒」された\nオクタリアンの心を修復するために開発したものなんです\nミズタが意思を取りもどせたのは、その修復機能が\nうまく働いたからかもしれません",
+        "Label": "Phase2_20F_First10",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ナルホド、イイダのおかげだったってワケ…\nずいぶんデカい借りができてしまったナ",
+        "Label": "Phase2_20F_First11",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "おっしゃ！ ネリバースをオーダから取りもどして\n他のタコたちも助けてやんねーとな！",
+        "Label": "Phase2_20F_First12",
+        "TalkerASCommandType": "TalkElvPlsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_20F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "どーにか ヤベーやつも倒せたな\n最上階まで もうひと息ってトコか？",
+      "Label": "Phase2_20F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ソウダネ、まだ気はぬけないケド",
+        "Label": "Phase2_20F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ネリバースが 「色のない秩序の世界」になってしまう前に\nワタシたちで必ず オーダを止めましょう！",
+        "Label": "Phase2_20F_Rnd00_02",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_20F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "センパイもハチさんも カッコよかったです～♪",
+      "Label": "Phase2_20F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvHappy"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "さーて、とっととオーダのやつをブッ飛ばして\nイイダの大事なネリバースを取り返さねーとな！",
+        "Label": "Phase2_20F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そしたら、この戦いも終わり…ってワケ",
+        "Label": "Phase2_20F_Rnd01_02",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_20F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "センパイ、ハチさん、お帰りなさい～♪",
+      "Label": "Phase2_20F_Rnd02_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ケガは… 無さそうダネ",
+        "Label": "Phase2_20F_Rnd02_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なんとかなったな、ハチ！\nよし、この勢いでガンガン攻めてくゾ！",
+        "Label": "Phase2_20F_Rnd02_02",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_20F_Rnd02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "イイ感じだな、ハチ！\nもうかなり上の方まで来たんじゃね？",
+      "Label": "Phase2_25F_First00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "はい、最上階まであと少しです！",
+        "Label": "Phase2_25F_First01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ヨッシャー！ このまま全部解決して\nさっさとワールドツアーにもどるぞ！",
+        "Label": "Phase2_25F_First02",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "「テンタクルズ」か… ココから出て\nキミたちの音楽を聞くのが楽しみダ",
+        "Label": "Phase2_25F_First03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "Yo！ Yo！ 聞いてこしぬかすんじゃねーゾ？",
+        "Label": "Phase2_25F_First04",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "まだツアーの日程も少し残ってますし、よかったら\nハチさんといっしょにライブに来てくださいね♪",
+        "Label": "Phase2_25F_First05",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ああ、考えとくヨ\n…ヒコウキとか乗ったことないケド",
+        "Label": "Phase2_25F_First06",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_25F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "いよいよ最上階か…",
+      "Label": "Phase2_29F_First00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "次のフロアには、きっとオーダがいるはず…",
+        "Label": "Phase2_29F_First01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさん、ワタシもいっしょに行きます\nオーダがこんなコトをした原因は ワタシにもあるんですから",
+        "Label": "Phase2_29F_First02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "イイダはブキ持ってねーんだぞ？！ あぶねーじゃん！",
+        "Label": "Phase2_29F_First03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "それでも、ワタシが行かなきゃいけないんです！",
+        "Label": "Phase2_29F_First04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…言い出したら聞かないんだヨナ",
+        "Label": "Phase2_29F_First05",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "イイダなら ブキなしでも自分の身くらい守れるダロ\n問題ないんじゃないカ？",
+        "Label": "Phase2_29F_First06",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ミズタ、ありがとう…！",
+        "Label": "Phase2_29F_First07",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "しゃーねーなー…\nあんま無茶すんなよ？",
+        "Label": "Phase2_29F_First08",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "はい、センパイ！！",
+        "Label": "Phase2_29F_First09",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ミズタは来ねーんだな？",
+        "Label": "Phase2_29F_First10",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "足手マトイになるのはゴメンだ\nボクはここで キミたちの戦いをモニターしているヨ",
+        "Label": "Phase2_29F_First11",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "わかった、ならバッチリ見ててくれよな！\nいざとなったらイイダをたのむぞ！",
+        "Label": "Phase2_29F_First12",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ヨッシャー準備はいいか？！\n決着をつけに行くぜ、ハチ！ イイダ！！",
+        "Label": "Phase2_29F_First13",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_29F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "フウ、ようやく最上階まで来タナ",
+      "Label": "Phase2_29F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "オーダのやつめー！\n今度はおくれを取ったりしねーかんな！",
+        "Label": "Phase2_29F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvSdns"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ワタシも またハチさんたちと行きます！\n絶対にオーダを止めましょう！！",
+        "Label": "Phase2_29F_Rnd00_02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ボクはここで キミたちの戦いをモニターしていルヨ\n…あまり無理はしないようにナ",
+        "Label": "Phase2_29F_Rnd00_03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ッシャオラー！\n今度こそ決着をつけるぞ、ハチ！ イイダッ！！",
+        "Label": "Phase2_29F_Rnd00_04",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_29F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "次は最上階… またオーダと戦うことになりますね",
+      "Label": "Phase2_29F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "どうか今回も いっしょに行かせてください！\nワタシにも何か できるコトがあるかもしれません！",
+        "Label": "Phase2_29F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "…わかったよ、イイダ\n巻きこまれんじゃねーぞ！",
+        "Label": "Phase2_29F_Rnd01_02",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ボクは、行ったトコロで役に立てないシナ\nココで キミたちの戦いをモニターしていルヨ",
+        "Label": "Phase2_29F_Rnd01_03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ヨシッ！ そんじゃ終わらせに行くか、ハチ！！",
+        "Label": "Phase2_29F_Rnd01_04",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_29F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "イイダ、エレベーターの中でも しょっちゅう\nパソコンいじってるけど何してんだ？",
+      "Label": "Phase2_ProgressMiddle_00_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "じつは、ハッキング可能な状態を保つために\nずっと塔のシステムを オーダとうばい合っているんです",
+        "Label": "Phase2_ProgressMiddle_00_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "さっきもパスを変えられそうになって…権限を分散管理するシステムは\n管理者側を取られると権限の伝播がうまくいかなくなっ…ブツブツ…",
+        "Label": "Phase2_ProgressMiddle_00_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "あー… そっとしといたほうがイイヨ",
+        "Label": "Phase2_ProgressMiddle_00_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_ProgressMiddle_00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "たっだいまー！！",
+      "Label": "Phase2_ProgressMiddle_01_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "おかえりなさ～い♪",
+        "Label": "Phase2_ProgressMiddle_01_01",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "やっぱイイダいねーと いつものチョーシ出ねーわ！\nあの変なキカイから助け出せて マジで良かったなー",
+        "Label": "Phase2_ProgressMiddle_01_02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あの時は ホント～～にありがとうございました！！\nハチさんもミズタも、今度何かお礼させてくださいね～",
+        "Label": "Phase2_ProgressMiddle_01_03",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…べつにイイヨ、ボクはココから出られれば それだけデ",
+        "Label": "Phase2_ProgressMiddle_01_04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "None",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "た、たしかに まずはオーダをどうにかして帰らないとですが…\nそのあと必ず お礼させてもらいますからっ！",
+        "Label": "Phase2_ProgressMiddle_01_05",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_ProgressMiddle_01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "それにしても ホントに久しぶり、ミズタ",
+      "Label": "Phase2_ProgressMiddle_02_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "何ダヨ、改まっテ… 最後に会ったのは、キミが\nタコワサ将軍の部隊に配属される前だったカ？",
+        "Label": "Phase2_ProgressMiddle_02_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "イイダがタコの世界にいたころ、ってコトだよな？",
+        "Label": "Phase2_ProgressMiddle_02_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハイ、もう８年ほど前の話ですね",
+        "Label": "Phase2_ProgressMiddle_02_03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "８年？ そんなにたってたんダナ…",
+        "Label": "Phase2_ProgressMiddle_02_04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "アタシの知らない イイダのおもしれー話、いっぱいあんだろ？\nいろいろ聞かせてもらうぜ、ミズタ！",
+        "Label": "Phase2_ProgressMiddle_02_05",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "セ、センパイ～～～！",
+        "Label": "Phase2_ProgressMiddle_02_06",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_ProgressMiddle_02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ミズタ、ずっとエレベーターの中にいて ヒマじゃねーの？",
+      "Label": "Phase2_ProgressUpper_00_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そうでもナイヨ、このエレベーターは放っておくと\n勝手にどっか行こうとするンダ",
+        "Label": "Phase2_ProgressUpper_00_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "だれかが中にいて見張っておかないと、キミたちは\nフロアに閉じこめられて ジ・エンドってワケ",
+        "Label": "Phase2_ProgressUpper_00_02",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "えっ、マジかよ？！ 知らなかったわ…",
+        "Label": "Phase2_ProgressUpper_00_03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "それはそれとして、ミズタは昔から\nカベ際とかせまい所とか 好きでしたよね？",
+        "Label": "Phase2_ProgressUpper_00_04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そんなコトは… いや、たしかにこういう場所は\n落ち着くような気もするナ…",
+        "Label": "Phase2_ProgressUpper_00_05",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_ProgressUpper_00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "ところでヒメ、キミとは前にドコカで会ってたりしないカ？",
+      "Label": "Phase2_ProgressUpper_01_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "エッ？！ ちょっミズタ、まさかセンパイをナンパするつもりじゃ…",
+        "Label": "Phase2_ProgressUpper_01_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "チガウから落ち着ケ\nなんとなくヒメの声に 聞き覚えがあるような気がしテサ",
+        "Label": "Phase2_ProgressUpper_01_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "さーなー、アタシは覚えてねーけど\nどっかで昔のアタシの音源でも聞いたんじゃねーの？",
+        "Label": "Phase2_ProgressUpper_01_03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そうかもしれナイ\nケド、なんか引っかかるんだヨナ…",
+        "Label": "Phase2_ProgressUpper_01_04",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_ProgressUpper_01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "そういえばイイダ、よくボクのコトがわかったナ？\nムカシとは だいぶ見た目が変わってるノニ",
+      "Label": "Phase2_ProgressUpper_02_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "えっ？ うん…でも、声とかフンイキですぐにわかったかな",
+        "Label": "Phase2_ProgressUpper_02_01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "フゥン、そんなもんカ",
+        "Label": "Phase2_ProgressUpper_02_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "写真とかねーの？ 昔のイイダとミズタ、見てみてー！",
+        "Label": "Phase2_ProgressUpper_02_03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "すみません、タコの世界を出る時に\n荷物はほとんど 置いてきてしまったんです…",
+        "Label": "Phase2_ProgressUpper_02_04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…さすがにキミの荷物は もう処分されてるだろうネ",
+        "Label": "Phase2_ProgressUpper_02_05",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ううっ、思い出の品だけでも持っていけばよかった…",
+        "Label": "Phase2_ProgressUpper_02_06",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase2_ProgressUpper_02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "Yo！ ミズタ、待たせたな！",
+      "Label": "Phase3_00F_First00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "HEY、ハチにヒメ\n準備はできてるみたいダナ",
+        "Label": "Phase3_00F_First01",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "また このメンバーで塔を上れるのは\nちょっとうれしいかもです♪",
+        "Label": "Phase3_00F_First02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "目指すは最上階、コントロールルームだ！\nエレベーターでビューンと行くぞっ！",
+        "Label": "Phase3_00F_First03",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "いちおう言っとくケド、１階ずつしか上がれないヨ…",
+        "Label": "Phase3_00F_First04",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_00F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "イイダ！ 気合い注入のひとこと、よろしく！",
+      "Label": "Phase3_00F_Rnd00_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あっ ハイ！ え～と、ガンバです！",
+        "Label": "Phase3_00F_Rnd00_01",
+        "TalkerASCommandType": "TalkElvGood"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_00F_Rnd00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ハチ、今回もたのんだゾ！",
+      "Label": "Phase3_00F_Rnd01_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ヒメも、ハチのサポートは まかせタヨ",
+        "Label": "Phase3_00F_Rnd01_01",
+        "TalkerASCommandType": "TalkElvPoint"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_00F_Rnd01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "準備はイイナ？ それじゃ、行くとするカ",
+      "Label": "Phase3_00F_Rnd02_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "上へ参りま～す♪",
+        "Label": "Phase3_00F_Rnd02_01",
+        "TalkerASCommandType": "TalkElvHappy"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_00F_Rnd02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ッシャオラー ５Ｆ突破ぁ！\nシンジュもゲットだぜー！！",
+      "Label": "Phase3_05F_First00",
+      "TalkerASCommandType": "TalkElvAngr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ヒメセンパイ、ノリノリですね～♪",
+        "Label": "Phase3_05F_First01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ツアーは無事終わったけど、まだイイダとの約束があるかんな！\r\n早いとこ全部片づけて 遊びに行くゾ！ ",
+        "Label": "Phase3_05F_First02",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "セ、センパァァイ…！！",
+        "Label": "Phase3_05F_First03",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…ハチ、このふたりはいつも こんなカンジなのカ？",
+        "Label": "Phase3_05F_First04",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_05F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "次って１０Ｆだよな\nてコトは、やっぱアレ？",
+      "Label": "Phase3_09F_First00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ボス、ですね",
+        "Label": "Phase3_09F_First01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "オーダを倒しても 塔のシステムは変わらないようダナ",
+        "Label": "Phase3_09F_First02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そうなんです… パレットに問題があるとわかった今、\nヘタにシステムを修正するわけにもいかなくて…",
+        "Label": "Phase3_09F_First03",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ラクじゃなさそーだけど、なんとかなるっしょ！\nやってやろうぜ、ハチ！",
+        "Label": "Phase3_09F_First04",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_09F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ハチ、おつかれ！\nそのパレットのあつかいにも慣れたもんだな！",
+      "Label": "Phase3_10F_First00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "そ－いや アタシとイイダのパレットがあったってことはさ、\nハチとミズタのパレットもあんのかな？",
+        "Label": "Phase3_10F_First01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさんのは それらしい反応がありましたよ！\nただ、ミズタのパレットは無いようですね\nおそらくタマシイがネリバースに取りこまれたとき、\nパレットに変わる前に ミズタ自身に定着したのでしょう",
+        "Label": "Phase3_10F_First02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ラッキーだったのカナ？ よくわからないケド",
+        "Label": "Phase3_10F_First03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "とりま、ハチのパレットは 例のロッカー開けてけば\nそのうち回収できるってコトだろ？",
+        "Label": "Phase3_10F_First04",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ハチのタマシイを ほっとくワケにはいかねーし、\nローカーのカギも集めてかねーとな！",
+        "Label": "Phase3_10F_First05",
+        "TalkerASCommandType": "TalkElvPlsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_10F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "そーいやオーダ… 今はコダコだっけ、\nアイツあれから どうしてんの？",
+      "Label": "Phase3_15F_First00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ワタシも気になって調べみたのですが、\nネリバースから出た形跡はありませんでした",
+        "Label": "Phase3_15F_First01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そして塔の外には 反応がなかっタ\nつまり、この塔にいる可能性が高いってワケ",
+        "Label": "Phase3_15F_First02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "現実世界に手を出せるほどの力はありませんし\nそこまで心配はいらないと思うんですけど…",
+        "Label": "Phase3_15F_First03",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なんかたくらんでやがったら めんどくせーな…",
+        "Label": "Phase3_15F_First04",
+        "TalkerASCommandType": "TalkElvSdns"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、コダコの居場所は 引き続き探ってみるカラ\nボクたちにまかせるとイイ",
+        "Label": "Phase3_15F_First05",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイとハチさんは、フロアの攻略をお願いします！",
+        "Label": "Phase3_15F_First06",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "オッケー！\nんじゃ 次行くか、ハチ！",
+        "Label": "Phase3_15F_First07",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_15F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "おつかれさまです、ハチさん！\n次はボスとの戦いですので 気をつけてくださいね",
+      "Label": "Phase3_19F_First00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なぁ、イイダ！\nボスを一発で倒せる ひっさつワザとかねーの？",
+        "Label": "Phase3_19F_First01",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そうですね… オーダコとの戦闘データをもとに試作した\n「ウルトラセンパイキャノン」、使ってみますか？",
+        "Label": "Phase3_19F_First02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "マジ？！ アレが使えれば ボスなんかラクショーじゃん！",
+        "Label": "Phase3_19F_First03",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ただ少しイリョクが強すぎまして、 シミュレーションの結果 \n８８.８％の確率で塔が倒壊します",
+        "Label": "Phase3_19F_First04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "フウインしといてクレ…",
+        "Label": "Phase3_19F_First05",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_19F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "たいしたものダネ、ハチ\nその強さは一体どこから来るのヤラ…",
+      "Label": "Phase3_20F_First00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "そーいやミズタ、何か確かめたいことがあって\nネリバースにもどってきたとか言ってたよな\nオマエが確かめたいのって、まさかハチの強さのヒミツとか？",
+        "Label": "Phase3_20F_First01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "まさか！ ボクはウデっぷしの強さとか\nあんまりキョーミないしナ",
+        "Label": "Phase3_20F_First02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ふふふ… 戦いの訓練、よくサボってましたもんね",
+        "Label": "Phase3_20F_First03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "じゃー何が気になってんだよ？",
+        "Label": "Phase3_20F_First04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "べつに ちょっとしたコトなんだケド…\nヒメ、キミは深海メトロに行ったコトは？",
+        "Label": "Phase3_20F_First05",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "えっ何だよ急に？ 深海メトロには行ったコトねーな、\nスグ近くまでは行ったけど… ５年くらい前？",
+        "Label": "Phase3_20F_First06",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさんを むかえに行った時ですよね！\nあの日のセンパイのシャウト、シビれちゃいました～♪",
+        "Label": "Phase3_20F_First07",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ナルホド、やはりボクが聞いたアノ声は ヒメの…",
+        "Label": "Phase3_20F_First08",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "それってオマエの気になってるコトと なんか関係あんの？",
+        "Label": "Phase3_20F_First09",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ああ、これでわかったヨ\n…サンキュー、ヒメ",
+        "Label": "Phase3_20F_First10",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ウン？ よくわかんねーけど…\nどーいたしまして？",
+        "Label": "Phase3_20F_First11",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_20F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ふー… だいぶ上ってきたな\nそろそろ最上階か？",
+      "Label": "Phase3_25F_First00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさん、センパイ、おかえりなさい！\n聞いてください、コダコの居場所がわかったんです！",
+        "Label": "Phase3_25F_First01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "マジか！ あーでも、ここまでいなかったってコトは…\nなんとなく想像ついちまうな",
+        "Label": "Phase3_25F_First02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "たぶんご想像通りダヨ\nコダコは最上階のコントロールルームだ",
+        "Label": "Phase3_25F_First03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "やっぱりかよー！",
+        "Label": "Phase3_25F_First04",
+        "TalkerASCommandType": "TalkElvSdns"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なんかヤな予感するけど 行ってみるしかねーな\nハチ、とにかく上りきるぞ！",
+        "Label": "Phase3_25F_First05",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_25F_First.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "よし、あとは最上階だけだな！",
+      "Label": "Phase3_29F_ClearedPlt00_00",
+      "TalkerASCommandType": "TalkElvToAgent8"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "で、またコダコと戦うってワケ",
+        "Label": "Phase3_29F_ClearedPlt00_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "そうですね…でも、きっと今回もダイジョウブですよ！\nいっしょにガンバりましょう～！",
+        "Label": "Phase3_29F_ClearedPlt00_02",
+        "TalkerASCommandType": "TalkElvGood"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_ClearedPlt00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "おつかれさまでした！\nいよいよ 次は最上階ですね～",
+      "Label": "Phase3_29F_ClearedPlt01_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "またコダコのやつにジャマされそーだけど、\nまーなんとかなるっしょ！",
+        "Label": "Phase3_29F_ClearedPlt01_01",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "自信があるのはイイケド、最後まで気をぬくナヨ",
+        "Label": "Phase3_29F_ClearedPlt01_02",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_ClearedPlt01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "そろそろ最上階に着くヨ",
+      "Label": "Phase3_29F_ClearedPlt02_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "コダコ、やっぱり今回も 戦いをいどんでくるでしょうか…",
+        "Label": "Phase3_29F_ClearedPlt02_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "あっちがやる気なら 受けて立つしかねーだろ\nやってやろーぜ、ハチ！",
+        "Label": "Phase3_29F_ClearedPlt02_02",
+        "TalkerASCommandType": "TalkElvAngr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_ClearedPlt02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "よしよし、最上階にとーちゃくだな！",
+      "Label": "Phase3_29F_Complete00_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "None",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ボクらはイッタイ 何回この塔を上ったんダロウ…",
+        "Label": "Phase3_29F_Complete00_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "とちゅうで数えるの やめちゃいましたね～…",
+        "Label": "Phase3_29F_Complete00_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_Complete00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "HEY、あとはコントロールルームを残すだけダヨ",
+      "Label": "Phase3_29F_Complete01_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "コダコのやつ、今いるのかなー？",
+        "Label": "Phase3_29F_Complete01_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ず～っと コントロールルームにいるみたいですよ\n居心地がいいのかもしれないですね～",
+        "Label": "Phase3_29F_Complete01_02",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_Complete01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "あっ！ もう次が最上階なんですね～",
+      "Label": "Phase3_29F_Complete02_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "きっとコダコが 首を長くして待っていルヨ",
+        "Label": "Phase3_29F_Complete02_01",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "アイツの首って どこ…？",
+        "Label": "Phase3_29F_Complete02_02",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_Complete02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "やっと最上階に着いたな\nコダコのやつは ここにいるんだっけ？",
+      "Label": "Phase3_29F_NotClr00_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "はい、やはりコントロールルームに立てこもっているようです",
+        "Label": "Phase3_29F_NotClr00_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "大人しくパレットを再設定させてくれればいいケド…\nあまり期待できそうにないネ",
+        "Label": "Phase3_29F_NotClr00_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "またアイツと戦うことになるかもしんねー\n気をつけろよ、ハチ！",
+        "Label": "Phase3_29F_NotClr00_03",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "次は最上階だネ\nきっとまたコダコがジャマしてくるだロウ",
+      "Label": "Phase3_29F_NotClr01_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "アイツ、なんであそこまで\n秩序の世界ってヤツに こだわるんだ？",
+        "Label": "Phase3_29F_NotClr01_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "コダコ、というよりオーダが生まれた理由がわかれば\n何かつかめると思うのですが…",
+        "Label": "Phase3_29F_NotClr01_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ヤツが素直に教えてくれるとは思えナイヨ",
+        "Label": "Phase3_29F_NotClr01_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "とにかく今はパレットの解放が先だ\n今度もたのむぜ、ハチ！",
+        "Label": "Phase3_29F_NotClr01_04",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "え～と、次は最上階なわけですが…",
+      "Label": "Phase3_29F_NotClr02_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "またコダコのやつと戦うのか…\nこの流れ、パレット全部解放するまで続くのかよ？",
+        "Label": "Phase3_29F_NotClr02_01",
+        "TalkerASCommandType": "TalkElvSdns"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "コダコがあきらめない限りは そうだろうネ",
+        "Label": "Phase3_29F_NotClr02_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "あーもー！\nなぁハチ、今度はお前がコダコを説得してみねーか？",
+        "Label": "Phase3_29F_NotClr02_03",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "なあ、前にコダコのヤツ\n「みんなが作ったネリバース」って言ってたよな？\nネリバースはイイダが作ったんじゃねーのか？\n「みんなが作った」って どゆコトだ？",
+      "Label": "Phase3_29F_NotClr03_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ネリバースの開発は タコの技術者たちに手伝ってもらいましたが…\nもしかして、その方たちのことを言っているのでしょうか？",
+        "Label": "Phase3_29F_NotClr03_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "コダコと ネリバース開発者たちの間には\n何かツナガリがあるのかもしれないナ",
+        "Label": "Phase3_29F_NotClr03_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "てっとり早く コダコに聞いてみっか！",
+        "Label": "Phase3_29F_NotClr03_03",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr03.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "オーダが生まれたのは ネリバースの開発者たちが\n「変わらない世界」を望んだから、って話だったネ",
+      "Label": "Phase3_29F_NotClr04_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なんでそんなもん望んじまったんだかなー",
+        "Label": "Phase3_29F_NotClr04_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "もう少しコダコから話を聞けるといいのですが…",
+        "Label": "Phase3_29F_NotClr04_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "コダコとは まだ何度も戦うコトになりそうダ\nそのうち話すチャンスもあるかもネ",
+        "Label": "Phase3_29F_NotClr04_03",
+        "TalkerASCommandType": "TalkElvPoint"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr04.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "コダコは、ワタシに裏切られたと思ってるみたいでしたね…",
+      "Label": "Phase3_29F_NotClr05_00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "コダコがネリバース開発者の願いから生まれたなら、\nネリバースを生み出したイイダは まさに親のような存在ダ\nフム… そのイイダに 自分の願望を理解してもらえなくて\nカンシャクを起こしているのかもナ",
+        "Label": "Phase3_29F_NotClr05_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なんにせよ、アイツの好きにさせるわけにはいかねーよな",
+        "Label": "Phase3_29F_NotClr05_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "とにかくアタシたちは パレットを再設定しねーと！\n行こうぜ、ハチ！",
+        "Label": "Phase3_29F_NotClr05_03",
+        "TalkerASCommandType": "TalkElvPlsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr05.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "コダコの言っていた通り、たしかにタコの世界は\nこの数年で急速に変わりました",
+      "Label": "Phase3_29F_NotClr06_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ネリバースの開発者たちは、それを受け入れられなかったんダナ",
+        "Label": "Phase3_29F_NotClr06_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "大切な土地やヒトの変化にとまどうキモチ、\nワタシには少しわかる気がします",
+        "Label": "Phase3_29F_NotClr06_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "いいほうに変わってんなら それでいーじゃん\nってアタシは思うけどなー",
+        "Label": "Phase3_29F_NotClr06_03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なぁ、ハチはどう思う？",
+        "Label": "Phase3_29F_NotClr06_04",
+        "TalkerASCommandType": "TalkElvToAgent8"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr06.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "パレットの再設定、かなり進んだんじゃね？",
+      "Label": "Phase3_29F_NotClr07_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "はい、おかげさまで！",
+        "Label": "Phase3_29F_NotClr07_01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ネリバースに出現したパレットの正確な数は不明ですが、\n半分以上はもう再設定できたはずです！",
+        "Label": "Phase3_29F_NotClr07_02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ッシャ！ このチョーシで次もやってやろうぜ、ハチ！",
+        "Label": "Phase3_29F_NotClr07_03",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr07.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ここまで いい感じですね\nいよいよ最上階です！",
+      "Label": "Phase3_29F_NotClr08_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "あとはコダコを倒して パレットを再設定するだけダナ",
+        "Label": "Phase3_29F_NotClr08_01",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "もうアイツと何回バトったか覚えてねーぞ…\nそろそろ観念してくんねーかなー",
+        "Label": "Phase3_29F_NotClr08_02",
+        "TalkerASCommandType": "TalkElvSdns"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ウーン、あまり期待しないほうがいいと思うケド…",
+        "Label": "Phase3_29F_NotClr08_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr08.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "コダコのやつ、意地でもパレットを再設定させないつもりっぽいよな",
+      "Label": "Phase3_29F_NotClr09_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "パレットの再設定が進んだところで\nコダコには何の関係もないはずなのですが…",
+        "Label": "Phase3_29F_NotClr09_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "じゃーなんでアタシらのジャマすんだ？\nもしかして、腹いせってやつか？！",
+        "Label": "Phase3_29F_NotClr09_02",
+        "TalkerASCommandType": "TalkElvSdns"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…フッ",
+        "Label": "Phase3_29F_NotClr09_03",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "おいミズタ、なんでソコで笑うんだよ？",
+        "Label": "Phase3_29F_NotClr09_04",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "いや… コダコ本人に聞いてみたらイイんじゃないカ？",
+        "Label": "Phase3_29F_NotClr09_05",
+        "TalkerASCommandType": "TalkElvPoint"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr09.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "さて… いよいよダネ",
+      "Label": "Phase3_29F_NotClr10_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさんのパレットを再設定できれば\nもう安心です！",
+        "Label": "Phase3_29F_NotClr10_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさん、センパイ、ミズタ、本当にありがとうございました！",
+        "Label": "Phase3_29F_NotClr10_02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "そーいうのは全部終わってからでいーんだよ！",
+        "Label": "Phase3_29F_NotClr10_03",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "大事なハチのパレット、きっちり再設定しとかねーとな！\nッシャー 行くぞ、ハチ！！",
+        "Label": "Phase3_29F_NotClr10_04",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_29F_NotClr10.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "そのブキ、すっかりハチの手になじんでルナ",
+      "Label": "Phase3_Chat_00_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ブキっていや、アタシのパレットのブキってマニューバーじゃん？\n一番好きなブキなの、なんかうれしーよなー",
+        "Label": "Phase3_Chat_00_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ふふふ… パレットには、元になったタマシイの持ち主と\n相性のいいブキが 自動でセットされるんです！",
+        "Label": "Phase3_Chat_00_02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "なるほどなー！ それでイイダのはシェルターなんだ",
+        "Label": "Phase3_Chat_00_03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "シェルターなんてブキ、ココに来るまで聞いたコトもなかっタナ",
+        "Label": "Phase3_Chat_00_04",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "シェルターは、数年前に出てきた新しめのブキなんです！",
+        "Label": "Phase3_Chat_00_05",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "こう、バサッ！ バンバ～ン！ バシュ～～ッ！！\nって感じで とっても楽しいんですよ～っ♪",
+        "Label": "Phase3_Chat_00_06",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…ウン、楽しそうなコトはよくわかっタヨ",
+        "Label": "Phase3_Chat_00_07",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ふー… さぁ、こっからだ！",
+      "Label": "Phase3_Chat_01_00",
+      "TalkerASCommandType": "TalkElvAngr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "もうスケルトーンの顔も見あきタナ",
+        "Label": "Phase3_Chat_01_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "スケルトーンは もともと塔のスタッフみたいなものでして、\nオーダに改造されてしまったせいで こんなコトに…",
+        "Label": "Phase3_Chat_01_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ワタシが用意したデザインだと、\nもうちょっと かわいかったんですけど",
+        "Label": "Phase3_Chat_01_03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "今はキョーアクって感じだよな",
+        "Label": "Phase3_Chat_01_04",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ううっ、本来のカワイイ姿をお見せしたいです～っ",
+        "Label": "Phase3_Chat_01_05",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "そういえばミズタ、昔ワタシが作ったゲーム覚えてる？\nタコゾネス仲間の中でも ミズタしかクリアできなかった…",
+      "Label": "Phase3_Chat_02_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ああ、あのキチク難易度の音ゲーか\nなつかしいナ…思い出すだけでハきそうダ",
+        "Label": "Phase3_Chat_02_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "アレの、さらに難しさをアップした続編を作ったんだけどね",
+        "Label": "Phase3_Chat_02_02",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ハ？ なんで難しくシタ？\nもっと判定ユルくしろって サンザン言ったダロ",
+        "Label": "Phase3_Chat_02_03",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "で、でも簡単にクリアできちゃったら つまらないと思って…\nセンパイも あっさりクリアしちゃいましたし…",
+        "Label": "Phase3_Chat_02_04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "あんなの音聞いてボタン押しゃ だれでもクリアできんだろ？",
+        "Label": "Phase3_Chat_02_05",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "マジカ…",
+        "Label": "Phase3_Chat_02_06",
+        "TalkerASCommandType": "TalkElvWait"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "なーなーミズター\n昔のイイダのオモシロエピソードとかねーの？",
+      "Label": "Phase3_Chat_03_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ちょ、センパイ…",
+        "Label": "Phase3_Chat_03_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "そうだナ… ショベルカーについて２時間くらい\nひとりでしゃべっテタのは覚えてるケド",
+        "Label": "Phase3_Chat_03_02",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "マジかよ！ 昔のイイダって…そんなに話が短かったのか？",
+        "Label": "Phase3_Chat_03_03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あの頃はワタシも未熟でしたから… でも今なら\n油圧ショベルの真のミリョクを精密かつ正確に伝える自信が",
+        "Label": "Phase3_Chat_03_04",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "さぁハチ、そろそろ次のフロアの準備をしておこウ",
+        "Label": "Phase3_Chat_03_05",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_03.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "にしても、ワールドツアー終わっちまったなー\n大変だったけど、終わっちまうと さみしーかも",
+      "Label": "Phase3_Chat_04_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "スゴイ盛り上がりだっタネ\n客席の熱キョウぶりなんて 異様なくらいだっタヨ",
+        "Label": "Phase3_Chat_04_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          },
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あっ？！ もしかして…",
+        "Label": "Phase3_Chat_04_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "どーした、イイダ？",
+        "Label": "Phase3_Chat_04_03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "オーダと戦った時のセンパイの声が ネリバースにアクセス可能なヒトの\n無意識に干渉を？ そんなコト…でも理論上はあり得るかも…ブツブツ…",
+        "Label": "Phase3_Chat_04_04",
+        "TalkerASCommandType": "None"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、ヒメの声には タマシイをゆさぶる力があるってコトかナ",
+        "Label": "Phase3_Chat_04_05",
+        "TalkerASCommandType": "TalkElvPoint"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_04.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ねぇミズタ、ワタシがタコの世界を出て行った時\nやっぱりみんな おこってた…？",
+      "Label": "Phase3_Chat_05_00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "おこるっていうカ、みんなビビッてたヨ\nエリートのキミが姿を消すなんて 信じられなかったんダロ",
+        "Label": "Phase3_Chat_05_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "あははっ！ イイダもやるときゃやるよなー！",
+        "Label": "Phase3_Chat_05_02",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あの時は もう無我夢中で…\n何も言わずに出て行って ホントにごめんなさい",
+        "Label": "Phase3_Chat_05_03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "今さら謝るナヨ… ボクはべつに気にしてナイ",
+        "Label": "Phase3_Chat_05_04",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "昔のダチだろーが、イイダを悪く言うヤツがいたら\nアタシに言えよ？ 相手になってやるかんな！！",
+        "Label": "Phase3_Chat_05_05",
+        "TalkerASCommandType": "TalkElvAngr"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ありがとうございます、センパイ…！ カッコいい…",
+        "Label": "Phase3_Chat_05_06",
+        "TalkerASCommandType": "TalkElvGood"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_05.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "イイダ！ このエレベーター、遊園地のアトラクションみたく\n上下にギュンギュン動くようにしたら 楽しーんじゃね？",
+      "Label": "Phase3_Chat_06_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvStnd",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ダメです！ エレベーターの中でセンパイが\nシェイクされちゃいます～！",
+        "Label": "Phase3_Chat_06_01",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_06.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "はあぁ………",
+      "Label": "Phase3_Chat_07_00",
+      "TalkerASCommandType": "TalkElvStnd"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "どーした、イイダ？ つかれちまったか？",
+        "Label": "Phase3_Chat_07_01",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハッ、すいません！ ドローン姿のセンパイが\nあんまりカワイイので つい見とれてしまいました",
+        "Label": "Phase3_Chat_07_02",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "…元気みたいダネ",
+        "Label": "Phase3_Chat_07_03",
+        "TalkerASCommandType": "TalkElvStnd"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_07.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "ヤベーっ！ 飛行機の中に カサ忘れてきちまったかも！",
+      "Label": "Phase3_Chat_08_00",
+      "TalkerASCommandType": "TalkElvSdns"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ええっ？！ ツアーの帰りですか？",
+        "Label": "Phase3_Chat_08_01",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "とりあえず空港に問い合わせたらドウダ？",
+        "Label": "Phase3_Chat_08_02",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "いや、飛行機なら ウチの庭に停めてあっから\nあとで取りに行くわ",
+        "Label": "Phase3_Chat_08_03",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "庭？ …ヒコウキの話をしてるんだヨナ？",
+        "Label": "Phase3_Chat_08_04",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_08.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "この姿だと、メチャ高い所から イイダを見下ろせるんだよなー\n豆つぶみたいに見えて おもしれー！",
+      "Label": "Phase3_Chat_09_00",
+      "TalkerASCommandType": "TalkElvPlsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あんまり高い所まで行くと 風に流されちゃいますよ…",
+        "Label": "Phase3_Chat_09_01",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_Chat_09.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "センパイもハチさんも ご無事でよかったです～！",
+      "Label": "Phase3_PostBoss_00_00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "いい動きしてたネ、さすがダヨ",
+        "Label": "Phase3_PostBoss_00_01",
+        "TalkerASCommandType": "TalkElvPoint"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ッシャー！ このカンジで次も行くぞ、ハチ！",
+        "Label": "Phase3_PostBoss_00_02",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PostBoss_00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "わはは！ どんなボスもアタシたちの敵じゃねーなっ！",
+      "Label": "Phase3_PostBoss_01_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "ハチさんもセンパイもスゴイです♪",
+        "Label": "Phase3_PostBoss_01_01",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ヤレヤレ、キミたちは敵に回したくないネ",
+        "Label": "Phase3_PostBoss_01_02",
+        "TalkerASCommandType": "TalkElvThink"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PostBoss_01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "スゴイナ、ハチ\nココまでやるとは思わなかっタヨ",
+      "Label": "Phase3_PostBoss_02_00",
+      "TalkerASCommandType": "TalkElvPoint"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "None",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "おっ やっとわかったか？\nそーだぞ、ハチはスゲーんだからな！",
+        "Label": "Phase3_PostBoss_02_01",
+        "TalkerASCommandType": "TalkElvPlsr"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイだって すっごくすっごくスゴイですよ！\nね、ミズタ！！",
+        "Label": "Phase3_PostBoss_02_02",
+        "TalkerASCommandType": "TalkElvHappy"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ハイハイ ソウダネ",
+        "Label": "Phase3_PostBoss_02_03",
+        "TalkerASCommandType": "TalkElvWait"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PostBoss_02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "それにしても、よくあんなのと戦えるヨナ\nこわいとは思わないノカ？",
+      "Label": "Phase3_PostBoss_03_00",
+      "TalkerASCommandType": "TalkElvThink"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "ウゼェけど、こわくはねーな\n最初の塔でイイダと戦った時のほうが こわかったぞ",
+        "Label": "Phase3_PostBoss_03_01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "エッ？！ そ、そうですか～～？",
+        "Label": "Phase3_PostBoss_03_02",
+        "TalkerASCommandType": "TalkElvStnd"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "そーだよ！ あのままイイダが元にもどらなかったらとか\n考えるとさぁ…なんかこえーじゃん",
+        "Label": "Phase3_PostBoss_03_03",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "HimeDroneSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイ………！！！",
+        "Label": "Phase3_PostBoss_03_04",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "………ハチ、なんていうか キミが居てくれてヨカッタヨ",
+        "Label": "Phase3_PostBoss_03_05",
+        "TalkerASCommandType": "TalkElvNml"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PostBoss_03.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、センパイ、次は強敵との戦いになります\nどうかお気をつけて…！",
+      "Label": "Phase3_PreBoss_00_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "油断するナヨ",
+        "Label": "Phase3_PreBoss_00_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "オッケー！ 気合い入れてくぞ、ハチ！",
+        "Label": "Phase3_PreBoss_00_02",
+        "TalkerASCommandType": "TalkElvAngr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PreBoss_00.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "HimeDroneSdodr",
+      "DevText": "次はボスとやんのか\nま、アタシとハチならやれるっしょ！",
+      "Label": "Phase3_PreBoss_01_00",
+      "TalkerASCommandType": "TalkElvToAgent8Plsr"
+    },
+    "Tail": [
+      {
+        "ASRequest": [],
+        "DevTalker": "IidaSdodr",
+        "DevText": "センパイもハチさんも ファイトです♪",
+        "Label": "Phase3_PreBoss_01_01",
+        "TalkerASCommandType": "TalkElvGood"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "ま、ガンバレ",
+        "Label": "Phase3_PreBoss_01_02",
+        "TalkerASCommandType": "TalkElvPoint"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PreBoss_01.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "MizutaSdodr",
+      "DevText": "次のフロアは 強敵が相手ダ\nムヤミにつっこむナヨ",
+      "Label": "Phase3_PreBoss_02_00",
+      "TalkerASCommandType": "TalkElvNml"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "IidaSdodr",
+        "DevText": "あまり無理はしないでくださいね～",
+        "Label": "Phase3_PreBoss_02_01",
+        "TalkerASCommandType": "TalkElvNml"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "心配ないっつーの！ ボスだろーが、なんだろーが\nアタシとハチで軽くブッ飛ばしてやるよ！",
+        "Label": "Phase3_PreBoss_02_02",
+        "TalkerASCommandType": "TalkElvPlsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/Phase3_PreBoss_02.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  {
+    "Head": {
+      "ASRequest": [],
+      "DevTalker": "IidaSdodr",
+      "DevText": "ハチさん、前回5Ｆまで突破していたので\n今回は最初から500ネリコインが貰えますよ",
+      "Label": "PhaseX_00F_After5FClear00",
+      "TalkerASCommandType": "TalkElvGood"
+    },
+    "Tail": [
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "IidaSdodr"
+          }
+        ],
+        "DevTalker": "MizutaSdodr",
+        "DevText": "あと5Fに自販機コーナーが出現するみたいだネ",
+        "Label": "PhaseX_00F_After5FClear01",
+        "TalkerASCommandType": "TalkElvThink"
+      },
+      {
+        "ASRequest": [
+          {
+            "CommandType": "TalkElvWait",
+            "Target": "MizutaSdodr"
+          }
+        ],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "５Ｆクリアしとくと お得って話、マジなんだなー！",
+        "Label": "PhaseX_00F_After5FClear02",
+        "TalkerASCommandType": "TalkElvSprs"
+      },
+      {
+        "ASRequest": [],
+        "DevTalker": "HimeDroneSdodr",
+        "DevText": "よっし、いいスタートダッシュ決めるか",
+        "Label": "PhaseX_00F_After5FClear03",
+        "TalkerASCommandType": "TalkElvToAgent8Plsr"
+      }
+    ],
+    "__RowId": "Work/Gyml/SdodrTalkWithAnimSet/PhaseX_00F_After5FClear.spl__SdodrTalkWithAnimSet.gyml"
+  }
+]

@@ -3374,7 +3374,8 @@
     "COP018": "打工连身工作服 银色",
     "COP019": "打工连身工作服 金色",
     "COP020": "打工连身工作服 棱镜",
-    "COP021": "打工连身工作服 重装"
+    "COP021": "打工连身工作服 重装",
+    "COP022": "打工连身工作服 新叶"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "醋饭海洋世界",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "由于队伍成员未能在时限内到齐，\n对战已被算作落败。",
     "Msg_VsHammerOtherTeamDisqualified_Error": "由于敌方队伍成员未能在时限内到齐，\n对战已被算作不战而胜。",
     "Msg_Wrong_Password_Error": "密码错误，\n无法会合。",
+    "Msg_XMatchPowerRestrictionClient_Error": "以目前的X战力，\n无法与该房间的成员在X比赛中组队。\n详情请查看《斯普拉遁 3》的官方网站。",
+    "Msg_XMatchPowerRestrictionHost_Error": "好友会合失败。\n以目前的X战力，\n无法与该好友在X比赛中组队。\n详情请查看《斯普拉遁 3》的官方网站。",
+    "Msg_XMatchRankingRestrictionClient_Error": "以目前的X排名的名次，\n无法与该房间的成员在X比赛中组队。\n详情请查看《斯普拉遁 3》的官方网站。",
+    "Msg_XMatchRankingRestrictionHost_Error": "好友会合失败。\n以目前的X排名的名次，\n无法与该好友在X比赛中组队。\n详情请查看《斯普拉遁 3》的官方网站。",
     "Msg_XRegion_Restricted_Error": "您所居住的地区\n无法参加该组别。"
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "打工连身工作服 金色",
     "COP020": "打工连身工作服 棱镜",
     "COP021": "打工连身工作服 重装",
+    "COP022": "打工连身工作服 新叶",
     "COP100": "鱿鱼小子Polo衫",
     "COP101": "船锚背心",
     "COP102": "燃料外套",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "头灯钢盔",
     "COP101": "防尘口罩2.5",
     "COP102": "钢铁面具",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "已创建占地斗士的房间！",
     "CreateRoom_Private": "已创建私人比赛的房间！",
     "CreateRoom_Regular": "已创建一般比赛的房间！",
+    "CreateRoom_XMatch": "已创建X比赛的房间！",
     "FestRankUp": "祭典等级提升！",
     "IkasuNum": "鱿型！ ×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "已会合至蛮颓比赛[size=75%]（开放）[size=100%]的房间！",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "已会合至占地斗士的房间！",
     "JoinRoom_Private": "已会合至私人比赛的房间！",
     "JoinRoom_Regular": "已会合至一般比赛的房间！",
+    "JoinRoom_XMatch": "已会合至X比赛的房间！",
     "JoinableHammer": "[group=0002 type=0001 params=00 00]\n前往大赛支援助手房间会合吧！",
     "JoinableHammerCoop": "[group=0002 type=0001 params=00 00]\n会合至大赛支援助手的房间吧！",
     "JoinableTrigger": "[group=0002 type=0001 params=00 00]\n前往通过《鱿鱼圈 3》创建的房间会合吧！",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "正在募集占地斗士的成员！",
     "Recruit_Private": "正在募集私人比赛的成员！",
     "Recruit_Regular": "正在募集一般比赛的成员！",
+    "Recruit_XMatch": "正在募集X比赛的成员！",
     "StartSolo_Bankara": "已开始蛮颓比赛[size=75%]（挑战）[size=100%]！",
     "StartSolo_BankaraOpen": "已开始蛮颓比赛[size=75%]（开放）[size=100%]！",
     "StartSolo_Coop": "已开始打工！",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "请稍候……",
     "Msg_Unlocked": "此模式尚未解放。",
     "Msg_WeaponDuplication": "无法选择\n和其他队伍成员相同的武器。",
-    "Msg_WeaponMayDiffer": "当2人参加团队打工竞赛时，\n发放的武器可能会与选择的武器不同。"
+    "Msg_WeaponMayDiffer": "当2人参加团队打工竞赛时，\n发放的武器可能会与选择的武器不同。",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "由于X战力的计算尚未完成，\n无法创建房间。",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "由于X战力的计算尚未完成，\n无法会合。",
+    "Msg_XMatchJoinRoom_RegionRestriction": "由于X比赛的组别（暇古/艾洛眼）不同，\n无法与此玩家会合。"
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "取消",
@@ -16936,6 +16949,7 @@
     "230": "自定义",
     "300": "大赛活动用的打工剧本",
     "400": "正在等待成员\n[group=0002 type=0000 params=00 01 00 00] / [group=0002 type=0000 params=01 01 00 00]",
+    "L_Chat_00-T_Info_00": "游戏聊天",
     "L_CstBtn_02-T_Info_00": "选择武器",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "取消",
@@ -17717,6 +17731,7 @@
     "032": "计算中……[group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
     "040": "武器挑战力",
     "L_BackBtn_00-T_Info_00": "关闭",
+    "L_Chat_00-T_Info_00": "游戏聊天",
     "L_CustomizeBtn_00-T_Info_00": "自定义",
     "L_FestItemAll_00-T_Max_00": "MAX",
     "L_GuideCancel_00-T_Info_00": "取消",
@@ -18253,6 +18268,7 @@
     "011": "要创建[color=0001]大型跑[color=ffff]的房间吗？",
     "012": "要创建[color=0001]团队打工竞赛[color=ffff]的房间吗？",
     "013": "要创建[color=0001]活动比赛[color=ffff]的房间吗？",
+    "014": "要创建[color=0001]X比赛[color=ffff]的房间吗？",
     "020": "取消",
     "030": "创建！",
     "031": "会合！",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "正在等待[group=0002 type=0001 params=00 0a]……",
+    "L_Chat_00-T_Info_00": "游戏聊天",
     "L_PlayerName_00-T_Message_00": "・・・",
     "L_PlayerName_00-T_Wait_00": "募集中……"
   },
@@ -18535,6 +18552,7 @@
     "109": "活动比赛",
     "110": "SALMON RUN",
     "111": "私人打工",
+    "112": "X比赛",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "别名： [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "别名设置",

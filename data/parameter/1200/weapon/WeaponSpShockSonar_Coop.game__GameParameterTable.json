@@ -1,0 +1,52 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpShockSonar.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "spl__BulletSpShockSonarParam": {
+      "$type": "spl__BulletSpShockSonarParam",
+      "GeneratorParam": {
+        "HitDamage": 0,
+        "HitKnockback": 0,
+        "MarkingGroundFrameRadiusRatio": [
+          {
+            "Frame": 4,
+            "Ratio": 0.19
+          },
+          {
+            "Frame": 10,
+            "Ratio": 0.4
+          },
+          {
+            "Frame": 18,
+            "Ratio": 0.615
+          },
+          {
+            "Frame": 27,
+            "Ratio": 0.615
+          },
+          {
+            "Frame": 37,
+            "Ratio": 0.615
+          },
+          {
+            "Frame": 47,
+            "Ratio": 0.615
+          },
+          {
+            "Frame": 57,
+            "Ratio": 0.615
+          }
+        ],
+        "UseLiveWelding": false
+      },
+      "WaveParam": {
+        "Damage": 1500,
+        "IsAttackerPriority": false,
+        "IsEnableMarking": false,
+        "MaxRadius": {
+          "Low": 27.0,
+          "Mid": 27.0
+        }
+      }
+    }
+  }
+}

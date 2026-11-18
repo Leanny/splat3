@@ -1,0 +1,38 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponStringerExplosion.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "spl__BulletStringerParam": {
+      "$type": "spl__BulletStringerParam",
+      "CollisionParam": {
+        "EndRadiusForPlayer": 0.18,
+        "InitRadiusForPlayer": 0.18
+      },
+      "DamageParam": {
+        "DirectHitDamageMax": 1200,
+        "DirectHitDamageMid": 800,
+        "DirectHitDamageMin": 500
+      },
+      "DetonationParam": {
+        "BlastParam": {
+          "DistanceDamage": [
+            {
+              "Damage": 400,
+              "Distance": 2.0
+            }
+          ],
+          "KnockBackParam": {
+            "Distance": 2.0
+          }
+        }
+      }
+    },
+    "spl__WeaponStringerParam": {
+      "$type": "spl__WeaponStringerParam",
+      "ChargeParam": {
+        "InkConsumeFullCharge": 0.08,
+        "InkConsumeMidCharge": 0.06,
+        "InkConsumeMinCharge": 0.04
+      }
+    }
+  }
+}

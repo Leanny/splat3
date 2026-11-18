@@ -1,0 +1,377 @@
+{
+  "ItemArray": [
+    {
+      "NamePlateBgInfo": "Work/Gyml/NamePlateBgInfo/Npl_Catalog_Season07_Lv01.spl__NamePlateBgInfo.gyml",
+      "Type": "NamePlateBg"
+    },
+    {
+      "Byname_Adjective": "Work/Gyml/Byname/2010.spl__BynameAdjectiveInfo.gyml",
+      "Byname_Subject": "Work/Gyml/Byname/2010.spl__BynameSubjectInfo.gyml",
+      "Type": "Byname"
+    },
+    {
+      "BoostType": "Exp100",
+      "Type": "FoodTicket"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "GearInfo": "Work/Gyml/Hed_MET020.spl__GearInfo.gyml",
+      "Type": "Gear_Head"
+    },
+    {
+      "GearInfo": "Work/Gyml/Clt_VST016.spl__GearInfo.gyml",
+      "Type": "Gear_Clothes"
+    },
+    {
+      "GearInfo": "Work/Gyml/Shs_SLO026.spl__GearInfo.gyml",
+      "Type": "Gear_Shoes"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Poster_61.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "EmoteInfo": "Work/Gyml/Win_Weapon02.spl__EmoteInfo.gyml",
+      "Type": "Emote"
+    },
+    {
+      "LockerGoodsFigureInfo": "Work/Gyml/Fig_SquidCushionWhite.spl__LockerGoodsFigureInfo.gyml",
+      "Type": "LockerFigure"
+    },
+    {
+      "Type": "RandomFoodTicket"
+    },
+    {
+      "Type": "RandomNamePlateBg"
+    },
+    {
+      "GearInfo": "Work/Gyml/Hed_MET017.spl__GearInfo.gyml",
+      "Type": "Gear_Head"
+    },
+    {
+      "GearInfo": "Work/Gyml/Clt_TES087.spl__GearInfo.gyml",
+      "Type": "Gear_Clothes"
+    },
+    {
+      "GearInfo": "Work/Gyml/Clt_TEL028.spl__GearInfo.gyml",
+      "Type": "Gear_Clothes"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Sticker_98.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "Type": "RandomDrinkTicket"
+    },
+    {
+      "Type": "RandomNamePlateBg"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "GearInfo": "Work/Gyml/Hed_VIS006.spl__GearInfo.gyml",
+      "Type": "Gear_Head"
+    },
+    {
+      "GearInfo": "Work/Gyml/Clt_SWT019.spl__GearInfo.gyml",
+      "Type": "Gear_Clothes"
+    },
+    {
+      "GearInfo": "Work/Gyml/Shs_SHT028.spl__GearInfo.gyml",
+      "Type": "Gear_Shoes"
+    },
+    {
+      "Type": "MysteryBoxA"
+    },
+    {
+      "LockerGoodsFigureInfo": "Work/Gyml/Fig_PlantFlowerVase00.spl__LockerGoodsFigureInfo.gyml",
+      "Type": "LockerFigure"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Poster_62.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "RandomFoodTicket"
+    },
+    {
+      "EmoteInfo": "Work/Gyml/Win30.spl__EmoteInfo.gyml",
+      "Type": "Emote"
+    },
+    {
+      "GearInfo": "Work/Gyml/Hed_MET021.spl__GearInfo.gyml",
+      "Type": "Gear_Head"
+    },
+    {
+      "GearInfo": "Work/Gyml/Clt_VST017.spl__GearInfo.gyml",
+      "Type": "Gear_Clothes"
+    },
+    {
+      "GearInfo": "Work/Gyml/Shs_SLO027.spl__GearInfo.gyml",
+      "Type": "Gear_Shoes"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Poster_65.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "Type": "RandomDrinkTicket"
+    },
+    {
+      "Type": "RandomNamePlateBg"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "EmoteInfo": "Work/Gyml/Win21.spl__EmoteInfo.gyml",
+      "Type": "Emote"
+    },
+    {
+      "GearInfo": "Work/Gyml/Hed_CAP030.spl__GearInfo.gyml",
+      "Type": "Gear_Head"
+    },
+    {
+      "GearInfo": "Work/Gyml/Clt_SHT041.spl__GearInfo.gyml",
+      "Type": "Gear_Clothes"
+    },
+    {
+      "GearInfo": "Work/Gyml/Shs_SHT030.spl__GearInfo.gyml",
+      "Type": "Gear_Shoes"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "Type": "MiniGameCardPackFresh"
+    },
+    {
+      "Type": "RandomFoodTicket"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sticker_95.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "LockerGoodsFigureInfo": "Work/Gyml/Fig_Toaster00.spl__LockerGoodsFigureInfo.gyml",
+      "Type": "LockerFigure"
+    },
+    {
+      "GearInfo": "Work/Gyml/Shs_SHI053.spl__GearInfo.gyml",
+      "Type": "Gear_Shoes"
+    },
+    {
+      "Type": "MysteryBoxA"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Poster_63.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "RandomNamePlateBg"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_TES092.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_HAT020.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SDL019.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "Type": "RandomDrinkTicket"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Hlg_Sti_Sticker_96.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "Type": "RandomFoodTicket"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_SWT021.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_HDP011.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SDL021.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "EmoteInfo": "Work/Gyml/Win39.spl__EmoteInfo.gyml",
+      "Type": "Emote"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Sticker_97.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "RandomDrinkTicket"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_PRK013.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_CAP034.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SHI047.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "LockerGoodsFigureInfo": "Work/Gyml/Fig_PlantCoral00.spl__LockerGoodsFigureInfo.gyml",
+      "Type": "LockerFigure"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "Type": "RandomFoodTicket"
+    },
+    {
+      "Type": "RandomNamePlateBg"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_TES093.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_EYE030.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SDL020.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sticker_94.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "Type": "MysteryBoxA"
+    },
+    {
+      "Type": "RandomDrinkTicket"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_SHT039.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_NCP013.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_BOT027.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "Type": "RandomNamePlateBg"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Poster_60.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "LockerGoodsFigureInfo": "Work/Gyml/Fig_Sampler00.spl__LockerGoodsFigureInfo.gyml",
+      "Type": "LockerFigure"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_SWT022.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_MET019.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SDL022.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "EmoteInfo": "Work/Gyml/Win35.spl__EmoteInfo.gyml",
+      "Type": "Emote"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Character_46.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "Type": "RandomByname"
+    },
+    {
+      "Type": "RandomFoodTicket"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_PRK015.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_CAP035.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SHI048.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "Type": "RandomDrinkTicket"
+    },
+    {
+      "Type": "MiniGameCardPack"
+    },
+    {
+      "NamePlateBgInfo": "Work/Gyml/NamePlateBgInfo/Npl_Catalog_Season07_Lv02.spl__NamePlateBgInfo.gyml",
+      "Type": "NamePlateBg"
+    },
+    {
+      "ClothesInfo": "Work/Gyml/Clt_SHT032.spl__GearInfo.gyml",
+      "HeadInfo": "Work/Gyml/Hed_HDP012.spl__GearInfo.gyml",
+      "ShoesInfo": "Work/Gyml/Shs_SLP004.spl__GearInfo.gyml",
+      "Type": "GearPack"
+    },
+    {
+      "Byname_Adjective": "Work/Gyml/Byname/2011.spl__BynameAdjectiveInfo.gyml",
+      "Byname_Subject": "Work/Gyml/Byname/2011.spl__BynameSubjectInfo.gyml",
+      "Type": "Byname"
+    },
+    {
+      "LockerGoodsStickerInfo": "Work/Gyml/Pap_Sti_Poster_64.spl__LockerGoodsStickerInfo.gyml",
+      "Type": "LockerSticker"
+    },
+    {
+      "LockerGoodsFigureInfo": "Work/Gyml/Fig_PotteryFigurine00.spl__LockerGoodsFigureInfo.gyml",
+      "Type": "LockerFigure"
+    },
+    {
+      "Type": "MysteryBoxA"
+    },
+    {
+      "GearInfo": "Work/Gyml/Hed_HAT021.spl__GearInfo.gyml",
+      "Type": "Gear_Head"
+    },
+    {
+      "EmoteInfo": "Work/Gyml/Win38.spl__EmoteInfo.gyml",
+      "Type": "Emote"
+    }
+  ],
+  "ViewerData": "Work/Catalog/Viewer/CV_Season007_A.spl__UICatalogViewerData.gyml"
+}

@@ -1,0 +1,21 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponChargerPencil.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForPlayer": 0.2,
+      "InitRadiusForPlayer": 0.2
+    },
+    "DamageParam": {
+      "$type": "spl__BulletChargerDamageParam",
+      "ValueFullCharge": 2400,
+      "ValueMaxCharge": 2400,
+      "ValueMinCharge": 600
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponChargerParam",
+      "InkConsumeFullCharge": 0.3,
+      "InkConsumeMinCharge": 0.0197
+    }
+  }
+}

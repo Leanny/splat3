@@ -3374,7 +3374,8 @@
     "COP018": "Uniforme de trabajo plateado",
     "COP019": "Uniforme de trabajo dorado",
     "COP020": "Uniforme de trabajo prisma",
-    "COP021": "Uniforme de trabajo resistente"
+    "COP021": "Uniforme de trabajo resistente",
+    "COP022": "Uniforme de trabajo básico"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Pirañalandia",
@@ -3567,6 +3568,7 @@
     "COP019": "Uniforme de trabajo dorado",
     "COP020": "Uniforme de trabajo prisma",
     "COP021": "Uniforme de trabajo resistente",
+    "COP022": "Uniforme de trabajo básico",
     "COP100": "Polo corporativo",
     "COP101": "Chaleco salvavidas",
     "COP102": "Impermeable gasolinero",
@@ -3992,6 +3994,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Casco con luz",
     "COP101": "Tapabocas antipolvo 2.5",
     "COP102": "Máscara de soldar",

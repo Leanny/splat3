@@ -3374,7 +3374,8 @@
     "COP018": "Mono de trabajo plateado",
     "COP019": "Mono de trabajo dorado",
     "COP020": "Mono de trabajo prisma",
-    "COP021": "Mono de trabajo resistente"
+    "COP021": "Mono de trabajo resistente",
+    "COP022": "Mono de trabajo novato"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Pira\u00f1alandia",
@@ -3567,6 +3568,7 @@
     "COP019": "Mono de trabajo dorado",
     "COP020": "Mono de trabajo prisma",
     "COP021": "Mono de trabajo resistente",
+    "COP022": "Mono de trabajo novato",
     "COP100": "Polo corporativo",
     "COP101": "Chaleco de seguridad",
     "COP102": "Chaqueta gasolinera",
@@ -3992,6 +3994,7 @@
     "COP019": "\u30d0\u30a4\u30c8\u30d8\u30eb\u30e1\u30c3\u30c8 \u30b4\u30fc\u30eb\u30c9",
     "COP020": "\u30d0\u30a4\u30c8\u30d8\u30eb\u30e1\u30c3\u30c8 \u30d7\u30ea\u30ba\u30e0",
     "COP021": "\u30d0\u30a4\u30c8\u30d8\u30eb\u30e1\u30c3\u30c8 \u30d6\u30ed\u30c3\u30ab\u30fc",
+    "COP022": "\u30d0\u30a4\u30c8\u30d8\u30eb\u30e1\u30c3\u30c8 \u308f\u304b\u3070",
     "COP100": "Casco con luz",
     "COP101": "Mascarilla antipolvo 2.5",
     "COP102": "M\u00e1scara de soldar",

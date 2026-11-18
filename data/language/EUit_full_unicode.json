@@ -3374,7 +3374,8 @@
     "COP018": "Salopette argento",
     "COP019": "Salopette oro",
     "COP020": "Salopette iridescente",
-    "COP021": "Salopette robusta"
+    "COP021": "Salopette robusta",
+    "COP022": "Salopette recluta"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Soglioland",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "La tua squadra non si è formata in tempo e le\nè stata assegnata una sconfitta a tavolino.",
     "Msg_VsHammerOtherTeamDisqualified_Error": "La squadra avversaria non si è formata in\ntempo e ti è stata assegnata una vittoria\na tavolino.",
     "Msg_Wrong_Password_Error": "Il codice inserito non è corretto\ne non puoi unirti alla partita.",
+    "Msg_XMatchPowerRestrictionClient_Error": "Con la tua energia X corrente, non puoi\nfare squadra con i membri di questa stanza\nnelle partite X. Per saperne di più, visita il\nsito web di Splatoon 3.",
+    "Msg_XMatchPowerRestrictionHost_Error": "Il tuo amico non può partecipare. Con la tua\nenergia X corrente, non puoi fare squadra\ncon questo utente nelle partite X. Per saperne\ndi più, visita il sito web di Splatoon 3.",
+    "Msg_XMatchRankingRestrictionClient_Error": "Secondo la classifica X corrente, non puoi\nfare squadra con i membri di questa stanza\nnelle partite X. Per saperne di più, visita il\nsito web di Splatoon 3.",
+    "Msg_XMatchRankingRestrictionHost_Error": "Il tuo amico non può partecipare. Secondo\nla classifica X corrente, non puoi fare squadra\ncon questo utente nelle partite X. Per saperne\ndi più, visita il sito web di Splatoon 3.",
     "Msg_XRegion_Restricted_Error": "Non puoi unirti a questa\nsezione dalla tua regione."
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "Salopette oro",
     "COP020": "Salopette iridescente",
     "COP021": "Salopette robusta",
+    "COP022": "Salopette recluta",
     "COP100": "Polo da lavoro",
     "COP101": "Giubbotto salvavita",
     "COP102": "Giacca benzinaio",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Casco da minatore",
     "COP101": "Maschera antipolvere",
     "COP102": "Maschera da saldatore",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "Ho creato una stanza\nper giocare a Splattanza!",
     "CreateRoom_Private": "Ho creato una stanza\nper una partita privata!",
     "CreateRoom_Regular": "Ho creato una stanza per\nuna partita amichevole!",
+    "CreateRoom_XMatch": "Ho creato una stanza\nper una partita X!",
     "FestRankUp": "Il mio rango festival è salito!",
     "IkasuNum": "Mitilico! ×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "Sono in una stanza per una\npartita anarchica [size=75%](Aperta)![size=100%]",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "Sono in una stanza per\ngiocare a Splattanza!",
     "JoinRoom_Private": "Sono in una stanza per\nuna partita privata!",
     "JoinRoom_Regular": "Sono in una stanza per\nuna partita amichevole!",
+    "JoinRoom_XMatch": "Sono in una stanza per\nuna partita X!",
     "JoinableHammer": "Vuoi accedere alla [group=0002 type=0001 params=00 00]\ndi Gestione tornei?",
     "JoinableHammerCoop": "[group=0002 type=0001 params=00 00]\nAccedi alla stanza di Gestione tornei!",
     "JoinableTrigger": "Vuoi accedere alla stanza creata tramite\nSplatNet 3 da [group=0002 type=0001 params=00 00]?",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "Cerco giocatori per Splattanza!",
     "Recruit_Private": "Cerco giocatori per\nuna partita privata!",
     "Recruit_Regular": "Cerco giocatori per una\npartita amichevole!",
+    "Recruit_XMatch": "Cerco giocatori per\nuna partita X!",
     "StartSolo_Bankara": "Inizio una\npartita anarchica [size=75%](Serie)![size=100%]",
     "StartSolo_BankaraOpen": "Inizio una\npartita anarchica [size=75%](Aperta)![size=100%]",
     "StartSolo_Coop": "Inizio un turno di Salmon Run!",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "Attendi...",
     "Msg_Unlocked": "Non hai ancora sbloccato questa modalità.",
     "Msg_WeaponDuplication": "Non puoi scegliere la stessa arma\ndi un compagno.",
-    "Msg_WeaponMayDiffer": "Se ti unisci a una sfida tra colleghi in una\nsquadra da 2, potresti ricevere un'arma\ndiversa da quella che hai selezionato."
+    "Msg_WeaponMayDiffer": "Se ti unisci a una sfida tra colleghi in una\nsquadra da 2, potresti ricevere un'arma\ndiversa da quella che hai selezionato.",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "Non puoi creare una stanza perché il calcolo\ndella tua energia X non è ancora concluso.",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "Non puoi partecipare perché il calcolo\ndella tua energia X non è ancora concluso.",
+    "Msg_XMatchJoinRoom_RegionRestriction": "Non puoi unirti a questo giocatore perché\nnon siete nello stesso gruppo delle partite X\n(Sepia/Arome)."
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "No",
@@ -16936,6 +16949,7 @@
     "230": "Personalizzato",
     "300": "Scenario del torneo",
     "400": "In attesa...\n[group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CstBtn_02-T_Info_00": "Seleziona arma",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "Annulla",
@@ -17717,6 +17731,7 @@
     "032": "Calcolo in corso... [group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
     "040": "Energia arma (Serie)",
     "L_BackBtn_00-T_Info_00": "Chiudi",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CustomizeBtn_00-T_Info_00": "Spogliatoio",
     "L_FestItemAll_00-T_Max_00": "Max",
     "L_GuideCancel_00-T_Info_00": "Annulla",
@@ -18253,6 +18268,7 @@
     "011": "Creare una stanza per una [color=0001]Big Run[color=ffff]?",
     "012": "Creare una stanza per una [color=0001]sfida tra colleghi[color=ffff]?",
     "013": "Creare una stanza per una [color=0001]partita evento[color=ffff]?",
+    "014": "Creare una stanza per una [color=0001]partita X[color=ffff]?",
     "020": "No",
     "030": "Sì",
     "031": "Sì",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "In attesa di [group=0002 type=0001 params=00 0a]...",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_PlayerName_00-T_Message_00": "...",
     "L_PlayerName_00-T_Wait_00": "Ricerca in corso..."
   },
@@ -18535,6 +18552,7 @@
     "109": "Partita evento",
     "110": "Salmon Run",
     "111": "Lavoro privato",
+    "112": "Partita X",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "Alias: [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "Scegli alias",

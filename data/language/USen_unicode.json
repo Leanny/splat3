@@ -3374,7 +3374,8 @@
     "COP018": "Silver Slopsuit",
     "COP019": "Gold Slopsuit",
     "COP020": "Iridescent Slopsuit",
-    "COP021": "Heavy-Duty Slopsuit"
+    "COP021": "Heavy-Duty Slopsuit",
+    "COP022": "Junior Slopsuit"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Wahoo World",
@@ -3567,6 +3568,7 @@
     "COP019": "Gold Slopsuit",
     "COP020": "Iridescent Slopsuit",
     "COP021": "Heavy-Duty Slopsuit",
+    "COP022": "Junior Slopsuit",
     "COP100": "Squiddor Polo",
     "COP101": "Anchor Life Vest",
     "COP102": "Juice Parka",
@@ -3992,6 +3994,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Headlamp Helmet",
     "COP101": "Dust Blocker 2000",
     "COP102": "Welding Mask",

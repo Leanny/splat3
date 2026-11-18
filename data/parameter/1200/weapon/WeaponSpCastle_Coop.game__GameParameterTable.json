@@ -1,0 +1,21 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpCastle.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BodyParam": {
+      "$type": "spl__BulletSpCastleBodyParam",
+      "DamageDashValue": 6000,
+      "DamageJumpValue": 2500
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpCastleParam",
+      "KnockBackKf_Charge_Ed": 0.5,
+      "KnockBackKf_Charge_St": 0.5,
+      "KnockBackKf_Std": 0.5,
+      "SpecialTotalFrame": {
+        "High": 600.0,
+        "Low": 600.0,
+        "Mid": 600.0
+      }
+    }
+  }
+}

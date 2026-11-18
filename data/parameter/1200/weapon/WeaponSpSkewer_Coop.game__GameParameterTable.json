@@ -1,0 +1,65 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpSkewer.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 7000,
+          "Distance": 13.0
+        }
+      ],
+      "SubSpecialSpecUpList": [
+        {
+          "SpecUpType": "DistanceDamageDistanceRate",
+          "Value": {
+            "High": 1.2,
+            "Low": 1.0,
+            "Mid": 1.1
+          }
+        },
+        {
+          "Value": {
+            "High": 9.69,
+            "Low": 8.075,
+            "Mid": 8.882
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundVelocityMin",
+          "Value": {
+            "High": 0.7,
+            "Low": 0.6,
+            "Mid": 0.65
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundVelocityMax",
+          "Value": {
+            "High": 0.8,
+            "Low": 0.7,
+            "Mid": 0.75
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundPaintRadius",
+          "Value": {
+            "High": 1.2,
+            "Low": 1.0,
+            "Mid": 1.1
+          }
+        }
+      ]
+    },
+    "BulletParam": {
+      "$type": "spl__BulletSpSkewerParam",
+      "CollisionRadiusForPlayer": 1.2,
+      "DamageValue": 5000
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpSkewerParam",
+      "MoveFrame": 60,
+      "MoveSpeed": 0.45
+    }
+  }
+}

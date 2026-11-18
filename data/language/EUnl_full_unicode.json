@@ -3374,7 +3374,8 @@
     "COP018": "Zilveren werkkloffie",
     "COP019": "Gouden werkkloffie",
     "COP020": "Parelmoerwerkkloffie",
-    "COP021": "Overwerkkloffie"
+    "COP021": "Overwerkkloffie",
+    "COP022": "Junior-werkkloffie"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Waterwonderland",
@@ -3425,6 +3426,10 @@
     "Msg_VsHammerMyTeamDisqualified_Error": "Je team heeft zich niet op tijd verzameld,\ndus jullie hebben de wedstrijd verloren.",
     "Msg_VsHammerOtherTeamDisqualified_Error": "De tegenstander heeft zich niet op tijd verzameld,\ndus jullie hebben de wedstrijd gewonnen.",
     "Msg_Wrong_Password_Error": "Dat is niet de juiste code.\nJe kunt niet meedoen met het gevecht.",
+    "Msg_XMatchPowerRestrictionClient_Error": "Met je huidige X-kracht kun je niet samen\nmet de leden van deze kamer aan X-gevechten\ndeelnemen. Kijk op de officiële Splatoon 3-\nwebsite voor meer informatie.",
+    "Msg_XMatchPowerRestrictionHost_Error": "Je vriend of vriendin kan niet meedoen. Met je\nhuidige X-kracht kunnen jullie niet samen aan\nX-gevechten deelnemen. Kijk op de officiële\nSplatoon 3-website voor meer informatie.",
+    "Msg_XMatchRankingRestrictionClient_Error": "Voor de huidige X-ranglijst kun je niet samen\nmet de leden van deze kamer aan X-gevechten\ndeelnemen. Kijk op de officiële Splatoon 3-\nwebsite voor meer informatie.",
+    "Msg_XMatchRankingRestrictionHost_Error": "Je vriend of vriendin kan niet meedoen. Voor de\nhuidige X-ranglijst kunnen jullie niet samen aan\nX-gevechten deelnemen. Kijk op de officiële\nSplatoon 3-website voor meer informatie.",
     "Msg_XRegion_Restricted_Error": "Je kunt niet meedoen aan die competitie vanuit\njouw regio."
   },
   "CommonMsg/Dev": {
@@ -3737,6 +3742,7 @@
     "COP019": "Gouden werkkloffie",
     "COP020": "Parelmoerwerkkloffie",
     "COP021": "Overwerkkloffie",
+    "COP022": "Junior-werkkloffie",
     "COP100": "Bedrijfspolo",
     "COP101": "Reddingsvest",
     "COP102": "Pompbediendenjack",
@@ -4162,6 +4168,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Mijnwerkershelm",
     "COP101": "Stofmasker",
     "COP102": "Laskap",
@@ -8834,6 +8841,7 @@
     "CreateRoom_MiniGame": "Ik heb een kamer gemaakt\nom Slijkslag te spelen!",
     "CreateRoom_Private": "Ik heb een kamer gemaakt\nvoor een privégevecht!",
     "CreateRoom_Regular": "Ik heb een kamer gemaakt\nvoor een standaardgevecht!",
+    "CreateRoom_XMatch": "Ik heb een kamer gemaakt\nvoor een X-gevecht!",
     "FestRankUp": "Een nieuwe Splatfest-titel!",
     "IkasuNum": "Cool! ×[group=0002 type=0000 params=00 03 00 00]",
     "JoinRoom_BankaraOpen": "Ik doe mee aan een\nchaosgevecht [size=75%](open)[size=100%]!",
@@ -8847,6 +8855,7 @@
     "JoinRoom_MiniGame": "Ik heb een kamer betreden\nom Slijkslag te spelen!",
     "JoinRoom_Private": "Ik doe mee aan een\nprivégevecht!",
     "JoinRoom_Regular": "Ik doe mee aan een\nstandaardgevecht!",
+    "JoinRoom_XMatch": "Ik doe mee aan een\nX-gevecht!",
     "JoinableHammer": "Wil je [group=0002 type=0001 params=00 00] bezoeken die met\nde toernooiplanner is gemaakt?",
     "JoinableHammerCoop": "[group=0002 type=0001 params=00 00]\nWil je meedoen in deze toernooikamer?",
     "JoinableTrigger": "Wil je de kamer bezoeken die door\n[group=0002 type=0001 params=00 00] is gemaakt via SplatNet 3?",
@@ -8868,6 +8877,7 @@
     "Recruit_MiniGame": "Ik zoek spelers voor een potje\nSlijkslag.",
     "Recruit_Private": "Ik zoek spelers voor een\nprivégevecht!",
     "Recruit_Regular": "Ik zoek spelers voor een\nstandaardgevecht!",
+    "Recruit_XMatch": "Ik zoek spelers voor een\nX-gevecht!",
     "StartSolo_Bankara": "Ik begin een\nchaosgevecht [size=75%](sessie)[size=100%]!",
     "StartSolo_BankaraOpen": "Ik begin een\nchaosgevecht [size=75%](open)[size=100%]!",
     "StartSolo_Coop": "Ik begin met een\nSalmon Run-klus!",
@@ -11560,7 +11570,10 @@
     "Msg_UdemaeReset_Processing": "Even wachten...",
     "Msg_Unlocked": "Die spelstand heb je nog niet vrijgespeeld.",
     "Msg_WeaponDuplication": "Je kunt niet hetzelfde wapen kiezen als\neen teamgenoot.",
-    "Msg_WeaponMayDiffer": "Als je in een team van twee spelers meedoet\naan een bedrijfseitje, krijg je mogelijk een ander\nwapen dan je gekozen hebt."
+    "Msg_WeaponMayDiffer": "Als je in een team van twee spelers meedoet\naan een bedrijfseitje, krijg je mogelijk een ander\nwapen dan je gekozen hebt.",
+    "Msg_XMatchCreateRoom_NeedMeasurement": "Je kunt geen kamer maken, omdat de berekening\nvan je X-kracht nog niet voltooid is.",
+    "Msg_XMatchJoinRoom_NeedMeasurement": "Je kunt niet meedoen, omdat de berekening\nvan je X-kracht nog niet voltooid is.",
+    "Msg_XMatchJoinRoom_RegionRestriction": "Je kunt niet meedoen met deze speler, omdat\njullie niet deelnemen aan dezelfde competitie\nvoor X-gevechten (Takoroka/Tentatek)."
   },
   "CommonMsg/SystemWindow/SystemMsg_MainMenu": {
     "BtnL_PlayerMakeConfirm": "Neh...",
@@ -16936,6 +16949,7 @@
     "230": "Aangepast",
     "300": "Bewaarde toernooiklus",
     "400": "Wachten op spelers...\n[group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00]",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CstBtn_02-T_Info_00": "Wapen kiezen",
     "L_GuideNotify_00-T_Btn_00": "Y",
     "L_HoldCancelBtn_00-T_Info_00": "Annuleren",
@@ -17717,6 +17731,7 @@
     "032": "[group=0002 type=0000 params=00 01 00 00]/[group=0002 type=0000 params=01 01 00 00] tot kracht berekend is",
     "040": "Hoogste sessie-wapenkracht",
     "L_BackBtn_00-T_Info_00": "Sluiten",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_CustomizeBtn_00-T_Info_00": "Uitrusting",
     "L_FestItemAll_00-T_Max_00": "Max.",
     "L_GuideCancel_00-T_Info_00": "Annuleren",
@@ -18253,6 +18268,7 @@
     "011": "Wil je een kamer maken voor een [color=0001]Big Run[color=ffff]?",
     "012": "Wil je een kamer maken voor een [color=0001]bedrijfseitje[color=ffff]?",
     "013": "Wil je een kamer maken voor een [color=0001]eventgevecht[color=ffff]?",
+    "014": "Wil je een kamer maken voor een [color=0001]X-gevecht[color=ffff]?",
     "020": "Nee",
     "030": "Ja",
     "031": "Ja",
@@ -18485,6 +18501,7 @@
   },
   "LayoutMsg/Lobby_WaitMatch_00": {
     "000": "Wacht op [group=0002 type=0001 params=00 0a]...",
+    "L_Chat_00-T_Info_00": "GameChat",
     "L_PlayerName_00-T_Message_00": "...",
     "L_PlayerName_00-T_Wait_00": "Bezig met zoeken..."
   },
@@ -18535,6 +18552,7 @@
     "109": "Eventgevecht",
     "110": "Salmon Run",
     "111": "Privéklus",
+    "112": "X-gevecht",
     "200": "[group=0002 type=0001 params=00 0e] [group=0002 type=0000 params=00 03 00 00]",
     "210": "Alias: [group=0002 type=0001 params=00 0a]",
     "L_Win_00-L_Key_02-T_Info_00": "Alias",

@@ -3374,7 +3374,8 @@
     "COP018": "Salopette argent",
     "COP019": "Salopette or",
     "COP020": "Salopette irisée",
-    "COP021": "Combinaison robuste"
+    "COP021": "Combinaison robuste",
+    "COP022": "Combinaison junior"
   },
   "CommonMsg/Coop/CoopStageName": {
     "Carousel": "Parc Carapince",
@@ -3567,6 +3568,7 @@
     "COP019": "Salopette or",
     "COP020": "Salopette irisée",
     "COP021": "Combinaison robuste",
+    "COP022": "Combinaison junior",
     "COP100": "Polo rayé",
     "COP101": "Gilet de sauvetage",
     "COP102": "Manteau d'ingénieur pétrolier",
@@ -3992,6 +3994,7 @@
     "COP019": "バイトヘルメット ゴールド",
     "COP020": "バイトヘルメット プリズム",
     "COP021": "バイトヘルメット ブロッカー",
+    "COP022": "バイトヘルメット わかば",
     "COP100": "Casque à lampe",
     "COP101": "Masque antipoussière 2000",
     "COP102": "Masque de soudeur",

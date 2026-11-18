@@ -1,0 +1,26 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpinnerDownpour.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForPlayer": 0.2,
+      "InitRadiusForPlayer": 0.2
+    },
+    "DamageParam": {
+      "$type": "spl__BulletSpinnerDamageParam",
+      "ValueFullChargeMax": 350,
+      "ValueMax": 350,
+      "ValueMin": 250
+    },
+    "VariableDamageParam": {
+      "$type": "spl__BulletSpinnerDamageParam",
+      "ValueFullChargeMax": 350,
+      "ValueMax": 350,
+      "ValueMin": 250
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpinnerParam",
+      "InkConsume": 0.225
+    }
+  }
+}
